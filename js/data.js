@@ -727,6 +727,83 @@ const Collections = [{
     "name": "Anti-Beam Shield"
   }]
 }, {
+  "name": "Banshee",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "a": 966,
+    "ma": 379,
+    "sa": 3313,
+    "md": 0,
+    "sd": 553,
+    "br": 284,
+    "pr": 465,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan"
+    }
+  }, {
+    "part": "torso",
+    "a": 1736,
+    "ma": 789,
+    "sa": 1098,
+    "md": 966,
+    "sd": 966,
+    "br": 0,
+    "pr": 674,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "NT-D"
+    }
+  }, {
+    "part": "arms",
+    "a": 1888,
+    "ma": 3692,
+    "sa": 2026,
+    "md": 1508,
+    "sd": 1508,
+    "br": 0,
+    "pr": 1083,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Armed Armor"
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "a": 966,
+    "ma": 789,
+    "sa": 720,
+    "md": 966,
+    "sd": 966,
+    "br": 674,
+    "pr": 465,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 966,
+    "ma": 789,
+    "sa": 720,
+    "md": 966,
+    "sd": 966,
+    "br": 465,
+    "pr": 674,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Double Saber Rush"
+    }
+  }]
+}, {
   "name": "Beargguy",
   "attribute": "Power",
   "rarity": 3,
@@ -7159,6 +7236,88 @@ const Collections = [{
     "name": "Shield"
   }]
 }, {
+  "name": "The O",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "a": 1352,
+    "ma": 551,
+    "sa": 964,
+    "md": 1352,
+    "sd": 964,
+    "br": 463,
+    "pr": 282,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique Attribute (self), Close Shot Attack raised 20%"
+    }
+  },  {
+    "part": "torso",
+    "a": 2128,
+    "ma": 964,
+    "sa": 551,
+    "md": 964,
+    "sd": 964,
+    "br": 669,
+    "pr": 0,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, EX Skill Piercing boosted 28%"
+    }
+  }, {
+    "part": "arms",
+    "a": 964,
+    "ma": 2913,
+    "sa": 0,
+    "md": 1352,
+    "sd": 1352,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Mobility\", Melee Power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 1352,
+    "ma": 551,
+    "sa": 551,
+    "md": 1352,
+    "sd": 964,
+    "br": 669,
+    "pr": 463,
+    "wt": [
+      "High Mobility",
+      "Ace Excl."
+    ],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Heaven's Judgement"
+    }
+  }, {
+    "part": "backpack",
+    "a": 1352,
+    "ma": 964,
+    "sa": 551,
+    "md": 964,
+    "sd": 964,
+    "br": 669,
+    "pr": 463,
+    "wt": [
+      "High Mobility",
+      "Ace Excl."
+    ],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Saber Combo"
+    }
+  }]
+}, {
   "name": "Pale Rider",
   "attribute": "Speed",
   "rarity": 4,
@@ -8276,6 +8435,98 @@ const Collections = [{
       "name": "Out-Fighter Job Shooting DMG taken reduced by 6-20"
     },
     "name": "Anti-Beam Shield"
+  }]
+}, {
+  "name": "Susanowo",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 889,
+    "ma": 291,
+    "sa": 558,
+    "md": 889,
+    "sd": 291,
+    "br": 126,
+    "pr": 302,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Chakram"
+    }
+  }, {
+    "part": "torso",
+    "a": 1142,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 0,
+    "pr": 428,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Vulcan"
+    }
+  }, {
+    "part": "arms",
+    "a": 291,
+    "ma": 2300,
+    "sa": 291,
+    "md": 1142,
+    "sd": 291,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Dual Sabers Category equipped, Melee Power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Trans-Am Raid"
+    }
+  }, {
+    "part": "backpack",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "15% chance to prevent vernier consumption when stepping"
+    }
+  }, {
+    "part": "melee",
+    "a": 291,
+    "ma": 2867,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 126,
+    "pr": 302,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, Initial EX Skill Charge boosted 12%"
+    },
+    "name": "Shiranui/Unryu",
+    "type": "Physical"
   }]
 }, {
   "name": "Sword Strike Gundam",
@@ -10135,6 +10386,23 @@ const Pilots = [{
     "name": "With Power attribute (self) Initial EX Skill charge boosted 20%"
   }
 }, {
+  "name": "Mr. Bushido",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 1142,
+  "sa": 291,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 302,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power Attribute (self), EX Skill CD reduced 15%"
+  }
+}, {
   "name": "Neo Roanoke",
   "jl": "Middle-Shooter",
   "attribute": "Speed",
@@ -10203,6 +10471,26 @@ const Pilots = [{
     "name": "With Speed attribute (self) All DMG output boosted by 35"
   }
 }, {
+  "name": "Rau Le Creuset",
+  "jl": "Long-Shooter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 1181,
+  "ma": 384,
+  "sa": 1181,
+  "md": 796,
+  "sd": 796,
+  "br": 611,
+  "pr": 213,
+  "wt": [
+    "Commander",
+    "Ace Excl."
+  ],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique Attribute (self), Buff EX Skill Time up 22%"
+  }
+}, {
   "name": "Rey Za Burrel",
   "jl": "Middle-Shooter",
   "attribute": "Speed",
@@ -10252,6 +10540,26 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self) Enemy All power reduced 18%"
+  }
+}, {
+  "name": "Shiho Hahnenfuss",
+  "jl": "Long-Shooter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 1142,
+  "md": 558,
+  "sd": 558,
+  "br": 302,
+  "pr": 126,
+  "wt": [
+    "Long-Range",
+    "Ace Excl."
+  ],
+  "ex": {
+    "type": "Part Traits",
+    "name": "All ranged weapon magazine boosted 14%"
   }
 }, {
   "name": "Shin Asuka",
