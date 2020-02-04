@@ -38,6 +38,9 @@ class GunplaCalculator {
     if ('readOnly' in config) {
       retEl.readOnly = config.readOnly;
     }
+    if ('placeholder' in config) {
+      retEl.placeholder = config.placeholder;
+    }
     if ('data' in config && Array.isArray(config.data)) {
       config.data.forEach(prop => {
         retEl.dataset[prop.name] = prop.value;
@@ -240,6 +243,11 @@ class GunplaCalculator {
       'el': 'div',
       'class': 'part-list',
       'children': [{
+        'el': "input",
+        'type': "text",
+        'placeholder': "Search Part/Pilot",
+        'class': ["part-list__search", 'js-search-part']
+      }, {
         'el': 'h3',
         'text': 'Part List',
         'children': [{
@@ -280,6 +288,7 @@ class GunplaBuild {
       'pt': ''
     };
     this.applyMapBonus = false;
+    this.searchPart = '';
     this.sort = '';
     this.currentPart = '';
   }
@@ -298,6 +307,7 @@ class GunplaBuild {
     this._initFilters();
     this._initSort();
     this._initApplyMapBonus();
+    this._initSearchPart();
     this._initRemove();
   }
   _parseParts() {
@@ -384,6 +394,12 @@ class GunplaBuild {
     }
     if (this.filters.pt && filterToCheck.ex && filterToCheck.ex['name'] && !new RegExp('\\b' + this.filters.pt + '\\b', 'i').test(filterToCheck.ex['name'])) {
       return false;
+    }
+    if (this.searchPart.trim().length > 0) {
+      const value = (filterToCheck.ms ? filterToCheck.ms : '') + ' ' + (filterToCheck.name ? filterToCheck.name : '');
+      if (!new RegExp(this.searchPart.trim(),'i').test(value)) {
+        return false;
+      }
     }
     return true;
   }
@@ -746,6 +762,21 @@ class GunplaBuild {
       this.applyMapBonus = e.currentTarget.checked;
       this._loopThroughInput();
     });
+  }
+  _initSearchPart() {
+    const searchEl = document.querySelector(".js-search-part");
+    let timerId;
+    searchEl.addEventListener("keyup", e => {
+          this.searchPart = e.currentTarget.value;
+          clearTimeout(timerId);
+          timerId = setTimeout(() => {
+                if (this.currentPart) {
+                  this._showPartList(this.currentPart);
+                }
+              }
+              , 500);
+        }
+    );
   }
   _initRemove() {
     const removePartEl = document.querySelector('.js-remove-part');
