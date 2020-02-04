@@ -17,9 +17,11 @@ class GunplaCalculator {
       this._generateHTML();
     }
   }
+
   _generateHTML() {
     this._generate();
   }
+
   _createElement(config, targetEl) {
     const retEl = document.createElement(config.el);
     if ('class' in config) {
@@ -55,12 +57,14 @@ class GunplaCalculator {
       targetEl.append(retEl);
     }
   }
+
   _generate() {
     const columns = [this._wordTags(), this._partTrait(), this._info(), this._parts(), this._partList()];
     columns.forEach(column => {
       this._createElement(column, this.containerEl);
     });
   }
+
   _info() {
     return {
       'el': 'div',
@@ -98,11 +102,12 @@ class GunplaCalculator {
       }]
     };
   }
+
   _paramChildren(type) {
     console.log('type', type);
     if (Array.isArray(Sorters)) {
       let sortClassPrefix = 'js-total-',
-        alternateRowClass = 'alt-bg--blue';
+          alternateRowClass = 'alt-bg--blue';
       if (type && type == 'part') {
         sortClassPrefix = 'js-part-total-';
         alternateRowClass = 'alt-bg--red';
@@ -126,6 +131,7 @@ class GunplaCalculator {
       });
     }
   }
+
   _wordTags() {
     return {
       'el': 'div',
@@ -145,6 +151,7 @@ class GunplaCalculator {
       })]
     };
   }
+
   _partTrait() {
     return {
       'el': 'div',
@@ -164,6 +171,7 @@ class GunplaCalculator {
       })]
     };
   }
+
   _parts() {
     return {
       'el': 'div',
@@ -177,6 +185,7 @@ class GunplaCalculator {
       }, ...this._gearsChildren(), this._attributeTally()]
     };
   }
+
   _partsChildren() {
     if (Array.isArray(MainSlot)) {
       return MainSlot.map(slot => {
@@ -199,6 +208,7 @@ class GunplaCalculator {
       });
     }
   }
+
   _gearsChildren() {
     if (Array.isArray(GearSlot)) {
       return GearSlot.map((slotClass, slotIndex) => {
@@ -221,6 +231,7 @@ class GunplaCalculator {
       });
     }
   }
+
   _attributeTally() {
     return {
       'el': 'div',
@@ -238,6 +249,7 @@ class GunplaCalculator {
       })
     };
   }
+
   _partList() {
     return {
       'el': 'div',
@@ -292,6 +304,7 @@ class GunplaBuild {
     this.sort = '';
     this.currentPart = '';
   }
+
   init() {
     Sorters.forEach(sorter => {
       this.partParamCont[sorter.slug] = document.querySelector('.js-part-total-' + sorter.slug);
@@ -310,6 +323,7 @@ class GunplaBuild {
     this._initSearchPart();
     this._initRemove();
   }
+
   _parseParts() {
     if (AllSlots && Array.isArray(AllSlots)) {
       if (Collections && Array.isArray(Collections)) {
@@ -367,6 +381,7 @@ class GunplaBuild {
       }
     }
   }
+
   _initInputClick() {
     const inputs = this.inputs;
     console.log('is', inputs);
@@ -381,6 +396,7 @@ class GunplaBuild {
       }
     }
   }
+
   _checkFilter(filterToCheck) {
     const filters = this.filters;
     if (this.filters.attr && filterToCheck.attribute && filterToCheck.attribute != this.filters.attr) {
@@ -397,18 +413,19 @@ class GunplaBuild {
     }
     if (this.searchPart.trim().length > 0) {
       const value = (filterToCheck.ms ? filterToCheck.ms : '') + ' ' + (filterToCheck.name ? filterToCheck.name : '');
-      if (!new RegExp(this.searchPart.trim(),'i').test(value)) {
+      if (!new RegExp(this.searchPart.trim(), 'i').test(value)) {
         return false;
       }
     }
     return true;
   }
+
   _showPartList(partToShow) {
     if (this.partList && Collections && Array.isArray(Collections)) {
       this.partList.innerHTML = '';
       if (this.parts && this.parts[partToShow] && Array.isArray(this.parts[partToShow])) {
         const partClone = [...this.parts[partToShow]],
-          sortType = this.sort;
+            sortType = this.sort;
         if (sortType && GearSlot.indexOf(partToShow) < 0) {
           partClone.sort((partA, partB) => {
             return partA[sortType] > partB[sortType] ? -1 : 1;
@@ -420,12 +437,12 @@ class GunplaBuild {
           }
           const currTarget = document.createElement('div');
           currTarget.textContent = currTarget.dataset['partname'] = (partFilter.attribute
-            ? '[' + partFilter.attribute.charAt(0) + ']'
-            : '') + ' ' + (partFilter.ms
+              ? '[' + partFilter.attribute.charAt(0) + ']'
+              : '') + ' ' + (partFilter.ms
               ? partFilter.ms + (partFilter.name ? ' (' + partFilter.name + ')' : '')
               : partFilter.name) + (partFilter.jl
-                ? ' (' + partFilter.jl + ')'
-                : '');
+              ? ' (' + partFilter.jl + ')'
+              : '');
           currTarget.classList.add('part-list__item');
           for (let prop in partFilter) {
             currTarget.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
@@ -453,6 +470,7 @@ class GunplaBuild {
       }
     }
   }
+
   _setSelectedPart(partId) {
     console.log('_setSelectedPart');
     const partClass = 'selected-part';
@@ -463,12 +481,14 @@ class GunplaBuild {
       this.partCont[partId].classList.add(partClass);
     }
   }
+
   _calculate(partData) {
     this._toggleComboPart(partData);
     this._displaySkillTraits(partData);
     this._loopThroughInput();
     this._displayPartsWordTags();
   }
+
   _toggleComboPart(partData) {
     if (this.inputs[partData]) {
       const partInput = this.inputs[partData];
@@ -499,13 +519,14 @@ class GunplaBuild {
       }
     }
   }
+
   _displaySkillTraits(partData) {
     if (this.inputs[partData]) {
       const partInput = this.inputs[partData];
       let exData, partTrait;
       if (partInput && partInput.dataset['part'] && partInput.dataset['ex']) {
         partTrait = document.querySelector('.js-skill-trait-' + partInput.dataset['part']),
-          exData = JSON.parse(partInput.dataset['ex']);
+            exData = JSON.parse(partInput.dataset['ex']);
         if (exData.type && exData.name && partTrait) {
           partTrait.textContent = exData.name;
         }
@@ -514,11 +535,13 @@ class GunplaBuild {
       }
     }
   }
+
   _clearSkillTrait(partData) {
     if (partData && document.querySelector('.js-skill-trait-' + partData)) {
       document.querySelector('.js-skill-trait-' + partData).textContent = '';
     }
   }
+
   _loopThroughInput() {
     const inputList = this.inputs;
     this._resetWordTagTally();
@@ -540,22 +563,25 @@ class GunplaBuild {
     this._displayParametersTotal();
     this._displayAttributesTally();
   }
+
   _resetWordTagTally() {
     this.wordTagsTally = {};
   }
+
   _tallyWordTags(inputName) {
     if (inputName && inputName.dataset['wt']) {
       const wordTags = JSON.parse(inputName.dataset['wt']),
-        doubleForCombo = inputName.dataset['combo'] ? 2 : 1;
+          doubleForCombo = inputName.dataset['combo'] ? 2 : 1;
       if (Array.isArray(wordTags)) {
         wordTags.forEach(wordTag => {
           this.wordTagsTally[wordTag] = wordTag in this.wordTagsTally
-            ? this.wordTagsTally[wordTag] + doubleForCombo
-            : doubleForCombo;
+              ? this.wordTagsTally[wordTag] + doubleForCombo
+              : doubleForCombo;
         });
       }
     }
   }
+
   _displayWordTagsTally() {
     const activeWordTag = document.querySelector('.js-active-wt');
     activeWordTag.innerHTML = '';
@@ -568,6 +594,7 @@ class GunplaBuild {
     }
     console.log('this.wordTagsTally', this.wordTagsTally);
   }
+
   _resetParameters() {
     this.parametersTotal = {};
     Sorters.forEach(sorter => {
@@ -576,6 +603,7 @@ class GunplaBuild {
       }
     });
   }
+
   _calculateParameters(inputName) {
     if (inputName) {
       Sorters.forEach(sorter => {
@@ -586,6 +614,7 @@ class GunplaBuild {
       });
     }
   }
+
   _displayParametersTotal() {
     this._applyWordTagBonus();
     this._applyJobLicenseBonus();
@@ -593,6 +622,7 @@ class GunplaBuild {
       document.querySelector('.js-total-' + paramTotal).textContent = this.parametersTotal[paramTotal];
     }
   }
+
   _resetAttributesTally() {
     this.attributesTally = {
       'p': 0,
@@ -600,17 +630,20 @@ class GunplaBuild {
       's': 0
     };
   }
+
   _tallyAttributes(partData) {
     if (partData && partData.dataset['attribute'] && partData.dataset.attribute.charAt(0).toLowerCase() in this.attributesTally) {
       const doubleForCombo = partData.dataset['combo'] ? 2 : 1;
       this.attributesTally[partData.dataset['attribute'].charAt(0).toLowerCase()] += doubleForCombo;
     }
   }
+
   _displayAttributesTally() {
     for (let tally in this.attributesTally) {
       document.querySelector('.js-tally-' + tally).textContent = this.attributesTally[tally];
     }
   }
+
   _applyWordTagBonus() {
     const tallyMap = {};
     console.log('Total Raw Attributes:', this.parametersTotal);
@@ -645,12 +678,14 @@ class GunplaBuild {
     }
     console.log('Total Attributes With WT Bonus:', this.parametersTotal);
   }
+
   _getWordTag(wordTag) {
     return WordTagData.find(tag => wordTag === tag.name);
   }
+
   _applyJobLicenseBonus() {
     const selectedPilot = document.querySelector('.js-select-pilot'),
-      pilotInput = this.inputs.pilot;
+        pilotInput = this.inputs.pilot;
     if (pilotInput && pilotInput.dataset['jl']) {
       const jobLicense = this._getJobLicense(pilotInput.dataset['jl']);
       if (jobLicense && jobLicense.multiplier && jobLicense.parameters && Array.isArray(jobLicense.parameters)) {
@@ -663,9 +698,11 @@ class GunplaBuild {
     }
     console.log('Total Attributes With WT Bonus and Job Bonus:', this.parametersTotal);
   }
+
   _getJobLicense(license) {
     return PilotType.find(type => license === type.name);
   }
+
   _displayPartsWordTags() {
     const input = this.inputs;
     for (let props in input) {
@@ -679,11 +716,13 @@ class GunplaBuild {
       }
     }
   }
+
   _clearWordTag(wordTag) {
     if (document.querySelector('.js-wt-' + wordTag)) {
       document.querySelector('.js-wt-' + wordTag).innerHTML = '';
     }
   }
+
   _clearParts(inputName) {
     if (inputName && inputName in this.inputs) {
       const input = this.inputs[inputName];
@@ -695,11 +734,12 @@ class GunplaBuild {
       this._clearWordTag(inputName);
     }
   }
+
   _initFilters() {
     const attrFilter = document.querySelector('.js-filter-attr'),
-      wtFilter1 = document.querySelector('.js-filter-wt1'),
-      wtFilter2 = document.querySelector('.js-filter-wt2'),
-      ptFilter = document.querySelector('.js-filter-pt');
+        wtFilter1 = document.querySelector('.js-filter-wt1'),
+        wtFilter2 = document.querySelector('.js-filter-wt2'),
+        ptFilter = document.querySelector('.js-filter-pt');
     if (Array.isArray(Attributes)) {
       Attributes.forEach(attr => {
         const opt = document.createElement('option');
@@ -738,6 +778,7 @@ class GunplaBuild {
       }
     }
   }
+
   _initSort() {
     const sortParamEl = document.querySelector('.js-sort-param');
     if (Array.isArray(Sorters)) {
@@ -755,6 +796,7 @@ class GunplaBuild {
       });
     }
   }
+
   _initApplyMapBonus() {
     const applyMapBonusEl = document.querySelector('.js-apply-map-bonus');
     applyMapBonusEl.checked = false;
@@ -763,6 +805,7 @@ class GunplaBuild {
       this._loopThroughInput();
     });
   }
+
   _initSearchPart() {
     const searchEl = document.querySelector(".js-search-part");
     let timerId;
@@ -770,14 +813,14 @@ class GunplaBuild {
           this.searchPart = e.currentTarget.value;
           clearTimeout(timerId);
           timerId = setTimeout(() => {
-                if (this.currentPart) {
-                  this._showPartList(this.currentPart);
-                }
-              }
-              , 500);
+            if (this.currentPart) {
+              this._showPartList(this.currentPart);
+            }
+          }, 500);
         }
     );
   }
+
   _initRemove() {
     const removePartEl = document.querySelector('.js-remove-part');
     removePartEl.addEventListener('click', e => {
@@ -801,10 +844,11 @@ class GunplaBuild {
       }
     });
   }
+
   _displayPartInfo(part) {
     if (part && part.dataset['part'] && MainSlot.indexOf(part.dataset['part']) > -1) {
       const wordTag = JSON.parse(part.dataset['wt']),
-        ex = JSON.parse(part.dataset['ex']);
+          ex = JSON.parse(part.dataset['ex']);
       this.partNameCont.textContent = part.dataset['partname'] ? part.dataset['partname'] : '';
       Sorters.forEach(sorter => {
         this.partParamCont[sorter.slug].textContent = part.dataset[sorter.slug] ? part.dataset[sorter.slug] : 0;
@@ -819,12 +863,13 @@ class GunplaBuild {
       this.partSkillTraitCont.textContent = ex.type && ex.name ? ex.name : '';
     }
   }
+
   _displayWordTags(part) {
     if (!(part && part.dataset['part'] && part.dataset['wt'])) {
       return false;
     }
     const partEl = document.querySelector('.js-wt-' + part.dataset['part']),
-      wordTags = JSON.parse(part.dataset['wt']);
+        wordTags = JSON.parse(part.dataset['wt']);
     if (Array.isArray(wordTags) && partEl) {
       partEl.innerHTML = wordTags.reduce((result, wordTag) => {
         const currentTally = this.wordTagsTally[wordTag];
