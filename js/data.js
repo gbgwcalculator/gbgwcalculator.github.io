@@ -1129,6 +1129,82 @@ const Collections = [{
     }
   }]
 }, {
+  "name": "Build Burning Gundam",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1181,
+    "ma": 384,
+    "sa": 796,
+    "md": 1181,
+    "sd": 384,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), Buff EX Skill Time up 22%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Jigen Haoh Style Gokui"
+    }
+  }, {
+    "part": "arms",
+    "a": 384,
+    "ma": 3177,
+    "sa": 384,
+    "md": 1602,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Jigen Haoh Style Shippu-Zuki"
+    }
+  }, {
+    "part": "legs",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Jigen Haoh Style Seiso-Geri"
+    }
+  }, {
+    "part": "backpack",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Houou Haoh-Ken"
+    }
+  }]
+}, {
   "name": "Build Strike Gundam [Full Package]",
   "attribute": "Technique",
   "rarity": 4,
@@ -2511,6 +2587,129 @@ const Collections = [{
       "name": "Shield Bash"
     },
     "name": "Laminated Anti-Beam Shield"
+  }]
+}, {
+  "name": "Gaia",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 558,
+    "ma": 291,
+    "sa": 1698,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 302,
+    "wt": ["Transformer", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "CIWS"
+    }
+  }, {
+    "part": "torso",
+    "a": 1140,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 428,
+    "wt": ["Transformer", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Enemy EX Skill Penetration reduced 22%"
+    }
+  }, {
+    "part": "arms",
+    "a": 558,
+    "ma": 1698,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Transformer", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Transformer\", Strong Melee CRIT Rate boosted 17%"
+    }
+  }, {
+    "part": "legs",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Transformer", "For Forest"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), 13% chance to not recoil"
+    }
+  }, {
+    "part": "backpack",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Transformer", "For Forest"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "MA-81R Beam Assault Cannon"
+    }
+  }, {
+    "part": "shield",
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 1140,
+    "sd": 1140,
+    "br": 126,
+    "pr": 558,
+    "wt": ["Gundam Type", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Shield Throw"
+    },
+    "name": "Mobile Shield (Gaia)"
+  }, {
+    "part": "melee",
+    "a": 558,
+    "ma": 2297,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 126,
+    "pr": 428,
+    "wt": ["Transformer", "For Forest"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Job Gauge Increase boosted 13%"
+    },
+    "name": "Vajra Beam Saber (Gaia)",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 558,
+    "ma": 0,
+    "sa": 2297,
+    "md": 0,
+    "sd": 0,
+    "br": 126,
+    "pr": 428,
+    "wt": ["Transformer", "For Forest"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), EX Skill Power boosted 25%"
+    },
+    "name": "High-Energy Beam Rifle (Gaia)",
+    "type": "Beam"
   }]
 }, {
   "name": "Gouf Custom",
@@ -6911,6 +7110,98 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Master Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1181,
+    "ma": 384,
+    "sa": 796,
+    "md": 1181,
+    "sd": 384,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Mobile Fighter", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Choukyuu Haou Den'eidan"
+    }
+  }, {
+    "part": "torso",
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 0,
+    "pr": 611,
+    "wt": ["Mobile Fighter", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Mode"
+    }
+  }, {
+    "part": "arms",
+    "a": 384,
+    "ma": 3177,
+    "sa": 384,
+    "md": 1602,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mobile Fighter", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Sekiha Tenkyouken"
+    }
+  }, {
+    "part": "legs",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), EX Skill Piercing boosted 28%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Juuni Ouhoupai Daishahei"
+    }
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 3997,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, Strong Melee CRIT Rate boosted 30%"
+    },
+    "name": "Master Cloth",
+    "type": "Beam"
+  }]
+}, {
   "name": "Mobile SUMO [Gold Type]",
   "attribute": "Speed",
   "rarity": 3,
@@ -7254,7 +7545,7 @@ const Collections = [{
       "type": "Part Traits",
       "name": "With Technique Attribute (self), Close Shot Attack raised 20%"
     }
-  },  {
+  }, {
     "part": "torso",
     "a": 2128,
     "ma": 964,
@@ -9910,6 +10201,23 @@ const Pilots = [{
     "name": "20% chance to prevent vernier consumption when stepping"
   }
 }, {
+  "name": "Auel Neider",
+  "jl": "Defender",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 889,
+  "ma": 291,
+  "sa": 889,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Amphib.", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique Attribute (self), Debuff EX Skill effect up 15%"
+  }
+}, {
   "name": "Bernard Wiseman",
   "jl": "In-Fighter",
   "attribute": "Technique",
@@ -10540,6 +10848,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self) Enemy All power reduced 18%"
+  }
+}, {
+  "name": "Setsuna F. Seiei",
+  "jl": "In-Fighter",
+  "attribute": "Speed",
+  "rarity": null,
+  "a": 796,
+  "ma": 1602,
+  "sa": 384,
+  "md": 796,
+  "sd": 796,
+  "br": 417,
+  "pr": 213,
+  "wt": ["Protag.", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Gundam Type\", Buff EX Skill effect up 22%"
   }
 }, {
   "name": "Shiho Hahnenfuss",
