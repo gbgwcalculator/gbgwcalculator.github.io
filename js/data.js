@@ -158,7 +158,39 @@ const PilotType = [{
 }, {
   "name": "Supporter"
 }];
-const TraitDescriptions = ["All power boosted", "All power reduced", "Attacks penetrating super armor", "Buff EX Skill effect up", "Buff EX Skill time up", "Chance to not recoil", "Chance to survive a fatal blow", "CRIT rate boosted", "Debuff EX Skill effect up", "Debuff EX Skill time up", "EX Skill CD reduced", "EX Skill piercing boosted", "EX Skill power boosted", "EX Skill recovery boosted", "Initial EX Skill Charge boosted", "Job Gauge increase boosted", "Melee power boosted", "Melee power reduced", "Prevent vernier consumption", "Projectile Speed boosted", "Ranged weapon magazine boosted", "Ranged weapon reload speed", "Shooting power boosted", "Shooting power reduced", "Shot Attack raised", "Shot guidance boosted", "Shot spread reduced", "Sp. Shot power boosted", "Sp. Shot power reduced", "Vernier consumption reduced", "Vernier recovery"];
+const TraitDescriptions = [
+  "All power boosted",
+  "All power reduced",
+  "Attacks penetrating super armor",
+  "Buff EX Skill effect up",
+  "Buff EX Skill time up",
+  "Chance to not recoil",
+  "Chance to survive a fatal blow",
+  "CRIT rate boosted",
+  "Debuff EX Skill effect up",
+  "Debuff EX Skill time up",
+  "EX Skill CD reduced",
+  "EX Skill piercing boosted",
+  "EX Skill power boosted",
+  "EX Skill recovery boosted",
+  "Initial EX Skill Charge boosted",
+  "Job Gauge increase boosted",
+  "Melee power boosted",
+  "Melee power reduced",
+  "Prevent vernier consumption",
+  "Projectile Speed boosted",
+  "Ranged weapon magazine boosted",
+  "Ranged weapon reload speed",
+  "Shooting power boosted",
+  "Shooting power reduced",
+  "Shot Attack raised",
+  "Shot guidance boosted",
+  "Shot spread reduced",
+  "Sp. Shot power boosted",
+  "Sp. Shot power reduced",
+  "Vernier consumption reduced",
+  "Vernier recovery"
+];
 const Collections = [{
   "name": "Aegis Gundam",
   "attribute": "Speed",
@@ -3114,7 +3146,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"For Computers\" enemy Strong Melee ower boosted 8-25%"
+      "name": "With \"For Computers\" enemy Strong Melee power boosted 8-25%"
     }
   }, {
     "part": "arms",
@@ -5739,7 +5771,7 @@ const Collections = [{
     "pr": 430,
     "wt": ["Long-Range", "Federation"],
     "ex": {
-      "type": "Part Traits",
+      "type": "EX Skill",
       "name": "Sub-Arm Unit"
     }
   }, {
@@ -6673,7 +6705,7 @@ const Collections = [{
     "pr": 0,
     "wt": ["Ace Excl.", "High Mobility"],
     "ex": {
-      "type": "Part Traits",
+      "type": "EX Skill",
       "name": "Shield Bash"
     },
     "name": "Laminated Anti-Beam Shield"
@@ -6780,7 +6812,7 @@ const Collections = [{
     "pr": 126,
     "wt": ["Mid-Range", "High Mobility"],
     "ex": {
-      "type": "Part Traits",
+      "type": "EX Skill",
       "name": "Beam Shotgun"
     },
     "name": "Beam Shotgun",
@@ -8690,7 +8722,7 @@ const Collections = [{
     "wt": ["Commander", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (Self) Melee DGM output boosted 6-20"
+      "name": "With Speed attribute (Self) Melee DMG output boosted 6-20"
     },
     "name": "9.1m Experimental Anti-Ship Sword",
     "type": "Physical"
@@ -10181,7 +10213,7 @@ const Pilots = [{
   "wt": ["Ace Excl.", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power Attribute (self) All DMG ouput boosted by 35"
+    "name": "With Power Attribute (self) All DMG output boosted by 35"
   }
 }, {
   "name": "Athrun Zala",
