@@ -874,7 +874,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Tundra"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offence Hack b"
+      "name": "Offense Hack β"
     }
   }, {
     "part": "arms",
@@ -888,7 +888,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Tundra"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defence Hack b"
+      "name": "Defense Hack β"
     }
   }, {
     "part": "legs",
@@ -1384,7 +1384,7 @@ const Collections = [{
     "wt": ["High Mobility", "For Urban Area"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool b"
+      "name": "Recovery Tool β"
     }
   }, {
     "part": "torso",
@@ -1536,7 +1536,7 @@ const Collections = [{
     "wt": ["Protag.", "For Urban Area"],
     "ex": {
       "type": "EX Skill",
-      "name": "Head-Mounted Vlcan"
+      "name": "Head-Mounted Vulcan"
     }
   }, {
     "part": "torso",
@@ -1673,7 +1673,7 @@ const Collections = [{
     "wt": ["Long-Range", "For Desert"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up b"
+      "name": "Offense Up β"
     }
   }, {
     "part": "arms",
@@ -1687,7 +1687,7 @@ const Collections = [{
     "wt": ["Long-Range", "For Desert"],
     "ex": {
       "type": "EX Skill",
-      "name": "Archer Stance y"
+      "name": "Archer Stance γ"
     }
   }, {
     "part": "legs",
@@ -2211,7 +2211,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Barrier Hack b"
+      "name": "Barrier Hack β"
     }
   }, {
     "part": "legs",
@@ -2239,7 +2239,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Urban Area"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Hack b"
+      "name": "Combat Hack β"
     }
   }, {
     "part": "range",
@@ -2285,7 +2285,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Forest"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Hack a"
+      "name": "Combat Hack α"
     },
     "name": "Anti-Beam Shield"
   }]
@@ -2320,7 +2320,7 @@ const Collections = [{
     "wt": ["High Firepower", "Mid-Range"],
     "ex": {
       "type": "EX Skill",
-      "name": "Armed Aura b"
+      "name": "Armed Aura β"
     }
   }, {
     "part": "arms",
@@ -3415,7 +3415,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Stance a"
+      "name": "Combat Stance α"
     }
   }, {
     "part": "torso",
@@ -3522,7 +3522,7 @@ const Collections = [{
     "wt": ["High Firepower", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Protection b"
+      "name": "Protection β"
     }
   }, {
     "part": "torso",
@@ -3564,7 +3564,7 @@ const Collections = [{
     "wt": ["High Firepower", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Archer Hack b"
+      "name": "Archer Hack β"
     }
   }, {
     "part": "backpack",
@@ -4262,7 +4262,7 @@ const Collections = [{
     "wt": ["Long-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Archer Stance y"
+      "name": "Archer Stance γ"
     }
   }, {
     "part": "torso",
@@ -4354,7 +4354,7 @@ const Collections = [{
     "wt": ["Gundam Type", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool a"
+      "name": "Recovery Tool α"
     }
   }, {
     "part": "torso",
@@ -4616,7 +4616,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "7-Barrel Missle Launcher"
+      "name": "7-Barrel Missile Launcher"
     }
   }, {
     "part": "arms",
@@ -4693,7 +4693,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Hack b"
+      "name": "Combat Hack β"
     }
   }, {
     "part": "arms",
@@ -4765,7 +4765,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up b"
+      "name": "Offense Up β"
     },
     "name": "Shield"
   }]
@@ -4800,7 +4800,7 @@ const Collections = [{
     "wt": ["Protag.", "High Mobility"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Stance y"
+      "name": "Combat Stance γ"
     }
   }, {
     "part": "arms",
@@ -5751,7 +5751,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Up b"
+      "name": "Defense Up β"
     }
   }, {
     "part": "arms",
@@ -5807,7 +5807,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Seventh Tr-Shot"
+      "name": "Seventh Tri-Shot"
     },
     "name": "Beam Rifle",
     "type": "Beam"
@@ -5823,7 +5823,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Up a"
+      "name": "Defense Up α"
     },
     "name": "Shield"
   }]
@@ -5858,7 +5858,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool b"
+      "name": "Recovery Tool β"
     }
   }, {
     "part": "arms",
@@ -6243,7 +6243,7 @@ const Collections = [{
     "wt": ["Protag.", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defence Up y"
+      "name": "Defense Up γ"
     }
   }, {
     "part": "torso",
@@ -6351,7 +6351,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up y"
+      "name": "Offense Up γ"
     }
   }, {
     "part": "torso",
@@ -7257,7 +7257,7 @@ const Collections = [{
     "wt": ["Long-Range", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Beam Hack b"
+      "name": "Beam Hack β"
     }
   }, {
     "part": "torso",
@@ -7533,7 +7533,7 @@ const Collections = [{
     "wt": ["Ace Excl.", "Heavy Armor"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Stance a"
+      "name": "Combat Stance α"
     }
   }, {
     "part": "torso",
@@ -8010,7 +8010,7 @@ const Collections = [{
     "wt": ["For Urban Area", "GM Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Shock Bringer y"
+      "name": "Shock Bringer γ"
     },
     "name": "Shield"
   }]
@@ -8200,7 +8200,7 @@ const Collections = [{
     "wt": ["Commander", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool y"
+      "name": "Recovery Tool γ"
     }
   }, {
     "part": "torso",
@@ -8332,7 +8332,7 @@ const Collections = [{
     "wt": ["Mobile Fighter", "Long-Range"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Hack a"
+      "name": "Defense Hack α"
     }
   }]
 }, {
@@ -8639,7 +8639,7 @@ const Collections = [{
     "wt": ["Close Combat", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Armed Aura y"
+      "name": "Armed Aura γ"
     }
   }, {
     "part": "melee",
@@ -9151,7 +9151,7 @@ const Collections = [{
     "wt": ["High Firepower", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Protection Hack b"
+      "name": "Protection Hack β"
     }
   }, {
     "part": "torso",
@@ -9179,7 +9179,7 @@ const Collections = [{
     "wt": ["High Firepower", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Block Stance y"
+      "name": "Block Stance γ"
     },
     "combo": "shield"
   }, {
@@ -9337,7 +9337,7 @@ const Collections = [{
     "wt": ["Commander", "Long-Range"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up a"
+      "name": "Offense Up α"
     }
   }, {
     "part": "torso",
@@ -10170,7 +10170,7 @@ const Collections = [{
     "wt": ["Ace Excl.", "For Space"],
     "ex": {
       "type": "EX Skill",
-      "name": "Beam Coat b"
+      "name": "Beam Coat β"
     }
   }, {
     "part": "torso",
