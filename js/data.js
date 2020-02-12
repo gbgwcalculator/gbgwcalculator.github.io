@@ -161,37 +161,196 @@ const PilotType = [{
 const TraitDescriptions = [
   "All power boosted",
   "All power reduced",
-  "Attacks penetrating super armor",
-  "Buff EX Skill effect up",
-  "Buff EX Skill time up",
+  "Buff EX Skill effect",
+  "Buff EX Skill time",
+  "Chance of attacks penetrating super armor",
   "Chance to not recoil",
+  "Chance to prevent vernier consumption when stepping",
   "Chance to survive a fatal blow",
   "CRIT rate boosted",
-  "Debuff EX Skill effect up",
-  "Debuff EX Skill time up",
+  "Debuff EX Skill effect",
+  "Debuff EX Skill time",
+  "DMG output boosted",
+  "DMG taken reduced",
   "EX Skill CD reduced",
   "EX Skill piercing boosted",
   "EX Skill power boosted",
   "EX Skill recovery boosted",
-  "Initial EX Skill Charge boosted",
+  "Initial EX Skill charge boosted",
   "Job Gauge increase boosted",
   "Melee power boosted",
   "Melee power reduced",
-  "Prevent vernier consumption",
-  "Projectile Speed boosted",
+  "Projectile speed boosted",
   "Ranged weapon magazine boosted",
-  "Ranged weapon reload speed",
+  "Ranged weapon reload speed boosted",
   "Shooting power boosted",
   "Shooting power reduced",
-  "Shot Attack raised",
+  "Shot attack raised",
   "Shot guidance boosted",
   "Shot spread reduced",
+  "Skill penetration reduced",
   "Sp. Shot power boosted",
   "Sp. Shot power reduced",
   "Vernier consumption reduced",
-  "Vernier recovery"
+  "Vernier recovery rate boosted"
 ];
 const Collections = [{
+  "name": "00 Qan[T] Full Saber",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1363,
+    "ma": 972,
+    "sa": 1363,
+    "md": 555,
+    "sd": 1363,
+    "br": 680,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Recovery Tool γ"
+    }
+  }, {
+    "part": "torso",
+    "a": 1745,
+    "ma": 555,
+    "sa": 972,
+    "md": 0,
+    "sd": 2146,
+    "br": 680,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Defense Hack β"
+    }
+  }, {
+    "part": "arms",
+    "a": 0,
+    "ma": 2770,
+    "sa": 555,
+    "md": 555,
+    "sd": 1363,
+    "br": 471,
+    "pr": 286,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self) Melee power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 972,
+    "ma": 972,
+    "sa": 555,
+    "md": 972,
+    "sd": 1363,
+    "br": 680,
+    "pr": 286,
+    "wt": ["Protag.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 972,
+    "ma": 972,
+    "sa": 555,
+    "md": 972,
+    "sd": 1363,
+    "br": 680,
+    "pr": 471,
+    "wt": ["Protag.", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Full Saber Attack"
+    }
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 3582,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Protag.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or less EX Skill power boosted 30%"
+    },
+    "name": "GN Sword IV (Katar Mode)",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "a": 1363,
+    "ma": 3713,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 680,
+    "pr": 286,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking Physical Strong Melee CRIT rate boosted 30%"
+    },
+    "name": "GN Sword IV (Saber Mode)",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "a": 1363,
+    "ma": 3713,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 680,
+    "pr": 286,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job Enemy Shooting power reduced 30%"
+    },
+    "name": "GN Gun Blade (Blade Mode)",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 4004,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 420,
+    "pr": 420,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Close Combat\" Initial EX Skill charge boosted 20%"
+    },
+    "name": "GN Sword IV Full Saber",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 555,
+    "ma": 154,
+    "sa": 3331,
+    "md": 0,
+    "sd": 972,
+    "br": 471,
+    "pr": 286,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Wide Cutter"
+    },
+    "name": "GN Sword IV (Rifle Mode)",
+    "type": "Beam"
+  }]
+}, {
   "name": "Aegis Gundam",
   "attribute": "Speed",
   "rarity": 4,
@@ -559,6 +718,130 @@ const Collections = [{
       "name": "With Rifle category equipped Enemy Shooting power reduced 30%"
     },
     "name": "Type 71 Experimental Defensive Shield"
+  }]
+}, {
+  "name": "Arche Gundam",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 558,
+    "ma": 291,
+    "sa": 1698,
+    "md": 558,
+    "sd": 558,
+    "br": 302,
+    "pr": 0,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 50% or less Recover 10 Armor gradually"
+    }
+  }, {
+    "part": "torso",
+    "a": 1140,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 428,
+    "pr": 0,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job Enemy Skill penetration reduced 22%"
+    }
+  }, {
+    "part": "arms",
+    "a": 558,
+    "ma": 1698,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self) Enemy Melee power reduced 25%"
+    }
+  }, {
+    "part": "legs",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Fang"
+    }
+  }, {
+    "part": "backpack",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Close Combat\" Melee power boosted 25%"
+    }
+  }, {
+    "part": "shield",
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 1140,
+    "sd": 1140,
+    "br": 588,
+    "pr": 126,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Field"
+    },
+    "name": "GN Shield (Arche Gundam)",
+    "type": "-"
+  }, {
+    "part": "melee",
+    "a": 558,
+    "ma": 2297,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "12% chance of attacks penetrating super armor"
+    },
+    "name": "GN Buster Sword (Arche)",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 558,
+    "ma": 0,
+    "sa": 2297,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self) Job Gauge increase boosted 13%"
+    },
+    "name": "GN Buster Sword Rifle Mode (Arche)",
+    "type": "Beam"
   }]
 }, {
   "name": "Astray Blue Frame",
@@ -10658,6 +10941,23 @@ const Pilots = [{
     "name": "With Power attribute (self) 14% chance to survive a fatal blow"
   }
 }, {
+  "name": "Lalah Sune",
+  "jl": "Supporter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 799,
+  "ma": 384,
+  "sa": 1184,
+  "md": 1184,
+  "sd": 799,
+  "br": 614,
+  "pr": 213,
+  "wt": ["Long-Range", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self) Debuff EX Skill effect up 22%"
+  }
+}, {
   "name": "Lila Milla Rira",
   "jl": "Middle-Shooter",
   "attribute": "Power",
@@ -10673,6 +10973,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self) Projectile speed boosted 14%"
+  }
+}, {
+  "name": "Louise Halevy",
+  "jl": "Defender",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 1144,
+  "ma": 292,
+  "sa": 292,
+  "md": 558,
+  "sd": 558,
+  "br": 430,
+  "pr": 127,
+  "wt": ["Support Type", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self) Enemy All power reduced 13%"
   }
 }, {
   "name": "Lowe Guele",
