@@ -935,6 +935,82 @@ const Collections = [{
     "name": "Anti-Beam Shield"
   }]
 }, {
+  "name": "Astray Gold Frame Amatsu",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 795,
+    "ma": 382,
+    "sa": 2377,
+    "md": 795,
+    "sd": 795,
+    "br": 416,
+    "pr": 0,
+    "wt": ["High Mobility", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 70% or less, Enemy Shooting power reduced 30%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1601,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 0,
+    "wt": ["High Mobility", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Mirage Colloid"
+    }
+  }, {
+    "part": "arms",
+    "a": 795,
+    "ma": 2377,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Mobility", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Trikeros Rush"
+    }
+  }, {
+    "part": "legs",
+    "a": 795,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 416,
+    "wt": ["High Mobility", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 795,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 416,
+    "wt": ["High Mobility", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Maga no Ikutachi"
+    }
+  }]
+}, {
   "name": "Astray Red Frame",
   "attribute": "Speed",
   "rarity": 4,
@@ -4244,6 +4320,98 @@ const Collections = [{
       "name": "Buster Shield"
     },
     "name": "Buster Shield"
+  }]
+}, {
+  "name": "Gundam Deathscythe Hell (Endless Waltz Ver.)",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1180,
+    "ma": 383,
+    "sa": 796,
+    "md": 1180,
+    "sd": 796,
+    "br": 417,
+    "pr": 212,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan"
+    }
+  }, {
+    "part": "torso",
+    "a": 1976,
+    "ma": 796,
+    "sa": 383,
+    "md": 796,
+    "sd": 796,
+    "br": 610,
+    "pr": 0,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Self-Destruct"
+    }
+  }, {
+    "part": "arms",
+    "a": 796,
+    "ma": 2781,
+    "sa": 0,
+    "md": 1180,
+    "sd": 1180,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Jammer"
+    }
+  }, {
+    "part": "legs",
+    "a": 1180,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 796,
+    "br": 610,
+    "pr": 417,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Axe category equipped, Melee CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 1180,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 796,
+    "br": 610,
+    "pr": 417,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "melee",
+    "a": 1180,
+    "ma": 3577,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 212,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Deadly Circle"
+    },
+    "name": "Beam Scissors",
+    "type": "Beam"
   }]
 }, {
   "name": "Gundam Dynames",
@@ -8260,6 +8428,98 @@ const Collections = [{
     }
   }]
 }, {
+  "name": "Rebawoo",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 889,
+    "ma": 291,
+    "sa": 558,
+    "md": 889,
+    "sd": 291,
+    "br": 126,
+    "pr": 302,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1142,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 0,
+    "pr": 428,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Vulcan"
+    }
+  }, {
+    "part": "arms",
+    "a": 291,
+    "ma": 2300,
+    "sa": 291,
+    "md": 1142,
+    "sd": 291,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Arm-Mounted Grenade Launcher"
+    }
+  }, {
+    "part": "legs",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Zeon", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Flexible Beam Gun"
+    }
+  }, {
+    "part": "backpack",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Zeon", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Zeon\", Melee power boosted 25%"
+    }
+  }, {
+    "part": "range",
+    "a": 889,
+    "ma": 0,
+    "sa": 1701,
+    "md": 0,
+    "sd": 0,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Commander\", Initial EX Skill charge boosted 12%"
+    },
+    "name": "Beam Rifle (Rebawoo)",
+    "type": "Beam"
+  }]
+}, {
   "name": "Rising Gundam",
   "attribute": "Speed",
   "rarity": 3,
@@ -10975,6 +11235,23 @@ const Pilots = [{
     "name": "With Power attribute (self) Projectile speed boosted 14%"
   }
 }, {
+  "name": "Lockon Stratos",
+  "jl": "Long Shooter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 799,
+  "ma": 384,
+  "sa": 1606,
+  "md": 799,
+  "sd": 799,
+  "br": 420,
+  "pr": 420,
+  "wt": ["High Firepower", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Long Shot Attack raised 20%"
+  }
+}, {
   "name": "Louise Halevy",
   "jl": "Defender",
   "attribute": "Power",
@@ -11268,6 +11545,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self) Enemy Shooting power reduced 30%"
+  }
+}, {
+  "name": "Stella Loussier",
+  "jl": "Out-Fighter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 558,
+  "ma": 891,
+  "sa": 891,
+  "md": 558,
+  "sd": 558,
+  "br": 127,
+  "pr": 302,
+  "wt": ["Transformer", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Sven Cal Bayang",
