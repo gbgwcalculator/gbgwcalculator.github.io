@@ -6165,6 +6165,99 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
+  "name": "Gundam Throne Drei",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 889,
+    "ma": 291,
+    "sa": 1701,
+    "md": 291,
+    "sd": 291,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Support Type", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), Mid Shot Attack raised 14%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1433,
+    "ma": 291,
+    "sa": 558,
+    "md": 558,
+    "sd": 558,
+    "br": 428,
+    "pr": 0,
+    "wt": ["Support Type", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Support Type\", EX Skill DMG Taken reduced 25 (flat)"
+    }
+  }, {
+    "part": "arms",
+    "a": 1701,
+    "ma": 558,
+    "sa": 558,
+    "md": 1433,
+    "sd": 1992,
+    "br": 590,
+    "pr": 126,
+    "wt": ["Support Type", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Shield Pod"
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Support Type", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Supporter Job, EX Skill CD reduced 15%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Support Type", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Stealth Field"
+    }
+  }, {
+    "part": "melee",
+    "a": 889,
+    "ma": 1701,
+    "sa": 0,
+    "md": 0,
+    "sd": 291,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Support Type", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Supporter Job, Melee DMG Output boosted 20 (flat)"
+    },
+    "name": "GN Beam Saber (Throne Drei)",
+    "type": "Beam"
+  }]
+}, {
   "name": "Gundam TR-1 [Advanced Hazel w/ Optical Sensor Unit]",
   "attribute": "Technique",
   "rarity": 3,
@@ -7344,6 +7437,129 @@ const Collections = [{
       "type": "EX Skill",
       "name": "Giant Bazooka"
     }
+  }]
+}, {
+  "name": "Knight Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "a": 1352,
+    "ma": 551,
+    "sa": 964,
+    "md": 1352,
+    "sd": 964,
+    "br": 282,
+    "pr": 463,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), EX Skill Power boosted 30%"
+    }
+  }, {
+    "part": "torso",
+    "a": 2128,
+    "ma": 964,
+    "sa": 551,
+    "md": 964,
+    "sd": 964,
+    "br": 0,
+    "pr": 669,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "SD Tackle"
+    }
+  }, {
+    "part": "arms",
+    "a": 964,
+    "ma": 2913,
+    "sa": 0,
+    "md": 1352,
+    "sd": 1352,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, Melee CRIT Rate boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 1352,
+    "ma": 551,
+    "sa": 551,
+    "md": 1352,
+    "sd": 964,
+    "br": 463,
+    "pr": 669,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Gundam Type\", EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 1352,
+    "ma": 964,
+    "sa": 551,
+    "md": 964,
+    "sd": 964,
+    "br": 463,
+    "pr": 669,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Super Electrospear"
+    }
+  }, {
+    "part": "shield",
+    "a": 1352,
+    "ma": 0,
+    "sa": 0,
+    "md": 1730,
+    "sd": 964,
+    "br": 282,
+    "pr": 870,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), Shooting DMG taken reduced 35 (flat)"
+    },
+    "name": "Knight Shield"
+  }, {
+    "part": "melee",
+    "a": 1352,
+    "ma": 3681,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 282,
+    "pr": 463,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Comet Sword"
+    },
+    "name": "Knight Sword",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "a": 1352,
+    "ma": 3681,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 282,
+    "pr": 463,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "SD Attack"
+    },
+    "name": "Electrospear",
+    "type": "Physical"
   }]
 }, {
   "name": "Kshatriya",
@@ -8734,6 +8950,145 @@ const Collections = [{
       "type": "EX Skill",
       "name": "Belly Beam!"
     }
+  }]
+}, {
+  "name": "Sazabi",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "a": 1356,
+    "ma": 553,
+    "sa": 966,
+    "md": 1356,
+    "sd": 553,
+    "br": 284,
+    "pr": 465,
+    "wt": ["High Firepower", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Enemy Shooting Power reduced 30%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1734,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 0,
+    "pr": 673,
+    "wt": ["High Firepower", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Mega Particle Scatter Cannon"
+    }
+  }, {
+    "part": "arms",
+    "a": 553,
+    "ma": 3312,
+    "sa": 553,
+    "md": 1734,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Firepower", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor < 70%, Melee Power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 673,
+    "pr": 465,
+    "wt": ["High Firepower", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique Attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 465,
+    "pr": 673,
+    "wt": ["High Firepower", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Funnel Combination"
+    }
+  }, {
+    "part": "shield",
+    "a": 966,
+    "ma": 0,
+    "sa": 0,
+    "md": 2523,
+    "sd": 966,
+    "br": 0,
+    "pr": 1082,
+    "wt": ["High Firepower", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Smal Missiles"
+    },
+    "name": "Shield"
+  }, {
+    "part": "melee",
+    "a": 553,
+    "ma": 4110,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["High Firepower", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique Attribute (self), EX Skill Power boosted 30%"
+    },
+    "name": "Beam Saber",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "a": 553,
+    "ma": 4110,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["High Firepower", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Piercing Axe"
+    },
+    "name": "Beam Tomahawk",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 1356,
+    "ma": 0,
+    "sa": 3312,
+    "md": 0,
+    "sd": 0,
+    "br": 465,
+    "pr": 673,
+    "wt": ["High Firepower", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique Attribute (self), Sp. Shot CRIT Rate boosted 30%"
+    },
+    "name": "Beam Shot Rifle",
+    "type": "Beam"
   }]
 }, {
   "name": "Sengoku Astray Gundam",
@@ -10980,6 +11335,23 @@ const Pilots = [{
     "name": "Support Job EX Skill recovery boosted 16%"
   }
 }, {
+  "name": "Full Frontal",
+  "jl": "Out-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 384,
+  "ma": 1182,
+  "sa": 1182,
+  "md": 799,
+  "sd": 799,
+  "br": 420,
+  "pr": 420,
+  "wt": ["Commander", "Zeon"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Zeon\", Initial EX Skill Charge boosted 20%"
+  }
+}, {
   "name": "Gaelio Bauduin",
   "jl": "Defender",
   "attribute": "Technique",
@@ -11337,6 +11709,23 @@ const Pilots = [{
     "name": "With Power Attribute (self), EX Skill CD reduced 15%"
   }
 }, {
+  "name": "Nena Trinity",
+  "jl": "Supporter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 891,
+  "ma": 558,
+  "sa": 292,
+  "md": 891,
+  "sd": 558,
+  "br": 127,
+  "pr": 430,
+  "wt": ["Support Type", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed Attribute (self), EX Skill Recovery boosted 16%"
+  }
+}, {
   "name": "Neo Roanoke",
   "jl": "Middle-Shooter",
   "attribute": "Speed",
@@ -11474,6 +11863,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self) Enemy All power reduced 18%"
+  }
+}, {
+  "name": "Sarah Zabiarov",
+  "jl": "Supporter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 428,
+  "pr": 126,
+  "wt": ["Mid-Range", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed Attribute (self), Debuff EX Skill Effect up 15%"
   }
 }, {
   "name": "Setsuna F. Seiei",
