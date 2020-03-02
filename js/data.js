@@ -10013,6 +10013,98 @@ const Collections = [{
     }
   }]
 }, {
+  "name": "Tieren Taozi",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1144,
+    "ma": 292,
+    "sa": 891,
+    "md": 558,
+    "sd": 558,
+    "br": 302,
+    "pr": 0,
+    "wt": ["For Space", "Heavy Armor"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"For Space\", Mid Shot Attack raised 14%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1702,
+    "ma": 292,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 430,
+    "pr": 0,
+    "wt": ["For Space", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "30mm Machine Gun"
+    }
+  }, {
+    "part": "arms",
+    "a": 891,
+    "ma": 891,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 127,
+    "pr": 0,
+    "wt": ["For Space", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "200mm x 25 Smoothbore Gun"
+    }
+  }, {
+    "part": "legs",
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 127,
+    "pr": 430,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, Shot spread reduced 15%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 430,
+    "pr": 127,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Vernier recovery rate boosted 16%"
+    }
+  }, {
+    "part": "range",
+    "a": 891,
+    "ma": 0,
+    "sa": 1144,
+    "md": 292,
+    "sd": 292,
+    "br": 430,
+    "pr": 302,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon reload speed boosted 15%"
+    },
+    "name": "200mm x 25 Smoothbore Gun",
+    "type": "Physical"
+  }]
+}, {
   "name": "Turn A Gundam",
   "attribute": "Technique",
   "rarity": 4,
@@ -11951,6 +12043,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self) Enemy Shooting power reduced 30%"
+  }
+}, {
+  "name": "Soma Peries",
+  "jl": "Middle-Shooter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 428,
+  "pr": 126,
+  "wt": ["Mid-Range", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Enemy Shooting power reduced 25%"
   }
 }, {
   "name": "Stella Loussier",
