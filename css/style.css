@@ -101,7 +101,7 @@ h3 {
 }
 
 .height-50 {
-  height: 50px;
+  height: 70px;
 }
 
 .row {
@@ -152,7 +152,7 @@ h3 {
 
 .part-list__list {
   border: 1px solid #bfbfbf;
-  height: 490px;
+  height: 520px;
   overflow-y: scroll;
 }
 
@@ -183,6 +183,89 @@ h3 {
 
 .bg-red {
   background: #ff5c5c;
+}
+
+.parts-marks {
+  background: #bfbfbf;
+  float: right;
+  height: 15px;
+  margin-top: 5px;
+  padding-bottom: 17px;
+  margin-right: 5px;
+}
+
+.parts-marks__item {
+  border: 8px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 0;
+  margin-left: 8px;
+  position: relative;
+  top: -8px;
+  width: 0;
+}
+
+.parts-marks__item:after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 8px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: red;
+}
+
+.parts-marks__item:last-child {
+  margin-right: 5px;
+}
+
+.parts-marks__item[data-value="0"] {
+  border-bottom-color: #000;
+}
+
+.parts-marks__item[data-value="0"]:after {
+  border-top-color: #000;
+}
+
+.parts-marks__item[data-value="1"] {
+  border-bottom-color: #fff;
+}
+
+.parts-marks__item[data-value="1"]:after {
+  border-top-color: #fff;
+}
+
+.parts-marks__item[data-value="2"] {
+  border-bottom-color: #00ff00;
+}
+
+.parts-marks__item[data-value="2"]:after {
+  border-top-color: #00ff00;
+}
+
+.parts-marks__item[data-value="3"] {
+  border-bottom-color: #1E90FF;
+}
+
+.parts-marks__item[data-value="3"]:after {
+  border-top-color: #1E90FF;
+}
+
+.parts-marks__item[data-value="4"] {
+  border-bottom-color: #FF00FF;
+}
+
+.parts-marks__item[data-value="4"]:after {
+  border-top-color: #FF00FF;
+}
+
+.parts-marks__item[data-value="5"] {
+  border-bottom-color: #FFDF00;
+}
+
+.parts-marks__item[data-value="5"]:after {
+  border-top-color: #FFDF00;
 }
 
 .part-name {

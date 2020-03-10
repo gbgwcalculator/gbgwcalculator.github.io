@@ -10,10 +10,14 @@ const removeAllAttributes = el => {
   }
 };
 
+const roundValue = value => {
+  return Math.round(value * 1000000000000) / 1000000000000;
+};
+
 class GunplaCalculator {
   constructor() {
-    this.containerEl = document.querySelector('.js-container');
-    if (this.containerEl) {
+    this.container = document.querySelector(".js-container");
+    if (this.container) {
       this._generateHTML();
     }
   }
@@ -24,23 +28,23 @@ class GunplaCalculator {
 
   _createElement(config, targetEl) {
     const retEl = document.createElement(config.el);
-    if ('class' in config) {
+    if ("class" in config) {
       if (Array.isArray(config.class)) {
         config.class.forEach(prop => retEl.classList.add(prop));
-      } else if (typeof config.class === 'string') {
+      } else if (typeof config.class === "string") {
         retEl.classList.add(config.class);
       }
     }
     if ('text' in config) {
       retEl.textContent = config.text;
     }
-    if ('type' in config) {
+    if ("type" in config) {
       retEl.type = config.type;
     }
-    if ('readOnly' in config) {
+    if ("readOnly" in config) {
       retEl.readOnly = config.readOnly;
     }
-    if ('placeholder' in config) {
+    if ("placeholder" in config) {
       retEl.placeholder = config.placeholder;
     }
     if ('data' in config && Array.isArray(config.data)) {
@@ -48,7 +52,7 @@ class GunplaCalculator {
         retEl.dataset[prop.name] = prop.value;
       });
     }
-    if ('children' in config && Array.isArray(config.children)) {
+    if ("children" in config && Array.isArray(config.children)) {
       config.children.forEach(child => {
         this._createElement(child, retEl);
       });
@@ -61,68 +65,67 @@ class GunplaCalculator {
   _generate() {
     const columns = [this._wordTags(), this._partTrait(), this._info(), this._parts(), this._partList()];
     columns.forEach(column => {
-      this._createElement(column, this.containerEl);
+      this._createElement(column, this.container);
     });
   }
 
   _info() {
     return {
       'el': 'div',
-      'class': 'info',
+      'class': "info",
       'children': [{
         'el': 'h3',
-        'text': 'Parameters'
+        'text': "Parameters"
       }, ...this._paramChildren(), {
         'el': 'h3',
         'text': 'Active Word Tag'
       }, {
-        'el': 'div',
-        'class': ['row', 'active-word-tag-list', 'js-active-wt']
+        'el': "div",
+        'class': ["row", "active-word-tag-list", "js-active-wt"]
       }, {
         'el': 'h3',
-        'class': ['part-name', 'js-part-name']
+        'class': ["part-name", "js-part-name"]
       }, {
         'el': 'h3',
-        'text': 'Parameters',
-        'class': 'bg-red'
-      }, ...this._paramChildren('part'), {
+        'text': "Parameters",
+        'class': "bg-red"
+      }, ...this._paramChildren("part"), {
         'el': 'h3',
-        'text': 'Word Tag',
-        'class': 'bg-red'
-      }, {
-        'el': 'div',
-        'class': ['row', 'part-word-tag-list', 'js-part-wt']
-      }, {
-        'el': 'h3',
-        'text': 'Traits / EX Skill',
+        'text': "Word Tag",
         'class': 'bg-red'
       }, {
+        'el': "div",
+        'class': ["row", "part-word-tag-list", "js-part-wt"]
+      }, {
+        'el': 'h3',
+        'text': "Traits / EX Skill",
+        'class': "bg-red"
+      }, {
         'el': 'div',
-        'class': ['row', 'part-skill-trait', 'js-part-skill-trait']
+        'class': ['row', 'part-skill-trait', "js-part-skill-trait"]
       }]
     };
   }
 
   _paramChildren(type) {
-    console.log('type', type);
     if (Array.isArray(Sorters)) {
-      let sortClassPrefix = 'js-total-',
-          alternateRowClass = 'alt-bg--blue';
-      if (type && type == 'part') {
+      let sortClassPrefix = "js-total-",
+          alternateRowClass = "alt-bg--blue";
+      if (type && type == "part") {
         sortClassPrefix = 'js-part-total-';
-        alternateRowClass = 'alt-bg--red';
+        alternateRowClass = "alt-bg--red";
       }
       return Sorters.map(sorter => {
         return {
           'el': 'div',
-          'class': ['row', alternateRowClass],
+          'class': ["row", alternateRowClass],
           'children': [{
             'el': 'div',
             'children': [{
-              'el': 'label',
+              'el': "label",
               'text': sorter.name
             }, {
-              'el': 'span',
+              'el': "span",
               'class': ['info__total', 'float-right', sortClassPrefix + sorter.slug],
               'text': 0
             }]
@@ -134,18 +137,18 @@ class GunplaCalculator {
 
   _wordTags() {
     return {
-      'el': 'div',
-      'class': 'word-tags',
+      'el': "div",
+      'class': "word-tags",
       'children': [{
         'el': 'h3',
-        'text': 'Word Tags'
+        'text': "Word Tags"
       }, ...MainSlot.map(wordTag => {
         return {
-          'el': 'div',
-          'class': ['row', 'height-50', 'alt-bg'],
+          'el': "div",
+          'class': ["row", "height-50", "alt-bg"],
           'children': [{
-            'el': 'span',
-            'class': 'js-wt-' + wordTag
+            'el': "span",
+            'class': "js-wt-" + wordTag
           }]
         };
       })]
@@ -154,18 +157,18 @@ class GunplaCalculator {
 
   _partTrait() {
     return {
-      'el': 'div',
-      'class': 'part-trait-ex-skill',
+      'el': "div",
+      'class': "part-trait-ex-skill",
       'children': [{
         'el': 'h3',
-        'text': 'Part Traits / EX Skill'
+        'text': "Part Traits / EX Skill"
       }, ...MainSlot.map(trait => {
         return {
-          'el': 'div',
-          'class': ['row', 'height-50', 'alt-bg'],
+          'el': "div",
+          'class': ["row", 'height-50', "alt-bg"],
           'children': [{
-            'el': 'span',
-            'class': ['part-trait-ex-skill__text', 'js-skill-trait-' + trait]
+            'el': "span",
+            'class': ["part-trait-ex-skill__text", 'js-skill-trait-' + trait]
           }]
         };
       })]
@@ -174,11 +177,11 @@ class GunplaCalculator {
 
   _parts() {
     return {
-      'el': 'div',
-      'class': 'parts',
+      'el': "div",
+      'class': "parts",
       'children': [{
         'el': 'h3',
-        'text': 'Parts'
+        'text': "Parts"
       }, ...this._partsChildren(), {
         'el': 'h3',
         'text': 'Gears'
@@ -190,18 +193,24 @@ class GunplaCalculator {
     if (Array.isArray(MainSlot)) {
       return MainSlot.map(slot => {
         return {
-          'el': 'div',
-          'class': ['row', 'alt-bg', 'height-50', 'js-part-cont'],
+          'el': "div",
+          'class': ['row', 'alt-bg', "height-50", 'js-part-cont'],
           'children': [{
-            'el': 'div',
+            'el': "div",
             'children': [{
-              'el': 'label',
-              'text': slot != 'backpack' ? slot : 'back'
+              'el': "label",
+              'text': slot != "backpack" ? slot : "back"
             }, {
               'el': 'input',
               'type': 'text',
               'class': 'js-input-' + slot,
-              'readOnly': true
+              'readOnly':  true
+            }]
+          }, {
+            'el': "div",
+            'children': [{
+              'el': 'div',
+              'class': ["parts-marks", "js-marks-" + slot]
             }]
           }]
         };
@@ -214,17 +223,17 @@ class GunplaCalculator {
       return GearSlot.map((slotClass, slotIndex) => {
         return {
           'el': 'div',
-          'class': ['row', 'height-50', 'js-part-cont'],
+          'class': ["row", "height-50", "js-part-cont"],
           'children': [{
-            'el': 'div',
+            'el': "div",
             'children': [{
               'el': 'label',
-              'text': 'Slot ' + (slotIndex + 1)
+              'text': "Slot " + (slotIndex + 1)
             }, {
-              'el': 'input',
-              'type': 'text',
-              'class': 'js-input-' + slotClass,
-              'readOnly': true
+              'el': "input",
+              'type': "text",
+              'class': "js-input-" + slotClass,
+              'readOnly':  true
             }]
           }]
         };
@@ -234,15 +243,15 @@ class GunplaCalculator {
 
   _attributeTally() {
     return {
-      'el': 'div',
-      'class': 'attribute-tally',
-      'children': Attributes.map(tally => {
+      'el': "div",
+      'class': "attribute-tally",
+      'children': Attributes.map(attr => {
         return {
-          'el': 'label',
-          'text': '[' + tally.charAt(0) + '] ',
+          'el': "label",
+          'text': '[' + attr.charAt(0) + '] ',
           'children': [{
-            'el': 'span',
-            'class': 'js-tally-' + tally.charAt(0).toLowerCase(),
+            'el': "span",
+            'class': "js-tally-" + attr.charAt(0).toLowerCase(),
             'text': 0
           }]
         };
@@ -252,24 +261,24 @@ class GunplaCalculator {
 
   _partList() {
     return {
-      'el': 'div',
-      'class': 'part-list',
+      'el': "div",
+      'class': "part-list",
       'children': [{
         'el': "input",
         'type': "text",
-        'placeholder': "Search Part/Pilot",
-        'class': ["part-list__search", 'js-search-part']
+        'placeholder': 'Search Part/Pilot',
+        'class': ['part-list__search', "js-search-part"]
       }, {
         'el': 'h3',
-        'text': 'Part List',
+        'text': "Part List",
         'children': [{
-          'el': 'span',
-          'text': 'Remove',
-          'class': ['part-list__remove', 'js-remove-part']
+          'el': "span",
+          'text': "Remove",
+          'class': ["part-list__remove", "js-remove-part"]
         }]
       }, {
-        'el': 'div',
-        'class': ['part-list__list', 'js-part-list']
+        'el': "div",
+        'class': ["part-list__list", "js-part-list"]
       }]
     };
   }
@@ -287,11 +296,11 @@ class GunplaBuild {
     this.inputs = {};
     this.comboParts = [];
     this.parts = {};
-    this.partList = document.querySelector('.js-part-list');
+    this.partList = document.querySelector(".js-part-list");
     this.partNameCont = document.querySelector('.js-part-name');
     this.partParamCont = {};
-    this.partWTCont = document.querySelector('.js-part-wt');
-    this.partSkillTraitCont = document.querySelector('.js-part-skill-trait');
+    this.partWTCont = document.querySelector(".js-part-wt");
+    this.partSkillTraitCont = document.querySelector(".js-part-skill-trait");
     this.partCont = {};
     this.filters = {
       'attr': '',
@@ -307,15 +316,14 @@ class GunplaBuild {
 
   init() {
     Sorters.forEach(sorter => {
-      this.partParamCont[sorter.slug] = document.querySelector('.js-part-total-' + sorter.slug);
+      this.partParamCont[sorter.slug] = document.querySelector(".js-part-total-" + sorter.slug);
     });
     AllSlots.forEach(slot => {
-      this.inputs[slot] = document.querySelector('.js-input-' + slot);
+      this.inputs[slot] = document.querySelector(".js-input-" + slot);
       this.parts[slot] = [];
-      this.partCont[slot] = this.inputs[slot].closest('.js-part-cont');
+      this.partCont[slot] = this.inputs[slot].closest(".js-part-cont");
     });
     this._parseParts();
-    console.log('this.parts', this.parts);
     this._initInputClick();
     this._initFilters();
     this._initSort();
@@ -356,7 +364,7 @@ class GunplaBuild {
       if (Pilots && Array.isArray(Pilots)) {
         Pilots.forEach(currPilot => {
           const pilotClone = {
-            'part': 'pilot'
+            'part': "pilot"
           };
           for (let prop in currPilot) {
             if (currPilot.hasOwnProperty(prop)) {
@@ -384,10 +392,9 @@ class GunplaBuild {
 
   _initInputClick() {
     const inputs = this.inputs;
-    console.log('is', inputs);
     for (let input in inputs) {
       if (inputs.hasOwnProperty(input) && inputs[input]) {
-        inputs[input].addEventListener('click', e => {
+        inputs[input].addEventListener("click", e => {
           this.currentPart = input;
           this._setSelectedPart(input);
           this._showPartList(input);
@@ -408,7 +415,7 @@ class GunplaBuild {
     if (this.filters.wt2 && filterToCheck.wt && filterToCheck.wt.indexOf(this.filters.wt2) < 0) {
       return false;
     }
-    if (this.filters.pt && filterToCheck.ex && filterToCheck.ex['name'] && !new RegExp('\\b' + this.filters.pt + '\\b', 'i').test(filterToCheck.ex['name'])) {
+    if (this.filters.pt && filterToCheck.ex && filterToCheck.ex.name && !new RegExp(this.filters.pt, 'i').test(filterToCheck.ex.name)) {
       return false;
     }
     if (this.searchPart.trim().length > 0) {
@@ -417,7 +424,7 @@ class GunplaBuild {
         return false;
       }
     }
-    return true;
+    return  true;
   }
 
   _showPartList(partToShow) {
@@ -435,46 +442,43 @@ class GunplaBuild {
           if (!this._checkFilter(partFilter)) {
             return;
           }
-          const currTarget = document.createElement('div');
-          currTarget.textContent = currTarget.dataset['partname'] = (partFilter.attribute
-              ? '[' + partFilter.attribute.charAt(0) + ']'
-              : '') + ' ' + (partFilter.ms
-              ? partFilter.ms + (partFilter.name ? ' (' + partFilter.name + ')' : '')
-              : partFilter.name) + (partFilter.jl
-              ? ' (' + partFilter.jl + ')'
-              : '');
-          currTarget.classList.add('part-list__item');
+          const partEntry = document.createElement("div");
+          partEntry.textContent = partEntry.dataset.partname = (partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + ']' : '') + ' ' + (partFilter.ms ? partFilter.ms + (partFilter.name ? ' (' + partFilter.name + ')' : '') : partFilter.name) + (partFilter.jl ? ' (' + partFilter.jl + ')' : '');
+          partEntry.classList.add("part-list__item");
           for (let prop in partFilter) {
-            currTarget.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
+            partEntry.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
           }
-          currTarget.addEventListener('click', e => {
+          partEntry.addEventListener("click", e => {
             const currTarget = e.currentTarget;
             let partInput, partData;
-            if (currTarget.dataset['part'] && this.inputs[currTarget.dataset['part']]) {
-              partData = currTarget.dataset['part'];
+            if (currTarget.dataset.part && this.inputs[currTarget.dataset.part]) {
+              partData = currTarget.dataset.part;
               partInput = this.inputs[partData];
-              partInput.value = partInput.title = currTarget.dataset['partname'];
+              partInput.value = partInput.title = currTarget.dataset.partname;
               removeAllAttributes(partInput);
               Object.assign(partInput.dataset, currTarget.dataset);
+              this._deleteMarks(partData);
+              if (["pilot", "gear-s1ot1"].indexOf(partData) === -1) {
+                this._addMarks();
+              }
               this._displayPartInfo(currTarget);
             }
             this._calculate(partData);
           });
           if (screen.width >= 992) {
-            currTarget.addEventListener('mouseover', e => {
+            partEntry.addEventListener("mouseover", e => {
               this._displayPartInfo(e.currentTarget);
             });
           }
-          this.partList.appendChild(currTarget);
+          this.partList.appendChild(partEntry);
         });
       }
     }
   }
 
   _setSelectedPart(partId) {
-    console.log('_setSelectedPart');
-    const partClass = 'selected-part';
-    Array.prototype.slice.call(document.querySelectorAll('.selected-part')).forEach(selectedPart => {
+    const partClass = "selected-part";
+    Array.prototype.slice.call(document.querySelectorAll(".selected-part")).forEach(selectedPart => {
       selectedPart.classList.remove(partClass);
     });
     if (this.partCont[partId]) {
@@ -495,27 +499,27 @@ class GunplaBuild {
       if (Array.isArray(this.comboParts)) {
         for (let i = 0; i < this.comboParts.length; i++) {
           const comboPart = this.comboParts[i];
-          if (comboPart.part && comboPart.combo && partInput.dataset['part']) {
-            if (comboPart.part == partInput.dataset['part']) {
+          if (comboPart.part && comboPart.combo && partInput.dataset.part) {
+            if (comboPart.part == partInput.dataset.part) {
               document.querySelector('.js-input-' + comboPart.combo).disabled = false;
               this.comboParts.splice(i, 1);
               break;
-            } else if (partInput.dataset['combo'] && partInput.dataset['combo'] == comboPart.combo) {
+            } else if (partInput.dataset.combo && partInput.dataset.combo == comboPart.combo) {
               this._clearParts(comboPart.part);
-              document.querySelector('.js-input-' + comboPart.combo).disabled = false;
+              document.querySelector(".js-input-" + comboPart.combo).disabled = false;
               this.comboParts.splice(i, 1);
               break;
             }
           }
         }
       }
-      if (partInput.dataset['combo'] && partInput.dataset['part']) {
-        this._clearParts(partInput.dataset['combo']);
+      if (partInput.dataset.combo && partInput.dataset.part) {
+        this._clearParts(partInput.dataset.combo);
         this.comboParts.push({
-          'part': partInput.dataset['part'],
-          'combo': partInput.dataset['combo']
+          'part': partInput.dataset.part,
+          'combo': partInput.dataset.combo
         });
-        document.querySelector('.js-input-' + partInput.dataset['combo']).disabled = true;
+        document.querySelector(".js-input-" + partInput.dataset.combo).disabled =  true;
       }
     }
   }
@@ -524,9 +528,8 @@ class GunplaBuild {
     if (this.inputs[partData]) {
       const partInput = this.inputs[partData];
       let exData, partTrait;
-      if (partInput && partInput.dataset['part'] && partInput.dataset['ex']) {
-        partTrait = document.querySelector('.js-skill-trait-' + partInput.dataset['part']),
-            exData = JSON.parse(partInput.dataset['ex']);
+      if (partInput && partInput.dataset.part && partInput.dataset.ex) {
+        partTrait = document.querySelector(".js-skill-trait-" + partInput.dataset.part), exData = JSON.parse(partInput.dataset.ex);
         if (exData.type && exData.name && partTrait) {
           partTrait.textContent = exData.name;
         }
@@ -537,7 +540,7 @@ class GunplaBuild {
   }
 
   _clearSkillTrait(partData) {
-    if (partData && document.querySelector('.js-skill-trait-' + partData)) {
+    if (partData && document.querySelector(".js-skill-trait-" + partData)) {
       document.querySelector('.js-skill-trait-' + partData).textContent = '';
     }
   }
@@ -547,12 +550,11 @@ class GunplaBuild {
     this._resetWordTagTally();
     this._resetParameters();
     this._resetAttributesTally();
-    console.log('--------------------');
+    console.log("--------------------");
     for (let inputName in inputList) {
       if (inputList.hasOwnProperty(inputName) && this.inputs[inputName]) {
         const input = this.inputs[inputName];
         if (input) {
-          console.log(Object.assign({}, input.dataset));
           this._tallyWordTags(input);
           this._calculateParameters(input);
           this._tallyAttributes(input);
@@ -569,14 +571,12 @@ class GunplaBuild {
   }
 
   _tallyWordTags(inputName) {
-    if (inputName && inputName.dataset['wt']) {
-      const wordTags = JSON.parse(inputName.dataset['wt']),
-          doubleForCombo = inputName.dataset['combo'] ? 2 : 1;
+    if (inputName && inputName.dataset.wt) {
+      const wordTags = JSON.parse(inputName.dataset.wt),
+          doubleForCombo = inputName.dataset.combo ? 2 : 1;
       if (Array.isArray(wordTags)) {
         wordTags.forEach(wordTag => {
-          this.wordTagsTally[wordTag] = wordTag in this.wordTagsTally
-              ? this.wordTagsTally[wordTag] + doubleForCombo
-              : doubleForCombo;
+          this.wordTagsTally[wordTag] = wordTag in this.wordTagsTally ? this.wordTagsTally[wordTag] + doubleForCombo : doubleForCombo;
         });
       }
     }
@@ -586,30 +586,33 @@ class GunplaBuild {
     const activeWordTag = document.querySelector('.js-active-wt');
     activeWordTag.innerHTML = '';
     for (let tally in this.wordTagsTally) {
-      if (this.wordTagsTally[tally] >= 5) {
-        const tallyDiv = document.createElement('div');
+      if (this.wordTagsTally[tally] >= ActiveWordTagMin) {
+        const tallyDiv = document.createElement("div");
         tallyDiv.textContent = tally;
         activeWordTag.appendChild(tallyDiv);
       }
     }
-    console.log('this.wordTagsTally', this.wordTagsTally);
+    console.log("this.wordTagsTally", this.wordTagsTally);
   }
 
   _resetParameters() {
     this.parametersTotal = {};
     Sorters.forEach(sorter => {
-      if ('slug' in sorter) {
+      if ("slug" in sorter) {
         this.parametersTotal[sorter.slug] = 0;
       }
     });
   }
 
   _calculateParameters(inputName) {
-    if (inputName) {
+    if (inputName && inputName.dataset.part) {
+      const markMultiplier = this._getMarkMultiplier(inputName.dataset.part);
       Sorters.forEach(sorter => {
         const slug = sorter.slug;
+        let partMultiplier;
         if (slug && inputName.dataset[slug] && slug in this.parametersTotal) {
-          this.parametersTotal[slug] += +inputName.dataset[slug];
+          partMultiplier = +inputName.dataset[slug];
+          this.parametersTotal[slug] += markMultiplier ? partMultiplier + Math.floor(partMultiplier * markMultiplier) : partMultiplier;
         }
       });
     }
@@ -632,51 +635,47 @@ class GunplaBuild {
   }
 
   _tallyAttributes(partData) {
-    if (partData && partData.dataset['attribute'] && partData.dataset.attribute.charAt(0).toLowerCase() in this.attributesTally) {
-      const doubleForCombo = partData.dataset['combo'] ? 2 : 1;
-      this.attributesTally[partData.dataset['attribute'].charAt(0).toLowerCase()] += doubleForCombo;
+    if (partData && partData.dataset.attribute && partData.dataset.attribute.charAt(0).toLowerCase() in this.attributesTally) {
+      const doubleForCombo = partData.dataset.combo ? 2 : 1;
+      this.attributesTally[partData.dataset.attribute.charAt(0).toLowerCase()] += doubleForCombo;
     }
   }
 
   _displayAttributesTally() {
     for (let tally in this.attributesTally) {
-      document.querySelector('.js-tally-' + tally).textContent = this.attributesTally[tally];
+      document.querySelector(".js-tally-" + tally).textContent = this.attributesTally[tally];
     }
   }
 
   _applyWordTagBonus() {
     const tallyMap = {};
-    console.log('Total Raw Attributes:', this.parametersTotal);
+    console.log("Total Raw Attributes:", this.parametersTotal);
     let tagTally = 0;
     for (let tagName in this.wordTagsTally) {
-      if (this.wordTagsTally[tagName] >= 5) {
+      if (this.wordTagsTally[tagName] >= ActiveWordTagMin) {
         const foundTag = this._getWordTag(tagName);
         if (MapWordTags.indexOf(tagName) > -1) {
           tagTally++;
         }
         if (foundTag && foundTag.multiplier && foundTag.parameters && Array.isArray(foundTag.parameters)) {
           foundTag.parameters.forEach(tagParam => {
-            tallyMap[tagParam] = tagParam in tallyMap
-                ? Math.round((tallyMap[tagParam] + foundTag.multiplier) * 1000000000000) / 1000000000000
-                : foundTag.multiplier;
+            tallyMap[tagParam] = tagParam in tallyMap ? roundValue(tallyMap[tagParam] + foundTag.multiplier) : foundTag.multiplier;
           });
         }
       }
     }
     if (tagTally && this.applyMapBonus && Array.isArray(Sorters)) {
       Sorters.forEach(sorter => {
-        tallyMap[sorter.slug] = tallyMap[sorter.slug]
-            ? Math.round((tallyMap[sorter.slug] + 0.03) * 1000000000000) / 1000000000000
-            : 0.03;
+        tallyMap[sorter.slug] = tallyMap[sorter.slug] ? roundValue(tallyMap[sorter.slug] + MultiplierBuffMap) : MultiplierBuffMap;
       });
     }
-    console.log('Word Tag Multipliers', tallyMap);
+    console.log("Word Tag Multipliers", tallyMap);
     for (let tag in tallyMap) {
       if (tag in this.parametersTotal) {
         this.parametersTotal[tag] = Math.round(this.parametersTotal[tag] + this.parametersTotal[tag] * tallyMap[tag]);
       }
     }
-    console.log('Total Attributes With WT Bonus:', this.parametersTotal);
+    console.log("Total Attributes With WT Bonus:", this.parametersTotal);
   }
 
   _getWordTag(wordTag) {
@@ -684,10 +683,10 @@ class GunplaBuild {
   }
 
   _applyJobLicenseBonus() {
-    const selectedPilot = document.querySelector('.js-select-pilot'),
+    const selectedPilot = document.querySelector(".js-select-pilot"),
         pilotInput = this.inputs.pilot;
-    if (pilotInput && pilotInput.dataset['jl']) {
-      const jobLicense = this._getJobLicense(pilotInput.dataset['jl']);
+    if (pilotInput && pilotInput.dataset.jl) {
+      const jobLicense = this._getJobLicense(pilotInput.dataset.jl);
       if (jobLicense && jobLicense.multiplier && jobLicense.parameters && Array.isArray(jobLicense.parameters)) {
         jobLicense.parameters.forEach(jobParam => {
           if (jobParam in this.parametersTotal) {
@@ -696,7 +695,7 @@ class GunplaBuild {
         });
       }
     }
-    console.log('Total Attributes With WT Bonus and Job Bonus:', this.parametersTotal);
+    console.log("Total Attributes With WT Bonus and Job Bonus:", this.parametersTotal);
   }
 
   _getJobLicense(license) {
@@ -718,8 +717,8 @@ class GunplaBuild {
   }
 
   _clearWordTag(wordTag) {
-    if (document.querySelector('.js-wt-' + wordTag)) {
-      document.querySelector('.js-wt-' + wordTag).innerHTML = '';
+    if (document.querySelector(".js-wt-" + wordTag)) {
+      document.querySelector(".js-wt-" + wordTag).innerHTML = '';
     }
   }
 
@@ -729,20 +728,21 @@ class GunplaBuild {
       input.value = '';
       input.title = '';
       removeAllAttributes(input);
-      Object.assign(input.dataset, document.createElement('input')['dataset']);
+      Object.assign(input.dataset, document.createElement("input").dataset);
       this._clearSkillTrait(inputName);
       this._clearWordTag(inputName);
+      this._deleteMarks(inputName);
     }
   }
 
   _initFilters() {
     const attrFilter = document.querySelector('.js-filter-attr'),
-        wtFilter1 = document.querySelector('.js-filter-wt1'),
-        wtFilter2 = document.querySelector('.js-filter-wt2'),
-        ptFilter = document.querySelector('.js-filter-pt');
+        wtFilter1 = document.querySelector(".js-filter-wt1"),
+        wtFilter2 = document.querySelector(".js-filter-wt2"),
+        ptFilter = document.querySelector(".js-filter-pt");
     if (Array.isArray(Attributes)) {
       Attributes.forEach(attr => {
-        const opt = document.createElement('option');
+        const opt = document.createElement("option");
         opt.value = attr;
         opt.text = attr;
         attrFilter.appendChild(opt);
@@ -754,41 +754,40 @@ class GunplaBuild {
         const opt = document.createElement('option');
         opt.value = wt;
         opt.text = wt;
-        wtFilter2.appendChild(opt.cloneNode(true));
+        wtFilter2.appendChild(opt.cloneNode( true));
         wtFilter1.appendChild(opt);
       });
     }
     if (Array.isArray(TraitDescriptions)) {
       TraitDescriptions.forEach(pt => {
-        const opt = document.createElement('option');
+        const opt = document.createElement("option");
         opt.value = pt;
         opt.text = pt;
         ptFilter.appendChild(opt);
       });
     }
-    for (let filter in this.filters) {
-      if (this.filters.hasOwnProperty(filter)) {
-        document.querySelector('.js-filter-' + filter).addEventListener('change', e => {
-          this.filters[filter] = e.currentTarget.value;
+    for (let key in this.filters) {
+      if (this.filters.hasOwnProperty(key)) {
+        document.querySelector(".js-filter-" + key).addEventListener("change", e => {
+          this.filters[key] = e.currentTarget.value;
           if (this.currentPart) {
             this._showPartList(this.currentPart);
           }
-          console.log('this.filters', this.filters);
         });
       }
     }
   }
 
   _initSort() {
-    const sortParamEl = document.querySelector('.js-sort-param');
+    const sort = document.querySelector('.js-sort-param');
     if (Array.isArray(Sorters)) {
       Sorters.forEach(sorter => {
-        const opt = document.createElement('option');
+        const opt = document.createElement("option");
         opt.value = sorter.slug;
         opt.text = sorter.name;
-        sortParamEl.appendChild(opt);
+        sort.appendChild(opt);
       });
-      sortParamEl.addEventListener('change', e => {
+      sort.addEventListener("change", e => {
         this.sort = e.currentTarget.value;
         if (this.currentPart) {
           this._showPartList(this.currentPart);
@@ -798,9 +797,9 @@ class GunplaBuild {
   }
 
   _initApplyMapBonus() {
-    const applyMapBonusEl = document.querySelector('.js-apply-map-bonus');
+    const applyMapBonusEl = document.querySelector(".js-apply-map-bonus");
     applyMapBonusEl.checked = false;
-    applyMapBonusEl.addEventListener('change', e => {
+    applyMapBonusEl.addEventListener("change", e => {
       this.applyMapBonus = e.currentTarget.checked;
       this._loopThroughInput();
     });
@@ -810,33 +809,30 @@ class GunplaBuild {
     const searchEl = document.querySelector(".js-search-part");
     let timerId;
     searchEl.addEventListener("keyup", e => {
-          this.searchPart = e.currentTarget.value;
-          clearTimeout(timerId);
-          timerId = setTimeout(() => {
-            if (this.currentPart) {
-              this._showPartList(this.currentPart);
-            }
-          }, 500);
+      this.searchPart = e.currentTarget.value;
+      clearTimeout(timerId);
+      timerId = setTimeout(() => {
+        if (this.currentPart) {
+          this._showPartList(this.currentPart);
         }
-    );
+      }, 500);
+    });
   }
 
   _initRemove() {
     const removePartEl = document.querySelector('.js-remove-part');
-    removePartEl.addEventListener('click', e => {
-      console.log('this.currentPart', this.currentPart);
+    removePartEl.addEventListener("click", e => {
       const currPart = this.currentPart;
       if (currPart && Array.isArray(AllSlots) && AllSlots.indexOf(currPart) > -1) {
         const partInputEl = document.querySelector('.js-input-' + currPart);
-        if (partInputEl && partInputEl.dataset['combo']) {
-          document.querySelector('.js-input-' + partInputEl.dataset['combo']).disabled = false;
+        if (partInputEl && partInputEl.dataset.combo) {
+          document.querySelector(".js-input-" + partInputEl.dataset.combo).disabled = false;
           for (let i = 0; i < this.comboParts.length; i++) {
-            if (this.comboParts[i]['part'] == currPart) {
+            if (this.comboParts[i].part == currPart) {
               this.comboParts.splice(i, 1);
               break;
             }
           }
-          console.log('this.comboParts', this.comboParts);
         }
         this._clearParts(currPart);
         this._loopThroughInput();
@@ -846,16 +842,24 @@ class GunplaBuild {
   }
 
   _displayPartInfo(part) {
-    if (part && part.dataset['part'] && MainSlot.indexOf(part.dataset['part']) > -1) {
-      const wordTag = JSON.parse(part.dataset['wt']),
-          ex = JSON.parse(part.dataset['ex']);
-      this.partNameCont.textContent = part.dataset['partname'] ? part.dataset['partname'] : '';
+    if (part && part.dataset.part && MainSlot.indexOf(part.dataset.part) > -1) {
+      const wordTag = JSON.parse(part.dataset.wt),
+          ex = JSON.parse(part.dataset.ex);
+      let markMultiplier = 0;
+      this.partNameCont.textContent = part.dataset.partname ? part.dataset.partname : '';
+      if (part.nodeName.toLowerCase() === 'input') {
+        markMultiplier = this._getMarkMultiplier(part.dataset.part);
+      }
       Sorters.forEach(sorter => {
-        this.partParamCont[sorter.slug].textContent = part.dataset[sorter.slug] ? part.dataset[sorter.slug] : 0;
+        let partMultiplier = +part.dataset[sorter.slug];
+        this.partParamCont[sorter.slug].textContent = 0;
+        if (partMultiplier) {
+          this.partParamCont[sorter.slug].textContent = markMultiplier ? partMultiplier + Math.floor(partMultiplier * markMultiplier) : partMultiplier;
+        }
       });
       if (Array.isArray(wordTag)) {
         this.partWTCont.innerHTML = wordTag.reduce((result, tag) => {
-          return result + '<div>' + tag + '</div>';
+          return result + "<div>" + tag + "</div>";
         }, '');
       } else {
         this.partWTCont.innerHTML = '';
@@ -864,21 +868,79 @@ class GunplaBuild {
     }
   }
 
+  _createMark(markSlot, currPart) {
+    if (markSlot && markSlot.append && currPart) {
+      const markEl = document.createElement("div"),
+          partItem = document.querySelector(".js-input-" + currPart);
+      markEl.classList.add('parts-marks__item');
+      markEl.classList.add("js-mark-item");
+      markEl.dataset.value = 0;
+      markEl.addEventListener("click", e => {
+        const currTarget = e.currentTarget,
+            rarity = +currTarget.dataset.value;
+        currTarget.dataset.value = rarity == 0 ? 5 : rarity - 1;
+        this._setSelectedPart(currPart);
+        this._displayPartInfo(partItem);
+        this._loopThroughInput();
+      });
+      markSlot.append(markEl);
+    }
+  }
+
+  _deleteMarks(partData) {
+    const markSlot = document.querySelector(".js-marks-" + partData);
+    if (markSlot && markSlot.innerHTML) {
+      markSlot.innerHTML = '';
+    }
+  }
+
+  _addMarks() {
+    const currPart = this.currentPart,
+        markSlot = document.querySelector(".js-marks-" + currPart),
+        markPart = markSlot ? document.querySelector(".js-input-" + currPart) : null,
+        markCount = markPart.dataset.mark ? markPart.dataset.mark : markPart.dataset.rarity;
+    if (markCount) {
+      for (let i = 5; i > markCount; i--) {
+        this._createMark(markSlot, currPart);
+      }
+    }
+  }
+
+  _getMarkMultiplier(currPart) {
+    let multiplier = 0;
+    Array.prototype.slice.call(document.querySelectorAll(".js-marks-" + currPart + " .js-mark-item")).forEach(markItem => {
+      if (markItem.dataset.value) {
+        multiplier = roundValue(multiplier + MarkWeights[markItem.dataset.value]);
+      }
+    });
+    return multiplier && this._hasComboParts(currPart) ? multiplier / 2 : multiplier;
+  }
+
+  _hasComboParts(currPart) {
+    const partInput = document.querySelector(".js-input-" + currPart);
+    return !!(partInput && partInput.dataset.combo);
+  }
+
+  _hasSelectedPart(currPart) {
+    const partInput = document.querySelector(".js-input-" + currPart);
+    return !!(partInput && partInput.value.length > 0);
+  }
+
   _displayWordTags(part) {
-    if (!(part && part.dataset['part'] && part.dataset['wt'])) {
+    if (!(part && part.dataset.part && part.dataset.wt)) {
       return false;
     }
-    const partEl = document.querySelector('.js-wt-' + part.dataset['part']),
-        wordTags = JSON.parse(part.dataset['wt']);
+    const partEl = document.querySelector('.js-wt-' + part.dataset.part),
+        wordTags = JSON.parse(part.dataset.wt);
     if (Array.isArray(wordTags) && partEl) {
       partEl.innerHTML = wordTags.reduce((result, wordTag) => {
         const currentTally = this.wordTagsTally[wordTag];
-        return result + ((result == '' ? '' : '<br />') + '<span class="' + (currentTally >= 5 ? 'activatedWT' : '') + '">(' + currentTally + ') ' + wordTag + '</span>');
+        return result + ((result == '' ? '' : "<br />") + "<span class=\"" + (currentTally >= ActiveWordTagMin ? "activatedWT" : '') + "\">(" + currentTally + ') ' + wordTag + "</span>");
       }, '');
       if (part.dataset.combo) {
-        document.querySelector('.js-wt-' + part.dataset['combo']).innerHTML = partEl.innerHTML;
+        document.querySelector('.js-wt-' + part.dataset.combo).innerHTML = partEl.innerHTML;
       }
     }
-    return true;
+    return  true;
   }
 }

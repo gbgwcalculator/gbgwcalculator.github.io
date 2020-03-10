@@ -1,109 +1,114 @@
+const ActiveWordTagMin = 5;
+const MultiplierBuffFull = 0.1;
+const MultiplierBuffHalf = 0.05;
+const MultiplierBuffFor = 0.01;
+const MultiplierBuffMap = 0.03;
 const GeneralWordTags = ["Protag.", "Mass P.", "Ace Excl.", "Amphib.", "Commander", "Close Combat", "Mid-Range", "Long-Range", "High Mobility", "High Firepower", "Heavy Armor", "Transformer", "Gundam Type", "Mobile Fighter", "Support Type", "Federation", "Zeon", "Zaku Type", "GM Type", "For Space", "For Desert", "For Tundra", "For Forest", "For Urban Area", "For Base", "For Computers"];
 const MapWordTags = ["For Space", "For Desert", "For Tundra", "For Forest", "For Urban Area", "For Base", "For Computers"];
 const WordTagData = [{
   "name": "Protag.",
   "parameters": ["ma"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Mass P.",
   "parameters": ["a"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Ace Excl.",
   "parameters": ["sa"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Amphib.",
   "parameters": ["br"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Commander",
   "parameters": ["sa", "br"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Close Combat",
   "parameters": ["a", "ma"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Mid-Range",
   "parameters": ["sa", "pr"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Long-Range",
   "parameters": ["sa", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "High Mobility",
   "parameters": ["sd", "br"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "High Firepower",
   "parameters": ["ma", "sa"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Heavy Armor",
   "parameters": ["md", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Transformer",
   "parameters": ["sd"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Gundam Type",
   "parameters": ["a", "pr"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Mobile Fighter",
   "parameters": ["ma", "md"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Support Type",
   "parameters": ["pr"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Federation",
   "parameters": ["ma", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Zeon",
   "parameters": ["md"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Zaku Type",
   "parameters": ["ma", "pr"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "GM Type",
   "parameters": ["sa", "md"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "For Space",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Desert",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Tundra",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Forest",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Urban Area",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Base",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Computers",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }];
 const Attributes = ["Power", "Speed", "Technique"];
 const ExTraitType = ["EX Skill", "Part Traits"];
@@ -138,23 +143,23 @@ const PilotType = [{
 }, {
   "name": "Defender",
   "parameters": ["a", "md", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "In-Fighter",
   "parameters": ["ma"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Out-Fighter",
   "parameters": ["ma"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Middle-Shooter",
   "parameters": ["sa"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Long-Shooter",
   "parameters": ["sa"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Supporter"
 }];
@@ -194,6 +199,7 @@ const TraitDescriptions = [
   "Vernier consumption reduced",
   "Vernier recovery rate boosted"
 ];
+const MarkWeights = [0, 0.2, 0.25, 0.3, 0.35, 0.4];
 const Collections = [{
   "name": "00 Qan[T] Full Saber",
   "attribute": "Power",
