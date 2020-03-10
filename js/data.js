@@ -1,109 +1,114 @@
+const ActiveWordTagMin = 5;
+const MultiplierBuffFull = 0.1;
+const MultiplierBuffHalf = 0.05;
+const MultiplierBuffFor = 0.01;
+const MultiplierBuffMap = 0.03;
 const GeneralWordTags = ["Protag.", "Mass P.", "Ace Excl.", "Amphib.", "Commander", "Close Combat", "Mid-Range", "Long-Range", "High Mobility", "High Firepower", "Heavy Armor", "Transformer", "Gundam Type", "Mobile Fighter", "Support Type", "Federation", "Zeon", "Zaku Type", "GM Type", "For Space", "For Desert", "For Tundra", "For Forest", "For Urban Area", "For Base", "For Computers"];
 const MapWordTags = ["For Space", "For Desert", "For Tundra", "For Forest", "For Urban Area", "For Base", "For Computers"];
 const WordTagData = [{
   "name": "Protag.",
   "parameters": ["ma"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Mass P.",
   "parameters": ["a"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Ace Excl.",
   "parameters": ["sa"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Amphib.",
   "parameters": ["br"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Commander",
   "parameters": ["sa", "br"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Close Combat",
   "parameters": ["a", "ma"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Mid-Range",
   "parameters": ["sa", "pr"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Long-Range",
   "parameters": ["sa", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "High Mobility",
   "parameters": ["sd", "br"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "High Firepower",
   "parameters": ["ma", "sa"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Heavy Armor",
   "parameters": ["md", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Transformer",
   "parameters": ["sd"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Gundam Type",
   "parameters": ["a", "pr"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Mobile Fighter",
   "parameters": ["ma", "md"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Support Type",
   "parameters": ["pr"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Federation",
   "parameters": ["ma", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "Zeon",
   "parameters": ["md"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Zaku Type",
   "parameters": ["ma", "pr"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "GM Type",
   "parameters": ["sa", "md"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "For Space",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Desert",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Tundra",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Forest",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Urban Area",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Base",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }, {
   "name": "For Computers",
   "parameters": ["a", "ma", "sa", "md", "sd", "br", "pr"],
-  "multiplier": 0.01
+  "multiplier": MultiplierBuffFor
 }];
 const Attributes = ["Power", "Speed", "Technique"];
 const ExTraitType = ["EX Skill", "Part Traits"];
@@ -138,62 +143,60 @@ const PilotType = [{
 }, {
   "name": "Defender",
   "parameters": ["a", "md", "sd"],
-  "multiplier": 0.05
+  "multiplier": MultiplierBuffHalf
 }, {
   "name": "In-Fighter",
   "parameters": ["ma"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Out-Fighter",
   "parameters": ["ma"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Middle-Shooter",
   "parameters": ["sa"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Long-Shooter",
   "parameters": ["sa"],
-  "multiplier": 0.1
+  "multiplier": MultiplierBuffFull
 }, {
   "name": "Supporter"
 }];
 const TraitDescriptions = [
   "All power boosted",
   "All power reduced",
-  "Buff EX Skill effect",
-  "Buff EX Skill time",
-  "Chance of attacks penetrating super armor",
+  "Attacks penetrating super armor",
+  "Buff EX Skill effect up",
+  "Buff EX Skill time up",
   "Chance to not recoil",
-  "Chance to prevent vernier consumption when stepping",
   "Chance to survive a fatal blow",
   "CRIT rate boosted",
-  "Debuff EX Skill effect",
-  "Debuff EX Skill time",
-  "DMG output boosted",
-  "DMG taken reduced",
+  "Debuff EX Skill effect up",
+  "Debuff EX Skill time up",
   "EX Skill CD reduced",
   "EX Skill piercing boosted",
   "EX Skill power boosted",
   "EX Skill recovery boosted",
-  "Initial EX Skill charge boosted",
+  "Initial EX Skill Charge boosted",
   "Job Gauge increase boosted",
   "Melee power boosted",
   "Melee power reduced",
-  "Projectile speed boosted",
+  "Prevent vernier consumption",
+  "Projectile Speed boosted",
   "Ranged weapon magazine boosted",
-  "Ranged weapon reload speed boosted",
+  "Ranged weapon reload speed",
   "Shooting power boosted",
   "Shooting power reduced",
-  "Shot attack raised",
+  "Shot Attack raised",
   "Shot guidance boosted",
   "Shot spread reduced",
-  "Skill penetration reduced",
   "Sp. Shot power boosted",
   "Sp. Shot power reduced",
   "Vernier consumption reduced",
-  "Vernier recovery rate boosted"
+  "Vernier recovery"
 ];
+const MarkWeights = [0, 0.2, 0.25, 0.3, 0.35, 0.4];
 const Collections = [{
   "name": "00 Qan[T] Full Saber",
   "attribute": "Power",
@@ -205,13 +208,13 @@ const Collections = [{
     "ma": 972,
     "sa": 1363,
     "md": 555,
-    "sd": 1363,
+    "sd": 1636,
     "br": 680,
     "pr": 0,
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool γ"
+      "name": "Recovery Tool Y"
     }
   }, {
     "part": "torso",
@@ -225,7 +228,7 @@ const Collections = [{
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Hack β"
+      "name": "Defense Hack B"
     }
   }, {
     "part": "arms",
@@ -253,7 +256,7 @@ const Collections = [{
     "wt": ["Protag.", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job EX Skill CD reduced 20%"
+      "name": "In-Fighter Job Ex Skill CD reduced 20%"
     }
   }, {
     "part": "backpack",
@@ -283,8 +286,8 @@ const Collections = [{
       "type": "Part Traits",
       "name": "When Armor is 80% or less EX Skill power boosted 30%"
     },
-    "name": "GN Sword IV (Katar Mode)",
-    "type": "Beam"
+    "name": "GN Sword IV [Katar Mode]",
+    "type": "Physical"
   }, {
     "part": "melee",
     "a": 1363,
@@ -297,10 +300,10 @@ const Collections = [{
     "wt": ["Protag.", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "When attacking Physical Strong Melee CRIT rate boosted 30%"
+      "name": "When attacking with Physical Strong Melee CRIT rate boosted 30%"
     },
-    "name": "GN Sword IV (Saber Mode)",
-    "type": "Beam"
+    "name": "GN Sword IV [Saber Mode]",
+    "type": "Physical"
   }, {
     "part": "melee",
     "a": 1363,
@@ -315,7 +318,7 @@ const Collections = [{
       "type": "Part Traits",
       "name": "In-Fighter Job Enemy Shooting power reduced 30%"
     },
-    "name": "GN Gun Blade (Blade Mode)",
+    "name": "GN Gun Blade [Blade Mode]",
     "type": "Physical"
   }, {
     "part": "melee",
@@ -329,7 +332,7 @@ const Collections = [{
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Close Combat\" Initial EX Skill charge boosted 20%"
+      "name": "While Close Combat Initial Ex Skill charge boosted 20%"
     },
     "name": "GN Sword IV Full Saber",
     "type": "Physical"
@@ -345,9 +348,9 @@ const Collections = [{
     "wt": ["Protag.", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Wide Cutter"
+      "name": "Wide Cutter Particle Beam"
     },
-    "name": "GN Sword IV (Rifle Mode)",
+    "name": "GN Sword IV [Rifle Mode]",
     "type": "Beam"
   }]
 }, {
@@ -736,7 +739,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor is 50% or less Recover 10 Armor gradually"
+      "name": "When Armor is 50% or less Recover 1-10 Armor gradually"
     }
   }, {
     "part": "torso",
@@ -750,7 +753,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job Enemy Skill penetration reduced 22%"
+      "name": "In-Fighter Enemy EX Skill penetration reduced 8-22%"
     }
   }, {
     "part": "arms",
@@ -764,7 +767,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power attribute (self) Enemy Melee power reduced 25%"
+      "name": "With Power attribute (self) Enemy Melee power reduced 8-25%"
     }
   }, {
     "part": "legs",
@@ -792,8 +795,40 @@ const Collections = [{
     "wt": ["Close Combat", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Close Combat\" Melee power boosted 25%"
+      "name": "While Close Combat Melee power boosted 8-25%"
     }
+  }, {
+    "part": "melee",
+    "a": 558,
+    "ma": 2297,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "3-12% chance of attacks penetrating super armor"
+    },
+    "name": "GN Buster Sword",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 558,
+    "ma": 0,
+    "sa": 2297,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self) Job Gauge increase boosted 4-13%"
+    },
+    "name": "GN Buster Sword Rifle Mode",
+    "type": "Beam"
   }, {
     "part": "shield",
     "a": 558,
@@ -808,40 +843,7 @@ const Collections = [{
       "type": "EX Skill",
       "name": "GN Field"
     },
-    "name": "GN Shield (Arche Gundam)",
-    "type": "-"
-  }, {
-    "part": "melee",
-    "a": 558,
-    "ma": 2297,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 428,
-    "pr": 126,
-    "wt": ["Close Combat", "High Mobility"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "12% chance of attacks penetrating super armor"
-    },
-    "name": "GN Buster Sword (Arche)",
-    "type": "Physical"
-  }, {
-    "part": "range",
-    "a": 558,
-    "ma": 0,
-    "sa": 2297,
-    "md": 0,
-    "sd": 0,
-    "br": 428,
-    "pr": 126,
-    "wt": ["Close Combat", "For Computers"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self) Job Gauge increase boosted 13%"
-    },
-    "name": "GN Buster Sword Rifle Mode (Arche)",
-    "type": "Beam"
+    "name": "GN Shield"
   }]
 }, {
   "name": "Astray Blue Frame",
@@ -874,7 +876,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Tundra"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Hack β"
+      "name": "Offence Hack b"
     }
   }, {
     "part": "arms",
@@ -888,7 +890,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Tundra"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Hack β"
+      "name": "Defence Hack b"
     }
   }, {
     "part": "legs",
@@ -951,7 +953,7 @@ const Collections = [{
     "wt": ["High Mobility", "Ace Excl."],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor is 70% or less, Enemy Shooting power reduced 30%"
+      "name": "When Armor is 70% or less Enemy Shooting power reduced 30%"
     }
   }, {
     "part": "torso",
@@ -993,7 +995,7 @@ const Collections = [{
     "wt": ["High Mobility", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), EX Skill CD reduced 20%"
+      "name": "With Technique attribute (self) EX Skill CD reduced 20%"
     }
   }, {
     "part": "backpack",
@@ -1096,7 +1098,7 @@ const Collections = [{
     "pr": 289,
     "wt": ["Protag.", "For Urban Area"],
     "ex": {
-      "type": "Skill",
+      "type": "EX Skill",
       "name": "Gerbera Straight"
     },
     "name": "Gerbera Straight",
@@ -1116,6 +1118,129 @@ const Collections = [{
       "name": "In-Fighter Job Enemy Shooting Power reduced 17-30%"
     },
     "name": "Anti-Beam Shield"
+  }]
+}, {
+  "name": "Astray Red Frame Custom",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1182,
+    "ma": 384,
+    "sa": 799,
+    "md": 1182,
+    "sd": 384,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self) Enemy Shooting power reduced 30%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1606,
+    "ma": 384,
+    "sa": 384,
+    "md": 1606,
+    "sd": 799,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job Strong Melee power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "a": 384,
+    "ma": 3181,
+    "sa": 384,
+    "md": 1606,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or less Melee CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 1606,
+    "sd": 799,
+    "br": 420,
+    "pr": 290,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Gerbera Straight/Tiger Pierce"
+    }
+  }, {
+    "part": "backpack",
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 1606,
+    "sd": 799,
+    "br": 290,
+    "pr": 420,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Tactical Arms II L"
+    }
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 4004,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 420,
+    "pr": 420,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While Protag Initial EX Skill charge boosted 20%"
+    },
+    "name": "Gerbera Straight/Tiger Pierce",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 0,
+    "ma": 0,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 0,
+    "pr": 0,
+    "wt": ["", ""],
+    "ex": {
+      "type": "",
+      "name": ""
+    },
+    "name": "",
+    "type": ""
+  }, {
+    "part": "shield",
+    "a": 0,
+    "ma": 0,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 0,
+    "pr": 0,
+    "wt": ["", ""],
+    "ex": {
+      "type": "",
+      "name": ""
+    },
+    "name": ""
   }]
 }, {
   "name": "Banshee",
@@ -1177,7 +1302,7 @@ const Collections = [{
     "wt": ["Gundam Type", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power Attribute (self), EX Skill CD reduced 20%"
+      "name": "With Power attribute (self) EX Skill CD reduced 20%"
     }
   }, {
     "part": "backpack",
@@ -1460,7 +1585,7 @@ const Collections = [{
     "wt": ["High Mobility", "For Urban Area"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool β"
+      "name": "Recovery Tool b"
     }
   }, {
     "part": "torso",
@@ -1536,7 +1661,7 @@ const Collections = [{
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed Attribute (self), Buff EX Skill Time up 22%"
+      "name": "With Speed attribute Buff EX Skill time up 22%"
     }
   }, {
     "part": "torso",
@@ -1596,6 +1721,161 @@ const Collections = [{
     }
   }]
 }, {
+  "name": "Build Gundam Mk-II",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 889,
+    "ma": 291,
+    "sa": 1701,
+    "md": 291,
+    "sd": 291,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Barrier Stance y"
+    }
+  }, {
+    "part": "torso",
+    "a": 1433,
+    "ma": 291,
+    "sa": 558,
+    "md": 558,
+    "sd": 558,
+    "br": 428,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While Gundam Type Debuff EX Skill time up 16%"
+    }
+  }, {
+    "part": "arms",
+    "a": 889,
+    "ma": 558,
+    "sa": 558,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Offense Up a"
+    }
+  }, {
+    "part": "legs",
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Gundam Type", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self) Mid Shot Attack raised 14%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Gundam Type", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Cougar Rush"
+    }
+  }, {
+    "part": "melee",
+    "a": 889,
+    "ma": 1701,
+    "sa": 0,
+    "md": 0,
+    "sd": 291,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While For Computers Initial EX Skill charge boosted 12%"
+    },
+    "name": "Beam Saber",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 889,
+    "ma": 0,
+    "sa": 2300,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self) Job Gauge increase boosted 13%"
+    },
+    "name": "Beam Rifle",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 889,
+    "ma": 0,
+    "sa": 2300,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon reload speed boosted 15%"
+    },
+    "name": "Hyper Bazooka",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 889,
+    "ma": 0,
+    "sa": 2300,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or more Sp. Shot power boosted 25%"
+    },
+    "name": "Beam Rifle Mk-II",
+    "type": "Beam"
+  }, {
+    "part": "shield",
+    "a": 889,
+    "ma": 0,
+    "sa": 0,
+    "md": 558,
+    "sd": 1142,
+    "br": 590,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job Shooting DMG taken reduced by 20"
+    },
+    "name": "Movable Shield"
+  }]
+}, {
   "name": "Build Strike Gundam [Full Package]",
   "attribute": "Technique",
   "rarity": 4,
@@ -1612,7 +1892,7 @@ const Collections = [{
     "wt": ["Protag.", "For Urban Area"],
     "ex": {
       "type": "EX Skill",
-      "name": "Head-Mounted Vulcan"
+      "name": "Head-Mounted Vlcan"
     }
   }, {
     "part": "torso",
@@ -1749,7 +2029,7 @@ const Collections = [{
     "wt": ["Long-Range", "For Desert"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up β"
+      "name": "Offense Up b"
     }
   }, {
     "part": "arms",
@@ -1763,7 +2043,7 @@ const Collections = [{
     "wt": ["Long-Range", "For Desert"],
     "ex": {
       "type": "EX Skill",
-      "name": "Archer Stance γ"
+      "name": "Archer Stance y"
     }
   }, {
     "part": "legs",
@@ -1815,6 +2095,7 @@ const Collections = [{
   "attribute": "Technique",
   "rarity": 2,
   "sokai": 0,
+  "mark": 4,
   "parts": [{
     "part": "head",
     "a": 800,
@@ -2287,7 +2568,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Barrier Hack β"
+      "name": "Barrier Hack b"
     }
   }, {
     "part": "legs",
@@ -2315,7 +2596,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Urban Area"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Hack β"
+      "name": "Combat Hack b"
     }
   }, {
     "part": "range",
@@ -2361,7 +2642,7 @@ const Collections = [{
     "wt": ["Mid-Range", "For Forest"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Hack α"
+      "name": "Combat Hack a"
     },
     "name": "Anti-Beam Shield"
   }]
@@ -2396,7 +2677,7 @@ const Collections = [{
     "wt": ["High Firepower", "Mid-Range"],
     "ex": {
       "type": "EX Skill",
-      "name": "Armed Aura β"
+      "name": "Armed Aura b"
     }
   }, {
     "part": "arms",
@@ -2948,6 +3229,22 @@ const Collections = [{
       "name": "Balaena Plasma Beam Cannon"
     }
   }, {
+    "part": "melee",
+    "a": 1356,
+    "ma": 2523,
+    "sa": 0,
+    "md": 0,
+    "sd": 553,
+    "br": 383,
+    "pr": 383,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Strong Melee Output boosted 35"
+    },
+    "name": "Lacerta Beam Saber",
+    "type": "Beam"
+  }, {
     "part": "range",
     "a": 1356,
     "ma": 0,
@@ -2980,7 +3277,7 @@ const Collections = [{
     "name": "Laminated Anti-Beam Shield"
   }]
 }, {
-  "name": "Gaia",
+  "name": "Gaia Gundam",
   "attribute": "Speed",
   "rarity": 3,
   "sokai": 0,
@@ -3010,7 +3307,7 @@ const Collections = [{
     "wt": ["Transformer", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "Out-Fighter Job, Enemy EX Skill Penetration reduced 22%"
+      "name": "Out-Fighter Job Enemy EX Skill penetration reduced 8-22%"
     }
   }, {
     "part": "arms",
@@ -3024,7 +3321,7 @@ const Collections = [{
     "wt": ["Transformer", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Transformer\", Strong Melee CRIT Rate boosted 17%"
+      "name": "While Transformer Strong Melee CRIT rate boosted 8-17%"
     }
   }, {
     "part": "legs",
@@ -3038,7 +3335,7 @@ const Collections = [{
     "wt": ["Transformer", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed Attribute (self), 13% chance to not recoil"
+      "name": "With Speed attribute (self) 4-13% chance to not recoil"
     }
   }, {
     "part": "backpack",
@@ -3055,21 +3352,6 @@ const Collections = [{
       "name": "MA-81R Beam Assault Cannon"
     }
   }, {
-    "part": "shield",
-    "a": 558,
-    "ma": 0,
-    "sa": 0,
-    "md": 1140,
-    "sd": 1140,
-    "br": 126,
-    "pr": 558,
-    "wt": ["Gundam Type", "Transformer"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Shield Throw"
-    },
-    "name": "Mobile Shield (Gaia)"
-  }, {
     "part": "melee",
     "a": 558,
     "ma": 2297,
@@ -3081,9 +3363,9 @@ const Collections = [{
     "wt": ["Transformer", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "Out-Fighter Job, Job Gauge Increase boosted 13%"
+      "name": "Out-Fighter Job Job Gauge increase boosted 4-13%"
     },
-    "name": "Vajra Beam Saber (Gaia)",
+    "name": "Vajra Beam Saber",
     "type": "Beam"
   }, {
     "part": "range",
@@ -3097,10 +3379,25 @@ const Collections = [{
     "wt": ["Transformer", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed Attribute (self), EX Skill Power boosted 25%"
+      "name": "With Speed attribute (self) EX Skill power boosted 8-25%"
     },
-    "name": "High-Energy Beam Rifle (Gaia)",
+    "name": "High-Energy Beam Rifle",
     "type": "Beam"
+  }, {
+    "part": "shield",
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 1140,
+    "sd": 1140,
+    "br": 126,
+    "pr": 588,
+    "wt": ["Transformer", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Shield Throw"
+    },
+    "name": "Mobile Shield"
   }]
 }, {
   "name": "Gouf Custom",
@@ -3491,7 +3788,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Stance α"
+      "name": "Combat Stance a"
     }
   }, {
     "part": "torso",
@@ -3505,7 +3802,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"For Computers\" enemy Strong Melee power boosted 8-25%"
+      "name": "With \"For Computers\" enemy Strong Melee ower boosted 8-25%"
     }
   }, {
     "part": "arms",
@@ -3598,7 +3895,7 @@ const Collections = [{
     "wt": ["High Firepower", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Protection β"
+      "name": "Protection b"
     }
   }, {
     "part": "torso",
@@ -3640,7 +3937,7 @@ const Collections = [{
     "wt": ["High Firepower", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Archer Hack β"
+      "name": "Archer Hack b"
     }
   }, {
     "part": "backpack",
@@ -3769,6 +4066,7 @@ const Collections = [{
   "attribute": "Power",
   "rarity": 2,
   "sokai": 0,
+  "mark": 4,
   "parts": [{
     "part": "head",
     "a": 796,
@@ -4043,7 +4341,7 @@ const Collections = [{
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-fighter Job Melee power boosted 17-30%"
+      "name": "In-Fighter Job Melee power boosted 17-30%"
     }
   }, {
     "part": "legs",
@@ -4322,7 +4620,7 @@ const Collections = [{
     "name": "Buster Shield"
   }]
 }, {
-  "name": "Gundam Deathscythe Hell (Endless Waltz Ver.)",
+  "name": "Gundam Deathscythe Hell",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -4380,7 +4678,7 @@ const Collections = [{
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe category equipped, Melee CRIT rate boosted 30%"
+      "name": "With Axe category equipped Melee CRIT rate boosted 30%"
     }
   }, {
     "part": "backpack",
@@ -4394,7 +4692,7 @@ const Collections = [{
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, EX Skill piercing boosted 28%"
+      "name": "In-Fighter Job EX Skill piercing boosted 28%"
     }
   }, {
     "part": "melee",
@@ -4430,7 +4728,7 @@ const Collections = [{
     "wt": ["Long-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Archer Stance γ"
+      "name": "Archer Stance y"
     }
   }, {
     "part": "torso",
@@ -4522,7 +4820,7 @@ const Collections = [{
     "wt": ["Gundam Type", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool α"
+      "name": "Recovery Tool a"
     }
   }, {
     "part": "torso",
@@ -4784,7 +5082,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "7-Barrel Missile Launcher"
+      "name": "7-Barrel Missle Launcher"
     }
   }, {
     "part": "arms",
@@ -4861,7 +5159,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Hack β"
+      "name": "Combat Hack b"
     }
   }, {
     "part": "arms",
@@ -4933,7 +5231,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up β"
+      "name": "Offense Up b"
     },
     "name": "Shield"
   }]
@@ -4968,7 +5266,7 @@ const Collections = [{
     "wt": ["Protag.", "High Mobility"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Stance γ"
+      "name": "Combat Stance y"
     }
   }, {
     "part": "arms",
@@ -5919,7 +6217,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Up β"
+      "name": "Defense Up b"
     }
   }, {
     "part": "arms",
@@ -5975,7 +6273,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Seventh Tri-Shot"
+      "name": "Seventh Tr-Shot"
     },
     "name": "Beam Rifle",
     "type": "Beam"
@@ -5991,7 +6289,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Up α"
+      "name": "Defense Up a"
     },
     "name": "Shield"
   }]
@@ -6026,7 +6324,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "Federation"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool β"
+      "name": "Recovery Tool b"
     }
   }, {
     "part": "arms",
@@ -6181,7 +6479,7 @@ const Collections = [{
     "wt": ["Support Type", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed Attribute (self), Mid Shot Attack raised 14%"
+      "name": "With Speed attribute (self) Mid Shot Attack raised 14%"
     }
   }, {
     "part": "torso",
@@ -6195,7 +6493,7 @@ const Collections = [{
     "wt": ["Support Type", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Support Type\", EX Skill DMG Taken reduced 25 (flat)"
+      "name": "While Support Type EX Skill DMG taken reduced by 25"
     }
   }, {
     "part": "arms",
@@ -6224,7 +6522,7 @@ const Collections = [{
     "wt": ["Support Type", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "Supporter Job, EX Skill CD reduced 15%"
+      "name": "Support Job EX Skill CD reduced 15%"
     }
   }, {
     "part": "backpack",
@@ -6252,9 +6550,117 @@ const Collections = [{
     "wt": ["Support Type", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "Supporter Job, Melee DMG Output boosted 20 (flat)"
+      "name": "Support Job Melee DMG ouput boosted by 20"
     },
-    "name": "GN Beam Saber (Throne Drei)",
+    "name": "GN Beam Saber",
+    "type": "Beam"
+  }]
+}, {
+  "name": "Gundam Tryon 3",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 797,
+    "ma": 384,
+    "sa": 2785,
+    "md": 384,
+    "sd": 384,
+    "br": 213,
+    "pr": 418,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "High Mega Cannon"
+    }
+  }, {
+    "part": "torso",
+    "a": 1605,
+    "ma": 797,
+    "sa": 797,
+    "md": 797,
+    "sd": 797,
+    "br": 0,
+    "pr": 611,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Minovsky Chohouken Tryzan"
+    }
+  }, {
+    "part": "arms",
+    "a": 797,
+    "ma": 2785,
+    "sa": 1181,
+    "md": 384,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Armed Boosted"
+    }
+  }, {
+    "part": "legs",
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Transformer", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Raptor Breaker"
+    }
+  }, {
+    "part": "backpack",
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 418,
+    "pr": 611,
+    "wt": ["Transformer", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Double Cannonade"
+    }
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 3582,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 418,
+    "pr": 611,
+    "wt": ["Transformer", "Heavy Armor"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While Transformer Initial EX Skill charge boosted 20%"
+    },
+    "name": "Hyper Minovsky Chohouken",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 3582,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 418,
+    "pr": 611,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self) Strong Melee CRIT rate boosted 30%"
+    },
+    "name": "Hyper Beam Saber",
     "type": "Beam"
   }]
 }, {
@@ -6315,7 +6721,7 @@ const Collections = [{
     "pr": 430,
     "wt": ["Long-Range", "Federation"],
     "ex": {
-      "type": "EX Skill",
+      "type": "Part Traits",
       "name": "Sub-Arm Unit"
     }
   }, {
@@ -6504,7 +6910,7 @@ const Collections = [{
     "wt": ["Protag.", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Up γ"
+      "name": "Defence Up y"
     }
   }, {
     "part": "torso",
@@ -6612,7 +7018,7 @@ const Collections = [{
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up γ"
+      "name": "Offense Up y"
     }
   }, {
     "part": "torso",
@@ -7249,7 +7655,7 @@ const Collections = [{
     "pr": 0,
     "wt": ["Ace Excl.", "High Mobility"],
     "ex": {
-      "type": "EX Skill",
+      "type": "Part Traits",
       "name": "Shield Bash"
     },
     "name": "Laminated Anti-Beam Shield"
@@ -7356,7 +7762,7 @@ const Collections = [{
     "pr": 126,
     "wt": ["Mid-Range", "High Mobility"],
     "ex": {
-      "type": "EX Skill",
+      "type": "Part Traits",
       "name": "Beam Shotgun"
     },
     "name": "Beam Shotgun",
@@ -7439,129 +7845,6 @@ const Collections = [{
     }
   }]
 }, {
-  "name": "Knight Gundam",
-  "attribute": "Power",
-  "rarity": 4,
-  "sokai": 1,
-  "parts": [{
-    "part": "head",
-    "a": 1352,
-    "ma": 551,
-    "sa": 964,
-    "md": 1352,
-    "sd": 964,
-    "br": 282,
-    "pr": 463,
-    "wt": ["Gundam Type", "For Computers"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power Attribute (self), EX Skill Power boosted 30%"
-    }
-  }, {
-    "part": "torso",
-    "a": 2128,
-    "ma": 964,
-    "sa": 551,
-    "md": 964,
-    "sd": 964,
-    "br": 0,
-    "pr": 669,
-    "wt": ["Gundam Type", "For Computers"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "SD Tackle"
-    }
-  }, {
-    "part": "arms",
-    "a": 964,
-    "ma": 2913,
-    "sa": 0,
-    "md": 1352,
-    "sd": 1352,
-    "br": 0,
-    "pr": 0,
-    "wt": ["Gundam Type", "For Computers"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "In-Fighter Job, Melee CRIT Rate boosted 30%"
-    }
-  }, {
-    "part": "legs",
-    "a": 1352,
-    "ma": 551,
-    "sa": 551,
-    "md": 1352,
-    "sd": 964,
-    "br": 463,
-    "pr": 669,
-    "wt": ["Gundam Type", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "While \"Gundam Type\", EX Skill CD reduced 20%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 1352,
-    "ma": 964,
-    "sa": 551,
-    "md": 964,
-    "sd": 964,
-    "br": 463,
-    "pr": 669,
-    "wt": ["Gundam Type", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Super Electrospear"
-    }
-  }, {
-    "part": "shield",
-    "a": 1352,
-    "ma": 0,
-    "sa": 0,
-    "md": 1730,
-    "sd": 964,
-    "br": 282,
-    "pr": 870,
-    "wt": ["Gundam Type", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power Attribute (self), Shooting DMG taken reduced 35 (flat)"
-    },
-    "name": "Knight Shield"
-  }, {
-    "part": "melee",
-    "a": 1352,
-    "ma": 3681,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 282,
-    "pr": 463,
-    "wt": ["Gundam Type", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Comet Sword"
-    },
-    "name": "Knight Sword",
-    "type": "Physical"
-  }, {
-    "part": "melee",
-    "a": 1352,
-    "ma": 3681,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 282,
-    "pr": 463,
-    "wt": ["Gundam Type", "For Computers"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "SD Attack"
-    },
-    "name": "Electrospear",
-    "type": "Physical"
-  }]
-}, {
   "name": "Kshatriya",
   "attribute": "Power",
   "rarity": 4,
@@ -7641,7 +7924,7 @@ const Collections = [{
     "wt": ["Long-Range", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Beam Hack β"
+      "name": "Beam Hack b"
     }
   }, {
     "part": "torso",
@@ -7867,7 +8150,7 @@ const Collections = [{
     "wt": ["Mobile Fighter", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power Attribute (self), EX Skill Piercing boosted 28%"
+      "name": "With Power attribute (self) EX Skill piercing boosted 28%"
     }
   }, {
     "part": "backpack",
@@ -7895,7 +8178,7 @@ const Collections = [{
     "wt": ["Mobile Fighter", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, Strong Melee CRIT Rate boosted 30%"
+      "name": "In-Fighter Job Strong Melee CRIT rate boosted 30%"
     },
     "name": "Master Cloth",
     "type": "Beam"
@@ -7917,7 +8200,7 @@ const Collections = [{
     "wt": ["Ace Excl.", "Heavy Armor"],
     "ex": {
       "type": "EX Skill",
-      "name": "Combat Stance α"
+      "name": "Combat Stance a"
     }
   }, {
     "part": "torso",
@@ -8226,88 +8509,6 @@ const Collections = [{
     "name": "Shield"
   }]
 }, {
-  "name": "The O",
-  "attribute": "Technique",
-  "rarity": 4,
-  "sokai": 1,
-  "parts": [{
-    "part": "head",
-    "a": 1352,
-    "ma": 551,
-    "sa": 964,
-    "md": 1352,
-    "sd": 964,
-    "br": 463,
-    "pr": 282,
-    "wt": ["High Mobility", "Commander"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Technique Attribute (self), Close Shot Attack raised 20%"
-    }
-  }, {
-    "part": "torso",
-    "a": 2128,
-    "ma": 964,
-    "sa": 551,
-    "md": 964,
-    "sd": 964,
-    "br": 669,
-    "pr": 0,
-    "wt": ["High Mobility", "Commander"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Out-Fighter Job, EX Skill Piercing boosted 28%"
-    }
-  }, {
-    "part": "arms",
-    "a": 964,
-    "ma": 2913,
-    "sa": 0,
-    "md": 1352,
-    "sd": 1352,
-    "br": 0,
-    "pr": 0,
-    "wt": ["High Mobility", "Commander"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "While \"High Mobility\", Melee Power boosted 30%"
-    }
-  }, {
-    "part": "legs",
-    "a": 1352,
-    "ma": 551,
-    "sa": 551,
-    "md": 1352,
-    "sd": 964,
-    "br": 669,
-    "pr": 463,
-    "wt": [
-      "High Mobility",
-      "Ace Excl."
-    ],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Heaven's Judgement"
-    }
-  }, {
-    "part": "backpack",
-    "a": 1352,
-    "ma": 964,
-    "sa": 551,
-    "md": 964,
-    "sd": 964,
-    "br": 669,
-    "pr": 463,
-    "wt": [
-      "High Mobility",
-      "Ace Excl."
-    ],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Beam Saber Combo"
-    }
-  }]
-}, {
   "name": "Pale Rider",
   "attribute": "Speed",
   "rarity": 4,
@@ -8394,7 +8595,7 @@ const Collections = [{
     "wt": ["For Urban Area", "GM Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Shock Bringer γ"
+      "name": "Shock Bringer y"
     },
     "name": "Shield"
   }]
@@ -8584,7 +8785,7 @@ const Collections = [{
     "wt": ["Commander", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Recovery Tool γ"
+      "name": "Recovery Tool y"
     }
   }, {
     "part": "torso",
@@ -8660,7 +8861,7 @@ const Collections = [{
     "wt": ["Zeon", "Commander"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Projectile speed boosted 14%"
+      "name": "With Technique attribute (self) Projectile speed boosted 5-14%"
     }
   }, {
     "part": "torso",
@@ -8716,7 +8917,7 @@ const Collections = [{
     "wt": ["Zeon", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Zeon\", Melee power boosted 25%"
+      "name": "While Zeon Melee power boosted 8-25%"
     }
   }, {
     "part": "range",
@@ -8730,10 +8931,25 @@ const Collections = [{
     "wt": ["Zeon", "Commander"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Commander\", Initial EX Skill charge boosted 12%"
+      "name": "While Commander Initial EX Skill charge boosted 3-12%"
     },
-    "name": "Beam Rifle (Rebawoo)",
+    "name": "Beam Rifle",
     "type": "Beam"
+  }, {
+    "part": "shield",
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 1701,
+    "sd": 558,
+    "br": 0,
+    "pr": 716,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Grenade Launcher"
+    },
+    "name": "Shield"
   }]
 }, {
   "name": "Rising Gundam",
@@ -8808,7 +9024,7 @@ const Collections = [{
     "wt": ["Mobile Fighter", "Long-Range"],
     "ex": {
       "type": "EX Skill",
-      "name": "Defense Hack α"
+      "name": "Defense Hack a"
     }
   }]
 }, {
@@ -8907,6 +9123,7 @@ const Collections = [{
   "attribute": "Power",
   "rarity": 3,
   "sokai": 0,
+  "mark": 4,
   "parts": [{
     "part": "torso",
     "a": 2778,
@@ -8934,7 +9151,7 @@ const Collections = [{
     "wt": ["Amphib.", "Support Type"],
     "ex": {
       "type": "EX Skill",
-      "name": "Sana's Signature Rabbit Spike"
+      "name": "Sana\x27s Signature Rabbit Spike"
     }
   }, {
     "part": "legs",
@@ -8950,145 +9167,6 @@ const Collections = [{
       "type": "EX Skill",
       "name": "Belly Beam!"
     }
-  }]
-}, {
-  "name": "Sazabi",
-  "attribute": "Technique",
-  "rarity": 4,
-  "sokai": 1,
-  "parts": [{
-    "part": "head",
-    "a": 1356,
-    "ma": 553,
-    "sa": 966,
-    "md": 1356,
-    "sd": 553,
-    "br": 284,
-    "pr": 465,
-    "wt": ["High Firepower", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Out-Fighter Job, Enemy Shooting Power reduced 30%"
-    }
-  }, {
-    "part": "torso",
-    "a": 1734,
-    "ma": 553,
-    "sa": 553,
-    "md": 1734,
-    "sd": 966,
-    "br": 0,
-    "pr": 673,
-    "wt": ["High Firepower", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Mega Particle Scatter Cannon"
-    }
-  }, {
-    "part": "arms",
-    "a": 553,
-    "ma": 3312,
-    "sa": 553,
-    "md": 1734,
-    "sd": 553,
-    "br": 0,
-    "pr": 0,
-    "wt": ["High Firepower", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor < 70%, Melee Power boosted 30%"
-    }
-  }, {
-    "part": "legs",
-    "a": 966,
-    "ma": 553,
-    "sa": 553,
-    "md": 1734,
-    "sd": 966,
-    "br": 673,
-    "pr": 465,
-    "wt": ["High Firepower", "Zeon"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Technique Attribute (self), EX Skill CD reduced 20%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 966,
-    "ma": 553,
-    "sa": 553,
-    "md": 1734,
-    "sd": 966,
-    "br": 465,
-    "pr": 673,
-    "wt": ["High Firepower", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Funnel Combination"
-    }
-  }, {
-    "part": "shield",
-    "a": 966,
-    "ma": 0,
-    "sa": 0,
-    "md": 2523,
-    "sd": 966,
-    "br": 0,
-    "pr": 1082,
-    "wt": ["High Firepower", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Smal Missiles"
-    },
-    "name": "Shield"
-  }, {
-    "part": "melee",
-    "a": 553,
-    "ma": 4110,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 284,
-    "pr": 465,
-    "wt": ["High Firepower", "Zeon"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Technique Attribute (self), EX Skill Power boosted 30%"
-    },
-    "name": "Beam Saber",
-    "type": "Beam"
-  }, {
-    "part": "melee",
-    "a": 553,
-    "ma": 4110,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 284,
-    "pr": 465,
-    "wt": ["High Firepower", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Piercing Axe"
-    },
-    "name": "Beam Tomahawk",
-    "type": "Beam"
-  }, {
-    "part": "range",
-    "a": 1356,
-    "ma": 0,
-    "sa": 3312,
-    "md": 0,
-    "sd": 0,
-    "br": 465,
-    "pr": 673,
-    "wt": ["High Firepower", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Technique Attribute (self), Sp. Shot CRIT Rate boosted 30%"
-    },
-    "name": "Beam Shot Rifle",
-    "type": "Beam"
   }]
 }, {
   "name": "Sengoku Astray Gundam",
@@ -9254,7 +9332,7 @@ const Collections = [{
     "wt": ["Close Combat", "High Firepower"],
     "ex": {
       "type": "EX Skill",
-      "name": "Armed Aura γ"
+      "name": "Armed Aura y"
     }
   }, {
     "part": "melee",
@@ -9620,7 +9698,7 @@ const Collections = [{
     "wt": ["Commander", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (Self) Melee DMG output boosted 6-20"
+      "name": "With Speed attribute (Self) Melee DGM output boosted 6-20"
     },
     "name": "9.1m Experimental Anti-Ship Sword",
     "type": "Physical"
@@ -9702,7 +9780,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Dual Sabers Category equipped, Melee Power boosted 25%"
+      "name": "With Dual Sabers category equipped Melee power boosted 8-25%"
     }
   }, {
     "part": "legs",
@@ -9730,7 +9808,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance to prevent vernier consumption when stepping"
+      "name": "1-15% chance to prevent vernier consumption when stepping"
     }
   }, {
     "part": "melee",
@@ -9744,7 +9822,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, Initial EX Skill Charge boosted 12%"
+      "name": "In-Fighter Job Initial EX Skill charge boosted 3-12%"
     },
     "name": "Shiranui/Unryu",
     "type": "Physical"
@@ -9766,7 +9844,7 @@ const Collections = [{
     "wt": ["High Firepower", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Protection Hack β"
+      "name": "Protection Hack b"
     }
   }, {
     "part": "torso",
@@ -9794,7 +9872,7 @@ const Collections = [{
     "wt": ["High Firepower", "Close Combat"],
     "ex": {
       "type": "EX Skill",
-      "name": "Block Stance γ"
+      "name": "Block Stance y"
     },
     "combo": "shield"
   }, {
@@ -9952,7 +10030,7 @@ const Collections = [{
     "wt": ["Commander", "Long-Range"],
     "ex": {
       "type": "EX Skill",
-      "name": "Offense Up α"
+      "name": "Offense Up a"
     }
   }, {
     "part": "torso",
@@ -10011,6 +10089,98 @@ const Collections = [{
       "type": "Part Traits",
       "name": "With For Space enemy Shooting power boosted 25%"
     }
+  }]
+}, {
+  "name": "The O",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 4,
+  "parts": [{
+    "part": "head",
+    "a": 1352,
+    "ma": 551,
+    "sa": 964,
+    "md": 1352,
+    "sd": 964,
+    "br": 463,
+    "pr": 282,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self) Close Shot Attack raised 20%"
+    }
+  }, {
+    "part": "torso",
+    "a": 2128,
+    "ma": 964,
+    "sa": 551,
+    "md": 964,
+    "sd": 964,
+    "br": 669,
+    "pr": 0,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "arms",
+    "a": 964,
+    "ma": 2913,
+    "sa": 0,
+    "md": 1352,
+    "sd": 1352,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While High Mobility Melee power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 1352,
+    "ma": 551,
+    "sa": 551,
+    "md": 1352,
+    "sd": 964,
+    "br": 669,
+    "pr": 463,
+    "wt": ["High Mobility", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Heaven's Judgment"
+    }
+  }, {
+    "part": "backpack",
+    "a": 1352,
+    "ma": 964,
+    "sa": 551,
+    "md": 964,
+    "sd": 964,
+    "br": 669,
+    "pr": 463,
+    "wt": ["High Mobility", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Saber Combo"
+    }
+  }, {
+    "part": "range",
+    "a": 1352,
+    "ma": 0,
+    "sa": 3135,
+    "md": 0,
+    "sd": 0,
+    "br": 669,
+    "pr": 282,
+    "wt": ["High Mobility", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon reload speed boosted 20%"
+    },
+    "name": "Large Beam Rifle",
+    "type": "Beam"
   }]
 }, {
   "name": "Turn A Gundam",
@@ -10785,7 +10955,7 @@ const Collections = [{
     "wt": ["Ace Excl.", "For Space"],
     "ex": {
       "type": "EX Skill",
-      "name": "Beam Coat β"
+      "name": "Beam Coat b"
     }
   }, {
     "part": "torso",
@@ -11097,6 +11267,23 @@ const Pilots = [{
     "name": "Beam ranged weapon reload speed boosted 20%"
   }
 }, {
+  "name": "Auel Neider",
+  "jl": "Defender",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 889,
+  "ma": 291,
+  "sa": 889,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Amphib.", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self) Debuff EX Skill effect up 15%"
+  }
+}, {
   "name": "Anavel Gato",
   "jl": "Defender",
   "attribute": "Power",
@@ -11111,7 +11298,7 @@ const Pilots = [{
   "wt": ["Ace Excl.", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power Attribute (self) All DMG output boosted by 35"
+    "name": "With Power Attribute (self) All DMG ouput boosted by 35"
   }
 }, {
   "name": "Athrun Zala",
@@ -11129,23 +11316,6 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "20% chance to prevent vernier consumption when stepping"
-  }
-}, {
-  "name": "Auel Neider",
-  "jl": "Defender",
-  "attribute": "Technique",
-  "rarity": 3,
-  "a": 889,
-  "ma": 291,
-  "sa": 889,
-  "md": 558,
-  "sd": 558,
-  "br": 126,
-  "pr": 428,
-  "wt": ["Amphib.", "Mid-Range"],
-  "ex": {
-    "type": "Part Traits",
-    "name": "With Technique Attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Bernard Wiseman",
@@ -11349,7 +11519,7 @@ const Pilots = [{
   "wt": ["Commander", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "While \"Zeon\", Initial EX Skill Charge boosted 20%"
+    "name": "While Zeon Initial EX Skill charge boosted 20%"
   }
 }, {
   "name": "Gaelio Bauduin",
@@ -11452,6 +11622,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "Beam ranged weapon magazine boosted 9-20%"
+  }
+}, {
+  "name": "Heine Westenfluss",
+  "jl": "Defender",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 561,
+  "ma": 893,
+  "sa": 294,
+  "md": 561,
+  "sd": 893,
+  "br": 215,
+  "pr": 215,
+  "wt": ["Close Combat", "Commander"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self) Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Johnny Ridden",
@@ -11573,8 +11760,25 @@ const Pilots = [{
     "name": "With Power attribute (self) 14% chance to survive a fatal blow"
   }
 }, {
+  "name": "Lacus Clyne",
+  "jl": "Support",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 795,
+  "ma": 795,
+  "sa": 795,
+  "md": 795,
+  "sd": 795,
+  "br": 211,
+  "pr": 609,
+  "wt": ["Commander", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self) EX Skill recovery boosted by 140"
+  }
+}, {
   "name": "Lalah Sune",
-  "jl": "Supporter",
+  "jl": "Support",
   "attribute": "Technique",
   "rarity": 4,
   "a": 799,
@@ -11608,7 +11812,7 @@ const Pilots = [{
   }
 }, {
   "name": "Lockon Stratos",
-  "jl": "Long Shooter",
+  "jl": "Long-Shooter",
   "attribute": "Technique",
   "rarity": 4,
   "a": 799,
@@ -11621,7 +11825,7 @@ const Pilots = [{
   "wt": ["High Firepower", "Long-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Long Shot Attack raised 20%"
+    "name": "With Technique attribute (self) Long Shot Attack raised 20%"
   }
 }, {
   "name": "Louise Halevy",
@@ -11706,7 +11910,7 @@ const Pilots = [{
   "wt": ["Close Combat", "High Mobility"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power Attribute (self), EX Skill CD reduced 15%"
+    "name": "With Power attribute (self) EX Skill CD reduced 4-15%"
   }
 }, {
   "name": "Nena Trinity",
@@ -11723,7 +11927,7 @@ const Pilots = [{
   "wt": ["Support Type", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed Attribute (self), EX Skill Recovery boosted 16%"
+    "name": "With Speed attribute (self) EX Skill recovery boosted 16%"
   }
 }, {
   "name": "Neo Roanoke",
@@ -11805,13 +12009,10 @@ const Pilots = [{
   "sd": 796,
   "br": 611,
   "pr": 213,
-  "wt": [
-    "Commander",
-    "Ace Excl."
-  ],
+  "wt": ["Commander", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique Attribute (self), Buff EX Skill Time up 22%"
+    "name": "With Technique attribute (self) Buff EX Skill time up 22%"
   }
 }, {
   "name": "Rey Za Burrel",
@@ -11848,6 +12049,40 @@ const Pilots = [{
     "name": "Out-Fighter Job EX Skill CD reduced 20%"
   }
 }, {
+  "name": "Sarah Zabiarov",
+  "jl": "Supporter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 428,
+  "pr": 126,
+  "wt": ["Mid-Range", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self) Debuff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Setsuna F. Seiei",
+  "jl": "In-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 796,
+  "ma": 1602,
+  "sa": 384,
+  "md": 796,
+  "sd": 796,
+  "br": 417,
+  "pr": 213,
+  "wt": ["Protag.", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While Gundam Type Buff EX Skill effect up 22%"
+  }
+}, {
   "name": "Seabook Arno",
   "jl": "Middle-Shooter",
   "attribute": "Technique",
@@ -11865,40 +12100,6 @@ const Pilots = [{
     "name": "With Technique attribute (self) Enemy All power reduced 18%"
   }
 }, {
-  "name": "Sarah Zabiarov",
-  "jl": "Supporter",
-  "attribute": "Speed",
-  "rarity": 3,
-  "a": 558,
-  "ma": 291,
-  "sa": 291,
-  "md": 889,
-  "sd": 889,
-  "br": 428,
-  "pr": 126,
-  "wt": ["Mid-Range", "Support Type"],
-  "ex": {
-    "type": "Part Traits",
-    "name": "With Speed Attribute (self), Debuff EX Skill Effect up 15%"
-  }
-}, {
-  "name": "Setsuna F. Seiei",
-  "jl": "In-Fighter",
-  "attribute": "Speed",
-  "rarity": null,
-  "a": 796,
-  "ma": 1602,
-  "sa": 384,
-  "md": 796,
-  "sd": 796,
-  "br": 417,
-  "pr": 213,
-  "wt": ["Protag.", "Gundam Type"],
-  "ex": {
-    "type": "Part Traits",
-    "name": "While \"Gundam Type\", Buff EX Skill effect up 22%"
-  }
-}, {
   "name": "Shiho Hahnenfuss",
   "jl": "Long-Shooter",
   "attribute": "Speed",
@@ -11910,13 +12111,10 @@ const Pilots = [{
   "sd": 558,
   "br": 302,
   "pr": 126,
-  "wt": [
-    "Long-Range",
-    "Ace Excl."
-  ],
+  "wt": ["Long-Range", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon magazine boosted 14%"
+    "name": "All range weapon magazine boosted 14%"
   }
 }, {
   "name": "Shin Asuka",
@@ -11967,7 +12165,7 @@ const Pilots = [{
   "wt": ["Transformer", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
+    "name": "With Speed attribute (self) Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Sven Cal Bayang",
