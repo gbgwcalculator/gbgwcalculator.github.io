@@ -4468,6 +4468,114 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
+  "name": "Gundam Barbatos Lupus",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1356,
+    "ma": 553,
+    "sa": 966,
+    "md": 1356,
+    "sd": 553,
+    "br": 465,
+    "pr": 284,
+    "wt": ["Close Combat", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Alaya-Vijnana Limit Breaker"
+    }
+  }, {
+    "part": "torso",
+    "a": 1734,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 673,
+    "pr": 0,
+    "wt": ["Close Combat", "Protag."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Protag.\", EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "arms",
+    "a": 553,
+    "ma": 3312,
+    "sa": 553,
+    "md": 1734,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "200mm Arm Rifle"
+    }
+  }, {
+    "part": "legs",
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 465,
+    "pr": 673,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 673,
+    "pr": 465,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Wolf's Howl"
+    }
+  }, {
+    "part": "melee",
+    "a": 553,
+    "ma": 4110,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 465,
+    "pr": 284,
+    "wt": ["Close Combat", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Mace Rush"
+    },
+    "name": "Sword Mace",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "a": 553,
+    "ma": 4110,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 465,
+    "pr": 284,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "15% chance of attacks penetrating super armor"
+    },
+    "name": "Twin Maces",
+    "type": "Physical"
+  }]
+}, {
   "name": "Gundam Deathscythe",
   "attribute": "Speed",
   "rarity": 4,
@@ -6019,6 +6127,82 @@ const Collections = [{
     "name": "Shield"
   }]
 }, {
+  "name": "Gundam Maxter",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 889,
+    "ma": 291,
+    "sa": 558,
+    "md": 889,
+    "sd": 291,
+    "br": 126,
+    "pr": 302,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out Fighter Job, EX Skill piercing boosted 22%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1142,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 0,
+    "pr": 428,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Mode"
+    }
+  }, {
+    "part": "arms",
+    "a": 291,
+    "ma": 2300,
+    "sa": 291,
+    "md": 1142,
+    "sd": 291,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Cyclone/Burning Machine Gun Punch"
+    }
+  }, {
+    "part": "legs",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Mobile Fighter", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Gigantic Magnum"
+    }
+  }, {
+    "part": "backpack",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 1142,
+    "sd": 558,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Mobile Fighter", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), 13% chance to not recoil"
+    }
+  }]
+}, {
   "name": "Gundam Nadleeh",
   "attribute": "Speed",
   "rarity": 3,
@@ -6739,6 +6923,114 @@ const Collections = [{
     },
     "name": "Hyper Beam Saber (Tryon 3)",
     "type": "Beam"
+  }]
+}, {
+  "name": "Gundam Vidar",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 965,
+    "ma": 553,
+    "sa": 2922,
+    "md": 553,
+    "sd": 553,
+    "br": 464,
+    "pr": 284,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Alaya-Vijnana System [Type E]"
+    }
+  }, {
+    "part": "torso",
+    "a": 1734,
+    "ma": 965,
+    "sa": 965,
+    "md": 965,
+    "sd": 965,
+    "br": 673,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Mobility\", EX Skill DMG taken reduced 35"
+    }
+  }, {
+    "part": "arms",
+    "a": 965,
+    "ma": 2922,
+    "sa": 1356,
+    "md": 553,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Melee CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 464,
+    "pr": 673,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Demon's Hunt"
+    }
+  }, {
+    "part": "backpack",
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While Speed attribute (self), Melee power boosted 30%"
+    }
+  }, {
+    "part": "melee",
+    "a": 553,
+    "ma": 3690,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Job Gauge increase boosted 17%"
+    },
+    "name": "Burst Saber",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 553,
+    "ma": 154,
+    "sa": 3690,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 284,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When armor is 80% or less, Enemy Shtrong Melee power reduced 30%"
+    },
+    "name": "110mm Rifle",
+    "type": "Physical"
   }]
 }, {
   "name": "Gundam Virsago",
@@ -12162,6 +12454,23 @@ const Pilots = [{
     "name": "With Technique attribute (self) Long Shot Attack raised 14%"
   }
 }, {
+  "name": "Mashymre Cello",
+  "jl": "Defender",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 889,
+  "ma": 889,
+  "sa": 291,
+  "md": 558,
+  "sd": 558,
+  "br": 302,
+  "pr": 302,
+  "wt": ["Zeon", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Debuff EX Skill time up 16%"
+  }
+}, {
   "name": "Mikazuki Augus",
   "jl": "Defender",
   "attribute": "Power",
@@ -12177,6 +12486,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self) Initial EX Skill charge boosted 20%"
+  }
+}, {
+  "name": "Milliardo Peacecraft",
+  "jl": "Out-Fighter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 796,
+  "ma": 1602,
+  "sa": 384,
+  "md": 796,
+  "sd": 796,
+  "br": 213,
+  "pr": 417,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Vernier consumption reduced 20%"
   }
 }, {
   "name": "Mr. Bushido",
