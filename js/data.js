@@ -8354,6 +8354,205 @@ const Collections = [{
     }
   }]
 }, {
+  "name": "Lightning Gundam",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 384,
+    "ma": 384,
+    "sa": 3177,
+    "md": 384,
+    "sd": 1181,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Long Shot Attack raised 20%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "arms",
+    "a": 1181,
+    "ma": 796,
+    "sa": 384,
+    "md": 384,
+    "sd": 1602,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Vulcan"
+    }
+  }, {
+    "part": "legs",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Long-Range", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Rapid Thrust"
+    }
+  }, {
+    "part": "backpack",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Long-Range", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Missile Pod"
+    }
+  }, {
+    "part": "range",
+    "a": 384,
+    "ma": 0,
+    "sa": 3997,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Lightning Snipe"
+    },
+    "name": "Beam Rifle [Long Barrel]",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 384,
+    "ma": 0,
+    "sa": 3997,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Long-Range", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With \"Long-Range\" enemy, EX Skill power boosted 30%"
+    },
+    "name": "Beam Rifle [Lightning]",
+    "type": "Beam"
+  }, {
+    "part": "shield",
+    "a": 796,
+    "ma": 0,
+    "sa": 0,
+    "md": 796,
+    "sd": 2380,
+    "br": 1028,
+    "pr": 0,
+    "wt": ["Long-Range", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Debuff EX Skill effect up 22%"
+    },
+    "name": "Shield [Lightning]"
+  }]
+}, {
+  "name": "Mack Knife [Mask]",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1144,
+    "ma": 292,
+    "sa": 891,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 302,
+    "wt": ["Transformer", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, Shot spread reduced 15%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1702,
+    "ma": 292,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 430,
+    "wt": ["Transformer", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), 14% chance to survive a fatal blow"
+    }
+  }, {
+    "part": "arms",
+    "a": 891,
+    "ma": 891,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 0,
+    "pr": 127,
+    "wt": ["Transformer", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Plasma Claw"
+    }
+  }, {
+    "part": "legs",
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 430,
+    "pr": 127,
+    "wt": ["Transformer", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Photon Bomb"
+    }
+  }, {
+    "part": "backpack",
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 127,
+    "pr": 430,
+    "wt": ["Transformer", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Transformer\", Shooting DMG output boosted by 20%"
+    }
+  }]
+}, {
   "name": "Marsfour Gundam",
   "attribute": "Power",
   "rarity": 4,
@@ -11514,6 +11713,115 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Wing Gundam Fenice",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 799,
+    "ma": 384,
+    "sa": 2791,
+    "md": 799,
+    "sd": 384,
+    "br": 213,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head Mounted Vulcan"
+    }
+  }, {
+    "part": "torso",
+    "a": 1184,
+    "ma": 384,
+    "sa": 384,
+    "md": 1608,
+    "sd": 799,
+    "br": 614,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Machine Cannon"
+    }
+  }, {
+    "part": "arms",
+    "a": 1608,
+    "ma": 1982,
+    "sa": 384,
+    "md": 3186,
+    "sd": 1608,
+    "br": 812,
+    "pr": 213,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Verde Fenice"
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "a": 799,
+    "ma": 384,
+    "sa": 799,
+    "md": 1184,
+    "sd": 384,
+    "br": 614,
+    "pr": 420,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Meteor Hopper"
+    }
+  }, {
+    "part": "backpack",
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 1608,
+    "sd": 384,
+    "br": 614,
+    "pr": 420,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "melee",
+    "a": 799,
+    "ma": 1982,
+    "sa": 0,
+    "md": 799,
+    "sd": 0,
+    "br": 614,
+    "pr": 213,
+    "wt": ["Gundam Type", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 70% or less, Strong Melee CRIT rate boosted 30%"
+    },
+    "name": "Beam Rapier",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 384,
+    "ma": 0,
+    "sa": 3590,
+    "md": 799,
+    "sd": 0,
+    "br": 420,
+    "pr": 213,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Sp. Shot CRIT rate boosted 30%"
+    },
+    "name": "Buster Rifle Cannon",
+    "type": "Beam"
+  }]
+}, {
   "name": "Zaku II (Char Aznable)",
   "attribute": "Speed",
   "rarity": 3,
@@ -11857,6 +12165,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Power Attribute (self) All DMG output boosted by 35"
+  }
+}, {
+  "name": "Andrew Waltfeld",
+  "jl": "Middle-Shooter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 428,
+  "pr": 126,
+  "wt": ["For Desert", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Enemy EX Skill penetration reduced 22%"
   }
 }, {
   "name": "Athrun Zala",
@@ -12815,6 +13140,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self) Initial EX Skill charge boosted 3-12%"
+  }
+}, {
+  "name": "Tobia Arronax",
+  "jl": "In-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 796,
+  "ma": 1602,
+  "sa": 384,
+  "md": 796,
+  "sd": 796,
+  "br": 417,
+  "pr": 213,
+  "wt": ["Protag.", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Buff EX Skill effect up 22%"
   }
 }, {
   "name": "Trowa Barton",
