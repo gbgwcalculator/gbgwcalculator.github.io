@@ -2373,6 +2373,129 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Destiny Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "a": 965,
+    "ma": 553,
+    "sa": 2922,
+    "md": 553,
+    "sd": 553,
+    "br": 284,
+    "pr": 284,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Close Shot Attack raised 20%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1734,
+    "ma": 965,
+    "sa": 965,
+    "md": 965,
+    "sd": 965,
+    "br": 284,
+    "pr": 284,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Blade Category equipped, Melee Power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "a": 965,
+    "ma": 2922,
+    "sa": 1356,
+    "md": 553,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Palma Fiocina"
+    }
+  }, {
+    "part": "legs",
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 555,
+    "pr": 555,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 555,
+    "pr": 555,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Arondight"
+    }
+  }, {
+    "part": "melee",
+    "a": 553,
+    "ma": 3690,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 464,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor < 80%, Melee DMG Output boosted 35 (flat)"
+    },
+    "name": "Arondight (Destiny)",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 553,
+    "ma": 154,
+    "sa": 3690,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 464,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), Job Gauge Increase boosted 17%"
+    },
+    "name": "High-Energy Beam Rifle (Destiny)",
+    "type": "Beam"
+  }, {
+    "part": "shield",
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 555,
+    "pr": 555,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), Buff EX Skill Effect up 22%%"
+    },
+    "name": "Anti-Beam Shield"
+  }]
+}, {
   "name": "Delta Plus",
   "attribute": "Power",
   "rarity": 3,
@@ -7141,6 +7264,98 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Gundam Virtue",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 292,
+    "ma": 292,
+    "sa": 2304,
+    "md": 292,
+    "sd": 891,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Heavy Armor", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Shooting DMG Taken reduced 20 (flat)"
+    }
+  }, {
+    "part": "torso",
+    "a": 1144,
+    "ma": 292,
+    "sa": 292,
+    "md": 559,
+    "sd": 1144,
+    "br": 213,
+    "pr": 213,
+    "wt": ["Heavy Armor", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power Attribute (self), Buff EX Skill Time up 15%"
+    }
+  }, {
+    "part": "arms",
+    "a": 891,
+    "ma": 559,
+    "sa": 292,
+    "md": 292,
+    "sd": 1144,
+    "br": 213,
+    "pr": 213,
+    "wt": ["Heavy Armor", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Bazooka Category equipped, Sp. Shot Power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "a": 559,
+    "ma": 292,
+    "sa": 292,
+    "md": 559,
+    "sd": 1144,
+    "br": 303,
+    "pr": 303,
+    "wt": ["Heavy Armor", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Saber Boomerang"
+    }
+  }, {
+    "part": "backpack",
+    "a": 559,
+    "ma": 292,
+    "sa": 292,
+    "md": 559,
+    "sd": 1144,
+    "br": 303,
+    "pr": 303,
+    "wt": ["Heavy Armor", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Cannon & GN Field"
+    }
+  }, {
+    "part": "range",
+    "a": 292,
+    "ma": 0,
+    "sa": 2871,
+    "md": 0,
+    "sd": 0,
+    "br": 213,
+    "pr": 213,
+    "wt": ["Heavy Armor", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "GN Bazooka (w/ Particles Unlocked)"
+    },
+    "name": "GN Bazooka (Virtue)",
+    "type": "Beam"
+  }]
+}, {
   "name": "Gundam X",
   "attribute": "Speed",
   "rarity": 4,
@@ -11822,6 +12037,114 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Yami Syougun",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "a": 972,
+    "ma": 556,
+    "sa": 2541,
+    "md": 972,
+    "sd": 972,
+    "br": 0,
+    "pr": 471,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Close Shot Attack raised 20%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1747,
+    "ma": 556,
+    "sa": 556,
+    "md": 1365,
+    "sd": 1365,
+    "br": 0,
+    "pr": 682,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "SD Tackle"
+    }
+  }, {
+    "part": "arms",
+    "a": 972,
+    "ma": 2541,
+    "sa": 556,
+    "md": 1365,
+    "sd": 1365,
+    "br": 0,
+    "pr": 76,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon reload speed boosted 20%"
+    }
+  }, {
+    "part": "legs",
+    "a": 972,
+    "ma": 556,
+    "sa": 556,
+    "md": 1365,
+    "sd": 1365,
+    "br": 471,
+    "pr": 682,
+    "wt": ["Zaku Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), EX Skill DMG Taken reduced 35 (flat)"
+    }
+  }, {
+    "part": "backpack",
+    "a": 972,
+    "ma": 556,
+    "sa": 556,
+    "md": 1365,
+    "sd": 1365,
+    "br": 471,
+    "pr": 682,
+    "wt": ["Zaku Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Darkness Sword"
+    }
+  }, {
+    "part": "melee",
+    "a": 972,
+    "ma": 3334,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 287,
+    "pr": 682,
+    "wt": ["Zaku Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), Melee DMG Output boosted 35 (flat)"
+    },
+    "name": "Darkness Sword",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 972,
+    "ma": 0,
+    "sa": 3334,
+    "md": 0,
+    "sd": 0,
+    "br": 287,
+    "pr": 682,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed Attribute (self), Job Gauge Increase boosted 17%"
+    },
+    "name": "Darkness Cannon",
+    "type": "Beam"
+  }]
+}, {
   "name": "Zaku II (Char Aznable)",
   "attribute": "Speed",
   "rarity": 3,
@@ -12932,6 +13255,23 @@ const Pilots = [{
     "name": "With Speed attribute (self) All DMG output boosted by 35"
   }
 }, {
+  "name": "Quess Paraya",
+  "jl": "Long-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 428,
+  "pr": 126,
+  "wt": ["High Firepower", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique Attribute (self), 14% change to survive a fatal blow"
+  }
+}, {
   "name": "Rau Le Creuset",
   "jl": "Long-Shooter",
   "attribute": "Technique",
@@ -12967,6 +13307,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "All ranged weapon magazine boosted 14%"
+  }
+}, {
+  "name": "Ribbons Almark",
+  "jl": "Long-Shooter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 797,
+  "ma": 1181,
+  "sa": 1181,
+  "md": 797,
+  "sd": 797,
+  "br": 418,
+  "pr": 213,
+  "wt": ["Gundam Type", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "All ranged weapon reload speed boosted 18%"
   }
 }, {
   "name": "Sai Saici",
@@ -13140,6 +13497,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self) Initial EX Skill charge boosted 3-12%"
+  }
+}, {
+  "name": "Tieria Erde",
+  "jl": "Long-Shooter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 559,
+  "ma": 292,
+  "sa": 1144,
+  "md": 559,
+  "sd": 559,
+  "br": 303,
+  "pr": 303,
+  "wt": ["Gundam Type", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "All ranged weapon magazine boosted 14%"
   }
 }, {
   "name": "Tobia Arronax",
