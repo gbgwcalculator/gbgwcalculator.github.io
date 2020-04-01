@@ -2281,6 +2281,161 @@ const Collections = [{
     "name": "ABC Cloak"
   }]
 }, {
+  "name": "Crossbone Gundam X2",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 384,
+    "ma": 384,
+    "sa": 3177,
+    "md": 384,
+    "sd": 1181,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Firepower", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Long Shot Attack raised 20%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 611,
+    "pr": 0,
+    "wt": ["High Firepower", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Gun"
+    }
+  }, {
+    "part": "arms",
+    "a": 1181,
+    "ma": 796,
+    "sa": 384,
+    "md": 384,
+    "sd": 1602,
+    "br": 417,
+    "pr": 213,
+    "wt": ["High Firepower", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon, reload speed boosted 20%"
+    }
+  }, {
+    "part": "legs",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 417,
+    "pr": 611,
+    "wt": ["High Firepower", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Heat Dagger"
+    }
+  }, {
+    "part": "backpack",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 611,
+    "pr": 417,
+    "wt": ["High Firepower", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "melee",
+    "a": 1181,
+    "ma": 2380,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 611,
+    "pr": 417,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Jovian Stinger"
+    },
+    "name": "Shot Lancer [X2]",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "a": 1181,
+    "ma": 2380,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 611,
+    "pr": 417,
+    "wt": ["High Firepower", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
+    },
+    "name": "Beam Zanba [X2]",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 384,
+    "ma": 0,
+    "sa": 3997,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 213,
+    "wt": ["High Firepower", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Sp. Shot CRIT rate boosted 30%"
+    },
+    "name": "Zanbuster [X2]",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 384,
+    "ma": 0,
+    "sa": 3997,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 213,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, EX Skill DMG taken reduced by 35"
+    },
+    "name": "Buster Gun [X2]",
+    "type": "Beam"
+  }, {
+    "part": "shield",
+    "a": 796,
+    "ma": 0,
+    "sa": 0,
+    "md": 796,
+    "sd": 2380,
+    "br": 1028,
+    "pr": 0,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
+    },
+    "name": "ABC Cloak [X2]"
+  }]
+}, {
   "name": "Dragon Gundam",
   "attribute": "Technique",
   "rarity": 3,
@@ -4372,6 +4527,98 @@ const Collections = [{
       "name": "When attacking with Physical Sp. Shot CRIT rate boosted 30%"
     },
     "name": "Anti-Material Rifle",
+    "type": "Physical"
+  }]
+}, {
+  "name": "Gundam Bael",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 1181,
+    "ma": 384,
+    "sa": 796,
+    "md": 1181,
+    "sd": 384,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Alaya-Vijnana System"
+    }
+  }, {
+    "part": "torso",
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Buff EX Skill effect up 22%"
+    }
+  }, {
+    "part": "arms",
+    "a": 384,
+    "ma": 3177,
+    "sa": 384,
+    "md": 1602,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Dual Sabers category equipped, Melee power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Spirit of Agnika"
+    }
+  }, {
+    "part": "backpack",
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Electromagnetic Cannon"
+    }
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 3997,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), EX Skill power boosted 30%"
+    },
+    "name": "Bael Sword",
     "type": "Physical"
   }]
 }, {
@@ -9970,6 +10217,114 @@ const Collections = [{
     "name": "Shield"
   }]
 }, {
+  "name": "Ryusei-Go [Graze Custom II]",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 558,
+    "ma": 291,
+    "sa": 1700,
+    "md": 558,
+    "sd": 558,
+    "br": 126,
+    "pr": 126,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Alaya-Vijnana System"
+    }
+  }, {
+    "part": "torso",
+    "a": 1142,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 213,
+    "pr": 213,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Shooting Power boosted 25%"
+    }
+  }, {
+    "part": "arms",
+    "a": 558,
+    "ma": 1700,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "12% chance of attacks penetrating super armor"
+    }
+  }, {
+    "part": "legs",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 349,
+    "pr": 375,
+    "wt": ["Ace Excl.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 70% or less, EX Skill CD reduced 15%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 375,
+    "pr": 349,
+    "wt": ["Ace Excl.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Physical, Mid Shot Attack raised 14%"
+    }
+  }, {
+    "part": "melee",
+    "a": 558,
+    "ma": 2298,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 302,
+    "pr": 302,
+    "wt": ["Ace Excl.", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Wind Edge"
+    },
+    "name": "Battle Axe [Ryusei-Go]",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 558,
+    "ma": 0,
+    "sa": 2298,
+    "md": 0,
+    "sd": 0,
+    "br": 302,
+    "pr": 302,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon reload speed boosted 15%"
+    },
+    "name": "120mm Rifle [Ryusei-Go]",
+    "type": "Physical"
+  }]
+}, {
   "name": "Sanakapool",
   "attribute": "Power",
   "rarity": 3,
@@ -12507,6 +12862,23 @@ const Pilots = [{
     "name": "With Power attribute (self), Enemy EX Skill penetration reduced 22%"
   }
 }, {
+  "name": "Angelo Sauper",
+  "jl": "Out-Fighter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 558,
+  "sa": 558,
+  "md": 558,
+  "sd": 558,
+  "br": 302,
+  "pr": 302,
+  "wt": ["Zeon", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "12% chance of attacks penetrating super armor"
+  }
+}, {
   "name": "Athrun Zala",
   "jl": "In-Fighter",
   "attribute": "Speed",
@@ -12845,6 +13217,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "Beam ranged weapon magazine boosted 9-20%"
+  }
+}, {
+  "name": "Heero Yuy",
+  "jl": "Long-Shooter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 796,
+  "ma": 384,
+  "sa": 1602,
+  "md": 796,
+  "sd": 796,
+  "br": 417,
+  "pr": 213,
+  "wt": ["High Firepower", "Transformer"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), All DMG output boosted by 35"
   }
 }, {
   "name": "Heine Westenfluss",
