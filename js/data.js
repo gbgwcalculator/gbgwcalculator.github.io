@@ -2158,6 +2158,126 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Command Gundam",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 559,
+    "ma": 294,
+    "sa": 1999,
+    "md": 559,
+    "sd": 294,
+    "br": 0,
+    "pr": 129,
+    "wt": ["Gundam Type", "Long-Range"],
+    "ex": {
+      "type": "Part Traits"
+    }
+  }, {
+    "part": "torso",
+    "a": 893,
+    "ma": 294,
+    "sa": 294,
+    "md": 1146,
+    "sd": 559,
+    "br": 0,
+    "pr": 432,
+    "wt": ["Gundam Type", "Long-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "SD Tackle"
+    }
+  }, {
+    "part": "arms",
+    "a": 559,
+    "ma": 1438,
+    "sa": 294,
+    "md": 893,
+    "sd": 559,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits"
+    }
+  }, {
+    "part": "legs",
+    "a": 559,
+    "ma": 294,
+    "sa": 559,
+    "md": 893,
+    "sd": 294,
+    "br": 303,
+    "pr": 432,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits"
+    }
+  }, {
+    "part": "backpack",
+    "a": 559,
+    "ma": 294,
+    "sa": 294,
+    "md": 1146,
+    "sd": 294,
+    "br": 303,
+    "pr": 432,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "SD Missile Launcher"
+    }
+  }, {
+    "part": "melee",
+    "a": 559,
+    "ma": 1438,
+    "sa": 0,
+    "md": 559,
+    "sd": 0,
+    "br": 129,
+    "pr": 432,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "SD Attack"
+    },
+    "name": "Command Knife",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "a": 294,
+    "ma": 0,
+    "sa": 2598,
+    "md": 559,
+    "sd": 0,
+    "br": 129,
+    "pr": 303,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dual Wave"
+    },
+    "name": "Grenade Launcher w/ Laser Machine Gun",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 294,
+    "ma": 0,
+    "sa": 2598,
+    "md": 559,
+    "sd": 0,
+    "br": 129,
+    "pr": 303,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits"
+    },
+    "name": "Heavy Autocannon",
+    "type": "Physical"
+  }]
+}, {
   "name": "Crossbone Gundam X1",
   "attribute": "Technique",
   "rarity": 3,
@@ -9323,6 +9443,109 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "Moon Gundam",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 797,
+    "ma": 384,
+    "sa": 2785,
+    "md": 384,
+    "sd": 384,
+    "br": 418,
+    "pr": 213,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "Part Traits"
+    }
+  }, {
+    "part": "torso",
+    "a": 1605,
+    "ma": 797,
+    "sa": 797,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "Part Traits"
+    }
+  }, {
+    "part": "arms",
+    "a": 797,
+    "ma": 2785,
+    "sa": 1181,
+    "md": 384,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Butterfly Edge"
+    }
+  }, {
+    "part": "legs",
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 418,
+    "pr": 611,
+    "wt": ["Gundam Type", "Protag."],
+    "ex": {
+      "type": "Part Traits"
+    }
+  }, {
+    "part": "backpack",
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Gundam Type", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Psycho Plate"
+    }
+  }, {
+    "part": "melee",
+    "a": 384,
+    "ma": 3582,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Gundam Type", "Protag."],
+    "ex": {
+      "type": "Part Traits"
+    },
+    "name": "Beam Tomahawk (Moon)",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 384,
+    "ma": 0,
+    "sa": 3582,
+    "md": 0,
+    "sd": 0,
+    "br": 418,
+    "pr": 213,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "Part Traits"
+    },
+    "name": "Beam Rifle (Moon)",
+    "type": "Beam"
+  }]
+}, {
   "name": "Noble Gundam",
   "attribute": "Technique",
   "rarity": 4,
@@ -13253,6 +13476,22 @@ const Pilots = [{
     "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Jamil Neate",
+  "jl": "Defender",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 558,
+  "sa": 558,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Commander", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits"
+  }
+}, {
   "name": "Johnny Ridden",
   "jl": "In-Fighter",
   "attribute": "Technique",
@@ -13438,6 +13677,22 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Long Shot Attack raised 20%"
+  }
+}, {
+  "name": "Loran Cehack",
+  "jl": "Out-Fighter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 797,
+  "ma": 1181,
+  "sa": 1181,
+  "md": 797,
+  "sd": 797,
+  "br": 418,
+  "pr": 213,
+  "wt": ["Protag.", "High Firepower"],
+  "ex": {
+    "type": "Part Traits"
   }
 }, {
   "name": "Louise Halevy",
