@@ -32,7 +32,7 @@ class GunplaCalculator {
       if (Array.isArray(config.class)) {
         config.class.forEach(prop => retEl.classList.add(prop));
       } else if (typeof config.class === "string") {
-        retEl.classList.add(config.class);
+        config.class.split(/\s+/g).forEach(className => retEl.classList.add(className));
       }
     }
     if ('text' in config) {
@@ -203,7 +203,7 @@ class GunplaCalculator {
             }, {
               'el': 'input',
               'type': 'text',
-              'class': 'js-input-' + slot,
+              'class': 'js-input js-input-' + slot,
               'readOnly':  true
             }]
           }, {
@@ -232,7 +232,7 @@ class GunplaCalculator {
             }, {
               'el': "input",
               'type': "text",
-              'class': "js-input-" + slotClass,
+              'class': "js-input js-input-" + slotClass,
               'readOnly':  true
             }]
           }]
@@ -531,7 +531,9 @@ class GunplaBuild {
       if (partInput && partInput.dataset.part && partInput.dataset.ex) {
         partTrait = document.querySelector(".js-skill-trait-" + partInput.dataset.part), exData = JSON.parse(partInput.dataset.ex);
         if (exData.type && exData.name && partTrait) {
-          partTrait.textContent = exData.name;
+          partTrait.innerHTML = exData.type === 'EX Skill'
+              ? '[EX]: ' + exData.name
+              : exData.name.replace(/,/, '<br>');
         }
       } else {
         this._clearSkillTrait(partData);
@@ -898,7 +900,7 @@ class GunplaBuild {
     const currPart = this.currentPart,
         markSlot = document.querySelector(".js-marks-" + currPart),
         markPart = markSlot ? document.querySelector(".js-input-" + currPart) : null,
-        markCount = markPart.dataset.mark ? markPart.dataset.mark : markPart.dataset.rarity;
+        markCount = markPart.dataset.mark || markPart.dataset.specialRarity || markPart.dataset.rarity;
     if (markCount) {
       for (let i = 5; i > markCount; i--) {
         this._createMark(markSlot, currPart);

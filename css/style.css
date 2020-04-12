@@ -1,4 +1,4 @@
-* {
+body, header, div, span, h1, h2, h3, h4, h5, p, label, input {
   box-sizing: border-box;
   color: #232222;
   font-family: Verdana;
@@ -46,6 +46,10 @@ h3 {
 
 .container > * {
   flex-shrink: 0;
+}
+
+.js-apply-map-bonus {
+  margin-left: 0.5em;
 }
 
 .info,
@@ -132,11 +136,31 @@ h3 {
   width: 290px;
 }
 
+.js-input,
+.part-list__item {
+ font-size: smaller;
+}
+
 .part-list__item {
   border-bottom: 1px solid #bfbfbf;
   cursor: pointer;
   padding: 8px 5px;
   user-select: none;
+}
+
+.js-input[data-rarity="2"],
+.part-list__item[data-rarity="2"] {
+  color : #00CC00;
+}
+
+.js-input[data-rarity="3"],
+.part-list__item[data-rarity="3"] {
+  color : #1070DD;
+}
+
+.js-input[data-rarity="4"],
+.part-list__item[data-rarity="4"] {
+  color : #CC00CC;
 }
 
 .part-list__remove {
