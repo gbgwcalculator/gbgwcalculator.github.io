@@ -207,6 +207,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1363,
     "ma": 972,
     "sa": 1363,
@@ -222,6 +223,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1745,
     "ma": 555,
     "sa": 972,
@@ -237,6 +239,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 0,
     "ma": 2770,
     "sa": 555,
@@ -251,6 +254,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 972,
     "ma": 972,
     "sa": 555,
@@ -265,6 +269,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 972,
     "ma": 972,
     "sa": 555,
@@ -280,6 +285,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1363,
     "ma": 3713,
     "sa": 0,
@@ -296,6 +302,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3582,
     "sa": 0,
@@ -312,6 +319,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1363,
     "ma": 3713,
     "sa": 0,
@@ -328,6 +336,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 4004,
     "sa": 0,
@@ -344,6 +353,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 555,
     "ma": 154,
     "sa": 3331,
@@ -367,6 +377,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 376,
@@ -382,6 +393,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 376,
     "ma": 287,
     "sa": 287,
@@ -398,6 +410,7 @@ const Collections = [{
     "combo": "legs"
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 138,
     "ma": 376,
     "sa": 138,
@@ -413,6 +426,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 138,
     "ma": 138,
     "sa": 138,
@@ -433,6 +447,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 2380,
@@ -448,6 +463,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1977,
     "ma": 384,
     "sa": 796,
@@ -462,6 +478,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 796,
     "sa": 796,
@@ -477,6 +494,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -492,6 +510,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -506,6 +525,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 3177,
@@ -522,6 +542,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -544,6 +565,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 2791,
@@ -559,6 +581,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1184,
     "ma": 384,
     "sa": 384,
@@ -573,6 +596,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 799,
     "ma": 1982,
     "sa": 384,
@@ -587,6 +611,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 799,
@@ -602,6 +627,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -617,6 +643,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 799,
     "ma": 1982,
     "sa": 0,
@@ -633,6 +660,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 799,
     "ma": 1982,
     "sa": 0,
@@ -650,6 +678,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3590,
@@ -666,6 +695,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 799,
     "ma": 0,
     "sa": 0,
@@ -687,6 +717,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 1181,
@@ -702,6 +733,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1977,
     "ma": 384,
     "sa": 384,
@@ -717,6 +749,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 1181,
     "sa": 384,
@@ -731,6 +764,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -746,6 +780,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -761,6 +796,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 2380,
     "sa": 0,
@@ -777,6 +813,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 2380,
@@ -793,6 +830,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -814,6 +852,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -828,6 +867,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -842,6 +882,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -856,6 +897,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -871,6 +913,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -885,6 +928,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 2297,
     "sa": 0,
@@ -901,6 +945,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 2297,
@@ -917,6 +962,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -939,6 +985,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 1179,
@@ -954,6 +1001,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 382,
     "sa": 0,
@@ -969,6 +1017,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 795,
     "ma": 1179,
     "sa": 382,
@@ -984,6 +1033,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -998,6 +1048,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -1013,6 +1064,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 0,
     "ma": 0,
     "sa": 0,
@@ -1034,6 +1086,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 2377,
@@ -1048,6 +1101,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 382,
     "sa": 382,
@@ -1063,6 +1117,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 795,
     "ma": 2377,
     "sa": 382,
@@ -1078,6 +1133,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -1092,6 +1148,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -1113,6 +1170,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 364,
@@ -1128,6 +1186,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -1142,6 +1201,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 187,
     "ma": 1480,
     "sa": 187,
@@ -1156,6 +1216,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -1171,6 +1232,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -1186,6 +1248,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 187,
     "ma": 1864,
     "sa": 0,
@@ -1203,6 +1266,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1089,
@@ -1219,6 +1283,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 0,
@@ -1240,6 +1305,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -1255,6 +1321,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1977,
     "ma": 796,
     "sa": 384,
@@ -1269,6 +1336,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2783,
     "sa": 0,
@@ -1284,6 +1352,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -1299,6 +1368,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -1314,6 +1384,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 3581,
     "sa": 0,
@@ -1331,6 +1402,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -1352,6 +1424,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1040,
     "ma": 389,
     "sa": 651,
@@ -1367,6 +1440,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1848,
     "ma": 651,
     "sa": 389,
@@ -1381,6 +1455,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 651,
     "ma": 2656,
     "sa": 0,
@@ -1396,6 +1471,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1040,
     "ma": 389,
     "sa": 389,
@@ -1410,6 +1486,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1040,
     "ma": 389,
     "sa": 389,
@@ -1431,6 +1508,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1182,
     "ma": 384,
     "sa": 799,
@@ -1445,6 +1523,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -1459,6 +1538,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3181,
     "sa": 384,
@@ -1473,6 +1553,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -1488,6 +1569,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -1503,6 +1585,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 4004,
     "sa": 0,
@@ -1525,6 +1608,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 966,
     "ma": 379,
     "sa": 3313,
@@ -1540,6 +1624,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1736,
     "ma": 789,
     "sa": 1098,
@@ -1555,6 +1640,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1888,
     "ma": 3692,
     "sa": 2026,
@@ -1571,6 +1657,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 966,
     "ma": 789,
     "sa": 720,
@@ -1585,6 +1672,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 966,
     "ma": 789,
     "sa": 720,
@@ -1606,6 +1694,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 1144,
     "ma": 292,
     "sa": 891,
@@ -1621,6 +1710,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 2593,
     "ma": 558,
     "sa": 558,
@@ -1636,6 +1726,7 @@ const Collections = [{
     "combo": "legs"
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 891,
     "sa": 292,
@@ -1651,6 +1742,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -1672,6 +1764,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 1144,
     "ma": 292,
     "sa": 891,
@@ -1687,6 +1780,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 2593,
     "ma": 558,
     "sa": 558,
@@ -1702,6 +1796,7 @@ const Collections = [{
     "combo": "legs"
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 891,
     "sa": 292,
@@ -1717,6 +1812,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -1738,6 +1834,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 1974,
@@ -1753,6 +1850,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1182,
     "ma": 799,
     "sa": 384,
@@ -1767,6 +1865,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1606,
     "ma": 2786,
     "sa": 384,
@@ -1782,6 +1881,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -1797,6 +1897,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -1812,6 +1913,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3586,
     "sa": 0,
@@ -1828,6 +1930,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 799,
     "ma": 0,
     "sa": 1979,
@@ -1850,6 +1953,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 650,
     "ma": 388,
     "sa": 1844,
@@ -1864,6 +1968,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1038,
     "ma": 650,
     "sa": 388,
@@ -1879,6 +1984,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1456,
     "ma": 2651,
     "sa": 388,
@@ -1895,6 +2001,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 650,
     "ma": 388,
     "sa": 388,
@@ -1909,6 +2016,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 650,
     "ma": 388,
     "sa": 388,
@@ -1930,6 +2038,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 889,
@@ -1945,6 +2054,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 0,
@@ -1960,6 +2070,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 889,
     "sa": 291,
@@ -1975,6 +2086,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -1989,6 +2101,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -2009,6 +2122,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -2024,6 +2138,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -2039,6 +2154,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -2053,6 +2169,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -2068,6 +2185,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -2089,6 +2207,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -2103,6 +2222,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -2118,6 +2238,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3177,
     "sa": 384,
@@ -2133,6 +2254,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -2148,6 +2270,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -2169,6 +2292,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 1701,
@@ -2184,6 +2308,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1433,
     "ma": 291,
     "sa": 558,
@@ -2198,6 +2323,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 558,
@@ -2213,6 +2339,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -2227,6 +2354,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -2242,6 +2370,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 889,
     "ma": 1701,
     "sa": 0,
@@ -2258,6 +2387,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 2300,
@@ -2274,6 +2404,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 2300,
@@ -2290,6 +2421,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 2300,
@@ -2306,6 +2438,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 0,
@@ -2327,6 +2460,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 2378,
@@ -2342,6 +2476,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 383,
     "sa": 383,
@@ -2356,6 +2491,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2378,
     "sa": 383,
@@ -2370,6 +2506,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -2385,6 +2522,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -2400,6 +2538,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 3176,
@@ -2416,6 +2555,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 4004,
@@ -2431,6 +2571,7 @@ const Collections = [{
     "name": "Enhanced Beam Rifle [Build Strike]"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 0,
@@ -2453,6 +2594,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 291,
     "ma": 291,
     "sa": 2300,
@@ -2467,6 +2609,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -2482,6 +2625,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 291,
@@ -2497,6 +2641,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -2512,6 +2657,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -2526,6 +2672,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 291,
     "ma": 0,
     "sa": 2867,
@@ -2549,6 +2696,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 1480,
@@ -2564,6 +2712,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -2578,6 +2727,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 187,
@@ -2593,6 +2743,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -2608,6 +2759,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -2629,6 +2781,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 1480,
@@ -2643,6 +2796,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -2658,6 +2812,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 187,
@@ -2673,6 +2828,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -2687,6 +2843,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -2708,6 +2865,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 1985,
@@ -2723,6 +2881,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1185,
     "ma": 800,
     "sa": 385,
@@ -2738,6 +2897,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 800,
     "ma": 2795,
     "sa": 385,
@@ -2752,6 +2912,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 385,
@@ -2766,6 +2927,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 385,
     "ma": 3594,
     "sa": 0,
@@ -2783,6 +2945,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 800,
     "ma": 0,
     "sa": 1985,
@@ -2797,8 +2960,7 @@ const Collections = [{
     },
     "name": "Beam Rifle [Code ϕ]",
     "type": "Beam"
-  }],
-  "specialRarity": 4
+  }]
 }, {
   "name": "Command Gundam",
   "attribute": "Technique",
@@ -2806,6 +2968,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 1999,
@@ -2820,6 +2983,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 893,
     "ma": 294,
     "sa": 294,
@@ -2835,6 +2999,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 559,
     "ma": 1438,
     "sa": 294,
@@ -2849,6 +3014,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 559,
@@ -2863,6 +3029,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 294,
@@ -2878,6 +3045,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 559,
     "ma": 1438,
     "sa": 0,
@@ -2895,6 +3063,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 294,
     "ma": 0,
     "sa": 2598,
@@ -2912,6 +3081,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 294,
     "ma": 0,
     "sa": 2598,
@@ -2934,6 +3104,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -2949,6 +3120,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1433,
     "ma": 558,
     "sa": 291,
@@ -2964,6 +3136,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1991,
     "sa": 0,
@@ -2978,6 +3151,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -2993,6 +3167,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -3007,6 +3182,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 889,
     "ma": 2589,
     "sa": 0,
@@ -3023,6 +3199,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 1699,
@@ -3039,6 +3216,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 0,
@@ -3060,6 +3238,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 384,
     "ma": 384,
     "sa": 3177,
@@ -3074,6 +3253,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -3089,6 +3269,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 796,
     "sa": 384,
@@ -3103,6 +3284,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -3118,6 +3300,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -3132,6 +3315,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 2380,
     "sa": 0,
@@ -3149,6 +3333,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 2380,
     "sa": 0,
@@ -3165,6 +3350,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3997,
@@ -3181,6 +3367,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3997,
@@ -3197,6 +3384,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 0,
@@ -3218,6 +3406,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -3233,6 +3422,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1434,
     "ma": 558,
     "sa": 291,
@@ -3247,6 +3437,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1992,
     "sa": 0,
@@ -3261,6 +3452,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -3275,6 +3467,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -3289,6 +3482,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 889,
     "ma": 2591,
     "sa": 0,
@@ -3305,6 +3499,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 1702,
@@ -3321,6 +3516,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 0,
@@ -3343,6 +3539,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 1089,
@@ -3357,6 +3554,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 942,
     "ma": 187,
     "sa": 364,
@@ -3372,6 +3570,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 1089,
     "ma": 364,
     "sa": 364,
@@ -3388,6 +3587,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -3402,6 +3602,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -3417,6 +3618,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 570,
     "ma": 1089,
     "sa": 0,
@@ -3433,6 +3635,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1480,
@@ -3455,6 +3658,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 965,
     "ma": 553,
     "sa": 2922,
@@ -3469,6 +3673,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 965,
     "sa": 965,
@@ -3483,6 +3688,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 965,
     "ma": 2922,
     "sa": 1356,
@@ -3498,6 +3704,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -3512,6 +3719,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -3527,6 +3735,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 3690,
     "sa": 0,
@@ -3543,6 +3752,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 553,
     "ma": 154,
     "sa": 3690,
@@ -3559,6 +3769,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -3580,6 +3791,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 373,
@@ -3594,6 +3806,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 137,
@@ -3609,6 +3822,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 373,
     "sa": 137,
@@ -3624,6 +3838,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -3638,6 +3853,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -3659,6 +3875,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 372,
@@ -3673,6 +3890,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 137,
@@ -3688,6 +3906,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 372,
     "sa": 137,
@@ -3702,6 +3921,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -3716,6 +3936,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -3731,6 +3952,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 372,
     "ma": 0,
     "sa": 797,
@@ -3753,6 +3975,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 372,
@@ -3767,6 +3990,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 137,
@@ -3781,6 +4005,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 372,
     "sa": 137,
@@ -3795,6 +4020,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -3809,6 +4035,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -3830,6 +4057,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 1088,
@@ -3845,6 +4073,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 186,
     "sa": 186,
@@ -3860,6 +4089,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 363,
     "ma": 1088,
     "sa": 186,
@@ -3874,6 +4104,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -3888,6 +4119,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -3903,6 +4135,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 363,
     "ma": 0,
     "sa": 1479,
@@ -3926,6 +4159,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 1088,
@@ -3940,6 +4174,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 186,
     "sa": 186,
@@ -3955,6 +4190,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 363,
     "ma": 1088,
     "sa": 186,
@@ -3969,6 +4205,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -3983,6 +4220,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -3998,6 +4236,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 363,
     "ma": 0,
     "sa": 1479,
@@ -4020,6 +4259,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 1436,
@@ -4035,6 +4275,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 891,
     "ma": 559,
     "sa": 292,
@@ -4050,6 +4291,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 559,
     "ma": 1994,
     "sa": 292,
@@ -4065,6 +4307,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -4079,6 +4322,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -4093,6 +4337,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 292,
     "ma": 2594,
     "sa": 0,
@@ -4116,6 +4361,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 287,
@@ -4130,6 +4376,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -4144,6 +4391,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 137,
     "ma": 1016,
     "sa": 137,
@@ -4159,6 +4407,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -4173,6 +4422,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -4188,6 +4438,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 4,
     "a": 137,
     "ma": 1310,
     "sa": 0,
@@ -4205,6 +4456,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 373,
     "ma": 0,
     "sa": 798,
@@ -4227,6 +4479,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 1701,
@@ -4242,6 +4495,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1433,
     "ma": 291,
     "sa": 558,
@@ -4256,6 +4510,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 558,
@@ -4271,6 +4526,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -4285,6 +4541,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -4300,6 +4557,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 2300,
@@ -4316,6 +4574,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 2300,
@@ -4332,6 +4591,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 0,
@@ -4354,6 +4614,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 384,
     "ma": 384,
     "sa": 3181,
@@ -4368,6 +4629,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -4383,6 +4645,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1182,
     "ma": 799,
     "sa": 384,
@@ -4398,6 +4661,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -4412,6 +4676,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -4432,6 +4697,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 389,
     "ma": 389,
     "sa": 3043,
@@ -4446,6 +4712,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1459,
     "ma": 389,
     "sa": 389,
@@ -4461,6 +4728,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1040,
     "ma": 651,
     "sa": 389,
@@ -4476,6 +4744,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 651,
     "ma": 389,
     "sa": 389,
@@ -4490,6 +4759,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 651,
     "ma": 389,
     "sa": 389,
@@ -4510,6 +4780,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 2377,
@@ -4525,6 +4796,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 382,
     "sa": 382,
@@ -4539,6 +4811,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 795,
     "ma": 2377,
     "sa": 382,
@@ -4553,6 +4826,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -4567,6 +4841,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -4582,6 +4857,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 795,
     "ma": 3173,
     "sa": 0,
@@ -4598,6 +4874,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 795,
     "ma": 0,
     "sa": 3173,
@@ -4615,6 +4892,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 795,
     "ma": 0,
     "sa": 0,
@@ -4636,6 +4914,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 1440,
@@ -4651,6 +4930,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 893,
     "ma": 561,
     "sa": 294,
@@ -4665,6 +4945,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 561,
     "ma": 2000,
     "sa": 294,
@@ -4680,6 +4961,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 294,
@@ -4695,6 +4977,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 294,
@@ -4710,6 +4993,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 294,
     "ma": 2601,
     "sa": 0,
@@ -4732,6 +5016,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 965,
     "ma": 0,
     "sa": 3306,
@@ -4747,6 +5032,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1732,
     "ma": 551,
     "sa": 551,
@@ -4762,6 +5048,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1884,
     "ma": 1506,
     "sa": 551,
@@ -4777,6 +5064,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 329,
     "sa": 551,
@@ -4791,6 +5079,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 329,
     "sa": 551,
@@ -4806,6 +5095,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 551,
     "ma": 3138,
     "sa": 0,
@@ -4829,6 +5119,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 2377,
@@ -4843,6 +5134,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 382,
     "sa": 382,
@@ -4858,6 +5150,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 795,
     "ma": 2377,
     "sa": 382,
@@ -4872,6 +5165,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -4887,6 +5181,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -4902,6 +5197,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 795,
     "ma": 3173,
     "sa": 0,
@@ -4918,6 +5214,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 795,
     "ma": 0,
     "sa": 3173,
@@ -4934,6 +5231,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 795,
     "ma": 0,
     "sa": 0,
@@ -4956,6 +5254,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 2268,
@@ -4970,6 +5269,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1454,
     "ma": 388,
     "sa": 388,
@@ -4985,6 +5285,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 648,
     "ma": 2268,
     "sa": 388,
@@ -4999,6 +5300,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 388,
@@ -5014,6 +5316,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 388,
@@ -5035,6 +5338,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1356,
     "ma": 553,
     "sa": 2523,
@@ -5050,6 +5354,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 2133,
     "ma": 553,
     "sa": 966,
@@ -5064,6 +5369,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1356,
     "ma": 966,
     "sa": 966,
@@ -5078,6 +5384,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1356,
     "ma": 553,
     "sa": 553,
@@ -5093,6 +5400,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1356,
     "ma": 553,
     "sa": 553,
@@ -5108,6 +5416,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1356,
     "ma": 2523,
     "sa": 0,
@@ -5124,6 +5433,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1356,
     "ma": 0,
     "sa": 3312,
@@ -5140,6 +5450,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1356,
     "ma": 0,
     "sa": 0,
@@ -5162,6 +5473,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 2378,
@@ -5177,6 +5489,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 383,
     "sa": 383,
@@ -5192,6 +5505,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1601,
     "ma": 2378,
     "sa": 383,
@@ -5208,6 +5522,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -5223,6 +5538,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -5244,6 +5560,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5258,6 +5575,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 757,
     "ma": 187,
     "sa": 0,
@@ -5273,6 +5591,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 570,
     "sa": 187,
@@ -5288,6 +5607,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5302,6 +5622,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5323,6 +5644,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5338,6 +5660,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 757,
     "ma": 187,
     "sa": 0,
@@ -5352,6 +5675,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 570,
     "sa": 187,
@@ -5367,6 +5691,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5381,6 +5706,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5402,6 +5728,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -5417,6 +5744,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -5431,6 +5759,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -5445,6 +5774,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -5459,6 +5789,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -5474,6 +5805,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 2297,
     "sa": 0,
@@ -5490,6 +5822,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 2297,
@@ -5506,6 +5839,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -5528,6 +5862,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 364,
@@ -5543,6 +5878,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -5557,6 +5893,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 187,
     "ma": 1480,
     "sa": 187,
@@ -5571,6 +5908,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5586,6 +5924,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -5601,6 +5940,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 187,
     "ma": 1864,
     "sa": 0,
@@ -5617,6 +5957,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1089,
@@ -5634,6 +5975,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 0,
@@ -5656,6 +5998,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 373,
@@ -5671,6 +6014,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 798,
     "ma": 137,
     "sa": 137,
@@ -5685,6 +6029,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 373,
     "ma": 373,
     "sa": 137,
@@ -5699,6 +6044,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -5713,6 +6059,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -5727,6 +6074,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 373,
     "ma": 0,
     "sa": 511,
@@ -5749,6 +6097,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 137,
     "ma": 137,
     "sa": 1012,
@@ -5763,6 +6112,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -5777,6 +6127,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 372,
     "ma": 287,
     "sa": 137,
@@ -5791,6 +6142,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -5805,6 +6157,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -5820,6 +6173,7 @@ const Collections = [{
     }
   }, {
     "part": "head",
+    "mark": 4,
     "a": 365,
     "ma": 187,
     "sa": 1278,
@@ -5835,6 +6189,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 571,
     "ma": 187,
     "sa": 187,
@@ -5849,6 +6204,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 365,
     "ma": 943,
     "sa": 187,
@@ -5864,6 +6220,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 365,
     "ma": 187,
     "sa": 365,
@@ -5878,6 +6235,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 365,
     "ma": 187,
     "sa": 187,
@@ -5892,6 +6250,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 187,
     "ma": 0,
     "sa": 1663,
@@ -5920,6 +6279,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 1701,
@@ -5934,6 +6294,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1433,
     "ma": 291,
     "sa": 558,
@@ -5948,6 +6309,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 558,
@@ -5963,6 +6325,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -5978,6 +6341,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -5992,6 +6356,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 2300,
@@ -6014,6 +6379,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 797,
@@ -6029,6 +6395,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 509,
     "ma": 137,
     "sa": 137,
@@ -6043,6 +6410,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 797,
     "sa": 137,
@@ -6057,6 +6425,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6072,6 +6441,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6087,6 +6457,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 287,
     "ma": 0,
     "sa": 1011,
@@ -6103,6 +6474,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 4,
     "a": 287,
     "ma": 0,
     "sa": 0,
@@ -6124,6 +6496,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 137,
     "ma": 137,
     "sa": 1016,
@@ -6139,6 +6512,7 @@ const Collections = [{
     }
   }, {
     "part": "head",
+    "mark": 4,
     "a": 137,
     "ma": 137,
     "sa": 1016,
@@ -6154,6 +6528,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -6168,6 +6543,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 376,
     "ma": 138,
     "sa": 138,
@@ -6183,6 +6559,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 373,
     "ma": 287,
     "sa": 137,
@@ -6197,6 +6574,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 641,
     "sa": 138,
@@ -6211,6 +6589,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6226,6 +6605,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6241,6 +6621,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6255,6 +6636,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 138,
@@ -6270,6 +6652,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 137,
     "ma": 0,
     "sa": 1310,
@@ -6286,6 +6669,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 137,
     "ma": 0,
     "sa": 1310,
@@ -6302,6 +6686,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 4,
     "a": 287,
     "ma": 0,
     "sa": 0,
@@ -6324,6 +6709,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 902,
@@ -6339,6 +6725,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 376,
     "ma": 138,
     "sa": 138,
@@ -6354,6 +6741,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 641,
     "sa": 138,
@@ -6368,6 +6756,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 287,
@@ -6382,6 +6771,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 138,
@@ -6397,6 +6787,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 4,
     "a": 287,
     "ma": 0,
     "sa": 0,
@@ -6418,6 +6809,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 797,
@@ -6433,6 +6825,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 509,
     "ma": 137,
     "sa": 137,
@@ -6447,6 +6840,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 797,
     "sa": 137,
@@ -6461,6 +6855,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6476,6 +6871,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -6497,6 +6893,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 287,
@@ -6512,6 +6909,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 287,
     "sa": 137,
@@ -6526,6 +6924,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 899,
     "sa": 0,
@@ -6541,6 +6940,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -6556,6 +6956,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -6577,6 +6978,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 1278,
@@ -6592,6 +6994,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 591,
     "ma": 187,
     "sa": 187,
@@ -6606,6 +7009,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 365,
     "ma": 943,
     "sa": 187,
@@ -6621,6 +7025,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 365,
@@ -6636,6 +7041,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 187,
@@ -6657,6 +7063,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 569,
@@ -6672,6 +7079,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 186,
     "sa": 0,
@@ -6686,6 +7094,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 363,
     "ma": 569,
     "sa": 186,
@@ -6701,6 +7110,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -6716,6 +7126,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -6730,6 +7141,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 363,
     "ma": 754,
     "sa": 0,
@@ -6746,6 +7158,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 363,
     "ma": 0,
     "sa": 754,
@@ -6763,6 +7176,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 363,
     "ma": 0,
     "sa": 754,
@@ -6780,6 +7194,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 0,
     "ma": 0,
     "sa": 0,
@@ -6802,6 +7217,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 1089,
@@ -6817,6 +7233,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 942,
     "ma": 187,
     "sa": 364,
@@ -6831,6 +7248,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 364,
@@ -6846,6 +7264,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -6861,6 +7280,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -6875,6 +7295,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 570,
     "ma": 1089,
     "sa": 0,
@@ -6892,6 +7313,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 570,
     "ma": 1089,
     "sa": 0,
@@ -6909,6 +7331,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1480,
@@ -6925,6 +7348,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1480,
@@ -6942,6 +7366,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1480,
@@ -6958,6 +7383,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1480,
@@ -6974,6 +7400,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 0,
@@ -6996,6 +7423,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 287,
@@ -7011,6 +7439,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -7025,6 +7454,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 137,
     "ma": 1012,
     "sa": 137,
@@ -7040,6 +7470,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -7054,6 +7485,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -7068,6 +7500,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 4,
     "a": 137,
     "ma": 1309,
     "sa": 0,
@@ -7084,6 +7517,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 4,
     "a": 287,
     "ma": 0,
     "sa": 0,
@@ -7106,6 +7540,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 889,
@@ -7120,6 +7555,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 0,
@@ -7134,6 +7570,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 889,
     "sa": 291,
@@ -7149,6 +7586,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -7163,6 +7601,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -7177,6 +7616,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 1140,
     "sa": 0,
@@ -7193,6 +7633,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 1140,
     "sa": 0,
@@ -7209,6 +7650,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 1140,
@@ -7232,6 +7674,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 798,
@@ -7247,6 +7690,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 287,
@@ -7262,6 +7706,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 373,
     "ma": 287,
     "sa": 287,
@@ -7276,6 +7721,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -7291,6 +7737,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -7305,6 +7752,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 373,
     "ma": 0,
     "sa": 1014,
@@ -7328,6 +7776,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 2378,
@@ -7343,6 +7792,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 383,
     "sa": 383,
@@ -7357,6 +7807,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2378,
     "sa": 383,
@@ -7371,6 +7822,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -7385,6 +7837,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -7400,6 +7853,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 796,
     "ma": 3176,
     "sa": 0,
@@ -7417,6 +7871,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 796,
     "ma": 3176,
     "sa": 0,
@@ -7433,6 +7888,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 3176,
@@ -7450,6 +7906,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 3176,
@@ -7466,6 +7923,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 0,
@@ -7487,6 +7945,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 570,
@@ -7502,6 +7961,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 757,
     "ma": 187,
     "sa": 0,
@@ -7516,6 +7976,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 570,
     "sa": 187,
@@ -7530,6 +7991,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -7544,6 +8006,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -7558,6 +8021,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 364,
     "ma": 757,
     "sa": 0,
@@ -7574,6 +8038,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 364,
     "ma": 757,
     "sa": 0,
@@ -7590,6 +8055,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 757,
@@ -7606,6 +8072,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 757,
@@ -7622,6 +8089,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 0,
     "ma": 0,
     "sa": 0,
@@ -7643,6 +8111,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 893,
@@ -7658,6 +8127,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 294,
@@ -7672,6 +8142,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 294,
     "ma": 893,
     "sa": 294,
@@ -7686,6 +8157,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 294,
     "ma": 294,
     "sa": 294,
@@ -7701,6 +8173,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 294,
     "ma": 294,
     "sa": 294,
@@ -7715,6 +8188,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 559,
     "ma": 0,
     "sa": 1146,
@@ -7731,6 +8205,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 294,
     "ma": 0,
     "sa": 0,
@@ -7752,6 +8227,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 891,
@@ -7767,6 +8243,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1145,
     "ma": 292,
     "sa": 0,
@@ -7781,6 +8258,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 559,
     "ma": 891,
     "sa": 292,
@@ -7796,6 +8274,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -7811,6 +8290,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -7831,6 +8311,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 1440,
@@ -7845,6 +8326,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 893,
     "ma": 561,
     "sa": 294,
@@ -7859,6 +8341,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 561,
     "ma": 2000,
     "sa": 294,
@@ -7873,6 +8356,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 294,
@@ -7888,6 +8372,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 294,
@@ -7902,6 +8387,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 561,
     "ma": 0,
     "sa": 1440,
@@ -7918,6 +8404,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 561,
     "ma": 0,
     "sa": 0,
@@ -7939,6 +8426,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 2378,
@@ -7954,6 +8442,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 383,
     "sa": 383,
@@ -7969,6 +8458,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1601,
     "ma": 2378,
     "sa": 383,
@@ -7985,6 +8475,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -7999,6 +8490,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -8013,6 +8505,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 796,
     "ma": 3175,
     "sa": 0,
@@ -8029,6 +8522,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 3175,
@@ -8043,8 +8537,7 @@ const Collections = [{
     },
     "name": "Beam Rifle [Artemis]",
     "type": "Beam"
-  }],
-  "specialRarity": 4
+  }]
 }, {
   "name": "Gundam Astaroth",
   "attribute": "Power",
@@ -8052,6 +8545,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 1985,
@@ -8066,6 +8560,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1185,
     "ma": 800,
     "sa": 385,
@@ -8080,6 +8575,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1610,
     "ma": 2795,
     "sa": 385,
@@ -8096,6 +8592,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 385,
@@ -8111,6 +8608,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 385,
@@ -8126,6 +8624,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 385,
     "ma": 3594,
     "sa": 0,
@@ -8142,6 +8641,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 800,
     "ma": 0,
     "sa": 1985,
@@ -8158,6 +8658,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 800,
     "ma": 0,
     "sa": 1985,
@@ -8180,6 +8681,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -8195,6 +8697,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -8209,6 +8712,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3177,
     "sa": 384,
@@ -8223,6 +8727,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -8238,6 +8743,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -8253,6 +8759,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3997,
     "sa": 0,
@@ -8275,6 +8782,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 1979,
@@ -8289,6 +8797,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1182,
     "ma": 799,
     "sa": 384,
@@ -8304,6 +8813,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 799,
     "ma": 2786,
     "sa": 384,
@@ -8318,6 +8828,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -8333,6 +8844,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 779,
     "ma": 384,
     "sa": 384,
@@ -8347,6 +8859,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3586,
     "sa": 0,
@@ -8363,6 +8876,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3586,
     "sa": 0,
@@ -8380,6 +8894,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 799,
     "ma": 0,
     "sa": 1979,
@@ -8402,6 +8917,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1182,
     "ma": 384,
     "sa": 799,
@@ -8416,6 +8932,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -8430,6 +8947,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3181,
     "sa": 384,
@@ -8445,6 +8963,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -8459,6 +8978,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -8474,6 +8994,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 4004,
     "sa": 0,
@@ -8497,6 +9018,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1356,
     "ma": 553,
     "sa": 966,
@@ -8512,6 +9034,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 553,
     "sa": 553,
@@ -8526,6 +9049,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 553,
     "ma": 3312,
     "sa": 553,
@@ -8541,6 +9065,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -8555,6 +9080,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -8570,6 +9096,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 4110,
     "sa": 0,
@@ -8587,6 +9114,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 4110,
     "sa": 0,
@@ -8609,6 +9137,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 1179,
@@ -8624,6 +9153,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 382,
     "sa": 0,
@@ -8639,6 +9169,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 795,
     "ma": 1179,
     "sa": 382,
@@ -8653,6 +9184,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -8667,6 +9199,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -8682,6 +9215,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 795,
     "ma": 1601,
     "sa": 0,
@@ -8699,6 +9233,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 0,
     "ma": 0,
     "sa": 0,
@@ -8721,6 +9256,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 796,
@@ -8736,6 +9272,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1976,
     "ma": 796,
     "sa": 383,
@@ -8751,6 +9288,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2781,
     "sa": 0,
@@ -8766,6 +9304,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -8780,6 +9319,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -8794,6 +9334,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1180,
     "ma": 3577,
     "sa": 0,
@@ -8817,6 +9358,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 384,
     "ma": 384,
     "sa": 3181,
@@ -8832,6 +9374,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -8846,6 +9389,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1182,
     "ma": 799,
     "sa": 384,
@@ -8860,6 +9404,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -8875,6 +9420,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -8890,6 +9436,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 4004,
@@ -8912,6 +9459,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -8927,6 +9475,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -8941,6 +9490,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3177,
     "sa": 384,
@@ -8956,6 +9506,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -8971,6 +9522,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -8986,6 +9538,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 2380,
     "sa": 0,
@@ -9002,6 +9555,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 3177,
@@ -9018,6 +9572,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 0,
@@ -9039,6 +9594,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1036,
     "ma": 388,
     "sa": 649,
@@ -9053,6 +9609,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1455,
     "ma": 388,
     "sa": 388,
@@ -9067,6 +9624,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 388,
     "ma": 3034,
     "sa": 388,
@@ -9082,6 +9640,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 649,
     "ma": 388,
     "sa": 388,
@@ -9096,6 +9655,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 649,
     "ma": 388,
     "sa": 388,
@@ -9117,6 +9677,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 2378,
@@ -9132,6 +9693,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 383,
     "sa": 383,
@@ -9146,6 +9708,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1602,
     "ma": 2378,
     "sa": 383,
@@ -9161,6 +9724,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -9176,6 +9740,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 383,
     "sa": 383,
@@ -9191,6 +9756,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 796,
     "ma": 3176,
     "sa": 0,
@@ -9207,6 +9773,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 3176,
@@ -9223,6 +9790,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 3176,
@@ -9245,6 +9813,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1605,
     "ma": 384,
     "sa": 1181,
@@ -9260,6 +9829,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 2382,
     "ma": 384,
     "sa": 384,
@@ -9275,6 +9845,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 1181,
     "sa": 384,
@@ -9289,6 +9860,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -9303,6 +9875,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -9318,6 +9891,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 1605,
@@ -9334,6 +9908,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -9356,6 +9931,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 2268,
@@ -9371,6 +9947,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1454,
     "ma": 388,
     "sa": 388,
@@ -9386,6 +9963,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 648,
     "ma": 2268,
     "sa": 388,
@@ -9400,6 +9978,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 388,
@@ -9414,6 +9993,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 388,
@@ -9435,6 +10015,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 2377,
@@ -9450,6 +10031,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1601,
     "ma": 382,
     "sa": 382,
@@ -9465,6 +10047,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 795,
     "ma": 2377,
     "sa": 382,
@@ -9479,6 +10062,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -9493,6 +10077,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 795,
     "ma": 382,
     "sa": 382,
@@ -9514,6 +10099,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1605,
     "ma": 384,
     "sa": 1181,
@@ -9529,6 +10115,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 2382,
     "ma": 384,
     "sa": 384,
@@ -9543,6 +10130,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 1181,
     "sa": 384,
@@ -9557,6 +10145,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -9572,6 +10161,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -9586,6 +10176,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3997,
@@ -9603,6 +10194,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -9624,6 +10216,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 796,
@@ -9638,6 +10231,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1976,
     "ma": 796,
     "sa": 383,
@@ -9653,6 +10247,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2781,
     "sa": 0,
@@ -9667,6 +10262,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -9681,6 +10277,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -9696,6 +10293,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1180,
     "ma": 0,
     "sa": 2378,
@@ -9713,6 +10311,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1180,
     "ma": 0,
     "sa": 0,
@@ -9734,6 +10333,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "melee",
+    "mark": 2,
     "a": 891,
     "ma": 1144,
     "sa": 0,
@@ -9751,6 +10351,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 891,
     "ma": 0,
     "sa": 1144,
@@ -9773,6 +10374,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "melee",
+    "mark": 1,
     "a": 795,
     "ma": 1601,
     "sa": 0,
@@ -9789,6 +10391,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 795,
     "ma": 0,
     "sa": 1601,
@@ -9805,6 +10408,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 0,
     "ma": 0,
     "sa": 0,
@@ -9827,6 +10431,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 1702,
@@ -9841,6 +10446,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1435,
     "ma": 292,
     "sa": 558,
@@ -9856,6 +10462,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 558,
     "sa": 558,
@@ -9871,6 +10478,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -9885,6 +10493,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -9900,6 +10509,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 1702,
     "ma": 0,
     "sa": 2302,
@@ -9923,6 +10533,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 1440,
@@ -9937,6 +10548,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 893,
     "ma": 561,
     "sa": 294,
@@ -9951,6 +10563,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 561,
     "ma": 2000,
     "sa": 294,
@@ -9965,6 +10578,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 294,
@@ -9980,6 +10594,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 561,
     "ma": 294,
     "sa": 294,
@@ -9995,6 +10610,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 561,
     "ma": 0,
     "sa": 1440,
@@ -10011,6 +10627,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 561,
     "ma": 0,
     "sa": 0,
@@ -10033,6 +10650,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 2380,
@@ -10047,6 +10665,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1977,
     "ma": 384,
     "sa": 796,
@@ -10062,6 +10681,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 796,
     "sa": 796,
@@ -10077,6 +10697,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -10091,6 +10712,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -10106,6 +10728,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 3177,
@@ -10122,6 +10745,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -10144,6 +10768,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -10158,6 +10783,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -10173,6 +10799,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 291,
     "ma": 2300,
     "sa": 291,
@@ -10188,6 +10815,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -10203,6 +10831,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -10223,6 +10852,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 365,
     "ma": 188,
     "sa": 944,
@@ -10238,6 +10868,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 573,
     "ma": 365,
     "sa": 188,
@@ -10252,6 +10883,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 365,
     "ma": 1280,
     "sa": 188,
@@ -10266,6 +10898,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 365,
     "ma": 188,
     "sa": 188,
@@ -10281,6 +10914,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 365,
     "ma": 188,
     "sa": 188,
@@ -10296,6 +10930,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 188,
     "ma": 1665,
     "sa": 0,
@@ -10313,6 +10948,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 365,
     "ma": 0,
     "sa": 944,
@@ -10329,6 +10965,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 365,
     "ma": 0,
     "sa": 944,
@@ -10346,6 +10983,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 365,
     "ma": 0,
     "sa": 0,
@@ -10368,6 +11006,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 942,
@@ -10383,6 +11022,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 570,
     "ma": 365,
     "sa": 187,
@@ -10397,6 +11037,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 1277,
     "sa": 187,
@@ -10411,6 +11052,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -10426,6 +11068,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -10441,6 +11084,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 0,
@@ -10463,6 +11107,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -10477,6 +11122,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -10492,6 +11138,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -10506,6 +11153,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -10520,6 +11168,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -10534,6 +11183,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 2297,
     "sa": 0,
@@ -10550,6 +11200,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 2297,
@@ -10566,6 +11217,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -10581,6 +11233,7 @@ const Collections = [{
     "name": "GN Shield [Nadleeh]"
   }, {
     "part": "head",
+    "mark": 2,
     "a": 1180,
     "ma": 383,
     "sa": 796,
@@ -10596,6 +11249,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1976,
     "ma": 796,
     "sa": 383,
@@ -10611,6 +11265,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 796,
     "ma": 2781,
     "sa": 0,
@@ -10626,6 +11281,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -10640,6 +11296,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -10655,6 +11312,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 1180,
     "ma": 0,
     "sa": 2378,
@@ -10672,6 +11330,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 1180,
     "ma": 0,
     "sa": 0,
@@ -10694,6 +11353,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 891,
     "ma": 292,
     "sa": 891,
@@ -10709,6 +11369,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1435,
     "ma": 292,
     "sa": 292,
@@ -10724,6 +11385,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 558,
     "ma": 891,
     "sa": 292,
@@ -10738,6 +11400,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -10752,6 +11415,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -10778,6 +11442,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 1436,
@@ -10792,6 +11457,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 891,
     "ma": 559,
     "sa": 292,
@@ -10807,6 +11473,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 1144,
     "ma": 1994,
     "sa": 292,
@@ -10823,6 +11490,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -10838,6 +11506,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -10852,6 +11521,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 292,
     "ma": 2594,
     "sa": 0,
@@ -10874,6 +11544,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 1436,
@@ -10889,6 +11560,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 891,
     "ma": 559,
     "sa": 292,
@@ -10903,6 +11575,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 1144,
     "ma": 1994,
     "sa": 292,
@@ -10919,6 +11592,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -10934,6 +11608,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -10948,6 +11623,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 292,
     "ma": 2594,
     "sa": 0,
@@ -10970,6 +11646,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 1701,
@@ -10984,6 +11661,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1433,
     "ma": 291,
     "sa": 558,
@@ -10998,6 +11676,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 1701,
     "ma": 558,
     "sa": 558,
@@ -11014,6 +11693,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -11028,6 +11708,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -11043,6 +11724,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 889,
     "ma": 1701,
     "sa": 0,
@@ -11065,6 +11747,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 1144,
     "ma": 292,
     "sa": 891,
@@ -11079,6 +11762,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1702,
     "ma": 292,
     "sa": 292,
@@ -11094,6 +11778,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 891,
     "sa": 292,
@@ -11108,6 +11793,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -11123,6 +11809,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -11138,6 +11825,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 891,
     "ma": 0,
     "sa": 1144,
@@ -11154,6 +11842,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 891,
     "ma": 0,
     "sa": 0,
@@ -11170,6 +11859,7 @@ const Collections = [{
     "name": "Enhanced Shield Booster"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 891,
     "ma": 0,
     "sa": 0,
@@ -11191,6 +11881,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 797,
     "ma": 384,
     "sa": 2785,
@@ -11206,6 +11897,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1605,
     "ma": 797,
     "sa": 797,
@@ -11221,6 +11913,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 797,
     "ma": 2785,
     "sa": 1181,
@@ -11236,6 +11929,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -11251,6 +11945,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -11266,6 +11961,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3582,
     "sa": 0,
@@ -11282,6 +11978,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3582,
     "sa": 0,
@@ -11304,6 +12001,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 965,
     "ma": 553,
     "sa": 2922,
@@ -11319,6 +12017,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 965,
     "sa": 965,
@@ -11333,6 +12032,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 965,
     "ma": 2922,
     "sa": 1356,
@@ -11347,6 +12047,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -11362,6 +12063,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -11376,6 +12078,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 3690,
     "sa": 0,
@@ -11392,6 +12095,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 553,
     "ma": 154,
     "sa": 3690,
@@ -11414,6 +12118,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 2380,
@@ -11428,6 +12133,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1977,
     "ma": 384,
     "sa": 796,
@@ -11443,6 +12149,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 796,
     "sa": 796,
@@ -11458,6 +12165,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -11473,6 +12181,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -11487,6 +12196,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 2380,
     "sa": 0,
@@ -11503,6 +12213,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 3177,
@@ -11525,6 +12236,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1036,
     "ma": 388,
     "sa": 2268,
@@ -11539,6 +12251,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1841,
     "ma": 388,
     "sa": 649,
@@ -11554,6 +12267,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1122,
     "ma": 735,
     "sa": 735,
@@ -11569,6 +12283,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1036,
     "ma": 388,
     "sa": 388,
@@ -11584,6 +12299,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1036,
     "ma": 388,
     "sa": 388,
@@ -11604,6 +12320,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 292,
     "ma": 292,
     "sa": 2304,
@@ -11618,6 +12335,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1144,
     "ma": 292,
     "sa": 292,
@@ -11632,6 +12350,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 559,
     "sa": 292,
@@ -11646,6 +12365,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -11661,6 +12381,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 292,
     "sa": 292,
@@ -11676,6 +12397,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 292,
     "ma": 0,
     "sa": 2871,
@@ -11699,6 +12421,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 2791,
@@ -11714,6 +12437,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1184,
     "ma": 384,
     "sa": 384,
@@ -11729,6 +12453,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1608,
     "ma": 1982,
     "sa": 384,
@@ -11745,6 +12470,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 799,
@@ -11760,6 +12486,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -11774,6 +12501,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 799,
     "ma": 1982,
     "sa": 0,
@@ -11790,6 +12518,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3590,
@@ -11812,6 +12541,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 384,
     "ma": 384,
     "sa": 3181,
@@ -11827,6 +12557,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -11841,6 +12572,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1182,
     "ma": 799,
     "sa": 384,
@@ -11855,6 +12587,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -11869,6 +12602,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -11884,6 +12618,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1182,
     "ma": 2384,
     "sa": 0,
@@ -11900,6 +12635,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 4004,
@@ -11922,6 +12658,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 1181,
@@ -11937,6 +12674,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1978,
     "ma": 384,
     "sa": 384,
@@ -11951,6 +12689,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 797,
     "ma": 1181,
     "sa": 384,
@@ -11965,6 +12704,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -11979,6 +12719,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -11994,6 +12735,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 2382,
@@ -12010,6 +12752,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -12032,6 +12775,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 372,
@@ -12047,6 +12791,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 509,
     "ma": 137,
     "sa": 0,
@@ -12062,6 +12807,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 372,
     "sa": 137,
@@ -12077,6 +12823,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -12091,6 +12838,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -12105,6 +12853,7 @@ const Collections = [{
     }
   }, {
     "part": "head",
+    "mark": 4,
     "a": 1144,
     "ma": 292,
     "sa": 891,
@@ -12120,6 +12869,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 1702,
     "ma": 292,
     "sa": 292,
@@ -12135,6 +12885,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 891,
     "ma": 891,
     "sa": 292,
@@ -12150,6 +12901,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -12165,6 +12917,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -12180,6 +12933,7 @@ const Collections = [{
     }
   }, {
     "part": "head",
+    "mark": 4,
     "a": 795,
     "ma": 384,
     "sa": 1179,
@@ -12194,6 +12948,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 1601,
     "ma": 384,
     "sa": 0,
@@ -12208,6 +12963,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 795,
     "ma": 1179,
     "sa": 384,
@@ -12222,6 +12978,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 795,
     "ma": 384,
     "sa": 384,
@@ -12237,6 +12994,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 795,
     "ma": 384,
     "sa": 384,
@@ -12258,6 +13016,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 287,
@@ -12273,6 +13032,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 287,
     "sa": 137,
@@ -12287,6 +13047,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 899,
     "sa": 0,
@@ -12301,6 +13062,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -12316,6 +13078,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -12330,6 +13093,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 4,
     "a": 372,
     "ma": 1149,
     "sa": 0,
@@ -12346,6 +13110,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 4,
     "a": 372,
     "ma": 0,
     "sa": 0,
@@ -12368,6 +13133,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 895,
     "ma": 0,
     "sa": 3309,
@@ -12383,6 +13149,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1732,
     "ma": 551,
     "sa": 551,
@@ -12398,6 +13165,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 965,
     "ma": 1355,
     "sa": 551,
@@ -12412,6 +13180,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 551,
     "sa": 551,
@@ -12427,6 +13196,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 551,
     "sa": 551,
@@ -12442,6 +13212,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 551,
     "ma": 153,
     "sa": 4105,
@@ -12458,6 +13229,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 965,
     "ma": 153,
     "sa": 0,
@@ -12480,6 +13252,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -12494,6 +13267,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -12508,6 +13282,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 291,
     "ma": 2300,
     "sa": 291,
@@ -12522,6 +13297,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -12537,6 +13313,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -12551,6 +13328,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 1701,
@@ -12567,6 +13345,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -12588,6 +13367,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "torso",
+    "mark": 3,
     "a": 1088,
     "ma": 363,
     "sa": 569,
@@ -12604,6 +13384,7 @@ const Collections = [{
     "combo": "head"
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 363,
     "ma": 569,
     "sa": 186,
@@ -12619,6 +13400,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -12633,6 +13415,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -12653,6 +13436,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "torso",
+    "mark": 3,
     "a": 1088,
     "ma": 363,
     "sa": 569,
@@ -12669,6 +13453,7 @@ const Collections = [{
     "combo": "head"
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 363,
     "ma": 569,
     "sa": 186,
@@ -12684,6 +13469,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -12699,6 +13485,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 363,
     "ma": 186,
     "sa": 186,
@@ -12719,6 +13506,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 1999,
@@ -12734,6 +13522,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 893,
     "ma": 294,
     "sa": 294,
@@ -12748,6 +13537,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 559,
     "ma": 1438,
     "sa": 294,
@@ -12763,6 +13553,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 559,
@@ -12777,6 +13568,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 294,
@@ -12791,6 +13583,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 559,
     "ma": 1438,
     "sa": 0,
@@ -12808,6 +13601,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 294,
     "ma": 0,
     "sa": 2598,
@@ -12824,6 +13618,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 294,
     "ma": 0,
     "sa": 2598,
@@ -12847,6 +13642,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 2000,
@@ -12861,6 +13657,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 893,
     "ma": 294,
     "sa": 294,
@@ -12875,6 +13672,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 559,
     "ma": 1440,
     "sa": 294,
@@ -12890,6 +13688,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 559,
@@ -12905,6 +13704,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 559,
     "ma": 294,
     "sa": 294,
@@ -12919,6 +13719,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 559,
     "ma": 1440,
     "sa": 0,
@@ -12935,6 +13736,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 294,
     "ma": 0,
     "sa": 2600,
@@ -12952,6 +13754,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 559,
     "ma": 0,
     "sa": 0,
@@ -12974,6 +13777,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 755,
     "ma": 187,
     "sa": 570,
@@ -12989,6 +13793,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 1090,
     "ma": 187,
     "sa": 187,
@@ -13003,6 +13808,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 570,
     "sa": 187,
@@ -13017,6 +13823,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -13032,6 +13839,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -13046,6 +13854,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 0,
@@ -13068,6 +13877,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 364,
     "ma": 186,
     "sa": 1089,
@@ -13083,6 +13893,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 186,
     "sa": 186,
@@ -13097,6 +13908,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 1089,
     "sa": 186,
@@ -13111,6 +13923,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 186,
     "sa": 186,
@@ -13126,6 +13939,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 186,
     "sa": 186,
@@ -13141,6 +13955,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 1480,
@@ -13163,6 +13978,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 1480,
@@ -13177,6 +13993,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -13191,6 +14008,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 187,
@@ -13205,6 +14023,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -13220,6 +14039,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -13235,6 +14055,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 187,
     "ma": 0,
     "sa": 1864,
@@ -13257,6 +14078,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 1480,
@@ -13271,6 +14093,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -13285,6 +14108,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 187,
@@ -13299,6 +14123,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -13314,6 +14139,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -13329,6 +14155,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 187,
     "ma": 0,
     "sa": 1864,
@@ -13351,6 +14178,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 797,
@@ -13365,6 +14193,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 287,
@@ -13380,6 +14209,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 372,
     "ma": 287,
     "sa": 287,
@@ -13395,6 +14225,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -13410,6 +14241,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -13430,6 +14262,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1356,
     "ma": 553,
     "sa": 966,
@@ -13445,6 +14278,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 553,
     "sa": 553,
@@ -13459,6 +14293,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 553,
     "ma": 3312,
     "sa": 553,
@@ -13474,6 +14309,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -13489,6 +14325,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 996,
     "ma": 553,
     "sa": 553,
@@ -13504,6 +14341,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 966,
     "ma": 0,
     "sa": 0,
@@ -13525,6 +14363,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -13539,6 +14378,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -13554,6 +14394,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -13569,6 +14410,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -13583,6 +14425,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -13598,6 +14441,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 2297,
     "sa": 0,
@@ -13614,6 +14458,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 2297,
@@ -13637,6 +14482,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 291,
     "ma": 291,
     "sa": 2300,
@@ -13652,6 +14498,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -13666,6 +14513,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 291,
@@ -13680,6 +14528,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -13695,6 +14544,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -13716,6 +14566,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 291,
     "ma": 291,
     "sa": 2300,
@@ -13730,6 +14581,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -13744,6 +14596,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 291,
@@ -13758,6 +14611,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -13773,6 +14627,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -13794,6 +14649,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1352,
     "ma": 551,
     "sa": 964,
@@ -13808,6 +14664,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 2128,
     "ma": 964,
     "sa": 551,
@@ -13823,6 +14680,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 964,
     "ma": 2913,
     "sa": 0,
@@ -13837,6 +14695,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1352,
     "ma": 551,
     "sa": 551,
@@ -13851,6 +14710,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1352,
     "ma": 964,
     "sa": 551,
@@ -13866,6 +14726,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1352,
     "ma": 3681,
     "sa": 0,
@@ -13883,6 +14744,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1352,
     "ma": 3681,
     "sa": 0,
@@ -13900,6 +14762,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1352,
     "ma": 0,
     "sa": 0,
@@ -13921,6 +14784,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 0,
     "ma": 551,
     "sa": 3307,
@@ -13935,6 +14799,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1732,
     "ma": 965,
     "sa": 965,
@@ -13950,6 +14815,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 2302,
     "ma": 965,
     "sa": 965,
@@ -13966,6 +14832,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 551,
     "sa": 965,
@@ -13986,6 +14853,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 291,
     "ma": 291,
     "sa": 2300,
@@ -14001,6 +14869,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -14015,6 +14884,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 291,
@@ -14030,6 +14900,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -14044,6 +14915,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -14065,6 +14937,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 797,
@@ -14079,6 +14952,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 287,
@@ -14093,6 +14967,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 797,
     "ma": 287,
     "sa": 287,
@@ -14109,6 +14984,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 137,
@@ -14123,6 +14999,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 372,
     "ma": 0,
     "sa": 1012,
@@ -14145,6 +15022,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 384,
     "ma": 384,
     "sa": 3177,
@@ -14159,6 +15037,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -14173,6 +15052,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 796,
     "sa": 384,
@@ -14188,6 +15068,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -14203,6 +15084,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -14218,6 +15100,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3997,
@@ -14235,6 +15118,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3997,
@@ -14251,6 +15135,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 796,
     "ma": 0,
     "sa": 0,
@@ -14272,6 +15157,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 1144,
     "ma": 292,
     "sa": 891,
@@ -14286,6 +15172,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1702,
     "ma": 292,
     "sa": 292,
@@ -14300,6 +15187,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 891,
     "sa": 292,
@@ -14315,6 +15203,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -14330,6 +15219,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -14350,6 +15240,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -14365,6 +15256,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -14379,6 +15271,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3177,
     "sa": 384,
@@ -14393,6 +15286,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -14407,6 +15301,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -14422,6 +15317,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3997,
     "sa": 0,
@@ -14438,6 +15334,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3997,
     "sa": 0,
@@ -14461,6 +15358,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -14476,6 +15374,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -14491,6 +15390,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3177,
     "sa": 384,
@@ -14506,6 +15406,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -14520,6 +15421,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -14535,6 +15437,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3997,
     "sa": 0,
@@ -14557,6 +15460,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "torso",
+    "mark": 4,
     "a": 797,
     "ma": 287,
     "sa": 372,
@@ -14573,6 +15477,7 @@ const Collections = [{
     "combo": "head"
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 372,
     "sa": 137,
@@ -14588,6 +15493,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -14609,6 +15515,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 292,
     "sa": 1993,
@@ -14624,6 +15531,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1144,
     "ma": 558,
     "sa": 558,
@@ -14638,6 +15546,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1993,
     "sa": 891,
@@ -14653,6 +15562,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 558,
     "sa": 292,
@@ -14668,6 +15578,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 558,
     "sa": 292,
@@ -14682,6 +15593,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 292,
     "ma": 2593,
     "sa": 0,
@@ -14699,6 +15611,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 292,
     "ma": 0,
     "sa": 2593,
@@ -14721,6 +15634,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 511,
     "ma": 138,
     "sa": 374,
@@ -14735,6 +15649,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 798,
     "ma": 138,
     "sa": 138,
@@ -14750,6 +15665,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 374,
     "ma": 374,
     "sa": 138,
@@ -14765,6 +15681,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 374,
     "ma": 138,
     "sa": 138,
@@ -14779,6 +15696,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 374,
     "ma": 138,
     "sa": 138,
@@ -14793,6 +15711,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 4,
     "a": 374,
     "ma": 0,
     "sa": 0,
@@ -14814,6 +15733,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 797,
     "ma": 384,
     "sa": 2785,
@@ -14828,6 +15748,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1605,
     "ma": 797,
     "sa": 797,
@@ -14842,6 +15763,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 797,
     "ma": 2785,
     "sa": 1181,
@@ -14857,6 +15779,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -14871,6 +15794,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -14886,6 +15810,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3582,
     "sa": 0,
@@ -14902,6 +15827,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3582,
@@ -14924,6 +15850,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1182,
     "ma": 384,
     "sa": 799,
@@ -14939,6 +15866,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -14954,6 +15882,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 384,
     "ma": 3181,
     "sa": 384,
@@ -14969,6 +15898,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -14984,6 +15914,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 4004,
     "sa": 0,
@@ -15007,6 +15938,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 553,
     "ma": 553,
     "sa": 3312,
@@ -15021,6 +15953,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 553,
     "sa": 553,
@@ -15035,6 +15968,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1356,
     "ma": 966,
     "sa": 553,
@@ -15050,6 +15984,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -15064,6 +15999,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -15079,6 +16015,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1356,
     "ma": 2523,
     "sa": 0,
@@ -15095,6 +16032,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 553,
     "ma": 0,
     "sa": 4110,
@@ -15111,6 +16049,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 553,
     "ma": 0,
     "sa": 4110,
@@ -15128,6 +16067,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 966,
     "ma": 0,
     "sa": 0,
@@ -15149,6 +16089,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 570,
@@ -15164,6 +16105,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 942,
     "ma": 187,
     "sa": 187,
@@ -15178,6 +16120,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 570,
     "sa": 187,
@@ -15193,6 +16136,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -15208,6 +16152,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -15223,6 +16168,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 270,
     "ma": 0,
     "sa": 0,
@@ -15245,6 +16191,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 570,
@@ -15260,6 +16207,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 942,
     "ma": 187,
     "sa": 187,
@@ -15274,6 +16222,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 570,
     "sa": 187,
@@ -15289,6 +16238,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -15303,6 +16253,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -15317,6 +16268,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 270,
     "ma": 0,
     "sa": 0,
@@ -15338,6 +16290,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 1985,
@@ -15353,6 +16306,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1185,
     "ma": 800,
     "sa": 385,
@@ -15367,6 +16321,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 800,
     "ma": 2795,
     "sa": 385,
@@ -15381,6 +16336,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 385,
@@ -15396,6 +16352,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 800,
     "ma": 385,
     "sa": 385,
@@ -15411,6 +16368,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 800,
     "ma": 0,
     "sa": 0,
@@ -15433,6 +16391,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 653,
     "ma": 390,
     "sa": 1855,
@@ -15448,6 +16407,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1043,
     "ma": 653,
     "sa": 390,
@@ -15462,6 +16422,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 653,
     "ma": 2666,
     "sa": 390,
@@ -15476,6 +16437,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 741,
     "ma": 390,
     "sa": 390,
@@ -15491,6 +16453,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 741,
     "ma": 390,
     "sa": 390,
@@ -15512,6 +16475,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 965,
     "ma": 0,
     "sa": 3309,
@@ -15526,6 +16490,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1732,
     "ma": 551,
     "sa": 551,
@@ -15540,6 +16505,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 965,
     "ma": 1355,
     "sa": 551,
@@ -15555,6 +16521,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 551,
     "sa": 551,
@@ -15570,6 +16537,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 551,
     "sa": 551,
@@ -15590,6 +16558,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 2380,
@@ -15605,6 +16574,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1977,
     "ma": 384,
     "sa": 796,
@@ -15619,6 +16589,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 2380,
     "ma": 796,
     "sa": 796,
@@ -15635,6 +16606,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -15649,6 +16621,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -15664,6 +16637,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 3177,
@@ -15686,6 +16660,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 968,
     "ma": 553,
     "sa": 2927,
@@ -15701,6 +16676,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1358,
     "ma": 553,
     "sa": 553,
@@ -15715,6 +16691,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 968,
     "ma": 2138,
     "sa": 553,
@@ -15730,6 +16707,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 968,
     "ma": 553,
     "sa": 968,
@@ -15744,6 +16722,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 968,
     "ma": 553,
     "sa": 553,
@@ -15759,6 +16738,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -15781,6 +16761,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -15795,6 +16776,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -15810,6 +16792,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 291,
     "ma": 2300,
     "sa": 291,
@@ -15825,6 +16808,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -15840,6 +16824,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -15854,6 +16839,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 1701,
@@ -15876,6 +16862,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 571,
@@ -15891,6 +16878,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 187,
@@ -15905,6 +16893,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 187,
     "ma": 571,
     "sa": 187,
@@ -15919,6 +16908,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 187,
@@ -15933,6 +16923,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 187,
@@ -15954,6 +16945,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 571,
@@ -15969,6 +16961,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 187,
@@ -15983,6 +16976,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 187,
     "ma": 571,
     "sa": 187,
@@ -15998,6 +16992,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 187,
@@ -16012,6 +17007,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 187,
@@ -16033,6 +17029,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -16048,6 +17045,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -16062,6 +17060,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 291,
     "ma": 2300,
     "sa": 291,
@@ -16077,6 +17076,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -16091,6 +17091,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -16112,6 +17113,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -16126,6 +17128,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1433,
     "ma": 558,
     "sa": 291,
@@ -16140,6 +17143,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1991,
     "sa": 0,
@@ -16155,6 +17159,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -16169,6 +17174,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 291,
@@ -16184,6 +17190,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 889,
     "ma": 0,
     "sa": 0,
@@ -16206,6 +17213,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1700,
@@ -16221,6 +17229,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -16235,6 +17244,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1700,
     "sa": 291,
@@ -16249,6 +17259,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -16263,6 +17274,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -16277,6 +17289,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 2298,
     "sa": 0,
@@ -16294,6 +17307,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 2298,
@@ -16316,6 +17330,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "torso",
+    "mark": 2,
     "a": 2778,
     "ma": 795,
     "sa": 1179,
@@ -16331,6 +17346,7 @@ const Collections = [{
     "combo": "head"
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 384,
     "ma": 3173,
     "sa": 384,
@@ -16346,6 +17362,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 795,
     "ma": 384,
     "sa": 384,
@@ -16367,6 +17384,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1356,
     "ma": 553,
     "sa": 966,
@@ -16381,6 +17399,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 553,
     "sa": 553,
@@ -16396,6 +17415,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 553,
     "ma": 3312,
     "sa": 553,
@@ -16410,6 +17430,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -16424,6 +17445,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 966,
     "ma": 553,
     "sa": 553,
@@ -16439,6 +17461,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 4110,
     "sa": 0,
@@ -16456,6 +17479,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 4110,
     "sa": 0,
@@ -16472,6 +17496,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1356,
     "ma": 0,
     "sa": 3312,
@@ -16488,6 +17513,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 966,
     "ma": 0,
     "sa": 0,
@@ -16510,6 +17536,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 796,
@@ -16524,6 +17551,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1976,
     "ma": 796,
     "sa": 383,
@@ -16538,6 +17566,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2781,
     "sa": 0,
@@ -16553,6 +17582,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -16567,6 +17597,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -16582,6 +17613,7 @@ const Collections = [{
     }
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1180,
     "ma": 0,
     "sa": 0,
@@ -16603,6 +17635,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 137,
     "ma": 137,
     "sa": 1012,
@@ -16617,6 +17650,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -16632,6 +17666,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 372,
     "ma": 287,
     "sa": 137,
@@ -16647,6 +17682,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -16661,6 +17697,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -16676,6 +17713,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 137,
     "ma": 0,
     "sa": 1309,
@@ -16692,6 +17730,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 137,
     "ma": 0,
     "sa": 1309,
@@ -16714,6 +17753,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 137,
     "ma": 137,
     "sa": 1012,
@@ -16728,6 +17768,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -16743,6 +17784,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 372,
     "ma": 287,
     "sa": 137,
@@ -16758,6 +17800,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -16772,6 +17815,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -16787,6 +17831,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 137,
     "ma": 0,
     "sa": 1309,
@@ -16803,6 +17848,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 137,
     "ma": 0,
     "sa": 1309,
@@ -16825,6 +17871,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 137,
     "ma": 137,
     "sa": 1016,
@@ -16839,6 +17886,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -16853,6 +17901,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 373,
     "ma": 287,
     "sa": 137,
@@ -16868,6 +17917,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -16882,6 +17932,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -16902,6 +17953,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1605,
     "ma": 384,
     "sa": 1181,
@@ -16917,6 +17969,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 2382,
     "ma": 384,
     "sa": 384,
@@ -16931,6 +17984,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 1181,
     "sa": 384,
@@ -16946,6 +18000,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -16960,6 +18015,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 384,
@@ -16975,6 +18031,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 1181,
     "ma": 1605,
     "sa": 0,
@@ -16992,6 +18049,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 0,
@@ -17014,6 +18072,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 796,
@@ -17028,6 +18087,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1976,
     "ma": 796,
     "sa": 383,
@@ -17043,6 +18103,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 796,
     "ma": 2781,
     "sa": 0,
@@ -17058,6 +18119,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -17073,6 +18135,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -17093,6 +18156,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 889,
@@ -17107,6 +18171,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 0,
@@ -17121,6 +18186,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 889,
     "sa": 291,
@@ -17136,6 +18202,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17150,6 +18217,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17171,6 +18239,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 902,
@@ -17186,6 +18255,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 376,
     "ma": 138,
     "sa": 138,
@@ -17200,6 +18270,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 641,
     "sa": 138,
@@ -17215,6 +18286,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 287,
@@ -17230,6 +18302,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 138,
@@ -17244,6 +18317,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 138,
     "ma": 0,
     "sa": 1154,
@@ -17260,6 +18334,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 138,
     "ma": 0,
     "sa": 1154,
@@ -17282,6 +18357,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 902,
@@ -17297,6 +18373,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 376,
     "ma": 138,
     "sa": 138,
@@ -17311,6 +18388,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 641,
     "sa": 138,
@@ -17326,6 +18404,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 287,
@@ -17341,6 +18420,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 138,
     "sa": 138,
@@ -17355,6 +18435,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 138,
     "ma": 0,
     "sa": 1154,
@@ -17371,6 +18452,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 138,
     "ma": 0,
     "sa": 1154,
@@ -17393,6 +18475,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 291,
     "ma": 291,
     "sa": 2300,
@@ -17408,6 +18491,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -17422,6 +18506,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 889,
     "ma": 558,
     "sa": 291,
@@ -17436,6 +18521,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17451,6 +18537,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17466,6 +18553,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 889,
     "ma": 1701,
     "sa": 0,
@@ -17488,6 +18576,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -17503,6 +18592,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -17517,6 +18607,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -17531,6 +18622,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17546,6 +18638,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17561,6 +18654,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 558,
     "ma": 2297,
     "sa": 0,
@@ -17577,6 +18671,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 2,
     "a": 1140,
     "ma": 0,
     "sa": 2297,
@@ -17595,6 +18690,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 2,
     "a": 558,
     "ma": 0,
     "sa": 0,
@@ -17616,6 +18712,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 889,
     "ma": 291,
     "sa": 558,
@@ -17631,6 +18728,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -17646,6 +18744,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 291,
     "ma": 2300,
     "sa": 291,
@@ -17660,6 +18759,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17675,6 +18775,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -17689,6 +18790,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 2,
     "a": 291,
     "ma": 2867,
     "sa": 0,
@@ -17705,6 +18807,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 292,
     "sa": 1993,
@@ -17720,6 +18823,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1144,
     "ma": 558,
     "sa": 558,
@@ -17734,6 +18838,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 1144,
     "ma": 2593,
     "sa": 1144,
@@ -17750,6 +18855,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 558,
     "sa": 292,
@@ -17764,6 +18870,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 558,
     "sa": 292,
@@ -17785,6 +18892,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "melee",
+    "mark": 2,
     "a": 292,
     "ma": 2593,
     "sa": 0,
@@ -17808,6 +18916,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 650,
     "ma": 389,
     "sa": 2652,
@@ -17822,6 +18931,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1457,
     "ma": 650,
     "sa": 650,
@@ -17836,6 +18946,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1457,
     "ma": 3469,
     "sa": 1457,
@@ -17852,6 +18963,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 650,
     "ma": 807,
     "sa": 389,
@@ -17866,6 +18978,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 650,
     "ma": 807,
     "sa": 389,
@@ -17886,6 +18999,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 2789,
@@ -17900,6 +19014,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 799,
     "sa": 799,
@@ -17914,6 +19029,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1606,
     "ma": 3587,
     "sa": 1606,
@@ -17930,6 +19046,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 799,
     "sa": 384,
@@ -17944,6 +19061,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 799,
     "ma": 799,
     "sa": 384,
@@ -17958,6 +19076,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3587,
@@ -17980,6 +19099,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1700,
@@ -17995,6 +19115,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1142,
     "ma": 291,
     "sa": 291,
@@ -18009,6 +19130,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 1142,
     "ma": 1700,
     "sa": 291,
@@ -18025,6 +19147,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -18039,6 +19162,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -18059,6 +19183,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1352,
     "ma": 551,
     "sa": 964,
@@ -18073,6 +19198,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 2128,
     "ma": 964,
     "sa": 551,
@@ -18087,6 +19213,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 964,
     "ma": 2913,
     "sa": 0,
@@ -18101,6 +19228,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 1352,
     "ma": 551,
     "sa": 551,
@@ -18116,6 +19244,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 1352,
     "ma": 964,
     "sa": 551,
@@ -18131,6 +19260,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1352,
     "ma": 0,
     "sa": 3135,
@@ -18153,6 +19283,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 1144,
     "ma": 292,
     "sa": 891,
@@ -18167,6 +19298,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1702,
     "ma": 292,
     "sa": 292,
@@ -18182,6 +19314,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 891,
     "ma": 891,
     "sa": 292,
@@ -18197,6 +19330,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -18211,6 +19345,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -18225,6 +19360,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 2,
     "a": 891,
     "ma": 0,
     "sa": 1144,
@@ -18246,6 +19382,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 969,
     "ma": 553,
     "sa": 2138,
@@ -18260,6 +19397,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1359,
     "ma": 969,
     "sa": 553,
@@ -18275,6 +19413,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 969,
     "ma": 2929,
     "sa": 553,
@@ -18290,6 +19429,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 969,
     "ma": 553,
     "sa": 553,
@@ -18304,6 +19444,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 3698,
     "sa": 0,
@@ -18320,6 +19461,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 3698,
     "sa": 0,
@@ -18337,6 +19479,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 969,
     "ma": 0,
     "sa": 2138,
@@ -18353,6 +19496,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 969,
     "ma": 0,
     "sa": 0,
@@ -18374,6 +19518,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 965,
     "ma": 553,
     "sa": 2922,
@@ -18388,6 +19533,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 965,
     "sa": 965,
@@ -18403,6 +19549,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 965,
     "ma": 2922,
     "sa": 1356,
@@ -18418,6 +19565,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -18432,6 +19580,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -18453,6 +19602,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 965,
     "ma": 553,
     "sa": 2922,
@@ -18468,6 +19618,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1734,
     "ma": 965,
     "sa": 965,
@@ -18483,6 +19634,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 965,
     "ma": 2922,
     "sa": 1356,
@@ -18498,6 +19650,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -18512,6 +19665,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -18527,6 +19681,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 553,
     "ma": 3690,
     "sa": 0,
@@ -18543,6 +19698,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 553,
     "ma": 154,
     "sa": 3690,
@@ -18559,6 +19715,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 553,
     "ma": 154,
     "sa": 3690,
@@ -18575,6 +19732,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 965,
     "ma": 965,
     "sa": 553,
@@ -18596,6 +19754,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 2791,
@@ -18610,6 +19769,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1184,
     "ma": 384,
     "sa": 384,
@@ -18624,6 +19784,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 799,
     "ma": 1982,
     "sa": 384,
@@ -18639,6 +19800,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 799,
@@ -18653,6 +19815,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 779,
     "ma": 384,
     "sa": 384,
@@ -18668,6 +19831,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3590,
@@ -18691,6 +19855,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1181,
     "ma": 384,
     "sa": 796,
@@ -18706,6 +19871,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1602,
     "ma": 384,
     "sa": 384,
@@ -18720,6 +19886,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1181,
     "ma": 3177,
     "sa": 384,
@@ -18736,6 +19903,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -18750,6 +19918,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 796,
     "ma": 384,
     "sa": 384,
@@ -18764,6 +19933,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3997,
     "sa": 0,
@@ -18780,6 +19950,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 1181,
     "ma": 0,
     "sa": 2380,
@@ -18802,6 +19973,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 1192,
     "ma": 388,
     "sa": 805,
@@ -18817,6 +19989,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1452,
     "ma": 388,
     "sa": 388,
@@ -18831,6 +20004,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1035,
     "ma": 3032,
     "sa": 388,
@@ -18847,6 +20021,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 388,
@@ -18861,6 +20036,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 648,
     "ma": 388,
     "sa": 388,
@@ -18881,6 +20057,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 797,
     "ma": 384,
     "sa": 2785,
@@ -18896,6 +20073,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1605,
     "ma": 797,
     "sa": 797,
@@ -18911,6 +20089,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 797,
     "ma": 2785,
     "sa": 1181,
@@ -18925,6 +20104,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -18939,6 +20119,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -18953,6 +20134,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 384,
     "ma": 3582,
     "sa": 0,
@@ -18969,6 +20151,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 384,
     "ma": 0,
     "sa": 3582,
@@ -18986,6 +20169,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 797,
     "ma": 797,
     "sa": 384,
@@ -19008,6 +20192,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 1480,
@@ -19023,6 +20208,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -19038,6 +20224,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 187,
@@ -19052,6 +20239,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -19066,6 +20254,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -19080,6 +20269,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 570,
     "ma": 1089,
     "sa": 0,
@@ -19096,6 +20286,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 187,
     "ma": 0,
     "sa": 1864,
@@ -19112,6 +20303,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 3,
     "a": 364,
     "ma": 0,
     "sa": 0,
@@ -19133,6 +20325,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 0,
     "ma": 378,
     "sa": 3538,
@@ -19147,6 +20340,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1732,
     "ma": 719,
     "sa": 1422,
@@ -19162,6 +20356,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1884,
     "ma": 719,
     "sa": 1165,
@@ -19176,6 +20371,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 965,
     "ma": 551,
     "sa": 965,
@@ -19190,6 +20386,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 378,
     "ma": 551,
     "sa": 1422,
@@ -19205,6 +20402,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 1,
     "a": 551,
     "ma": 0,
     "sa": 3951,
@@ -19228,6 +20426,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 972,
     "ma": 556,
     "sa": 2541,
@@ -19242,6 +20441,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1747,
     "ma": 556,
     "sa": 556,
@@ -19257,6 +20457,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 972,
     "ma": 2541,
     "sa": 556,
@@ -19271,6 +20472,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 972,
     "ma": 556,
     "sa": 556,
@@ -19285,6 +20487,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 972,
     "ma": 556,
     "sa": 556,
@@ -19300,6 +20503,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 972,
     "ma": 3334,
     "sa": 0,
@@ -19316,6 +20520,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 972,
     "ma": 0,
     "sa": 3334,
@@ -19338,6 +20543,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "torso",
+    "mark": 4,
     "a": 797,
     "ma": 287,
     "sa": 372,
@@ -19354,6 +20560,7 @@ const Collections = [{
     "combo": "legs"
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 372,
     "sa": 137,
@@ -19369,6 +20576,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -19384,6 +20592,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -19404,6 +20613,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 373,
@@ -19419,6 +20629,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 137,
@@ -19434,6 +20645,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 373,
     "sa": 137,
@@ -19448,6 +20660,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -19462,6 +20675,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -19476,6 +20690,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 4,
     "a": 373,
     "ma": 798,
     "sa": 0,
@@ -19493,6 +20708,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 373,
     "ma": 0,
     "sa": 798,
@@ -19509,6 +20725,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 4,
     "a": 373,
     "ma": 0,
     "sa": 798,
@@ -19531,6 +20748,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 1698,
@@ -19546,6 +20764,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 2,
     "a": 1140,
     "ma": 291,
     "sa": 291,
@@ -19560,6 +20779,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 2,
     "a": 558,
     "ma": 1698,
     "sa": 291,
@@ -19575,6 +20795,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -19589,6 +20810,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 2,
     "a": 558,
     "ma": 291,
     "sa": 291,
@@ -19609,6 +20831,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 570,
@@ -19623,6 +20846,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 942,
     "ma": 187,
     "sa": 187,
@@ -19637,6 +20861,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 364,
     "ma": 570,
     "sa": 187,
@@ -19651,6 +20876,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -19666,6 +20892,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 187,
@@ -19680,6 +20907,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 570,
     "ma": 0,
     "sa": 1090,
@@ -19703,6 +20931,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 187,
     "ma": 187,
     "sa": 1483,
@@ -19718,6 +20947,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 757,
     "ma": 187,
     "sa": 187,
@@ -19732,6 +20962,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 364,
     "sa": 187,
@@ -19747,6 +20978,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -19761,6 +20993,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -19775,6 +21008,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 570,
     "ma": 1090,
     "sa": 0,
@@ -19792,6 +21026,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "melee",
+    "mark": 3,
     "a": 570,
     "ma": 1090,
     "sa": 0,
@@ -19809,6 +21044,7 @@ const Collections = [{
     "type": "Physical"
   }, {
     "part": "range",
+    "mark": 3,
     "a": 187,
     "ma": 0,
     "sa": 1867,
@@ -19831,6 +21067,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 373,
@@ -19846,6 +21083,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 640,
     "ma": 137,
     "sa": 137,
@@ -19860,6 +21098,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 287,
     "ma": 373,
     "sa": 137,
@@ -19874,6 +21113,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -19888,6 +21128,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 373,
     "ma": 137,
     "sa": 137,
@@ -19909,6 +21150,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 384,
     "ma": 384,
     "sa": 3181,
@@ -19924,6 +21166,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1606,
     "ma": 384,
     "sa": 384,
@@ -19938,6 +21181,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 1182,
     "ma": 799,
     "sa": 284,
@@ -19953,6 +21197,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 799,
     "ma": 384,
     "sa": 384,
@@ -19974,6 +21219,7 @@ const Collections = [{
   "sokai": 1,
   "parts": [{
     "part": "head",
+    "mark": 1,
     "a": 969,
     "ma": 379,
     "sa": 2361,
@@ -19989,6 +21235,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 1,
     "a": 1738,
     "ma": 379,
     "sa": 379,
@@ -20004,6 +21251,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 1,
     "a": 969,
     "ma": 2528,
     "sa": 379,
@@ -20019,6 +21267,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
+    "mark": 1,
     "a": 969,
     "ma": 379,
     "sa": 379,
@@ -20034,6 +21283,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 1,
     "a": 969,
     "ma": 379,
     "sa": 379,
@@ -20048,6 +21298,7 @@ const Collections = [{
     }
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 969,
     "ma": 3318,
     "sa": 0,
@@ -20065,6 +21316,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "melee",
+    "mark": 1,
     "a": 969,
     "ma": 3318,
     "sa": 0,
@@ -20081,6 +21333,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 969,
     "ma": 0,
     "sa": 3318,
@@ -20097,6 +21350,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "range",
+    "mark": 1,
     "a": 969,
     "ma": 0,
     "sa": 3318,
@@ -20113,6 +21367,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
+    "mark": 1,
     "a": 969,
     "ma": 0,
     "sa": 0,
@@ -20135,6 +21390,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 4,
     "a": 372,
     "ma": 137,
     "sa": 287,
@@ -20149,6 +21405,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 4,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -20163,6 +21420,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 4,
     "a": 372,
     "ma": 1012,
     "sa": 137,
@@ -20179,6 +21437,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -20194,6 +21453,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 4,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -20209,6 +21469,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 4,
     "a": 372,
     "ma": 0,
     "sa": 797,
@@ -20231,6 +21492,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 372,
     "ma": 137,
     "sa": 287,
@@ -20245,6 +21507,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 511,
     "ma": 137,
     "sa": 137,
@@ -20259,6 +21522,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 372,
     "ma": 1012,
     "sa": 137,
@@ -20275,6 +21539,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -20290,6 +21555,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 287,
     "ma": 137,
     "sa": 137,
@@ -20305,6 +21571,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
+    "mark": 3,
     "a": 372,
     "ma": 0,
     "sa": 797,
@@ -20327,6 +21594,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "head",
+    "mark": 3,
     "a": 570,
     "ma": 187,
     "sa": 364,
@@ -20342,6 +21610,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
+    "mark": 3,
     "a": 754,
     "ma": 187,
     "sa": 187,
@@ -20356,6 +21625,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
+    "mark": 3,
     "a": 570,
     "ma": 1480,
     "sa": 187,
@@ -20372,6 +21642,7 @@ const Collections = [{
     "combo": "shield"
   }, {
     "part": "legs",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,
@@ -20387,6 +21658,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
+    "mark": 3,
     "a": 364,
     "ma": 187,
     "sa": 187,

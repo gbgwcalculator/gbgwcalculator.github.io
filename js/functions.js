@@ -967,13 +967,17 @@ class GunplaBuild {
     }
   }
 
+  _calculateMarkCount(part) {
+    return parseInt(part.dataset.mark ? part.dataset.mark : (5 - part.dataset.rarity), 10);
+  }
+
   _addMarks() {
     const currPart = this.currentPart,
         markSlot = document.querySelector(".js-marks-" + currPart),
         markPart = markSlot ? document.querySelector(".js-input-" + currPart) : null,
-        markCount = markPart.dataset.mark || markPart.dataset.specialRarity || markPart.dataset.rarity;
+        markCount = this._calculateMarkCount(markPart);
     if (markCount) {
-      for (let i = 5; i > markCount; i--) {
+      for (let i = 0; i < markCount; i++) {
         this._createMark(markSlot, currPart);
       }
     }
