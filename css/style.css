@@ -335,3 +335,12 @@ h3 {
 .js-filter-pt {
   width: 155px;
 }
+
+/** Balloon CSS */
+[aria-label][data-balloon-pos]:after { color : #024; background: #DEF; }
+[aria-label][data-balloon-pos]:before {  border-top-color: #DEF; }
+[aria-label][data-balloon-pos][data-balloon-pos="down"]:before {  border-bottom-color: #DEF; }
+[aria-label][data-balloon-pos][data-balloon-pos="down-left"]:before {  border-bottom-color: #DEF; }
+[aria-label][data-balloon-pos][data-balloon-pos="down-right"]:before {  border-bottom-color: #DEF; }
+[aria-label][data-balloon-pos][data-balloon-pos="left"]:before {  border-left-color: #DEF; }
+[aria-label][data-balloon-pos][data-balloon-pos="right"]:before {  border-right-color: #DEF; }

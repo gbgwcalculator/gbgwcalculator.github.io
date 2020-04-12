@@ -537,6 +537,16 @@ class GunplaBuild {
     }
   }
 
+  _applyAttributes(el, attrs) {
+    for (let attr in attrs) { el.setAttribute(attr, attrs[attr]); }
+    return el;
+  }
+
+  _removeAttributes(el, attrs) {
+    attrs.forEach(attr => el.removeAttribute(attr));
+    return el;
+  }
+
   _displaySkillTraits(partData) {
     if (this.inputs[partData]) {
       const partInput = this.inputs[partData];
@@ -547,6 +557,15 @@ class GunplaBuild {
           partTrait.innerHTML = exData.type === 'EX Skill'
               ? '[EX]: ' + exData.name
               : exData.name.replace(/,/, '<br>');
+          if (exData.description) {
+            this._applyAttributes(partTrait, {
+              'aria-label' : exData.description,
+              'data-balloon-pos' : 'down',
+              'data-balloon-length' : 'fit'
+            });
+          } else {
+            this._removeAttributes(partTrait, ['aria-label', 'data-balloon-pos', 'data-balloon-length']);
+          }
         }
       } else {
         this._clearSkillTrait(partData);
