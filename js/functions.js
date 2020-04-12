@@ -14,6 +14,12 @@ const roundValue = value => {
   return Math.round(value * 1000000000000) / 1000000000000;
 };
 
+const triggerEvent = (el, eventName) => {
+  var event = document.createEvent('HTMLEvents');
+  event.initEvent(eventName, true, false);
+  el.dispatchEvent(event);
+};
+
 class GunplaCalculator {
   constructor() {
     this.container = document.querySelector(".js-container");
@@ -37,6 +43,9 @@ class GunplaCalculator {
     }
     if ('text' in config) {
       retEl.textContent = config.text;
+    }
+    if ('html' in config) {
+      retEl.innerHTML = config.html;
     }
     if ("type" in config) {
       retEl.type = config.type;
@@ -103,6 +112,10 @@ class GunplaCalculator {
       }, {
         'el': 'div',
         'class': ['row', 'part-skill-trait', "js-part-skill-trait"]
+      }, {
+        'el': 'button',
+        'html' : 'Equipped<br>Reset',
+        'class': 'reset-btn'
       }]
     };
   }
@@ -821,25 +834,38 @@ class GunplaBuild {
     });
   }
 
-  _initRemove() {
-    const removePartEl = document.querySelector('.js-remove-part');
-    removePartEl.addEventListener("click", e => {
-      const currPart = this.currentPart;
-      if (currPart && Array.isArray(AllSlots) && AllSlots.indexOf(currPart) > -1) {
-        const partInputEl = document.querySelector('.js-input-' + currPart);
-        if (partInputEl && partInputEl.dataset.combo) {
-          document.querySelector(".js-input-" + partInputEl.dataset.combo).disabled = false;
-          for (let i = 0; i < this.comboParts.length; i++) {
-            if (this.comboParts[i].part == currPart) {
-              this.comboParts.splice(i, 1);
-              break;
-            }
+  _clearPartBySlot(currPart, forceLoop) {
+    if (currPart && Array.isArray(AllSlots) && AllSlots.indexOf(currPart) > -1) {
+      const partInputEl = document.querySelector('.js-input-' + currPart);
+      if (partInputEl && partInputEl.dataset.combo) {
+        document.querySelector(".js-input-" + partInputEl.dataset.combo).disabled = false;
+        for (let i = 0; i < this.comboParts.length; i++) {
+          if (this.comboParts[i].part == currPart) {
+            this.comboParts.splice(i, 1);
+            break;
           }
         }
-        this._clearParts(currPart);
+      }
+      this._clearParts(currPart);
+      if (forceLoop) {
         this._loopThroughInput();
         this._displayPartsWordTags();
       }
+    }
+  }
+
+  _initRemove() {
+    const removePartEl = document.querySelector('.js-remove-part');
+    removePartEl.addEventListener("click", e => {
+      this._clearPartBySlot(this.currentPart, true);
+    });
+
+    const resetBtn = document.querySelector('.reset-btn');
+    resetBtn.addEventListener('click', e => {
+      let slots = Object.keys(this.inputs);
+      slots.forEach((currentPart, index) => {
+        this._clearPartBySlot(currentPart, index === slots.length - 1)
+      });
     });
   }
 
@@ -866,7 +892,11 @@ class GunplaBuild {
       } else {
         this.partWTCont.innerHTML = '';
       }
-      this.partSkillTraitCont.textContent = ex.type && ex.name ? ex.name : '';
+      this.partSkillTraitCont.textContent = ex.type && ex.name
+          ? ex.type === 'EX Skill'
+              ? ('[EX]: ' + ex.name)
+              : ex.name
+          : '';
     }
   }
 
