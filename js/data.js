@@ -681,7 +681,7 @@ const Collections = [{
     "name": "Anti-Beam Shield [Aile Strike]"
   }]
 }, {
-  "name": "Akatsuki",
+  "name": "Akatsuki [Oowashi Pack]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -1346,7 +1346,7 @@ const Collections = [{
     "name": "Anti-Beam Shield [Red Frame]"
   }]
 }, {
-  "name": "Astray Red Frame",
+  "name": "Astray Red Frame [Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
   "sokai": 0,
@@ -1844,7 +1844,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Beginning 30 Gundam",
+  "name": "Beginning 30 Gundam [Beginner Campaign]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -2321,7 +2321,7 @@ const Collections = [{
     "name": "Shield [Build Gundam Mk-II]"
   }]
 }, {
-  "name": "Build Strike Gundam",
+  "name": "Build Strike Gundam [Full Package]",
   "attribute": "Technique",
   "rarity": 4,
   "sokai": 0,
@@ -3747,7 +3747,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Dom Tropen",
+  "name": "Dom Tropen [Sand Brown]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -4110,7 +4110,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Dreissen",
+  "name": "Dreissen [Unicorn Ver.]",
   "attribute": "Power",
   "rarity": 1,
   "sokai": 0,
@@ -4426,7 +4426,7 @@ const Collections = [{
     }
   }]
 }, {
-  "name": "Duel Gundam (Assault Shroud)",
+  "name": "Duel Gundam (Assault Shroud) [Beginner Campaign]",
   "attribute": "Technique",
   "rarity": 1,
   "sokai": 0,
@@ -4726,7 +4726,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Enhanced ZZ Gundam",
+  "name": "Enhanced ZZ Gundam [Ver Ka.]",
   "attribute": "Power",
   "rarity": 4,
   "sokai": 1,
@@ -4950,7 +4950,7 @@ const Collections = [{
     "name": "Mobile Shield"
   }]
 }, {
-  "name": "Force Impulse Gundam",
+  "name": "Force Impulse Gundam [Beginner Campaign]",
   "attribute": "Technique",
   "rarity": 1,
   "sokai": 0,
@@ -5156,7 +5156,7 @@ const Collections = [{
     "name": "Laminated Anti-Beam Shield [Freedom]"
   }]
 }, {
-  "name": "Full Armor Gundam",
+  "name": "Full Armor Gundam [Thunderbolt Ver.]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -5650,7 +5650,7 @@ const Collections = [{
     "name": "Shield [Geara Doga]"
   }]
 }, {
-  "name": "Gelgoog",
+  "name": "Gelgoog [Mass Production Type]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -6118,7 +6118,7 @@ const Collections = [{
     "name": "Shield [GM]"
   }]
 }, {
-  "name": "GM Command",
+  "name": "GM Command [Space Type]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -7323,162 +7323,6 @@ const Collections = [{
   }]
 }, {
   "name": "Gundam",
-  "attribute": "Power",
-  "rarity": 2,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "a": 364,
-    "ma": 187,
-    "sa": 570,
-    "md": 570,
-    "sd": 570,
-    "br": 81,
-    "pr": 81,
-    "wt": ["Protag.", "Gundam Type"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
-    }
-  }, {
-    "part": "torso",
-    "a": 757,
-    "ma": 187,
-    "sa": 0,
-    "md": 570,
-    "sd": 570,
-    "br": 138,
-    "pr": 138,
-    "wt": ["Protag.", "Gundam Type"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Buff EX Skill Effect up 15%"
-    }
-  }, {
-    "part": "arms",
-    "a": 364,
-    "ma": 570,
-    "sa": 187,
-    "md": 570,
-    "sd": 570,
-    "br": 81,
-    "pr": 81,
-    "wt": ["Protag.", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Beam ranged weapon reload speed boosted 15%"
-    }
-  }, {
-    "part": "legs",
-    "a": 364,
-    "ma": 187,
-    "sa": 187,
-    "md": 757,
-    "sd": 757,
-    "br": 139,
-    "pr": 139,
-    "wt": ["Protag.", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Mid Shot Attack raised 14%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 364,
-    "ma": 187,
-    "sa": 187,
-    "md": 757,
-    "sd": 757,
-    "br": 139,
-    "pr": 139,
-    "wt": ["Protag.", "Gundam Type"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "All-Rounder Job, Vernier Recovery Rate boosted 15%"
-    }
-  }, {
-    "part": "melee",
-    "a": 364,
-    "ma": 757,
-    "sa": 0,
-    "md": 364,
-    "sd": 364,
-    "br": 201,
-    "pr": 201,
-    "wt": ["Protag.", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Job Gauge Increase boosted 13%"
-    },
-    "name": "Beam Javelin Pre-Registration Reward]",
-    "type": "Beam"
-  }, {
-    "part": "melee",
-    "a": 364,
-    "ma": 757,
-    "sa": 0,
-    "md": 364,
-    "sd": 364,
-    "br": 201,
-    "pr": 201,
-    "wt": ["Protag.", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Job Gauge Increase boosted 13%"
-    },
-    "name": "Beam Saber [Gundam / Pre-Registration Reward]",
-    "type": "Beam"
-  }, {
-    "part": "range",
-    "a": 364,
-    "ma": 0,
-    "sa": 757,
-    "md": 364,
-    "sd": 364,
-    "br": 201,
-    "pr": 201,
-    "wt": ["Protag.", "Mid-Range"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Enemy Shooting Power reduced 25%"
-    },
-    "name": "Beam Rifle [Gundam / Pre-Registration Reward]",
-    "type": "Beam"
-  }, {
-    "part": "range",
-    "a": 364,
-    "ma": 0,
-    "sa": 757,
-    "md": 364,
-    "sd": 364,
-    "br": 201,
-    "pr": 201,
-    "wt": ["Protag.", "Mid-Range"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Job Gauge Increase boosted 13%"
-    },
-    "name": "Hyper Bazooka [Gundam / Pre-Registration Reward]",
-    "type": "Physical"
-  }, {
-    "part": "shield",
-    "a": 0,
-    "ma": 0,
-    "sa": 0,
-    "md": 942,
-    "sd": 942,
-    "br": 201,
-    "pr": 201,
-    "wt": ["Protag.", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Rifle Category equipped, Debuff EX Skill Effect up 15%"
-    },
-    "name": "Shield [Gundam / Pre-Registration Reward]"
-  }]
-}, {
-  "name": "Gundam",
   "attribute": "Technique",
   "rarity": 4,
   "sokai": 0,
@@ -7635,6 +7479,162 @@ const Collections = [{
       "name": "With Technique attribute (self), Buff EX Skill effect up 22%"
     },
     "name": "Shield [Gundam]"
+  }]
+}, {
+  "name": "Gundam [Pre-Registration Reward]",
+  "attribute": "Power",
+  "rarity": 2,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 364,
+    "ma": 187,
+    "sa": 570,
+    "md": 570,
+    "sd": 570,
+    "br": 81,
+    "pr": 81,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+    }
+  }, {
+    "part": "torso",
+    "a": 757,
+    "ma": 187,
+    "sa": 0,
+    "md": 570,
+    "sd": 570,
+    "br": 138,
+    "pr": 138,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Buff EX Skill Effect up 15%"
+    }
+  }, {
+    "part": "arms",
+    "a": 364,
+    "ma": 570,
+    "sa": 187,
+    "md": 570,
+    "sd": 570,
+    "br": 81,
+    "pr": 81,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon reload speed boosted 15%"
+    }
+  }, {
+    "part": "legs",
+    "a": 364,
+    "ma": 187,
+    "sa": 187,
+    "md": 757,
+    "sd": 757,
+    "br": 139,
+    "pr": 139,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Mid Shot Attack raised 14%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 364,
+    "ma": 187,
+    "sa": 187,
+    "md": 757,
+    "sd": 757,
+    "br": 139,
+    "pr": 139,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "All-Rounder Job, Vernier Recovery Rate boosted 15%"
+    }
+  }, {
+    "part": "melee",
+    "a": 364,
+    "ma": 757,
+    "sa": 0,
+    "md": 364,
+    "sd": 364,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Job Gauge Increase boosted 13%"
+    },
+    "name": "Beam Javelin [Pre-Registration Reward]",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "a": 364,
+    "ma": 757,
+    "sa": 0,
+    "md": 364,
+    "sd": 364,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Job Gauge Increase boosted 13%"
+    },
+    "name": "Beam Saber [Gundam / Pre-Registration Reward]",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 364,
+    "ma": 0,
+    "sa": 757,
+    "md": 364,
+    "sd": 364,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Protag.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Enemy Shooting Power reduced 25%"
+    },
+    "name": "Beam Rifle [Gundam / Pre-Registration Reward]",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "a": 364,
+    "ma": 0,
+    "sa": 757,
+    "md": 364,
+    "sd": 364,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Protag.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Job Gauge Increase boosted 13%"
+    },
+    "name": "Hyper Bazooka [Gundam / Pre-Registration Reward]",
+    "type": "Physical"
+  }, {
+    "part": "shield",
+    "a": 0,
+    "ma": 0,
+    "sa": 0,
+    "md": 942,
+    "sd": 942,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Rifle Category equipped, Debuff EX Skill Effect up 15%"
+    },
+    "name": "Shield [Gundam / Pre-Registration Reward]"
   }]
 }, {
   "name": "Gundam AGE Normal",
@@ -8269,7 +8269,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Gundam Barbatos",
+  "name": "Gundam Barbatos [4th Form]",
   "attribute": "Power",
   "rarity": 4,
   "sokai": 0,
@@ -8396,7 +8396,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Gundam Barbatos",
+  "name": "Gundam Barbatos [6th Form]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -8715,7 +8715,7 @@ const Collections = [{
     "name": "Buster Shield"
   }]
 }, {
-  "name": "Gundam Deathscythe Hell",
+  "name": "Gundam Deathscythe Hell [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -9033,7 +9033,7 @@ const Collections = [{
     "name": "GN Shield [Exia]"
   }]
 }, {
-  "name": "Gundam Exia",
+  "name": "Gundam Exia [Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
   "sokai": 0,
@@ -9239,7 +9239,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Gundam GP01",
+  "name": "Gundam GP01 [Zephyranthes]",
   "attribute": "Technique",
   "rarity": 4,
   "sokai": 0,
@@ -9350,86 +9350,7 @@ const Collections = [{
     "name": "Shield [GP01]"
   }]
 }, {
-  "name": "Gundam GP01Fb",
-  "attribute": "Power",
-  "rarity": 4,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "a": 795,
-    "ma": 382,
-    "sa": 2377,
-    "md": 795,
-    "sd": 795,
-    "br": 416,
-    "pr": 0,
-    "wt": ["Protag.", "High Mobility"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
-    }
-  }, {
-    "part": "torso",
-    "a": 1601,
-    "ma": 382,
-    "sa": 382,
-    "md": 1179,
-    "sd": 1179,
-    "br": 609,
-    "pr": 0,
-    "wt": ["Protag.", "High Mobility"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Combat Stance γ",
-      "description": "Raise Melee Attack of your Squad by 39%"
-    }
-  }, {
-    "part": "arms",
-    "a": 795,
-    "ma": 2377,
-    "sa": 382,
-    "md": 1179,
-    "sd": 1179,
-    "br": 0,
-    "pr": 0,
-    "wt": ["Protag.", "High Mobility"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Enemy Melee Power reduced 30%"
-    }
-  }, {
-    "part": "legs",
-    "a": 795,
-    "ma": 382,
-    "sa": 382,
-    "md": 1179,
-    "sd": 1179,
-    "br": 609,
-    "pr": 416,
-    "wt": ["Protag.", "Federation"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), EX Skill CD reduced 20%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 795,
-    "ma": 382,
-    "sa": 382,
-    "md": 1179,
-    "sd": 1179,
-    "br": 609,
-    "pr": 416,
-    "wt": ["Protag.", "Federation"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Universal Boost Pod",
-      "description": "Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%."
-    }
-  }]
-}, {
-  "name": "Gundam GP01Fb",
+  "name": "Gundam GP01Fb [Zephyranthes Fb / Beginner Campaign]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -9508,7 +9429,86 @@ const Collections = [{
     }
   }]
 }, {
-  "name": "Gundam GP02A",
+  "name": "Gundam GP01Fb [Zephyranthes Fb]",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 795,
+    "ma": 382,
+    "sa": 2377,
+    "md": 795,
+    "sd": 795,
+    "br": 416,
+    "pr": 0,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+    }
+  }, {
+    "part": "torso",
+    "a": 1601,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 0,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Combat Stance γ",
+      "description": "Raise Melee Attack of your Squad by 39%"
+    }
+  }, {
+    "part": "arms",
+    "a": 795,
+    "ma": 2377,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Enemy Melee Power reduced 30%"
+    }
+  }, {
+    "part": "legs",
+    "a": 795,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 416,
+    "wt": ["Protag.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 795,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 416,
+    "wt": ["Protag.", "Federation"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Universal Boost Pod",
+      "description": "Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%."
+    }
+  }]
+}, {
+  "name": "Gundam GP02A [Physalis]",
   "attribute": "Power",
   "rarity": 4,
   "sokai": 0,
@@ -9618,7 +9618,7 @@ const Collections = [{
     "name": "Radiator Shield"
   }]
 }, {
-  "name": "Gundam GP03",
+  "name": "Gundam GP03 [Stamen]",
   "attribute": "Technique",
   "rarity": 4,
   "sokai": 0,
@@ -9913,7 +9913,7 @@ const Collections = [{
       "name": "Beam ranged weapon magazine boosted 20%"
     },
     "combo": "shield",
-    "name": "Beam Gatling Gun",
+    "name": "Beam Gatling Gun [with Shield]",
     "type": "Beam"
   }]
 }, {
@@ -10217,7 +10217,7 @@ const Collections = [{
     }
   }]
 }, {
-  "name": "Gundam Mk-II",
+  "name": "Gundam Mk-II [A.E.U.G. Design]",
   "attribute": "Power",
   "rarity": 2,
   "sokai": 0,
@@ -10362,7 +10362,7 @@ const Collections = [{
     "name": "Shield [Mk-II / A.E.U.G. Design]"
   }]
 }, {
-  "name": "Gundam Mk-II",
+  "name": "Gundam Mk-II [Titans Design]",
   "attribute": "Speed",
   "rarity": 2,
   "sokai": 0,
@@ -10689,12 +10689,6 @@ const Collections = [{
   }]
 }, {
   "name": "Gundam NT-1",
-  "attribute": "Technique",
-  "rarity": 3,
-  "sokai": 0,
-  "parts": []
-}, {
-  "name": "Gundam NT-1",
   "attribute": "Power",
   "rarity": 4,
   "sokai": 0,
@@ -10771,6 +10765,12 @@ const Collections = [{
       "name": "When Armor > 60%, 13% chance to not recoil"
     }
   }]
+}, {
+  "name": "Gundam NT-1 [Chobham Armor]",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": []
 }, {
   "name": "Gundam Rose",
   "attribute": "Power",
@@ -11059,7 +11059,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Gundam TR-1",
+  "name": "Gundam TR-1 [Advanced Hazel w/ Optical Sensor Unit]",
   "attribute": "Technique",
   "rarity": 3,
   "sokai": 0,
@@ -11519,7 +11519,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Gundam Virsago",
+  "name": "Gundam Virsago [Beginner Campaign]",
   "attribute": "Technique",
   "rarity": 1,
   "sokai": 0,
@@ -12362,7 +12362,7 @@ const Collections = [{
     "name": "Missile Shield"
   }]
 }, {
-  "name": "Hi-ν Gundam HWS",
+  "name": "Hi-ν Gundam HWS [Ver. Ka]",
   "attribute": "Technique",
   "rarity": 4,
   "sokai": 1,
@@ -12474,7 +12474,7 @@ const Collections = [{
     "name": "Hi-Mega Shield [Hi-nu HWS (Ver. Ka)]"
   }]
 }, {
-  "name": "High Mobility Gelgoog",
+  "name": "High Mobility Gelgoog [Johnny Ridden]",
   "attribute": "Technique",
   "rarity": 3,
   "sokai": 0,
@@ -12841,7 +12841,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Jagd Doga",
+  "name": "Jagd Doga [Quess Custom]",
   "attribute": "Technique",
   "rarity": 3,
   "sokai": 0,
@@ -13345,7 +13345,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Juaggu",
+  "name": "Juaggu [Unicorn Ver.]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -14266,7 +14266,7 @@ const Collections = [{
     "name": "Shield [Lightning]"
   }]
 }, {
-  "name": "Mack Knife",
+  "name": "Mack Knife [Mask]",
   "attribute": "Speed",
   "rarity": 3,
   "sokai": 0,
@@ -14603,7 +14603,7 @@ const Collections = [{
     }
   }]
 }, {
-  "name": "Mobile SUMO",
+  "name": "Mobile SUMO [Gold Type]",
   "attribute": "Speed",
   "rarity": 3,
   "sokai": 0,
@@ -15001,7 +15001,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Nu Gundam",
+  "name": "Nu Gundam [Ver. Ka]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -15427,7 +15427,7 @@ const Collections = [{
     "name": "Shield [Pale Rider]"
   }]
 }, {
-  "name": "Pale Rider",
+  "name": "Pale Rider [Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
   "sokai": 0,
@@ -15870,7 +15870,85 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Rick Dias",
+  "name": "Rick Dias [ALT] [Quattro Bajeena Colors]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 365,
+    "ma": 187,
+    "sa": 571,
+    "md": 365,
+    "sd": 365,
+    "br": 202,
+    "pr": 202,
+    "wt": ["High Mobility", "Mass P."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Protection β",
+      "description": "Raise Ally Physical Resist by 39%"
+    }
+  }, {
+    "part": "torso",
+    "a": 365,
+    "ma": 187,
+    "sa": 187,
+    "md": 365,
+    "sd": 365,
+    "br": 282,
+    "pr": 282,
+    "wt": ["High Mobility", "Mass P."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor > 70%, Debuff EX Skill Effect up 12%"
+    }
+  }, {
+    "part": "arms",
+    "a": 187,
+    "ma": 571,
+    "sa": 187,
+    "md": 365,
+    "sd": 365,
+    "br": 282,
+    "pr": 282,
+    "wt": ["High Mobility", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor > 70%, Enemy Sp. Shot Power reduced 18%"
+    }
+  }, {
+    "part": "legs",
+    "a": 187,
+    "ma": 187,
+    "sa": 187,
+    "md": 571,
+    "sd": 571,
+    "br": 282,
+    "pr": 282,
+    "wt": ["High Mobility", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor > 70%, Melee CRIT Rate boosted 14%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 187,
+    "ma": 187,
+    "sa": 187,
+    "md": 571,
+    "sd": 571,
+    "br": 282,
+    "pr": 282,
+    "wt": ["High Mobility", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Pistol",
+      "description": "Fire the twin pistols mounted on your back."
+    }
+  }]
+}, {
+  "name": "Rick Dias [Quattro Bajeena Colors]",
   "attribute": "Technique",
   "rarity": 2,
   "sokai": 0,
@@ -15946,84 +16024,6 @@ const Collections = [{
       "type": "EX Skill",
       "name": "Beam Saber Combo",
       "description": "Unleash a combo with the saber in your right hard."
-    }
-  }]
-}, {
-  "name": "Rick Dias [ALT]",
-  "attribute": "Speed",
-  "rarity": 1,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "a": 365,
-    "ma": 187,
-    "sa": 571,
-    "md": 365,
-    "sd": 365,
-    "br": 202,
-    "pr": 202,
-    "wt": ["High Mobility", "Mass P."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%"
-    }
-  }, {
-    "part": "torso",
-    "a": 365,
-    "ma": 187,
-    "sa": 187,
-    "md": 365,
-    "sd": 365,
-    "br": 282,
-    "pr": 282,
-    "wt": ["High Mobility", "Mass P."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor > 70%, Debuff EX Skill Effect up 12%"
-    }
-  }, {
-    "part": "arms",
-    "a": 187,
-    "ma": 571,
-    "sa": 187,
-    "md": 365,
-    "sd": 365,
-    "br": 282,
-    "pr": 282,
-    "wt": ["High Mobility", "For Urban Area"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor > 70%, Enemy Sp. Shot Power reduced 18%"
-    }
-  }, {
-    "part": "legs",
-    "a": 187,
-    "ma": 187,
-    "sa": 187,
-    "md": 571,
-    "sd": 571,
-    "br": 282,
-    "pr": 282,
-    "wt": ["High Mobility", "For Urban Area"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor > 70%, Melee CRIT Rate boosted 14%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 187,
-    "ma": 187,
-    "sa": 187,
-    "md": 571,
-    "sd": 571,
-    "br": 282,
-    "pr": 282,
-    "wt": ["High Mobility", "For Urban Area"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Beam Pistol",
-      "description": "Fire the twin pistols mounted on your back."
     }
   }]
 }, {
@@ -16200,7 +16200,7 @@ const Collections = [{
     "name": "Shield [Rozen Zulu]"
   }]
 }, {
-  "name": "Ryusei-Go",
+  "name": "Ryusei-Go [Graze Custom II]",
   "attribute": "Technique",
   "rarity": 3,
   "sokai": 0,
@@ -16708,83 +16708,6 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Serpent Custom",
-  "attribute": "Speed",
-  "rarity": 1,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "a": 137,
-    "ma": 137,
-    "sa": 1016,
-    "md": 137,
-    "sd": 373,
-    "br": 0,
-    "pr": 0,
-    "wt": ["Mass P.", "Mid-Range"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Beam ranged weapon magazine boosted 10%"
-    }
-  }, {
-    "part": "torso",
-    "a": 511,
-    "ma": 137,
-    "sa": 137,
-    "md": 287,
-    "sd": 511,
-    "br": 110,
-    "pr": 110,
-    "wt": ["Mass P.", "Mid-Range"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor > 90%, Melee DMG Taken reduced 10"
-    }
-  }, {
-    "part": "arms",
-    "a": 373,
-    "ma": 287,
-    "sa": 137,
-    "md": 137,
-    "sd": 511,
-    "br": 110,
-    "pr": 110,
-    "wt": ["Mass P.", "For Urban Area"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Double Gatling Guns",
-      "description": "Fire beam Gatling guns on both arms toward the enemy."
-    }
-  }, {
-    "part": "legs",
-    "a": 287,
-    "ma": 137,
-    "sa": 137,
-    "md": 287,
-    "sd": 511,
-    "br": 138,
-    "pr": 138,
-    "wt": ["Mass P.", "For Urban Area"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Sp. Shot Power boosted 10%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 287,
-    "ma": 137,
-    "sa": 137,
-    "md": 287,
-    "sd": 511,
-    "br": 138,
-    "pr": 138,
-    "wt": ["Mass P.", "For Urban Area"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Sp. Shot DMG Taken reduced 10"
-    }
-  }]
-}, {
   "name": "Serpent Custom [ALT]",
   "attribute": "Power",
   "rarity": 1,
@@ -16894,6 +16817,83 @@ const Collections = [{
     },
     "name": "Beam Cannon [ALT] [Serpent]",
     "type": "Beam"
+  }]
+}, {
+  "name": "Serpent Custom [Double Gatling Gun]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 137,
+    "ma": 137,
+    "sa": 1016,
+    "md": 137,
+    "sd": 373,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mass P.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon magazine boosted 10%"
+    }
+  }, {
+    "part": "torso",
+    "a": 511,
+    "ma": 137,
+    "sa": 137,
+    "md": 287,
+    "sd": 511,
+    "br": 110,
+    "pr": 110,
+    "wt": ["Mass P.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor > 90%, Melee DMG Taken reduced 10"
+    }
+  }, {
+    "part": "arms",
+    "a": 373,
+    "ma": 287,
+    "sa": 137,
+    "md": 137,
+    "sd": 511,
+    "br": 110,
+    "pr": 110,
+    "wt": ["Mass P.", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Double Gatling Guns",
+      "description": "Fire beam Gatling guns on both arms toward the enemy."
+    }
+  }, {
+    "part": "legs",
+    "a": 287,
+    "ma": 137,
+    "sa": 137,
+    "md": 287,
+    "sd": 511,
+    "br": 138,
+    "pr": 138,
+    "wt": ["Mass P.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Sp. Shot Power boosted 10%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 287,
+    "ma": 137,
+    "sa": 137,
+    "md": 287,
+    "sd": 511,
+    "br": 138,
+    "pr": 138,
+    "wt": ["Mass P.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Sp. Shot DMG Taken reduced 10"
+    }
   }]
 }, {
   "name": "Shenlong Gundam",
@@ -17482,7 +17482,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Strike Rouge",
+  "name": "Strike Rouge [IWSP]",
   "attribute": "Speed",
   "rarity": 3,
   "sokai": 0,
@@ -17802,7 +17802,85 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Tallgeese",
+  "name": "Tallgeese [Endless Waltz Ver. / Beginner Campaign]",
+  "attribute": "Power",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 650,
+    "ma": 389,
+    "sa": 2652,
+    "md": 389,
+    "sd": 389,
+    "br": 218,
+    "pr": 218,
+    "wt": ["High Mobility", "Long-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shooting CRIT Rate boosted 17%"
+    }
+  }, {
+    "part": "torso",
+    "a": 1457,
+    "ma": 650,
+    "sa": 650,
+    "md": 650,
+    "sd": 650,
+    "br": 297,
+    "pr": 297,
+    "wt": ["High Mobility", "Long-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Mobility\", Shooting Power boosted 25%"
+    }
+  }, {
+    "part": "arms",
+    "a": 1457,
+    "ma": 3469,
+    "sa": 1457,
+    "md": 1039,
+    "sd": 1039,
+    "br": 428,
+    "pr": 428,
+    "wt": ["High Mobility", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dober Gun",
+      "description": "Bathe foes in beams from the Dober gun on your shoulder."
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "a": 650,
+    "ma": 807,
+    "sa": 389,
+    "md": 807,
+    "sd": 650,
+    "br": 428,
+    "pr": 428,
+    "wt": ["High Mobility", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Saber Category equipped, 13% chance to not recoil"
+    }
+  }, {
+    "part": "backpack",
+    "a": 650,
+    "ma": 807,
+    "sa": 389,
+    "md": 807,
+    "sd": 650,
+    "br": 428,
+    "pr": 428,
+    "wt": ["High Mobility", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor > 40%, Vernier Consumption reduced 15%"
+    }
+  }]
+}, {
+  "name": "Tallgeese [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -17894,84 +17972,6 @@ const Collections = [{
     },
     "name": "Dober Gun",
     "type": "Beam"
-  }]
-}, {
-  "name": "Tallgeese",
-  "attribute": "Power",
-  "rarity": 1,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "a": 650,
-    "ma": 389,
-    "sa": 2652,
-    "md": 389,
-    "sd": 389,
-    "br": 218,
-    "pr": 218,
-    "wt": ["High Mobility", "Long-Range"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Shooting CRIT Rate boosted 17%"
-    }
-  }, {
-    "part": "torso",
-    "a": 1457,
-    "ma": 650,
-    "sa": 650,
-    "md": 650,
-    "sd": 650,
-    "br": 297,
-    "pr": 297,
-    "wt": ["High Mobility", "Long-Range"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "While \"High Mobility\", Shooting Power boosted 25%"
-    }
-  }, {
-    "part": "arms",
-    "a": 1457,
-    "ma": 3469,
-    "sa": 1457,
-    "md": 1039,
-    "sd": 1039,
-    "br": 428,
-    "pr": 428,
-    "wt": ["High Mobility", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Dober Gun",
-      "description": "Bathe foes in beams from the Dober gun on your shoulder."
-    },
-    "combo": "shield"
-  }, {
-    "part": "legs",
-    "a": 650,
-    "ma": 807,
-    "sa": 389,
-    "md": 807,
-    "sd": 650,
-    "br": 428,
-    "pr": 428,
-    "wt": ["High Mobility", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Saber Category equipped, 13% chance to not recoil"
-    }
-  }, {
-    "part": "backpack",
-    "a": 650,
-    "ma": 807,
-    "sa": 389,
-    "md": 807,
-    "sd": 650,
-    "br": 428,
-    "pr": 428,
-    "wt": ["High Mobility", "Close Combat"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor > 40%, Vernier Consumption reduced 15%"
-    }
   }]
 }, {
   "name": "Tallgeese II",
@@ -18796,7 +18796,7 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Victory Gundam",
+  "name": "Victory Gundam [Beginner Campaign]",
   "attribute": "Speed",
   "rarity": 1,
   "sokai": 0,
@@ -18874,12 +18874,6 @@ const Collections = [{
       "name": "When attacking with Beam, Melee Power boosted 25%"
     }
   }]
-}, {
-  "name": "Wing Gundam",
-  "attribute": "Technique",
-  "rarity": 2,
-  "sokai": 0,
-  "parts": []
 }, {
   "name": "Wing Gundam",
   "attribute": "Speed",
@@ -19006,7 +19000,13 @@ const Collections = [{
       "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%."
     },
     "name": "Shield [Wing]"
-  }, {
+  }]
+}, {
+  "name": "Wing Gundam [Pre-Registration Reward]",
+  "attribute": "Technique",
+  "rarity": 2,
+  "sokai": 0,
+  "parts": [{
     "part": "head",
     "a": 187,
     "ma": 187,
@@ -19127,7 +19127,7 @@ const Collections = [{
     "name": "Shield [Wing / Pre-Registration Reward]"
   }]
 }, {
-  "name": "Wing Gundam 0",
+  "name": "Wing Gundam 0 [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
   "sokai": 0,
@@ -19525,7 +19525,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Zaku II",
+  "name": "Zaku II [Char Aznable]",
   "attribute": "Speed",
   "rarity": 3,
   "sokai": 0,
@@ -19697,7 +19697,7 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
-  "name": "Zaku II Type FS",
+  "name": "Zaku II Type FS [Garma Zabi]",
   "attribute": "Speed",
   "rarity": 2,
   "sokai": 0,
@@ -20205,7 +20205,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saturn Engine",
-      "description": "Dramatically boost acceleration with a heavier prepellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
+      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
     }
   }, {
     "part": "range",
@@ -20223,87 +20223,6 @@ const Collections = [{
     },
     "name": "Anti-Ship Rifle",
     "type": "Physical"
-  }]
-}, {
-  "name": "Zudah",
-  "attribute": "Speed",
-  "rarity": 2,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "a": 570,
-    "ma": 187,
-    "sa": 364,
-    "md": 570,
-    "sd": 187,
-    "br": 201,
-    "pr": 81,
-    "wt": ["Commander", "For Space"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Signal Flare",
-      "description": "Fire a signal flare into the air to send word to your allies. Raise Ally Melee Attack by 19%. Raise Ally Beam Resist by 29%. Raise Ally Physical Resist by 29%."
-    }
-  }, {
-    "part": "torso",
-    "a": 754,
-    "ma": 187,
-    "sa": 187,
-    "md": 754,
-    "sd": 364,
-    "br": 281,
-    "pr": 0,
-    "wt": ["Commander", "For Space"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor < 50%, EX Skill Piercing boosted 15%"
-    }
-  }, {
-    "part": "arms",
-    "a": 570,
-    "ma": 1480,
-    "sa": 187,
-    "md": 1864,
-    "sd": 570,
-    "br": 462,
-    "pr": 0,
-    "wt": ["Commander", "For Space"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Melee Pick",
-      "description": "Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%."
-    },
-    "combo": "shield"
-  }, {
-    "part": "legs",
-    "a": 364,
-    "ma": 187,
-    "sa": 187,
-    "md": 754,
-    "sd": 364,
-    "br": 201,
-    "pr": 281,
-    "wt": ["High Mobility", "Commander"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Menace Shot",
-      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%"
-    }
-  }, {
-    "part": "backpack",
-    "a": 364,
-    "ma": 187,
-    "sa": 187,
-    "md": 754,
-    "sd": 364,
-    "br": 281,
-    "pr": 201,
-    "wt": ["Commander", "High Mobility"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Saturn Engine",
-      "description": "Dramatically boost acceleration with a heavier prepellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
-    }
   }]
 }, {
   "name": "Zudah [ALT]",
@@ -20400,6 +20319,87 @@ const Collections = [{
     },
     "name": "Anti-Ship Rifle [ALT]",
     "type": "Physical"
+  }]
+}, {
+  "name": "Zudah [Commander Type]",
+  "attribute": "Speed",
+  "rarity": 2,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "a": 570,
+    "ma": 187,
+    "sa": 364,
+    "md": 570,
+    "sd": 187,
+    "br": 201,
+    "pr": 81,
+    "wt": ["Commander", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Signal Flare",
+      "description": "Fire a signal flare into the air to send word to your allies. Raise Ally Melee Attack by 19%. Raise Ally Beam Resist by 29%. Raise Ally Physical Resist by 29%."
+    }
+  }, {
+    "part": "torso",
+    "a": 754,
+    "ma": 187,
+    "sa": 187,
+    "md": 754,
+    "sd": 364,
+    "br": 281,
+    "pr": 0,
+    "wt": ["Commander", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor < 50%, EX Skill Piercing boosted 15%"
+    }
+  }, {
+    "part": "arms",
+    "a": 570,
+    "ma": 1480,
+    "sa": 187,
+    "md": 1864,
+    "sd": 570,
+    "br": 462,
+    "pr": 0,
+    "wt": ["Commander", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Melee Pick",
+      "description": "Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%."
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "a": 364,
+    "ma": 187,
+    "sa": 187,
+    "md": 754,
+    "sd": 364,
+    "br": 201,
+    "pr": 281,
+    "wt": ["High Mobility", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Menace Shot",
+      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%"
+    }
+  }, {
+    "part": "backpack",
+    "a": 364,
+    "ma": 187,
+    "sa": 187,
+    "md": 754,
+    "sd": 364,
+    "br": 281,
+    "pr": 201,
+    "wt": ["Commander", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Saturn Engine",
+      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
+    }
   }]
 }];
 const Pilots = [{

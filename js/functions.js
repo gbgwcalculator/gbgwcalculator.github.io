@@ -337,6 +337,7 @@ class GunplaBuild {
       this.partCont[slot] = this.inputs[slot].closest(".js-part-cont");
     });
     this._parseParts();
+    this._sortParts();
     this._initInputClick();
     this._initFilters();
     this._initSort();
@@ -403,6 +404,19 @@ class GunplaBuild {
     }
   }
 
+  _sortParts() {
+    for (let type in this.parts) {
+      switch (type) {
+        case 'melee':
+        case 'range':
+        case 'shield':
+          this.parts[type].sort((a, b) => {
+            return a.name.localeCompare(b.name) || a.ms.localeCompare(b.ms);
+          });
+      }
+    }
+  }
+
   _initInputClick() {
     const inputs = this.inputs;
     for (let input in inputs) {
@@ -456,7 +470,15 @@ class GunplaBuild {
             return;
           }
           const partEntry = document.createElement("div");
-          partEntry.textContent = partEntry.dataset.partname = (partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + ']' : '') + ' ' + (partFilter.ms ? partFilter.ms + (partFilter.name ? ' (' + partFilter.name + ')' : '') : partFilter.name) + (partFilter.jl ? ' (' + partFilter.jl + ')' : '');
+          let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + ']' : '';
+          if (partFilter.jl) {
+            displayText += ` ${partFilter.name} (${partFilter.jl})`;
+          } else if (partFilter.name) {
+            displayText += ` ${partFilter.name} (${partFilter.ms})`;
+          } else {
+            displayText += ` ${partFilter.ms}`;
+          }
+          partEntry.textContent = partEntry.dataset.partname = displayText;
           partEntry.classList.add("part-list__item");
           for (let prop in partFilter) {
             partEntry.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
