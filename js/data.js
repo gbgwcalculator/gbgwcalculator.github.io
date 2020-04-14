@@ -10332,6 +10332,86 @@ const Collections = [{
   "rarity": 3,
   "sokai": 0,
   "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1144,
+    "ma": 292,
+    "sa": 891,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 302,
+    "wt": ["Heavy Armor", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+    }
+  }, {
+    "part": "torso",
+    "mark": 2,
+    "a": 1702,
+    "ma": 292,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 430,
+    "wt": ["Heavy Armor", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Buster Anchor",
+      "description": "Demolish foes from point-blank range with a quad 400mm cannon."
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 891,
+    "ma": 891,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 0,
+    "pr": 127,
+    "wt": ["Heavy Armor", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Gemini Satellite",
+      "description": "Generate an energy bit to provide automatic support fire. You can move freely while this is active."
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 430,
+    "pr": 127,
+    "wt": ["Heavy Armor", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hand Grenade",
+      "description": "Throw a hand grenade mounted on your side armor."
+    }
+  }, {
+    "part": "backpack",
+    "mark": 2,
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 127,
+    "pr": 430,
+    "wt": ["Heavy Armor", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Gusion Hammer",
+      "description": "Brandish the hammer on your back in a flurry attack."
+    }
+  }, {
     "part": "melee",
     "mark": 2,
     "a": 891,
@@ -10373,6 +10453,83 @@ const Collections = [{
   "rarity": 4,
   "sokai": 0,
   "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 795,
+    "ma": 384,
+    "sa": 1179,
+    "md": 1179,
+    "sd": 1179,
+    "br": 416,
+    "pr": 0,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon, magazine boosted 20%"
+    }
+  }, {
+    "part": "torso",
+    "mark": 1,
+    "a": 1601,
+    "ma": 384,
+    "sa": 0,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 0,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Axe Category equipped, Shooting DMG Taken reduced 35"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 795,
+    "ma": 1179,
+    "sa": 384,
+    "md": 1179,
+    "sd": 1179,
+    "br": 416,
+    "pr": 211,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Defender Job, Melee DMG Taken reduced 35"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 795,
+    "ma": 384,
+    "sa": 384,
+    "md": 1601,
+    "sd": 1601,
+    "br": 211,
+    "pr": 416,
+    "wt": ["Heavy Armor", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Halberd",
+      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%."
+    }
+  }, {
+    "part": "backpack",
+    "mark": 1,
+    "a": 795,
+    "ma": 384,
+    "sa": 384,
+    "md": 1601,
+    "sd": 1601,
+    "br": 416,
+    "pr": 211,
+    "wt": ["Heavy Armor", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Four-Arm Combat",
+      "description": "Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%."
+    }
+  }, {
     "part": "melee",
     "mark": 1,
     "a": 795,
@@ -12850,163 +13007,6 @@ const Collections = [{
     "ex": {
       "type": "Part Traits",
       "name": "Physical ranged weapon, magazine boosted 10%"
-    }
-  }, {
-    "part": "head",
-    "mark": 4,
-    "a": 1144,
-    "ma": 292,
-    "sa": 891,
-    "md": 558,
-    "sd": 558,
-    "br": 0,
-    "pr": 302,
-    "wt": ["Heavy Armor", "For Space"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
-    }
-  }, {
-    "part": "torso",
-    "mark": 4,
-    "a": 1702,
-    "ma": 292,
-    "sa": 292,
-    "md": 558,
-    "sd": 558,
-    "br": 0,
-    "pr": 430,
-    "wt": ["Heavy Armor", "For Space"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Buster Anchor",
-      "description": "Demolish foes from point-blank range with a quad 400mm cannon."
-    }
-  }, {
-    "part": "arms",
-    "mark": 4,
-    "a": 891,
-    "ma": 891,
-    "sa": 292,
-    "md": 891,
-    "sd": 891,
-    "br": 0,
-    "pr": 127,
-    "wt": ["Heavy Armor", "Mid-Range"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Gemini Satellite",
-      "description": "Generate an energy bit to provide automatic support fire. You can move freely while this is active."
-    }
-  }, {
-    "part": "legs",
-    "mark": 4,
-    "a": 891,
-    "ma": 292,
-    "sa": 292,
-    "md": 891,
-    "sd": 891,
-    "br": 430,
-    "pr": 127,
-    "wt": ["Heavy Armor", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
-    }
-  }, {
-    "part": "backpack",
-    "mark": 4,
-    "a": 891,
-    "ma": 292,
-    "sa": 292,
-    "md": 891,
-    "sd": 891,
-    "br": 127,
-    "pr": 430,
-    "wt": ["Heavy Armor", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Gusion Hammer",
-      "description": "Brandish the hammer on your back in a flurry attack."
-    }
-  }, {
-    "part": "head",
-    "mark": 4,
-    "a": 795,
-    "ma": 384,
-    "sa": 1179,
-    "md": 1179,
-    "sd": 1179,
-    "br": 416,
-    "pr": 0,
-    "wt": ["Heavy Armor", "For Desert"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Physical ranged weapon, magazine boosted 20%"
-    }
-  }, {
-    "part": "torso",
-    "mark": 4,
-    "a": 1601,
-    "ma": 384,
-    "sa": 0,
-    "md": 1179,
-    "sd": 1179,
-    "br": 609,
-    "pr": 0,
-    "wt": ["Heavy Armor", "For Desert"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Axe Category equipped, Shooting DMG Taken reduced 35"
-    }
-  }, {
-    "part": "arms",
-    "mark": 4,
-    "a": 795,
-    "ma": 1179,
-    "sa": 384,
-    "md": 1179,
-    "sd": 1179,
-    "br": 416,
-    "pr": 211,
-    "wt": ["Heavy Armor", "For Desert"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Defender Job, Melee DMG Taken reduced 35"
-    }
-  }, {
-    "part": "legs",
-    "mark": 4,
-    "a": 795,
-    "ma": 384,
-    "sa": 384,
-    "md": 1601,
-    "sd": 1601,
-    "br": 211,
-    "pr": 416,
-    "wt": ["Heavy Armor", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Halberd",
-      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%."
-    }
-  }, {
-    "part": "backpack",
-    "mark": 4,
-    "a": 795,
-    "ma": 384,
-    "sa": 384,
-    "md": 1601,
-    "sd": 1601,
-    "br": 416,
-    "pr": 211,
-    "wt": ["Heavy Armor", "Close Combat"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Four-Arm Combat",
-      "description": "Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%."
     }
   }]
 }, {
@@ -18805,7 +18805,13 @@ const Collections = [{
     },
     "name": "Shiranui/Unryu",
     "type": "Physical"
-  }, {
+  }]
+}, {
+  "name": "Sword Strike Gundam",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
     "part": "head",
     "mark": 2,
     "a": 558,
@@ -18884,13 +18890,7 @@ const Collections = [{
       "name": "Schwert Gewehr",
       "description": "Jump and bring a charged blade down on the foe's head. Raise your Melee Defense by 19%."
     }
-  }]
-}, {
-  "name": "Sword Strike Gundam",
-  "attribute": "Technique",
-  "rarity": 3,
-  "sokai": 0,
-  "parts": [{
+  }, {
     "part": "melee",
     "mark": 2,
     "a": 292,
