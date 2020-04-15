@@ -604,7 +604,7 @@ const Collections = [{
       "name": "While \"Transformer\", Initial EX Skill charge boosted 12%"
     },
     "name": "Beam Lance [Abyss]",
-    "type": "Beam Lance"
+    "type": "Beam"
   }]
 }, {
   "name": "Acguy",
@@ -12201,6 +12201,122 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
+  "name": "Gundam Sandrock [Promotional Code]",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 570,
+    "ma": 187,
+    "sa": 570,
+    "md": 570,
+    "sd": 364,
+    "br": 139,
+    "pr": 139,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Defender\", EX Skill Piercing Boosted 6%"
+    }
+  }, {
+    "part": "torso",
+    "mark": 2,
+    "a": 942,
+    "ma": 187,
+    "sa": 187,
+    "md": 364,
+    "sd": 364,
+    "br": 139,
+    "pr": 139,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Homing Missile",
+      "description": "Launch homing missiles mounted on both your shoulders."
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 364,
+    "ma": 570,
+    "sa": 187,
+    "md": 570,
+    "sd": 570,
+    "br": 29,
+    "pr": 29,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor > 70%, Enemy Sp. Shot Power reduced 2%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 570,
+    "ma": 187,
+    "sa": 187,
+    "md": 757,
+    "sd": 187,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Heavy Armor", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Machine Gun Category equipped, Enemy Strong Melee Power Reduced 2%"
+    }
+  }, {
+    "part": "backpack",
+    "mark": 2,
+    "a": 570,
+    "ma": 187,
+    "sa": 187,
+    "md": 570,
+    "sd": 364,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Heavy Armor", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Cross Crusher",
+      "description": "With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 20%."
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 570,
+    "ma": 0,
+    "sa": 1090,
+    "md": 364,
+    "sd": 0,
+    "br": 201,
+    "pr": 201,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Sp. Shot DMG Taken reduced 3"
+    },
+    "name": "Beam Machine Gun [Promotional Code]",
+    "type": "Beam"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 570,
+    "ma": 0,
+    "sa": 0,
+    "md": 942,
+    "sd": 364,
+    "br": 209,
+    "pr": 209,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), EX Skill Recovery boosted 5%"
+    },
+    "name": "Shield [Gundam Sandrock / Promotional Code]"
+  }]
+}, {
   "name": "Gundam Throne Drei",
   "attribute": "Speed",
   "rarity": 3,
@@ -12281,7 +12397,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Stealth Field",
-      "description": "Release a massive wave of GN particles from your two back units. Support allies over a wide area. Raise Ally Melee and SHot Defense by 19%. Raise Ally Beam and Physical Resist by 29%."
+      "description": "Release a massive wave of GN particles from your two back units. Support allies over a wide area. Raise Ally Melee and Shot Defense by 19%. Raise Ally Beam and Physical Resist by 29%."
     }
   }, {
     "part": "melee",
@@ -17734,7 +17850,7 @@ const Collections = [{
   "sokai": 0,
   "parts": [{
     "part": "torso",
-    "mark": 2,
+    "mark": 1,
     "a": 2778,
     "ma": 795,
     "sa": 1179,
@@ -17750,7 +17866,7 @@ const Collections = [{
     "combo": "head"
   }, {
     "part": "arms",
-    "mark": 2,
+    "mark": 1,
     "a": 384,
     "ma": 3173,
     "sa": 384,
@@ -17766,7 +17882,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
-    "mark": 2,
+    "mark": 1,
     "a": 795,
     "ma": 384,
     "sa": 384,
