@@ -418,7 +418,7 @@ const Collections = [{
     "wt": ["Close Combat", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribue (self), Melee CRIT rate boosted 30%"
+      "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
     }
   }, {
     "part": "legs",
@@ -2060,7 +2060,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "6-Tube Missile with Built-in Satchel",
-      "description": "Fire guided missiles from the sachel on your back."
+      "description": "Fire guided missiles from the satchel on your back."
     }
   }]
 }, {
@@ -8101,7 +8101,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Crimson Stinger",
-      "description": "Unlease a storm of blows from your lance. Raise your Melee Defense by 19%."
+      "description": "Unleash a storm of blows from your lance. Raise your Melee Defense by 19%."
     },
     "name": "Beam Javelin",
     "type": "Beam"
@@ -10140,7 +10140,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Spinning Saber",
-      "description": "Spin both hands to mox down nearby foes with your saber. Lowers hit enemy Gunpla's Melee Defense by 19%."
+      "description": "Spin both hands to mow down nearby foes with your saber. Lowers hit enemy Gunpla's Melee Defense by 19%."
     }
   }, {
     "part": "backpack",
@@ -11019,7 +11019,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest-Mounted Gatling & Machine Cannons",
-      "description": "Fire the Galing and machine cannons in your chest"
+      "description": "Fire the Gatling and machine cannons in your chest."
     }
   }, {
     "part": "arms",
@@ -11579,7 +11579,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce taget Physical Resist by 69%"
+      "description": "Reduce target Physical Resist by 69%"
     }
   }, {
     "part": "torso",
@@ -12736,7 +12736,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Demon's Hunt",
-      "description": "Crush enemies with a combination attack using Hunter's Edge, Handgun, and Burst Saber. Raise soeed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%."
+      "description": "Crush enemies with a combination attack using Hunter's Edge, Handgun, and Burst Saber. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%."
     }
   }, {
     "part": "backpack",
@@ -12783,7 +12783,7 @@ const Collections = [{
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor is 80% or less, Enemy Shtrong Melee power reduced 30%"
+      "name": "When Armor is 80% or less, Enemy Strong Melee power reduced 30%"
     },
     "name": "110mm Rifle",
     "type": "Physical"
@@ -13728,7 +13728,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fin Funnels",
-      "description": "Launche fin funnels to strike foes in all directions. You can move freely while this is active."
+      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active."
     }
   }, {
     "part": "range",
@@ -16531,7 +16531,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fin Funnels",
-      "description": "Launche fin funnels to strike foes in all directions. You can move freely while this is active."
+      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active."
     }
   }, {
     "part": "melee",
@@ -18182,7 +18182,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce taget Physical Resist by 69%"
+      "description": "Reduce target Physical Resist by 69%"
     }
   }, {
     "part": "arms",
@@ -18300,7 +18300,7 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce taget Physical Resist by 69%"
+      "description": "Reduce target Physical Resist by 69%"
     }
   }, {
     "part": "arms",
