@@ -371,6 +371,242 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
+  "name": "00 Raiser",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1363,
+    "ma": 972,
+    "sa": 1363,
+    "md": 1363,
+    "sd": 555,
+    "br": 0,
+    "pr": 680,
+    "wt": ["Close Combat", "Protag."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Enemy Shooting power reduced 30%"
+    }
+  }, {
+    "part": "torso",
+    "mark": 1,
+    "a": 1745,
+    "ma": 972,
+    "sa": 972,
+    "md": 2146,
+    "sd": 0,
+    "br": 0,
+    "pr": 471,
+    "wt": ["Close Combat", "Protag."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 0,
+    "ma": 2855,
+    "sa": 555,
+    "md": 1363,
+    "sd": 555,
+    "br": 286,
+    "pr": 471,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribue (self), Melee CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 972,
+    "ma": 972,
+    "sa": 555,
+    "md": 1363,
+    "sd": 972,
+    "br": 286,
+    "pr": 680,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Saber Boomerang",
+      "description": "Slash with your saber, then hurl it point-first."
+    }
+  }, {
+    "part": "backpack",
+    "mark": 1,
+    "a": 1363,
+    "ma": 471,
+    "sa": 555,
+    "md": 1363,
+    "sd": 972,
+    "br": 471,
+    "pr": 680,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Trans-Am Burst",
+      "description": "Discharge a burst of condensed GN particles to engulf a wide area. Raise speed of your Squad by 20%. Squad recovers 48% of maximum Armor. Raise Melee and Shot Defense of your Squad by 19%. Raise Beam and Physical Resist of your Squad by 29%."
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 1363,
+    "ma": 3713,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 286,
+    "pr": 680,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, Job Gauge increase boosted 17%"
+    },
+    "name": "GN Sword II",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 1363,
+    "ma": 3713,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 286,
+    "pr": 680,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Raiser Sword",
+      "description": "Use a large beam saber formed by outputting a massive amount of energy to cut enemies apart."
+    },
+    "name": "GN Sword III",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 555,
+    "ma": 154,
+    "sa": 3331,
+    "md": 972,
+    "sd": 0,
+    "br": 286,
+    "pr": 471,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
+    },
+    "name": "GN Sword III Rifle Mode",
+    "type": "Beam"
+  }]
+}, {
+  "name": "Abyss Gundam",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 1999,
+    "md": 559,
+    "sd": 294,
+    "br": 129,
+    "pr": 0,
+    "wt": ["Amphib.", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Lance category equipped, Mid Shot Attack raised 14%"
+    }
+  }, {
+    "part": "torso",
+    "mark": 2,
+    "a": 893,
+    "ma": 294,
+    "sa": 294,
+    "md": 1146,
+    "sd": 559,
+    "br": 432,
+    "pr": 0,
+    "wt": ["Amphib.", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Callidus Multi-Phase Beam Cannon",
+      "description": "Fire away with the high-energy Callidus Multi-Phase Beam Cannon on your chest."
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 559,
+    "ma": 1438,
+    "sa": 294,
+    "md": 893,
+    "sd": 559,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Amphib.", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "3-Barrel Beam Cannon",
+      "description": "Fire at enemies using six beam cannons stowed in your shoulders."
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 559,
+    "md": 893,
+    "sd": 294,
+    "br": 432,
+    "pr": 303,
+    "wt": ["Amphib.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "backpack",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 294,
+    "md": 1146,
+    "sd": 294,
+    "br": 432,
+    "pr": 303,
+    "wt": ["Amphib.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Balaena Kai Dual Beam Cannons",
+      "description": "Attack enemies ahead by firing highly compressed plasma energy from your plasma beam cannon."
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 559,
+    "ma": 1438,
+    "sa": 0,
+    "md": 559,
+    "sd": 0,
+    "br": 432,
+    "pr": 129,
+    "wt": ["Amphib.", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Transformer\", Initial EX Skill charge boosted 12%"
+    },
+    "name": "Beam Lance [Abyss]",
+    "type": "Beam Lance"
+  }]
+}, {
   "name": "Acguy",
   "attribute": "Technique",
   "rarity": 1,
@@ -9350,6 +9586,174 @@ const Collections = [{
     },
     "name": "Beam Scissors",
     "type": "Beam"
+  }]
+}, {
+  "name": "Gundam Double X",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1237,
+    "ma": 379,
+    "sa": 3312,
+    "md": 0,
+    "sd": 379,
+    "br": 464,
+    "pr": 208,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Firepower\", EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "torso",
+    "mark": 1,
+    "a": 1734,
+    "ma": 789,
+    "sa": 1098,
+    "md": 965,
+    "sd": 965,
+    "br": 673,
+    "pr": 0,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Chest Launcher",
+      "description": "Fire the Vulcan in your chest at foes straight ahead. You can move freely while shooting."
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 965,
+    "ma": 2837,
+    "sa": 1423,
+    "md": 553,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Melee power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 965,
+    "ma": 789,
+    "sa": 720,
+    "md": 965,
+    "sd": 965,
+    "br": 464,
+    "pr": 673,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Twist Buster",
+      "description": "Lift foes with your saber, then knock them back to earth."
+    }
+  }, {
+    "part": "backpack",
+    "mark": 1,
+    "a": 965,
+    "ma": 789,
+    "sa": 720,
+    "md": 965,
+    "sd": 965,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Twin Satellite Cannon",
+      "description": "Receive microwaves from the moon and converge the energy into dual beam blasts."
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 553,
+    "ma": 3690,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Job Gauge increase boosted 17%"
+    },
+    "name": "Hyper Beam Sword",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 553,
+    "ma": 3690,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Gundam Type\", Initial EX Skill charge boosted 20%"
+    },
+    "name": "Beam Javelin [DX]",
+    "type": "Beam"
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 553,
+    "ma": 3690,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or more, Strong Melee CRIT rate boosted 30%"
+    },
+    "name": "G-Hammer [DX]",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 720,
+    "ma": 0,
+    "sa": 3690,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 284,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, Shooting DMG output boosted by 35"
+    },
+    "name": "DX Buster Rifle",
+    "type": "Beam"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 1082,
+    "pr": 0,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Enemy Shooting power reduced 30%"
+    },
+    "name": "Defense Plate"
   }]
 }, {
   "name": "Gundam Dynames",
@@ -21964,6 +22368,23 @@ const Pilots = [{
     "name": "With Speed attribute (self), All DMG Taken reduced 20"
   }
 }, {
+  "name": "Chara Soon",
+  "jl": "Out-Fighter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 559,
+  "ma": 1144,
+  "sa": 292,
+  "md": 559,
+  "sd": 559,
+  "br": 303,
+  "pr": 303,
+  "wt": ["Zeon", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+  }
+}, {
   "name": "Chloe Croce",
   "jl": "Out-Fighter",
   "attribute": "Speed",
@@ -22846,6 +23267,23 @@ const Pilots = [{
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Debuff EX Skill time up 16%"
+  }
+}, {
+  "name": "Master Asia",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 799,
+  "ma": 1756,
+  "sa": 156,
+  "md": 799,
+  "sd": 799,
+  "br": 290,
+  "pr": 290,
+  "wt": ["Mobile Fighter", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Mobile Fighter\", All DMG output boosted by 35"
   }
 }, {
   "name": "Mayura Labatt",
