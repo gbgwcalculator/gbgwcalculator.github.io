@@ -710,7 +710,7 @@ const Collections = [{
     "wt": ["Transformer", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 40%, Shooting DMG Taken reduced 35"
+      "name": "When Armor > 40%, Shooting DMG taken reduced 35"
     }
   }, {
     "part": "arms",
@@ -1530,7 +1530,7 @@ const Collections = [{
     "wt": ["High Mobility", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power attribute (self), Strong Melee DMG Taken reduced 15"
+      "name": "With Power attribute (self), Strong Melee DMG taken reduced 15"
     },
     "name": "Anti-Beam Shield [Green Frame]"
   }]
@@ -2200,7 +2200,7 @@ const Collections = [{
     "wt": ["Gundam Type", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "Out-Fighter Job, Shooting DMG Taken reduced 35"
+      "name": "Out-Fighter Job, Shooting DMG taken reduced 35"
     }
   }, {
     "part": "torso",
@@ -2401,7 +2401,7 @@ const Collections = [{
     "wt": ["Close Combat", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor < 80%, Melee DMG Taken reduced 20"
+      "name": "When Armor < 80%, Melee DMG taken reduced 20"
     }
   }, {
     "part": "legs",
@@ -3684,7 +3684,7 @@ const Collections = [{
     "wt": ["Transformer", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Sp. Shot DMG Taken reduced 20"
+      "name": "With Rifle Category equipped, Sp. Shot DMG taken reduced 20"
     }
   }, {
     "part": "legs",
@@ -4038,7 +4038,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor < 50%, Shooting DMG Taken reduced 10"
+      "name": "When Armor < 50%, Shooting DMG taken reduced 10"
     }
   }, {
     "part": "torso",
@@ -4153,7 +4153,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor < 50%, Melee DMG Taken reduced 10"
+      "name": "When Armor < 50%, Melee DMG taken reduced 10"
     }
   }, {
     "part": "legs",
@@ -4168,7 +4168,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor < 50%, Strong Melee DMG Taken reduced 10"
+      "name": "When Armor < 50%, Strong Melee DMG taken reduced 10"
     }
   }, {
     "part": "backpack",
@@ -4252,7 +4252,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor < 50%, Melee DMG Taken reduced 10"
+      "name": "When Armor < 50%, Melee DMG taken reduced 10"
     }
   }, {
     "part": "legs",
@@ -4267,7 +4267,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor < 50%, Melee DMG Taken reduced 10"
+      "name": "When Armor < 50%, Melee DMG taken reduced 10"
     }
   }, {
     "part": "backpack",
@@ -4483,7 +4483,7 @@ const Collections = [{
     "wt": ["High Firepower", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "Middle-Shooter Job, Shooting DMG Taken reduced 15"
+      "name": "Middle-Shooter Job, Shooting DMG taken reduced 15"
     },
     "name": "Beam Rifle [ALT] [Doven Wolf]",
     "type": "Beam"
@@ -5104,7 +5104,7 @@ const Collections = [{
     "wt": ["Protag.", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 40%, Melee DMG Taken reduced 35"
+      "name": "When Armor > 40%, Melee DMG taken reduced 35"
     },
     "name": "Beam Saber [EARTHREE]",
     "type": "Beam"
@@ -6261,7 +6261,7 @@ const Collections = [{
     "wt": ["Mass P.", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Strong Melee DMG Taken reduced 10"
+      "name": "With Rifle Category equipped, Strong Melee DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -6276,7 +6276,7 @@ const Collections = [{
     "wt": ["Mass P.", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), Melee DMG Taken reduced 10"
+      "name": "With Speed attribute (self), Melee DMG taken reduced 10"
     }
   }, {
     "part": "legs",
@@ -6306,7 +6306,7 @@ const Collections = [{
     "wt": ["Mass P.", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"Mass P.\" enemy, Sp. Shot DMG Taken reduced 10"
+      "name": "With \"Mass P.\" enemy, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "range",
@@ -6359,7 +6359,7 @@ const Collections = [{
     "wt": ["Long-Range", "Support Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 50%, Sp. Shot DMG Taken reduced 10"
+      "name": "When Armor > 50%, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -6407,9 +6407,15 @@ const Collections = [{
       "name": "Beam Cannon",
       "description": "Fire a beam in a straight line from the cannon on your back. You can move while firing."
     }
-  }, {
+  }]
+}, {
+  "name": "Gelgoog Jäger",
+  "attribute": "Speed",
+  "rarity": 2,
+  "sokai": 0,
+  "parts": [{
     "part": "head",
-    "mark": 4,
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 1278,
@@ -6425,7 +6431,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
-    "mark": 4,
+    "mark": 3,
     "a": 571,
     "ma": 187,
     "sa": 187,
@@ -6440,7 +6446,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
-    "mark": 4,
+    "mark": 3,
     "a": 365,
     "ma": 943,
     "sa": 187,
@@ -6456,7 +6462,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
-    "mark": 4,
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 365,
@@ -6471,7 +6477,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
-    "mark": 4,
+    "mark": 3,
     "a": 365,
     "ma": 187,
     "sa": 187,
@@ -6486,7 +6492,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
-    "mark": 4,
+    "mark": 3,
     "a": 187,
     "ma": 0,
     "sa": 1663,
@@ -6499,15 +6505,9 @@ const Collections = [{
       "type": "Part Traits",
       "name": "With Machine Gun Category equipped, Sp. Shot Power boosted 18%"
     },
-    "name": "Large Beam Machine Gun [Gelgoog Jaeger]",
+    "name": "Large Beam Machine Gun [Gelgoog Jäger]",
     "type": "Beam"
   }]
-}, {
-  "name": "Gelgoog Jäger",
-  "attribute": "Speed",
-  "rarity": 2,
-  "sokai": 0,
-  "parts": []
 }, {
   "name": "Gerbera Tetra",
   "attribute": "Speed",
@@ -6657,7 +6657,7 @@ const Collections = [{
     "wt": ["Mass P.", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Melee DMG Taken reduced 10"
+      "name": "With Saber Category equipped, Melee DMG taken reduced 10"
     }
   }, {
     "part": "legs",
@@ -6704,7 +6704,7 @@ const Collections = [{
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "Shooting DMG Taken reduced 10"
+      "name": "Shooting DMG taken reduced 10"
     },
     "name": "Beam Spray Gun",
     "type": "Beam"
@@ -6721,7 +6721,7 @@ const Collections = [{
     "wt": ["Mass P.", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power attribute (self), Strong Melee DMG Taken reduced 10"
+      "name": "With Power attribute (self), Strong Melee DMG taken reduced 10"
     },
     "name": "Shield [GM]"
   }]
@@ -6731,22 +6731,6 @@ const Collections = [{
   "rarity": 1,
   "sokai": 0,
   "parts": [{
-    "part": "head",
-    "mark": 4,
-    "a": 137,
-    "ma": 137,
-    "sa": 1016,
-    "md": 137,
-    "sd": 373,
-    "br": 0,
-    "pr": 0,
-    "wt": ["Commander", "Federation"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
-    }
-  }, {
     "part": "head",
     "mark": 4,
     "a": 137,
@@ -6775,23 +6759,7 @@ const Collections = [{
     "wt": ["Commander", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Strong Melee DMG Taken reduced 10"
-    }
-  }, {
-    "part": "torso",
-    "mark": 4,
-    "a": 376,
-    "ma": 138,
-    "sa": 138,
-    "md": 511,
-    "sd": 287,
-    "br": 0,
-    "pr": 194,
-    "wt": ["Commander", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Recovery Tool α",
-      "description": "Recover 48% of your maximum Armor."
+      "name": "With Rifle Category equipped, Strong Melee DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -6806,38 +6774,7 @@ const Collections = [{
     "wt": ["Commander", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Sp. Shot DMG Taken reduced 10"
-    }
-  }, {
-    "part": "arms",
-    "mark": 4,
-    "a": 287,
-    "ma": 641,
-    "sa": 138,
-    "md": 376,
-    "sd": 287,
-    "br": 0,
-    "pr": 0,
-    "wt": ["Commander", "For Desert"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "Physical ranged weapon, reload speed boosted 10%"
-    }
-  }, {
-    "part": "legs",
-    "mark": 4,
-    "a": 287,
-    "ma": 137,
-    "sa": 137,
-    "md": 287,
-    "sd": 511,
-    "br": 138,
-    "pr": 138,
-    "wt": ["Commander", "For Space"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "name": "With Rifle Category equipped, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "legs",
@@ -6871,22 +6808,6 @@ const Collections = [{
       "name": "With Speed attribute (self), Debuff EX Skill Effect up 10%"
     }
   }, {
-    "part": "backpack",
-    "mark": 4,
-    "a": 287,
-    "ma": 138,
-    "sa": 138,
-    "md": 511,
-    "sd": 138,
-    "br": 138,
-    "pr": 194,
-    "wt": ["Commander", "GM Type"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
-    }
-  }, {
     "part": "range",
     "mark": 4,
     "a": 137,
@@ -6899,7 +6820,7 @@ const Collections = [{
     "wt": ["Commander", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "All-Rounder Job, Shooting DMG Taken reduced 10"
+      "name": "All-Rounder Job, Shooting DMG taken reduced 10"
     },
     "name": "Beam Gun [GM Command]",
     "type": "Beam"
@@ -7034,7 +6955,7 @@ const Collections = [{
     "wt": ["Commander", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), Sp. Shot DMG Taken reduced 10"
+      "name": "With Speed attribute (self), Sp. Shot DMG taken reduced 10"
     },
     "name": "Curved Shield [GM Custom]"
   }]
@@ -7072,7 +6993,7 @@ const Collections = [{
     "wt": ["Mass P.", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "Defender Job, Shooting DMG Taken reduced 10"
+      "name": "Defender Job, Shooting DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -7087,7 +7008,7 @@ const Collections = [{
     "wt": ["Mass P.", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"Zaku Type\" enemy, Sp. Shot DMG Taken reduced 10"
+      "name": "With \"Zaku Type\" enemy, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "legs",
@@ -7613,7 +7534,7 @@ const Collections = [{
     "wt": ["Mass P.", "For Tundra"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, Shooting DMG Taken reduced 15"
+      "name": "In-Fighter Job, Shooting DMG taken reduced 15"
     },
     "name": "GN Beam Rifle [GN-XIII]",
     "type": "Beam"
@@ -7630,7 +7551,7 @@ const Collections = [{
     "wt": ["Mass P.", "For Tundra"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), Strong Melee DMG Taken reduced 15"
+      "name": "With Speed attribute (self), Strong Melee DMG taken reduced 15"
     },
     "name": "GN Lance [Rifle Mode]",
     "type": "Beam"
@@ -7717,7 +7638,7 @@ const Collections = [{
     "wt": ["Close Combat", "Mass P."],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"GM Type\" enemy, Shooting DMG Taken reduced 10"
+      "name": "With \"GM Type\" enemy, Shooting DMG taken reduced 10"
     }
   }, {
     "part": "backpack",
@@ -8558,7 +8479,7 @@ const Collections = [{
     "wt": ["Transformer", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Shooting DMG Taken reduced 20"
+      "name": "With Technique attribute (self), Shooting DMG taken reduced 20"
     }
   }, {
     "part": "torso",
@@ -8905,7 +8826,7 @@ const Collections = [{
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, Shooting DMG Taken reduced 35"
+      "name": "With Blade Category equipped, Shooting DMG taken reduced 35"
     },
     "name": "Rifle [Astaroth]",
     "type": "Physical"
@@ -9179,7 +9100,7 @@ const Collections = [{
     "wt": ["For Urban Area", "Ace Excl."],
     "ex": {
       "type": "Part Traits",
-      "name": "Defender Job, Shooting DMG Taken reduced 35"
+      "name": "Defender Job, Shooting DMG taken reduced 35"
     }
   }, {
     "part": "arms",
@@ -10726,7 +10647,7 @@ const Collections = [{
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Shooting DMG Taken reduced 35"
+      "name": "With Technique attribute (self), Shooting DMG taken reduced 35"
     },
     "name": "Folding Shield"
   }]
@@ -10884,7 +10805,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Shooting DMG Taken reduced 35"
+      "name": "With Axe Category equipped, Shooting DMG taken reduced 35"
     }
   }, {
     "part": "arms",
@@ -10899,7 +10820,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "Defender Job, Melee DMG Taken reduced 35"
+      "name": "Defender Job, Melee DMG taken reduced 35"
     }
   }, {
     "part": "legs",
@@ -10963,7 +10884,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 40%, Shooting DMG Taken reduced 35"
+      "name": "When Armor > 40%, Shooting DMG taken reduced 35"
     },
     "name": "120mm Long-Range Rifle",
     "type": "Physical"
@@ -11792,9 +11713,15 @@ const Collections = [{
       "name": "Middle-Shooter Job, Debuff EX Skill Time up 16%"
     },
     "name": "GN Shield [Nadleeh]"
-  }, {
+  }]
+}, {
+  "name": "Gundam NT-1",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
     "part": "head",
-    "mark": 2,
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 796,
@@ -11810,7 +11737,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
-    "mark": 2,
+    "mark": 1,
     "a": 1976,
     "ma": 796,
     "sa": 383,
@@ -11826,7 +11753,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
-    "mark": 2,
+    "mark": 1,
     "a": 796,
     "ma": 2781,
     "sa": 0,
@@ -11842,7 +11769,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
-    "mark": 2,
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -11853,11 +11780,11 @@ const Collections = [{
     "wt": ["Close Combat", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 40%, Melee DMG Taken reduced 35"
+      "name": "When Armor > 40%, Melee DMG taken reduced 35"
     }
   }, {
     "part": "backpack",
-    "mark": 2,
+    "mark": 1,
     "a": 1180,
     "ma": 383,
     "sa": 383,
@@ -11873,7 +11800,7 @@ const Collections = [{
     }
   }, {
     "part": "range",
-    "mark": 2,
+    "mark": 1,
     "a": 1180,
     "ma": 0,
     "sa": 2378,
@@ -11891,7 +11818,7 @@ const Collections = [{
     "type": "Beam"
   }, {
     "part": "shield",
-    "mark": 2,
+    "mark": 1,
     "a": 1180,
     "ma": 0,
     "sa": 0,
@@ -11908,13 +11835,13 @@ const Collections = [{
     "name": "Shield [NT-1]"
   }]
 }, {
-  "name": "Gundam NT-1",
-  "attribute": "Power",
-  "rarity": 4,
+  "name": "Gundam NT-1 [Chobham Armor]",
+  "attribute": "Technique",
+  "rarity": 3,
   "sokai": 0,
   "parts": [{
     "part": "head",
-    "mark": 1,
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 891,
@@ -11930,7 +11857,7 @@ const Collections = [{
     }
   }, {
     "part": "torso",
-    "mark": 1,
+    "mark": 2,
     "a": 1435,
     "ma": 292,
     "sa": 292,
@@ -11946,7 +11873,7 @@ const Collections = [{
     }
   }, {
     "part": "arms",
-    "mark": 1,
+    "mark": 2,
     "a": 558,
     "ma": 891,
     "sa": 292,
@@ -11961,7 +11888,7 @@ const Collections = [{
     }
   }, {
     "part": "legs",
-    "mark": 1,
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -11976,7 +11903,7 @@ const Collections = [{
     }
   }, {
     "part": "backpack",
-    "mark": 1,
+    "mark": 2,
     "a": 891,
     "ma": 292,
     "sa": 292,
@@ -11990,12 +11917,6 @@ const Collections = [{
       "name": "When Armor > 60%, 13% chance to not recoil"
     }
   }]
-}, {
-  "name": "Gundam NT-1 [Chobham Armor]",
-  "attribute": "Technique",
-  "rarity": 3,
-  "sokai": 0,
-  "parts": []
 }, {
   "name": "Gundam Rose",
   "attribute": "Power",
@@ -12295,7 +12216,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), Sp. Shot DMG Taken reduced 3"
+      "name": "With Speed attribute (self), Sp. Shot DMG taken reduced 3"
     },
     "name": "Beam Machine Gun [Promotional Code]",
     "type": "Beam"
@@ -12349,7 +12270,7 @@ const Collections = [{
     "wt": ["Support Type", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Support Type\", EX Skill DMG Taken reduced 25"
+      "name": "While \"Support Type\", EX Skill DMG taken reduced 25"
     }
   }, {
     "part": "arms",
@@ -13008,7 +12929,7 @@ const Collections = [{
     "wt": ["Heavy Armor", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "Long-Shooter Job, Shooting DMG Taken reduced 20"
+      "name": "Long-Shooter Job, Shooting DMG taken reduced 20"
     }
   }, {
     "part": "torso",
@@ -13306,7 +13227,7 @@ const Collections = [{
     "wt": ["Protag.", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), Melee DMG Taken reduced 35"
+      "name": "With Speed attribute (self), Melee DMG taken reduced 35"
     },
     "name": "Large Beam Sword",
     "type": "Beam"
@@ -13563,7 +13484,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 90%, Sp. Shot DMG Taken reduced 10"
+      "name": "When Armor > 90%, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -13624,7 +13545,7 @@ const Collections = [{
     "wt": ["Close Combat", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, Melee DMG Taken Reduced 10"
+      "name": "In-Fighter Job, Melee DMG taken Reduced 10"
     },
     "name": "Beam Saber",
     "type": "Beam"
@@ -13798,7 +13719,7 @@ const Collections = [{
     "wt": ["Ace Excl.", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, Shooting DMG Taken reduced 20"
+      "name": "In-Fighter Job, Shooting DMG taken reduced 20"
     }
   }, {
     "part": "arms",
@@ -14053,7 +13974,7 @@ const Collections = [{
     "wt": ["Commander", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"Ace Excl.\" enemy, Melee DMG Taken reduced 20"
+      "name": "With \"Ace Excl.\" enemy, Melee DMG taken reduced 20"
     }
   }, {
     "part": "arms",
@@ -14439,7 +14360,7 @@ const Collections = [{
     "wt": ["Mass P.", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 70%, Melee DMG Taken reduced 15"
+      "name": "When Armor > 70%, Melee DMG taken reduced 15"
     }
   }, {
     "part": "legs",
@@ -15515,7 +15436,7 @@ const Collections = [{
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"Gundam Type\" enemy, EX Skill DMG Taken reduced 10"
+      "name": "With \"Gundam Type\" enemy, EX Skill DMG taken reduced 10"
     }
   }, {
     "part": "range",
@@ -16242,7 +16163,7 @@ const Collections = [{
     "wt": ["Close Combat", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, Strong Melee DMG Taken reduced 10"
+      "name": "In-Fighter Job, Strong Melee DMG taken reduced 10"
     },
     "name": "Shield [Mobile Worker]"
   }]
@@ -16799,7 +16720,7 @@ const Collections = [{
     "wt": ["High Firepower", "Support Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Sp. Shot DMG Taken reduced 15"
+      "name": "With Technique attribute (self), Sp. Shot DMG taken reduced 15"
     },
     "name": "Shield [ALT] [Palace Athene]"
   }]
@@ -17659,7 +17580,7 @@ const Collections = [{
     "wt": ["Zeon", "Ace Excl."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Sp. Shot DMG Taken reduced 20"
+      "name": "With Technique attribute (self), Sp. Shot DMG taken reduced 20"
     }
   }, {
     "part": "arms",
@@ -18244,7 +18165,7 @@ const Collections = [{
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"Gundam Type\" enemy, Sp. Shot DMG Taken reduced 10"
+      "name": "With \"Gundam Type\" enemy, Sp. Shot DMG taken reduced 10"
     },
     "name": "Bazooka [Serpent]",
     "type": "Physical"
@@ -18362,7 +18283,7 @@ const Collections = [{
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"Gundam Type\" enemy, Sp. Shot DMG Taken reduced 10"
+      "name": "With \"Gundam Type\" enemy, Sp. Shot DMG taken reduced 10"
     },
     "name": "Bazooka [ALT] [Serpent]",
     "type": "Physical"
@@ -18417,7 +18338,7 @@ const Collections = [{
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor > 90%, Melee DMG Taken reduced 10"
+      "name": "When Armor > 90%, Melee DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -18463,7 +18384,7 @@ const Collections = [{
     "wt": ["Mass P.", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power attribute (self), Sp. Shot DMG Taken reduced 10"
+      "name": "With Power attribute (self), Sp. Shot DMG taken reduced 10"
     }
   }]
 }, {
@@ -18733,7 +18654,7 @@ const Collections = [{
     "wt": ["For Space", "Protag."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), EX Skill DMG Taken reduced 25"
+      "name": "With Speed attribute (self), EX Skill DMG taken reduced 25"
     }
   }, {
     "part": "backpack",
@@ -18833,7 +18754,7 @@ const Collections = [{
     "wt": ["Commander", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "Middle-Shooter Job, Sp. Shot DMG Taken reduced 10"
+      "name": "Middle-Shooter Job, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "range",
@@ -18951,7 +18872,7 @@ const Collections = [{
     "wt": ["Commander", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "Middle-Shooter Job, Sp. Shot DMG Taken reduced 10"
+      "name": "Middle-Shooter Job, Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "range",
@@ -19221,7 +19142,7 @@ const Collections = [{
     "wt": ["Commander", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "Out-Fighter Job, Shooting DMG Taken reduced 20"
+      "name": "Out-Fighter Job, Shooting DMG taken reduced 20"
     },
     "name": "Anti-Beam Shield [Strike Rouge]"
   }]
@@ -19545,7 +19466,7 @@ const Collections = [{
     "wt": ["High Mobility", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, EX Skill DMG Taken reduced 35"
+      "name": "In-Fighter Job, EX Skill DMG taken reduced 35"
     }
   }, {
     "part": "arms",
@@ -19577,7 +19498,7 @@ const Collections = [{
     "wt": ["High Mobility", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, EX Skill DMG Taken reduced 35"
+      "name": "In-Fighter Job, EX Skill DMG taken reduced 35"
     }
   }, {
     "part": "backpack",
@@ -20834,7 +20755,7 @@ const Collections = [{
     "wt": ["Transformer", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Sp. Shot DMG Taken reduced 15"
+      "name": "With Technique attribute (self), Sp. Shot DMG taken reduced 15"
     },
     "name": "Shield [Wing / Pre-Registration Reward]"
   }]
@@ -21003,7 +20924,7 @@ const Collections = [{
     "wt": ["Zaku Type", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), EX Skill DMG Taken reduced 35"
+      "name": "With Speed attribute (self), EX Skill DMG taken reduced 35"
     }
   }, {
     "part": "backpack",
@@ -21123,7 +21044,7 @@ const Collections = [{
     "wt": ["Amphib.", "Mass P."],
     "ex": {
       "type": "Part Traits",
-      "name": "With \"For Base\" enemy, Sp. Shot DMG Taken reduced 10"
+      "name": "With \"For Base\" enemy, Sp. Shot DMG taken reduced 10"
     }
   }]
 }, {
@@ -21191,7 +21112,7 @@ const Collections = [{
     "wt": ["Mass P.", "Zaku Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Shooting DMG Taken reduced 10"
+      "name": "With Axe Category equipped, Shooting DMG taken reduced 10"
     }
   }, {
     "part": "backpack",
@@ -21614,7 +21535,7 @@ const Collections = [{
     "wt": ["Mass P.", "Support Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), Sp. Shot DMG Taken reduced 10"
+      "name": "With Technique attribute (self), Sp. Shot DMG taken reduced 10"
     }
   }, {
     "part": "arms",
@@ -22447,7 +22368,7 @@ const Pilots = [{
   "wt": ["Ace Excl.", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), All DMG Taken reduced 20"
+    "name": "With Speed attribute (self), All DMG taken reduced 20"
   }
 }, {
   "name": "Chang Wufei",
@@ -22481,7 +22402,7 @@ const Pilots = [{
   "wt": ["Ace Excl.", "Commander"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), All DMG Taken reduced 20"
+    "name": "With Speed attribute (self), All DMG taken reduced 20"
   }
 }, {
   "name": "Chara Soon",
@@ -23914,7 +23835,7 @@ const Pilots = [{
 }, {
   "name": "Setsuna F. Seiei",
   "jl": "In-Fighter",
-  "attribute": "Power",
+  "attribute": "Speed",
   "rarity": 4,
   "a": 796,
   "ma": 1602,
