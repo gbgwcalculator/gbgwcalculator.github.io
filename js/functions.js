@@ -473,6 +473,8 @@ class GunplaBuild {
           let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + ']' : '';
           if (partFilter.jl) {
             displayText += ` ${partFilter.name} (${partFilter.jl})`;
+          } else if (partFilter.part.startsWith('gear-')) {
+            displayText += ` ${partFilter.name}`;
           } else if (partFilter.name) {
             displayText += ` ${partFilter.name} (${partFilter.ms})`;
           } else {
