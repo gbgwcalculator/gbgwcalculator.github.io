@@ -7825,6 +7825,124 @@ const Collections = [{
     "type": "Physical"
   }]
 }, {
+  "name": "Graze [Ground/Standard]",
+  "attribute": "Technique",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 4,
+    "a": 287,
+    "ma": 137,
+    "sa": 797,
+    "md": 287,
+    "sd": 287,
+    "br": 0,
+    "pr": 138,
+    "wt": ["Mass P.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Shooting power boosted 18%"
+    }
+  }, {
+    "part": "torso",
+    "mark": 4,
+    "a": 509,
+    "ma": 137,
+    "sa": 137,
+    "md": 372,
+    "sd": 372,
+    "br": 0,
+    "pr": 190,
+    "wt": ["Mass P.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Axe category equipped, Strong Melee power boosted 18%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 4,
+    "a": 287,
+    "ma": 797,
+    "sa": 137,
+    "md": 372,
+    "sd": 372,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mass P.", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Physical, Melee power boosted 18%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 4,
+    "a": 287,
+    "ma": 137,
+    "sa": 137,
+    "md": 372,
+    "sd": 372,
+    "br": 138,
+    "pr": 190,
+    "wt": ["Mass P.", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mass P.\", EX Skill piercing boosted 16%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 4,
+    "a": 287,
+    "ma": 1011,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 54,
+    "pr": 190,
+    "wt": ["Mass P.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Brave Axe Combo",
+      "description": "Bring down a wild rush of blows with your equipped axe."
+    },
+    "name": "Battle Axe [Graze]",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "mark": 4,
+    "a": 287,
+    "ma": 0,
+    "sa": 1011,
+    "md": 0,
+    "sd": 0,
+    "br": 54,
+    "pr": 190,
+    "wt": ["Mass P.", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When CPWR is under 200000, EX Skill power boosted 25%"
+    },
+    "name": "Rifle [Long Barrel/Graze]",
+    "type": "Physical"
+  }, {
+    "part": "range",
+    "mark": 4,
+    "a": 287,
+    "ma": 0,
+    "sa": 1011,
+    "md": 0,
+    "sd": 0,
+    "br": 54,
+    "pr": 190,
+    "wt": ["Mass P.", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Phy. RES is under 4000, Enemy Shooting power reduced 25%"
+    },
+    "name": "Rifle [Short Barrel/Graze]",
+    "type": "Physical"
+  }]
+}, {
   "name": "Guncannon",
   "attribute": "Power",
   "rarity": 1,
@@ -8694,6 +8812,22 @@ const Collections = [{
     },
     "name": "Beam Rifle [Artemis]",
     "type": "Beam"
+  }, {
+    "part": "backpack",
+    "mark": 1,
+    "a": 796,
+    "ma": 384,
+    "sa": 796,
+    "md": 796,
+    "sd": 1181,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Satellite Cannon",
+      "description": "Receive microwaves from the moon and fire the converged energy."
+    }
   }]
 }, {
   "name": "Gundam Astaroth",
@@ -17177,23 +17311,6 @@ const Collections = [{
       "name": "Funnels",
       "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active."
     }
-  }, {
-    "part": "shield",
-    "mark": 1,
-    "a": 558,
-    "ma": 0,
-    "sa": 0,
-    "md": 1701,
-    "sd": 558,
-    "br": 0,
-    "pr": 716,
-    "wt": ["Zeon", "Commander"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Grenade Launcher",
-      "description": "Launch grenades from your shield."
-    },
-    "name": "Shield [Reabwoo]"
   }]
 }, {
   "name": "Rebawoo",
@@ -17295,6 +17412,23 @@ const Collections = [{
     },
     "name": "Beam Rifle [Rebawoo]",
     "type": "Beam"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 1701,
+    "sd": 558,
+    "br": 0,
+    "pr": 716,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Grenade Launcher",
+      "description": "Launch grenades from your shield."
+    },
+    "name": "Shield [Reabwoo]"
   }]
 }, {
   "name": "Rick Dias [ALT] [Quattro Bajeena Colors]",
