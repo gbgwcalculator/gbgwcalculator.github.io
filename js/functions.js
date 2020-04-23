@@ -964,9 +964,9 @@ class GunplaBuild {
       } else {
         this.partWTCont.innerHTML = '';
       }
-      this.partSkillTraitCont.textContent = ex.type && ex.name
+      this.partSkillTraitCont.innerHTML = ex.type && ex.name
           ? ex.type === 'EX Skill'
-              ? ('[EX]: ' + ex.name)
+              ? `<span>${(this._generateSkillIcon(ex) + ex.name)}</span>`
               : ex.name
           : '';
     }

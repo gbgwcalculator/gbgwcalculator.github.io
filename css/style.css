@@ -80,12 +80,14 @@ h3 {
 }
 
 .part-trait-ex-skill__text,
-.part-trait-ex-skill__text span.ex-cat-icon {
+.part-trait-ex-skill__text .ex-cat-icon {
   font-size: 0.9em;
 }
 
-.part-trait-ex-skill__text span.ex-cat-icon {
-  margin-right: 0.667em;
+.part-skill-trait .ex-cat-icon,
+.part-trait-ex-skill__text .ex-cat-icon {
+  display: inline;
+  margin-right: 0.5em;
   vertical-align: middle;
 }
 
