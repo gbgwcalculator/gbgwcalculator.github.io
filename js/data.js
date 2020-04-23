@@ -25024,15 +25024,15 @@ const GearTypes = {
     "rarity": 3
   }, {
     "name": "Chg.Shot[+10%]",
-    "ma": { "attrs" : ["sd"], "multiplier" : 0.1 },
+    "sa": { "attrs" : ["sd"], "multiplier" : 0.1 },
     "rarity": 1
   }, {
     "name": "Chg.Shot[+20%]",
-    "ma": { "attrs" : ["sd"], "multiplier" : 0.2 },
+    "sa": { "attrs" : ["sd"], "multiplier" : 0.2 },
     "rarity": 2
   }, {
     "name": "Chg.Shot[+30%]",
-    "ma": { "attrs" : ["sd"], "multiplier" : 0.3 },
+    "sa": { "attrs" : ["sd"], "multiplier" : 0.3 },
     "rarity": 3
   }, {
     "name": "Chg.Res.[+5%]",
