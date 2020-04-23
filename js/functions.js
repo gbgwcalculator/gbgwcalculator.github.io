@@ -332,6 +332,7 @@ class GunplaBuild {
       'attr': '',
       'wt1': '',
       'wt2': '',
+      'ex-cat': '',
       'pt': ''
     };
     this.applyMapBonus = false;
@@ -447,27 +448,30 @@ class GunplaBuild {
     }
   }
 
-  _checkFilter(filterToCheck) {
+  _checkFilter(part) {
     const filters = this.filters;
-    if (this.filters.attr && filterToCheck.attribute && filterToCheck.attribute != this.filters.attr) {
+    if (this.filters['attr'] && part.attribute && part.attribute != this.filters['attr']) {
       return false;
     }
-    if (this.filters.wt1 && filterToCheck.wt && filterToCheck.wt.indexOf(this.filters.wt1) < 0) {
+    if (this.filters['wt1'] && part.wt && part.wt.indexOf(this.filters['wt1']) < 0) {
       return false;
     }
-    if (this.filters.wt2 && filterToCheck.wt && filterToCheck.wt.indexOf(this.filters.wt2) < 0) {
+    if (this.filters['wt2'] && part.wt && part.wt.indexOf(this.filters['wt2']) < 0) {
       return false;
     }
-    if (this.filters.pt && filterToCheck.ex && filterToCheck.ex.name && !new RegExp(this.filters.pt, 'i').test(filterToCheck.ex.name)) {
+    if (this.filters['pt'] && part.ex && part.ex.name && !new RegExp(this.filters['pt'], 'i').test(part.ex.name)) {
+      return false;
+    }
+    if (this.filters['ex-cat'] && part.ex && !(part.ex.category && part.ex.category === this.filters['ex-cat'])) {
       return false;
     }
     if (this.searchPart.trim().length > 0) {
-      const value = (filterToCheck.ms ? filterToCheck.ms : '') + ' ' + (filterToCheck.name ? filterToCheck.name : '');
+      const value = (part.ms ? part.ms : '') + ' ' + (part.name ? part.name : '');
       if (!new RegExp(this.searchPart.trim(), 'i').test(value)) {
         return false;
       }
     }
-    return  true;
+    return true;
   }
 
   _showPartList(partToShow) {
@@ -826,6 +830,7 @@ class GunplaBuild {
     const attrFilter = document.querySelector('.js-filter-attr'),
         wtFilter1 = document.querySelector(".js-filter-wt1"),
         wtFilter2 = document.querySelector(".js-filter-wt2"),
+        exFilter = document.querySelector(".js-filter-ex-cat"),
         ptFilter = document.querySelector(".js-filter-pt");
     if (Array.isArray(Attributes)) {
       Attributes.forEach(attr => {
@@ -845,6 +850,14 @@ class GunplaBuild {
         wtFilter1.appendChild(opt);
       });
     }
+    if (Array.isArray(ExCategories)) {
+      ExCategories.forEach(category => {
+        const opt = document.createElement("option");
+        opt.value = category;
+        opt.text = category;
+        exFilter.appendChild(opt);
+      });
+    }
     if (Array.isArray(TraitDescriptions)) {
       TraitDescriptions.forEach(pt => {
         const opt = document.createElement("option");
@@ -856,7 +869,10 @@ class GunplaBuild {
     for (let key in this.filters) {
       if (this.filters.hasOwnProperty(key)) {
         document.querySelector(".js-filter-" + key).addEventListener("change", e => {
-          this.filters[key] = e.currentTarget.value;
+          let filterEl = e.currentTarget;
+          let filterVal = filterEl.value;
+          filterEl.classList.toggle('unselected-filter', filterVal === '');
+          this.filters[key] = filterVal;
           if (this.currentPart) {
             this._showPartList(this.currentPart);
           }

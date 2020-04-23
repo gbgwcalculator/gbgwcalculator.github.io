@@ -163,6 +163,16 @@ const PilotType = [{
 }, {
   "name": "Supporter"
 }];
+const ExCategories = [
+  "Beam Shot",
+  "Physical Shot",
+  "Beam Melee",
+  "Physical Melee",
+  "Buff",
+  "Awakening",
+  "Debuff",
+  "Recovery"
+];
 const TraitDescriptions = [
   "All power boosted",
   "All power reduced",

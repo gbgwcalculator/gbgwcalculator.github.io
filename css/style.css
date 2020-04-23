@@ -33,6 +33,19 @@ h3 {
   padding: 0 10px;
 }
 
+.unselected-filter {
+  font-style: italic;
+  color: #555;
+}
+.unselected-filter option {
+  font-style: normal;
+  color: #000;
+}
+.placeholder-option {
+  font-style: italic !important;
+  font-weight: bold;
+}
+
 .activatedWT {
   color: #206cc9;
 }
@@ -340,7 +353,7 @@ h3 {
 }
 
 [class*="js-filter-"] {
-  width: 105px;
+  width: 116px;
 }
 
 .js-filter-pt {
