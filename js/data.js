@@ -1882,7 +1882,7 @@ const Collections = [{
       "type": "Part Traits",
       "name": "While \"Protag.\", Initial EX Skill charge boosted 20%"
     },
-    "name": "Gerbera Stright/Tiger Pierce",
+    "name": "Gerbera Straight/Tiger Pierce",
     "type": "Physical"
   }]
 }, {
@@ -9055,7 +9055,13 @@ const Collections = [{
     },
     "name": "Beam Rifle [Artemis]",
     "type": "Beam"
-  }, {
+  }]
+}, {
+  "name": "Gundam Artemis [Satellite Cannon]",
+  "attribute": "Power",
+  "rarity": 2,
+  "sokai": 0,
+  "parts": [{
     "part": "backpack",
     "mark": 1,
     "a": 796,
