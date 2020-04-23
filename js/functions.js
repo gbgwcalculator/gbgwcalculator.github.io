@@ -56,6 +56,9 @@ class GunplaCalculator {
     if ("placeholder" in config) {
       retEl.placeholder = config.placeholder;
     }
+    if ('disabled' in config) {
+      retEl.disabled = config.disabled;
+    }
     if ('data' in config && Array.isArray(config.data)) {
       config.data.forEach(prop => {
         retEl.dataset[prop.name] = prop.value;
@@ -205,7 +208,7 @@ class GunplaCalculator {
       'class': "gears",
       'children' : [{
         'el': 'h3',
-        'text': 'Gears'
+        'text': 'Gear'
       }, ...this._gearsChildren()]
     }
   }
@@ -242,6 +245,7 @@ class GunplaCalculator {
   _gearsChildren() {
     if (Array.isArray(GearSlot)) {
       return GearSlot.map((slotClass, slotIndex) => {
+        let disabled = Object.values(GearTypes)[slotIndex].length === 0;
         return {
           'el': 'div',
           'class': ["row", 'alt-bg', "height-50", "js-part-cont"],
@@ -254,7 +258,8 @@ class GunplaCalculator {
               'el': "input",
               'type': "text",
               'class': "js-input js-input-" + slotClass,
-              'readOnly':  true
+              'readOnly':  true,
+              'disabled': disabled
             }]
           }]
         };
@@ -398,7 +403,7 @@ class GunplaBuild {
       }
       if (GearTypes && typeof GearTypes === 'object') {
         Object.values(GearTypes).forEach((gears, index) => {
-          let gearIndex = 'gear-s1ot' + (index + 1);
+          let gearIndex = 'gear-s1ot-' + (index + 1);
           gears.forEach(currGear => {
             const gearClone = {
               'part': gearIndex
@@ -506,7 +511,7 @@ class GunplaBuild {
               removeAllAttributes(partInput);
               Object.assign(partInput.dataset, currTarget.dataset);
               this._deleteMarks(partData);
-              if (["pilot", "gear-s1ot1", "gear-s1ot2"].indexOf(partData) === -1) {
+              if (["pilot", "gear-s1ot-1", "gear-s1ot-2", "gear-s1ot-3", "gear-s1ot-4", "gear-s1ot-5"].indexOf(partData) === -1) {
                 this._addMarks();
               }
               this._displayPartInfo(currTarget);
