@@ -61,6 +61,7 @@ h3 {
 .word-tags,
 .part-trait-ex-skill,
 .parts,
+.gears,
 .part-list {
   margin-right: 10px;
 }
@@ -86,13 +87,15 @@ h3 {
   width: 230px;
 }
 
-.parts label {
+.parts label,
+.gears label {
   display: inline-block;
   text-transform: capitalize;
   width: 30%;
 }
 
-.parts input[type=text] {
+.parts input[type=text],
+.gears input[type=text] {
   border: 1px solid #bfbfbf;
   cursor: pointer;
   display: inline-block;

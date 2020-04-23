@@ -72,7 +72,7 @@ class GunplaCalculator {
   }
 
   _generate() {
-    const columns = [this._wordTags(), this._partTrait(), this._info(), this._parts(), this._partList()];
+    const columns = [this._wordTags(), this._partTrait(), this._info(), this._parts(), this._gears(), this._partList()];
     columns.forEach(column => {
       this._createElement(column, this.container);
     });
@@ -195,11 +195,19 @@ class GunplaCalculator {
       'children': [{
         'el': 'h3',
         'text': "Parts"
-      }, ...this._partsChildren(), {
+      }, ...this._partsChildren(), this._attributeTally()]
+    };
+  }
+
+  _gears() {
+    return {
+      'el' : 'div',
+      'class': "gears",
+      'children' : [{
         'el': 'h3',
         'text': 'Gears'
-      }, ...this._gearsChildren(), this._attributeTally()]
-    };
+      }, ...this._gearsChildren()]
+    }
   }
 
   _partsChildren() {
@@ -236,12 +244,12 @@ class GunplaCalculator {
       return GearSlot.map((slotClass, slotIndex) => {
         return {
           'el': 'div',
-          'class': ["row", "height-50", "js-part-cont"],
+          'class': ["row", 'alt-bg', "height-50", "js-part-cont"],
           'children': [{
             'el': "div",
             'children': [{
               'el': 'label',
-              'text': "Slot " + (slotIndex + 1)
+              'text': GearSlotText[slotIndex]
             }, {
               'el': "input",
               'type': "text",
@@ -388,17 +396,20 @@ class GunplaBuild {
           this.parts.pilot.push(pilotClone);
         });
       }
-      if (GearTypes && Array.isArray(GearTypes)) {
-        GearTypes.forEach(currGear => {
-          const gearClone = {
-            'part': 'gear-s1ot1'
-          };
-          for (let prop in currGear) {
-            if (currGear.hasOwnProperty(prop)) {
-              gearClone[prop] = currGear[prop];
+      if (GearTypes && typeof GearTypes === 'object') {
+        Object.values(GearTypes).forEach((gears, index) => {
+          let gearIndex = 'gear-s1ot' + (index + 1);
+          gears.forEach(currGear => {
+            const gearClone = {
+              'part': gearIndex
+            };
+            for (let prop in currGear) {
+              if (currGear.hasOwnProperty(prop)) {
+                gearClone[prop] = currGear[prop];
+              }
             }
-          }
-          this.parts['gear-s1ot1'].push(gearClone);
+            this.parts[gearIndex].push(gearClone);
+          });
         });
       }
     }
@@ -495,7 +506,7 @@ class GunplaBuild {
               removeAllAttributes(partInput);
               Object.assign(partInput.dataset, currTarget.dataset);
               this._deleteMarks(partData);
-              if (["pilot", "gear-s1ot1"].indexOf(partData) === -1) {
+              if (["pilot", "gear-s1ot1", "gear-s1ot2"].indexOf(partData) === -1) {
                 this._addMarks();
               }
               this._displayPartInfo(currTarget);
@@ -667,10 +678,19 @@ class GunplaBuild {
       const markMultiplier = this._getMarkMultiplier(inputName.dataset.part);
       Sorters.forEach(sorter => {
         const slug = sorter.slug;
-        let partMultiplier;
         if (slug && inputName.dataset[slug] && slug in this.parametersTotal) {
-          partMultiplier = +inputName.dataset[slug];
-          this.parametersTotal[slug] += markMultiplier ? partMultiplier + Math.floor(partMultiplier * markMultiplier) : partMultiplier;
+          let data = inputName.dataset[slug];
+          let partMultiplier = 0;
+          if (isNaN(data)) {
+            data = JSON.parse(data); // Gears are sometimes objects that contain a multiplier formula.
+            partMultiplier = data.attrs.reduce((sum, slug) => sum + this.parametersTotal[slug], 0) * data.multiplier;
+          } else {
+            partMultiplier = parseInt(data, 10);
+          }
+          let finalMultiplier = markMultiplier
+              ? partMultiplier + (partMultiplier * markMultiplier)
+              : partMultiplier;
+          this.parametersTotal[slug] += Math.floor(finalMultiplier); // Everything at this time is a straight addition.
         }
       });
     }
