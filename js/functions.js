@@ -582,6 +582,10 @@ class GunplaBuild {
     return el;
   }
 
+  _generateSkillIcon(exData) {
+    return `<span class="ex-cat-icon gbgw-${exData.category.toLowerCase().replace(/\s/g, '-')}"></span>`;
+  }
+
   _displaySkillTraits(partData) {
     if (this.inputs[partData]) {
       const partInput = this.inputs[partData];
@@ -590,11 +594,11 @@ class GunplaBuild {
         partTrait = document.querySelector(".js-skill-trait-" + partInput.dataset.part), exData = JSON.parse(partInput.dataset.ex);
         if (exData.type && exData.name && partTrait) {
           partTrait.innerHTML = exData.type === 'EX Skill'
-              ? '[EX]: ' + exData.name
+              ? this._generateSkillIcon(exData) + exData.name
               : exData.name.replace(/,/, '<br>');
           if (exData.description) {
             this._applyAttributes(partTrait, {
-              'aria-label' : exData.description,
+              'aria-label' : '[' + exData.category + '] ' + exData.description,
               'data-balloon-pos' : 'down',
               'data-balloon-length' : 'fit'
             });

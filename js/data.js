@@ -219,7 +219,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool γ",
-      "description": "Squad recovers 48% of maximum Armor."
+      "description": "Squad recovers 48% of maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "torso",
@@ -235,7 +236,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack β",
-      "description": "Reduce Melee and Shot Defense of all enemies by 24%."
+      "description": "Reduce Melee and Shot Defense of all enemies by 24%.",
+      "category": "Debuff"
     }
   }, {
     "part": "arms",
@@ -281,7 +283,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Full Saber Attack",
-      "description": "Attack using quantum teleports and the Trans-Am System. Raise Melee Attack of your Squad by 29%. Raise Physical Resist of your Squad by 69%."
+      "description": "Attack using quantum teleports and the Trans-Am System. Raise Melee Attack of your Squad by 29%. Raise Physical Resist of your Squad by 69%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -365,7 +368,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Wide Cutter Particle Beam",
-      "description": "Change direction of the main blade unit to fire a blade beam."
+      "description": "Change direction of the main blade unit to fire a blade beam.",
+      "category": "Beam Shot"
     },
     "name": "GN Sword IV [Rifle Mode]",
     "type": "Beam"
@@ -434,7 +438,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -450,7 +455,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am Burst",
-      "description": "Discharge a burst of condensed GN particles to engulf a wide area. Raise speed of your Squad by 20%. Squad recovers 48% of maximum Armor. Raise Melee and Shot Defense of your Squad by 19%. Raise Beam and Physical Resist of your Squad by 29%."
+      "description": "Discharge a burst of condensed GN particles to engulf a wide area. Raise speed of your Squad by 20%. Squad recovers 48% of maximum Armor. Raise Melee and Shot Defense of your Squad by 19%. Raise Beam and Physical Resist of your Squad by 29%.",
+      "category": "Awakening"
     }
   }, {
     "part": "melee",
@@ -483,7 +489,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Raiser Sword",
-      "description": "Use a large beam saber formed by outputting a massive amount of energy to cut enemies apart."
+      "description": "Use a large beam saber formed by outputting a massive amount of energy to cut enemies apart.",
+      "category": "Beam Melee"
     },
     "name": "GN Sword III",
     "type": "Physical"
@@ -539,7 +546,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Callidus Multi-Phase Beam Cannon",
-      "description": "Fire away with the high-energy Callidus Multi-Phase Beam Cannon on your chest."
+      "description": "Fire away with the high-energy Callidus Multi-Phase Beam Cannon on your chest.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -555,7 +563,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "3-Barrel Beam Cannon",
-      "description": "Fire at enemies using six beam cannons stowed in your shoulders."
+      "description": "Fire at enemies using six beam cannons stowed in your shoulders.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -586,7 +595,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Balaena Kai Dual Beam Cannons",
-      "description": "Attack enemies ahead by firing highly compressed plasma energy from your plasma beam cannon."
+      "description": "Attack enemies ahead by firing highly compressed plasma energy from your plasma beam cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -625,7 +635,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -641,7 +652,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection α",
-      "description": "Raise your Physical Resist by 69%"
+      "description": "Raise your Physical Resist by 69%",
+      "category": "Buff"
     },
     "combo": "legs"
   }, {
@@ -658,7 +670,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Mega Particle Cannon",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -695,7 +708,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -726,7 +740,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Assault Cyclone",
-      "description": "Slice foes with the beam sabers in both arms. Squad recovers 48% of maximum Armor. Raise Shot Defense of your Squad by 29%."
+      "description": "Slice foes with the beam sabers in both arms. Squad recovers 48% of maximum Armor. Raise Shot Defense of your Squad by 29%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -742,7 +757,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Kick Combination",
-      "description": "Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%"
+      "description": "Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -790,7 +806,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Throw",
-      "description": "Throw your shield to attack."
+      "description": "Throw your shield to attack.",
+      "category": "Physical Melee"
     },
     "name": "Anti-Beam Shield [Aegis]"
   }]
@@ -813,7 +830,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -859,7 +877,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -875,7 +894,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Strike Punisher",
-      "description": "Slash at high speed to unleash multiple shockwaves."
+      "description": "Slash at high speed to unleash multiple shockwaves.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -908,7 +928,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Knight's Nail",
-      "description": "Jump high to bring your blade down on the enemy's head."
+      "description": "Jump high to bring your blade down on the enemy's head.",
+      "category": "Physical Melee"
     },
     "name": "Grand Slam",
     "type": "Physical"
@@ -965,7 +986,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Close-In Weapons System",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -981,7 +1003,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Yata-no-Kagami",
-      "description": "Repel beams with nanoscale beam diffraction grating and hyperfine plasma criticality inhibitor layers. Raise your Beam Resist by 109%. Your Gunpla resists flinching for a set period of time."
+      "description": "Repel beams with nanoscale beam diffraction grating and hyperfine plasma criticality inhibitor layers. Raise your Beam Resist by 109%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -1012,7 +1035,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Experimental Twin Beam Saber",
-      "description": "Perform a combo with two detached sabers, then link them for a spinning attack."
+      "description": "Perform a combo with two detached sabers, then link them for a spinning attack.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -1028,7 +1052,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "High-Energy Beam Cannon",
-      "description": "Fire a powerful, high-energy beam at enemies."
+      "description": "Fire a powerful, high-energy beam at enemies.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -1145,7 +1170,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Fang",
-      "description": "Attack with GN Fangs and fire in all directions. You can move freely while this is active."
+      "description": "Attack with GN Fangs and fire in all directions. You can move freely while this is active.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -1210,7 +1236,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Field",
-      "description": "Release GN particles to create a force field barrier. Raise your speed by 20%. Raise your Shot Defense by 49%."
+      "description": "Release GN particles to create a force field barrier. Raise your speed by 20%. Raise your Shot Defense by 49%.",
+      "category": "Awakening"
     },
     "name": "GN Shield [Arche]"
   }]
@@ -1233,7 +1260,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -1249,7 +1277,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Hack β",
-      "description": "Reduce Melee and Shot Attack of all enemies by 24%."
+      "description": "Reduce Melee and Shot Attack of all enemies by 24%.",
+      "category": "Debuff"
     }
   }, {
     "part": "arms",
@@ -1265,7 +1294,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack β",
-      "description": "Reduce Melee and Shot Defense of all enemies by 24%."
+      "description": "Reduce Melee and Shot Defense of all enemies by 24%.",
+      "category": "Debuff"
     }
   }, {
     "part": "legs",
@@ -1296,7 +1326,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Serpent Bite",
-      "description": "Attack with dual sabers held in a backhand grip, striking enemies like a snake striking its prey."
+      "description": "Attack with dual sabers held in a backhand grip, striking enemies like a snake striking its prey.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "shield",
@@ -1349,7 +1380,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mirage Colloid",
-      "description": "Go Stealthy with colloidal particles on your armor. Raise your Melee and Shot Attack by 19%. You become harder to target for a set period of time."
+      "description": "Go Stealthy with colloidal particles on your armor. Raise your Melee and Shot Attack by 19%. You become harder to target for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -1365,7 +1397,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trikeros Rush",
-      "description": "A combo attack with the Trikeros Kai, a composite armament unit."
+      "description": "A combo attack with the Trikeros Kai, a composite armament unit.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -1396,7 +1429,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Maga no Ikutachi",
-      "description": "Grab a foe with the unit on your back, then feed it colloidal particles. Recover 48% of your maximum Armor."
+      "description": "Grab a foe with the unit on your back, then feed it colloidal particles. Recover 48% of your maximum Armor.",
+      "category": "Physical Melee"
     }
   }]
 }, {
@@ -1418,7 +1452,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -1464,7 +1499,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twin Sword Rifle",
-      "description": "Unleash a combo attack with your Twin Sword Rifle."
+      "description": "Unleash a combo attack with your Twin Sword Rifle.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -1480,7 +1516,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -1496,7 +1533,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sky Jumper",
-      "description": "Jump high to deal a blow with your lance from the air. Lowers hit enemy Gunpla's Beam Resist by 19%"
+      "description": "Jump high to deal a blow with your lance from the air. Lowers hit enemy Gunpla's Beam Resist by 19%",
+      "category": "Beam Melee"
     },
     "name": "Twin Sword Rifle",
     "type": "Beam"
@@ -1553,7 +1591,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -1584,7 +1623,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Lightning Ball",
-      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%"
+      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -1600,7 +1640,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Bisect",
-      "description": "Draw the Gerbera Straight to bisect foes with a mighty swing. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%."
+      "description": "Draw the Gerbera Straight to bisect foes with a mighty swing. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -1616,7 +1657,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -1632,7 +1674,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Gerbera Straight",
-      "description": "Unleash a barrage of attacks with your blade."
+      "description": "Unleash a barrage of attacks with your blade.",
+      "category": "Physical Melee"
     },
     "name": "Gerbera Straight",
     "type": "Physical"
@@ -1672,7 +1715,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -1703,7 +1747,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Lightning Ball",
-      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%"
+      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -1734,7 +1779,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -1801,7 +1847,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Gerbera Straight/Tiger Pierce",
-      "description": "Unleash a combo with the two swords on your waist."
+      "description": "Unleash a combo with the two swords on your waist.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -1817,7 +1864,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Tactical Arms II L",
-      "description": "Transform your Tactical Arms into sword form and unleash a combo attack."
+      "description": "Transform your Tactical Arms into sword form and unleash a combo attack.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -1856,7 +1904,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -1872,7 +1921,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "NT-D",
-      "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%."
+      "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -1888,7 +1938,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Armed Armor",
-      "description": "Drag foes with your claw unit and crush them with a torrent of light from your dual beam deflector fins. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%."
+      "description": "Drag foes with your claw unit and crush them with a torrent of light from your dual beam deflector fins. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -1920,7 +1971,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -1942,7 +1994,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Mega Particle Cannon",
-      "description": "Fire the mega particle cannon on your head."
+      "description": "Fire the mega particle cannon on your head.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -1974,7 +2027,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Mega Particle Cannon",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -1990,7 +2044,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Recorder",
-      "description": "Use the recorder taken from its satchel to bathe foes in beams."
+      "description": "Use the recorder taken from its satchel to bathe foes in beams.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -2012,7 +2067,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool β",
-      "description": "Ally recovers 38% of maximum Armor."
+      "description": "Ally recovers 38% of maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "torso",
@@ -2044,7 +2100,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Block Hack β",
-      "description": "Ally recovers 38% of maximum Armor."
+      "description": "Ally recovers 38% of maximum Armor.",
+      "category": "Debuff"
     }
   }, {
     "part": "backpack",
@@ -2060,7 +2117,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "6-Tube Missile with Built-in Satchel",
-      "description": "Fire guided missiles from the satchel on your back."
+      "description": "Fire guided missiles from the satchel on your back.",
+      "category": "Physical Shot"
     }
   }]
 }, {
@@ -2082,7 +2140,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Vulcan",
-      "description": "Fire the Beam Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%."
+      "description": "Fire the Beam Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -2129,7 +2188,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "IFS Unit Barrier",
-      "description": "Create a force field barrier through the I-Field control system. Raise your Shot Defense by 19%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time."
+      "description": "Create a force field barrier through the I-Field control system. Raise your Shot Defense by 19%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "backpack",
@@ -2145,7 +2205,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "IFS Unit Combo",
-      "description": "Attack an enemy with an I-Field control system force field. Raise Shot attack of your Squad by 29%. Raise Beam Resist of your squad by 69%."
+      "description": "Attack an enemy with an I-Field control system force field. Raise Shot attack of your Squad by 29%. Raise Beam Resist of your squad by 69%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -2216,7 +2277,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "IFS Unit Barrier",
-      "description": "Create a force field barrier through the I-Field control system. Raise your Shot Defense by 19%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time."
+      "description": "Create a force field barrier through the I-Field control system. Raise your Shot Defense by 19%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -2232,7 +2294,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "IFS Unit",
-      "description": "Create a force field with the I-Field control system, swinging it like a staff to temporarily stun enemies. Lowers hit enemy Gunpla's Melee Defense by 19%."
+      "description": "Create a force field with the I-Field control system, swinging it like a staff to temporarily stun enemies. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Beam Melee"
     },
     "combo": "shield"
   }, {
@@ -2264,7 +2327,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Tri-Claw Slash",
-      "description": "Grip three beam sabers with your fist in a spinning attack. Raise your Melee Attack by 19%."
+      "description": "Grip three beam sabers with your fist in a spinning attack. Raise your Melee Attack by 19%.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -2286,7 +2350,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool β",
-      "description": "Ally recovers 38% of maximum Armor."
+      "description": "Ally recovers 38% of maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "torso",
@@ -2302,7 +2367,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mirage Colloid",
-      "description": "Go stealthy with colloidal particles on your armor. Raise your Shot Attack by 19%. You become harder to target for a set period of time."
+      "description": "Go stealthy with colloidal particles on your armor. Raise your Shot Attack by 19%. You become harder to target for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -2318,7 +2384,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trikeros Rush",
-      "description": "A combo attack with the Trikeros, a composite armament unit."
+      "description": "A combo attack with the Trikeros, a composite armament unit.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -2370,7 +2437,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "EXAM System",
-      "description": "Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 39%."
+      "description": "Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -2386,7 +2454,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Abdominal Wired Missile",
-      "description": "Fire wire-guided missiles."
+      "description": "Fire wire-guided missiles.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -2417,7 +2486,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "shield",
@@ -2470,7 +2540,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Jigen Haoh Style Gokui",
-      "description": "Draw out your Gunpla's latent power with Plavsky Particles to temporarily increase performance. Raise your speed by 20%. Raise your Melee Attack by 39%."
+      "description": "Draw out your Gunpla's latent power with Plavsky Particles to temporarily increase performance. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -2486,7 +2557,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Jigen Haoh Style Shippu-Zuki",
-      "description": "Hit Enemies with Seiken-Zuki and Ryusei Rasen-Ken, and finish with a Shippu-Zuki stab. Raise your Melee Attack by 19%."
+      "description": "Hit Enemies with Seiken-Zuki and Ryusei Rasen-Ken, and finish with a Shippu-Zuki stab. Raise your Melee Attack by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -2502,7 +2574,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Jigen Haoh Style Seiso-Geri",
-      "description": "Use the Jigen Haoh style to make a tornado with Senpu Tatsumaki-Geri and unleash a Seiso-Geri. Raise your Melee Attack by 19%."
+      "description": "Use the Jigen Haoh style to make a tornado with Senpu Tatsumaki-Geri and unleash a Seiso-Geri. Raise your Melee Attack by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -2518,7 +2591,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Houou Haoh-Ken",
-      "description": "Launch a single phoenix-shaped strike with flame-engulfed arms. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%."
+      "description": "Launch a single phoenix-shaped strike with flame-engulfed arms. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",
+      "category": "Physical Melee"
     }
   }]
 }, {
@@ -2540,7 +2614,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance γ",
-      "description": "Raise Shot Defense of your Squad by 39%"
+      "description": "Raise Shot Defense of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -2571,7 +2646,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up α",
-      "description": "Raise Melee and Shot Attack of your Squad by 39%"
+      "description": "Raise Melee and Shot Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "legs",
@@ -2602,7 +2678,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Cougar Rush",
-      "description": "Execute a combo on target using a Beam Saber in both hands."
+      "description": "Execute a combo on target using a Beam Saber in both hands.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -2708,7 +2785,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -2754,7 +2832,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -2770,7 +2849,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Launch Build Booster",
-      "description": "Detach your backpack to have it operate on its own, attacking enemies with a large beam cannon. Raise Melee Attack of your Squad by 24%. Raise Shot Attack of your Squad by 24%."
+      "description": "Detach your backpack to have it operate on its own, attacking enemies with a large beam cannon. Raise Melee Attack of your Squad by 24%. Raise Shot Attack of your Squad by 24%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -2819,7 +2899,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Gun",
-      "description": "Launch rapid-fire beam guns from your torso. You can move while firing."
+      "description": "Launch rapid-fire beam guns from your torso. You can move while firing.",
+      "category": "Beam Shot"
     },
     "name": "Chobham Shield"
   }]
@@ -2857,7 +2938,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up β",
-      "description": "Raise Ally Melee and Shot Attack by 29%"
+      "description": "Raise Ally Melee and Shot Attack by 29%",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -2873,7 +2955,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance γ",
-      "description": "Raise Shot Attack of your Squad by 39%"
+      "description": "Raise Shot Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "legs",
@@ -2889,7 +2972,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Anti-Armor Shotgun",
-      "description": "Fire your Gunlauncher forward and Beam Rifle backward to spray the area with bullets."
+      "description": "Fire your Gunlauncher forward and Beam Rifle backward to spray the area with bullets.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -2920,7 +3004,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Nix Snipe",
-      "description": "Briefly bathe foes in powerful beams from your long rifle."
+      "description": "Briefly bathe foes in powerful beams from your long rifle.",
+      "category": "Beam Shot"
     },
     "name": "Hyper Impulse Long-Range Sniper Rifle",
     "type": "Beam"
@@ -2944,7 +3029,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Energy Satellite",
-      "description": "Generate an energy bit to provide automatic support fire. You can move freely while this is active."
+      "description": "Generate an energy bit to provide automatic support fire. You can move freely while this is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -2975,7 +3061,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Mega Particle Cannon",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -2991,7 +3078,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Claw Kick",
-      "description": "Unleash a series of kicking combo attacks. Raise your Melee Attack by 14%."
+      "description": "Unleash a series of kicking combo attacks. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -3007,7 +3095,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vernier Up α",
-      "description": "Raise your vernier capacity by 25%."
+      "description": "Raise your vernier capacity by 25%.",
+      "category": "Buff"
     }
   }]
 }, {
@@ -3044,7 +3133,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%"
+      "description": "Raise your Melee Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -3060,7 +3150,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Shear",
-      "description": "A furry of invisible blows from the saber on your forearm."
+      "description": "A furry of invisible blows from the saber on your forearm.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -3091,7 +3182,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vernier Up α",
-      "description": "Raise your vernier capacity by 25%."
+      "description": "Raise your vernier capacity by 25%.",
+      "category": "Buff"
     }
   }]
 }, {
@@ -3113,7 +3205,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -3129,7 +3222,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Assassination",
-      "description": "Blast foes with two sabers, finishing with a grand strike. Raise Melee Attack of your Squad by 19%. Raise Beam Resist of your Squad by 29%. Raise Physical Resist of your Squad by 29%."
+      "description": "Blast foes with two sabers, finishing with a grand strike. Raise Melee Attack of your Squad by 19%. Raise Beam Resist of your Squad by 29%. Raise Physical Resist of your Squad by 29%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "arms",
@@ -3175,7 +3269,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Grave Punisher",
-      "description": "Send a shockwave along the ground from your beam scythe."
+      "description": "Send a shockwave along the ground from your beam scythe.",
+      "category": "Beam Melee"
     },
     "name": "Beam Scythe [Code ϕ]",
     "type": "Beam"
@@ -3231,7 +3326,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "SD Tackle",
-      "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%."
+      "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "arms",
@@ -3277,7 +3373,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "SD Missile Launcher",
-      "description": "Fire missiles from the launcher mounted on your back."
+      "description": "Fire missiles from the launcher mounted on your back.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "melee",
@@ -3293,7 +3390,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "SD Attack",
-      "description": "After a rush attack, unleash a barrage of attacks with your equipped weapons. Lowers hit enemy Gunpla's Shot Attack by 19%."
+      "description": "After a rush attack, unleash a barrage of attacks with your equipped weapons. Lowers hit enemy Gunpla's Shot Attack by 19%.",
+      "category": "Physical Melee"
     },
     "name": "Command Knife",
     "type": "Physical"
@@ -3311,7 +3409,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Wave",
-      "description": "Hold Grenade Launcher in both hands and fire high-power rounds."
+      "description": "Hold Grenade Launcher in both hands and fire high-power rounds.",
+      "category": "Physical Shot"
     },
     "name": "Grenade Launcher w/ Laser Machine Gun",
     "type": "Beam"
@@ -3352,7 +3451,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -3368,7 +3468,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Gun",
-      "description": "Launch rapid-fire beam guns from your torso. You can move while firing."
+      "description": "Launch rapid-fire beam guns from your torso. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -3399,7 +3500,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Dagger",
-      "description": "Unleash a barrage of attacks with the daggers in your soles. Raise your Melee Attack by 14%."
+      "description": "Unleash a barrage of attacks with the daggers in your soles. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -3501,7 +3603,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Gun",
-      "description": "Launch rapid-fire beam guns from your torso. You can move while firing."
+      "description": "Launch rapid-fire beam guns from your torso. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -3532,7 +3635,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Dagger",
-      "description": "Unleash a barrage of attacks with the daggers in your soles. Raise your Melee Attack by 14%."
+      "description": "Unleash a barrage of attacks with the daggers in your soles. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -3563,7 +3667,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Jovian Stinger",
-      "description": "Unleash a frenzied barrage with your lance. Raise your Melee Defense by 19%."
+      "description": "Unleash a frenzied barrage with your lance. Raise your Melee Defense by 19%.",
+      "category": "Physical Melee"
     },
     "name": "Shot Lancer [X2]",
     "type": "Physical"
@@ -3654,7 +3759,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -3764,7 +3870,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Grenade Launcher",
-      "description": "Launch grenades from your shield. You can move while firing."
+      "description": "Launch grenades from your shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Delta Plus]"
   }]
@@ -3802,7 +3909,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Armed Aura α",
-      "description": "Your Gunpla resists flinching for a set period of time."
+      "description": "Your Gunpla resists flinching for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -3818,7 +3926,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Beam Guns",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -3850,7 +3959,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%"
+      "description": "Reduce target Melee and Shot Defense by 39%",
+      "category": "Debuff"
     }
   }, {
     "part": "melee",
@@ -3936,7 +4046,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Palma Fiocina",
-      "description": "Charge forward, capture an enemy, and fire a beam from your palm at point-blank range. Lowers hit enemy Gunpla's Physical Resist by 29%."
+      "description": "Charge forward, capture an enemy, and fire a beam from your palm at point-blank range. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -3967,7 +4078,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arondight",
-      "description": "Form wings of light with radiation pressure from Voiture Lumiere, then rush with Arondight. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%."
+      "description": "Form wings of light with radiation pressure from Voiture Lumiere, then rush with Arondight. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -4054,7 +4166,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest-Mounted Scattering Beam Cannon",
-      "description": "Bathe foes in low-output beams from your chest beam cannon. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Bathe foes in low-output beams from your chest beam cannon. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -4070,7 +4183,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Burning Fist",
-      "description": "Charge through enemies in front of you with your fist. Lowers hit enemy Gunpla's Melee Defense by 14%."
+      "description": "Charge through enemies in front of you with your fist. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -4101,7 +4215,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Physical Melee"
     }
   }]
 }, {
@@ -4138,7 +4253,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool α",
-      "description": "Recover 48% of your maximum Armor."
+      "description": "Recover 48% of your maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "arms",
@@ -4184,7 +4300,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "range",
@@ -4283,7 +4400,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Physical Melee"
     }
   }]
 }, {
@@ -4305,7 +4423,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -4321,7 +4440,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mega Particle Cannon",
-      "description": "Fire a generator-linked beam cannon in your abdomen at foes."
+      "description": "Fire a generator-linked beam cannon in your abdomen at foes.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -4367,7 +4487,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Incom",
-      "description": "Launch the incom to repeatedly strike foes in all directions. You can move freely while this skill is active."
+      "description": "Launch the incom to repeatedly strike foes in all directions. You can move freely while this skill is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -4383,7 +4504,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Seventh Ray Shot",
-      "description": "Bathe foes in high-output beams from your rifle."
+      "description": "Bathe foes in high-output beams from your rifle.",
+      "category": "Beam Shot"
     },
     "name": "Beam Rifle [Döven Wolf]",
     "type": "Beam"
@@ -4422,7 +4544,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Grenade Launcher",
-      "description": "Launch grenades stowed in your body frame."
+      "description": "Launch grenades stowed in your body frame.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -4468,7 +4591,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shoulder-Mounted Beam Cannon",
-      "description": "Bathe foes in beams from the cannon suspended on your back."
+      "description": "Bathe foes in beams from the cannon suspended on your back.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -4507,7 +4631,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Queue Blade",
-      "description": "Attack with the queue blade on your head. Lowers hit enemy Gunpla's Melee Defense by 19%."
+      "description": "Attack with the queue blade on your head. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "torso",
@@ -4523,7 +4648,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%."
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -4539,7 +4665,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dragon Claw",
-      "description": "Strike with both extended arms, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 19%."
+      "description": "Strike with both extended arms, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -4585,7 +4712,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hell Jumper",
-      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%"
+      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%",
+      "category": "Beam Melee"
     },
     "name": "Feilong Flag",
     "type": "Beam"
@@ -4639,7 +4767,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "3-Barrel Beam Cannon",
-      "description": "Launch rapid-fire beam cannon shots from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beam cannon shots from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -4670,7 +4799,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Tri-Blade",
-      "description": "Fire a close-range weapon that has three tracking blades."
+      "description": "Fire a close-range weapon that has three tracking blades.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "melee",
@@ -4686,7 +4816,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Spinning Axle",
-      "description": "Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%."
+      "description": "Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%.",
+      "category": "Beam Melee"
     },
     "name": "Beam Tomahawk [Dreissen]",
     "type": "Beam"
@@ -4727,7 +4858,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -4758,7 +4890,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Hack β",
-      "description": "Reduce Shot Defense of all enemies by 24%"
+      "description": "Reduce Shot Defense of all enemies by 24%",
+      "category": "Debuff"
     }
   }, {
     "part": "legs",
@@ -4789,7 +4922,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Hack β",
-      "description": "Reduce Melee Attack of all enemies by 24%"
+      "description": "Reduce Melee Attack of all enemies by 24%",
+      "category": "Debuff"
     }
   }, {
     "part": "range",
@@ -4839,7 +4973,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Hack α",
-      "description": "Reduce target Melee Attack by 39%"
+      "description": "Reduce target Melee Attack by 39%",
+      "category": "Debuff"
     },
     "name": "Anti-Beam Shield [Duel]"
   }]
@@ -4877,7 +5012,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Armed Aura β",
-      "description": "Allies resist flinching for a set period of time."
+      "description": "Allies resist flinching for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -4893,7 +5029,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shiva & 5-Tube Missile Pod",
-      "description": "Fire a railgun and missiles from units on your shoulders. You can move while firing."
+      "description": "Fire a railgun and missiles from units on your shoulders. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -4960,7 +5097,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Armed Aura β",
-      "description": "Allies resist flinching for a set period of time."
+      "description": "Allies resist flinching for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -4976,7 +5114,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shiva & 5-Tube Missile Pod",
-      "description": "Fire a railgun and missiles from units on your shoulders. You can move while firing."
+      "description": "Fire a railgun and missiles from units on your shoulders. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -5028,7 +5167,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -5089,7 +5229,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Cougar Rush",
-      "description": "Execute a combo on target using a Beam Saber in both hands."
+      "description": "Execute a combo on target using a Beam Saber in both hands.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -5122,7 +5263,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Charge Shot",
-      "description": "Attach your shield to your rifle and blast foes with a high-energy beam."
+      "description": "Attach your shield to your rifle and blast foes with a high-energy beam.",
+      "category": "Beam Shot"
     },
     "name": "Beam Rifle [EARTHREE]",
     "type": "Beam"
@@ -5162,7 +5304,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "EXAM System",
-      "description": "Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 39%."
+      "description": "Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -5193,7 +5336,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm Grenade Launcher",
-      "description": "Launch grenades from your forearm. You can move while firing."
+      "description": "Launch grenades from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -5209,7 +5353,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Leg Missile Pod",
-      "description": "Launch missiles from the pod mounted on your leg."
+      "description": "Launch missiles from the pod mounted on your leg.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -5225,7 +5370,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Rush",
-      "description": "Ready a saber in each hand and execute a rush attack."
+      "description": "Ready a saber in each hand and execute a rush attack.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -5264,7 +5410,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "High Mega Cannon",
-      "description": "Fire at enemies ahead with the Mega Particle Cannon in your head."
+      "description": "Fire at enemies ahead with the Mega Particle Cannon in your head.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -5280,7 +5427,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Biosensor",
-      "description": "Temporarily increase energy output using Biosensor. Raise your speed by 20%. Raise your Melee Defense by 29%. Raise your Beam Resist by 49%."
+      "description": "Temporarily increase energy output using Biosensor. Raise your speed by 20%. Raise your Melee Defense by 29%. Raise your Beam Resist by 49%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -5327,7 +5475,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Cannon & Missile Launcher",
-      "description": "Fire Double Cannon and 18-shot missile from your backpack at target."
+      "description": "Fire Double Cannon and 18-shot missile from your backpack at target.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "melee",
@@ -5343,7 +5492,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Beam Saber",
-      "description": "Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%"
+      "description": "Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%",
+      "category": "Beam Melee"
     },
     "name": "Hyper Beam Saber [Enhanced ZZ (Ver. Ka)] ",
     "type": "Beam"
@@ -5382,7 +5532,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "CIWS",
-      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -5413,7 +5564,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -5429,7 +5581,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Excalibur",
-      "description": "Charge forward with the Excalibur you received. Squad recovers 48% of maximum Armor. Raise Beam Resist of your Squad by 49%."
+      "description": "Charge forward with the Excalibur you received. Squad recovers 48% of maximum Armor. Raise Beam Resist of your Squad by 49%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -5479,7 +5632,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Throw",
-      "description": "Throw your shield to attack."
+      "description": "Throw your shield to attack.",
+      "category": "Physical Melee"
     },
     "name": "Mobile Shield"
   }]
@@ -5517,7 +5671,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "CIWS",
-      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -5548,7 +5703,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -5564,7 +5720,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -5586,7 +5743,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Picus",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -5632,7 +5790,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Xiphias Rail Cannon",
-      "description": "Slash with your saber and fire high-speed rounds from both your railguns at mid-air enemy. Squad recovers 48% of maximum Armor. Raises your Shot Attack by 29%"
+      "description": "Slash with your saber and fire high-speed rounds from both your railguns at mid-air enemy. Squad recovers 48% of maximum Armor. Raises your Shot Attack by 29%",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -5648,7 +5807,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Balaena Plasma Beam Cannon",
-      "description": "Attack enemy ahead by firing highly compressed plasma energy from your Plasma Beam Cannon."
+      "description": "Attack enemy ahead by firing highly compressed plasma energy from your Plasma Beam Cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -5698,7 +5858,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Bash",
-      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%."
+      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+      "category": "Beam Melee"
     },
     "name": "Laminated Anti-Beam Shield [Freedom]"
   }]
@@ -5721,7 +5882,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -5737,7 +5899,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "7-Barrel Missile Launcher",
-      "description": "Attack enemies by launching missiles stowed in your shoulder's add-on armor."
+      "description": "Attack enemies by launching missiles stowed in your shoulder's add-on armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -5753,7 +5916,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twin Beam Rifle & Rocket Launcher",
-      "description": "Fire at foes straight ahead with dual large beam rifles and heavy ordnance."
+      "description": "Fire at foes straight ahead with dual large beam rifles and heavy ordnance.",
+      "category": "Physical Shot"
     },
     "combo": "shield"
   }, {
@@ -5770,7 +5934,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "6-Barrel Missile Launcher",
-      "description": "Attack enemies by launching missiles stowed in your knee's add-on armor."
+      "description": "Attack enemies by launching missiles stowed in your knee's add-on armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -5786,7 +5951,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Free Improvisation",
-      "description": "Crush the enemy with the heavy weaponry on your back, then unleash a thunderous finisher. Raise Shot Attack of your Squad by 39%."
+      "description": "Crush the enemy with the heavy weaponry on your back, then unleash a thunderous finisher. Raise Shot Attack of your Squad by 39%.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -5823,7 +5989,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Scattering Beam Cannon",
-      "description": "Bathe foes in high-output beams from your chest beam cannon."
+      "description": "Bathe foes in high-output beams from your chest beam cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -5839,7 +6006,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -5870,7 +6038,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Tail Beam Rifle",
-      "description": "Launch rapid-fire beam weapon shots from your tail. You can move while firing."
+      "description": "Launch rapid-fire beam weapon shots from your tail. You can move while firing.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -5892,7 +6061,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance β",
-      "description": "Raise Ally Melee Defense by 29%."
+      "description": "Raise Ally Melee Defense by 29%.",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -5923,7 +6093,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Vulcan",
-      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing."
+      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -5954,7 +6125,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Tail Beam Rifle",
-      "description": "Launch rapid-fire beam weapon shots from your tail. You can move while firing."
+      "description": "Launch rapid-fire beam weapon shots from your tail. You can move while firing.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -5976,7 +6148,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "CIWS",
-      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -6037,7 +6210,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "MA-81R Beam Assault Cannon",
-      "description": "Fire a beam straight at enemies from the beam assault cannon on your back."
+      "description": "Fire a beam straight at enemies from the beam assault cannon on your back.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -6087,7 +6261,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Throw",
-      "description": "Throw your shield to attack."
+      "description": "Throw your shield to attack.",
+      "category": "Physical Melee"
     },
     "name": "Mobile Shield [Gaia]"
   }]
@@ -6110,7 +6285,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shock Bringer β",
-      "description": "Ally attacks stun large foes more easily for a set period."
+      "description": "Ally attacks stun large foes more easily for a set period.",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -6156,7 +6332,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Brave Axe Combo",
-      "description": "Bring down a wild rush of blows with your equipped axe."
+      "description": "Bring down a wild rush of blows with your equipped axe.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -6172,7 +6349,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%"
+      "description": "Reduce target Melee and Shot Defense by 39%",
+      "category": "Debuff"
     }
   }, {
     "part": "melee",
@@ -6205,7 +6383,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Panic Maker",
-      "description": "Fire special high-powered rounds from your machine gun."
+      "description": "Fire special high-powered rounds from your machine gun.",
+      "category": "Beam Shot"
     },
     "name": "Beam Machine Gun [Geara Doga]",
     "type": "Beam"
@@ -6223,7 +6402,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sturm Faust",
-      "description": "Fire the portable grenade launcher on your shield. You can move while firing."
+      "description": "Fire the portable grenade launcher on your shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Geara Doga]"
   }]
@@ -6246,7 +6426,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance α",
-      "description": "Raise your Melee Defense by 39%"
+      "description": "Raise your Melee Defense by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -6405,7 +6586,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Cannon",
-      "description": "Fire a beam in a straight line from the cannon on your back. You can move while firing."
+      "description": "Fire a beam in a straight line from the cannon on your back. You can move while firing.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -6427,7 +6609,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -6458,7 +6641,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Spot Gun",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -6557,7 +6741,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "110mm Autocannon",
-      "description": "Fire live ammunition from your forearm. You can move while firing."
+      "description": "Fire live ammunition from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -6573,7 +6758,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -6604,7 +6790,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Panic Maker",
-      "description": "Fire special high-powered rounds from your machine gun."
+      "description": "Fire special high-powered rounds from your machine gun.",
+      "category": "Beam Shot"
     },
     "name": "Beam Machine Gun [Gerbera Tetra]"
   }]
@@ -6627,7 +6814,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -6673,7 +6861,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance α",
-      "description": "Raise your Melee Defense by 39%"
+      "description": "Raise your Melee Defense by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -6689,7 +6878,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "range",
@@ -6744,7 +6934,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -6790,7 +6981,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -6855,7 +7047,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Hack α",
-      "description": "Reduce target Shot Attack by 39%"
+      "description": "Reduce target Shot Attack by 39%",
+      "category": "Debuff"
     },
     "name": "Curved Shield [GM Command]"
   }]
@@ -6878,7 +7071,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -6894,7 +7088,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool α",
-      "description": "Recover 48% of your maximum Armor."
+      "description": "Recover 48% of your maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "arms",
@@ -6940,7 +7135,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "shield",
@@ -6978,7 +7174,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -7024,7 +7221,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%"
+      "description": "Raise your Melee Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -7040,7 +7238,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -7062,7 +7261,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -7093,7 +7293,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Pod",
-      "description": "Fire missiles from pods on your shoulders at multiple foes."
+      "description": "Fire missiles from pods on your shoulders at multiple foes.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -7109,7 +7310,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Large Missile Launcher",
-      "description": "Use the missile launcher on your leg against multiple enemies."
+      "description": "Use the missile launcher on your leg against multiple enemies.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -7125,7 +7327,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -7147,7 +7350,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool α",
-      "description": "Recover 48% of your maximum Armor."
+      "description": "Recover 48% of your maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "torso",
@@ -7178,7 +7382,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance β",
-      "description": "Raise Ally Shot Defense by 29%"
+      "description": "Raise Ally Shot Defense by 29%",
+      "category": "Buff"
     }
   }, {
     "part": "legs",
@@ -7194,7 +7399,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -7210,7 +7416,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Missile",
-      "description": "Fire guided missiles propelled by GN particles from your back."
+      "description": "Fire guided missiles propelled by GN particles from your back.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -7232,7 +7439,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Vulcan",
-      "description": "Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -7263,7 +7471,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Claw",
-      "description": "Raise your Melee ATK 14%."
+      "description": "Raise your Melee ATK 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -7279,7 +7488,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -7327,7 +7537,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Myriad Snipe",
-      "description": "Ready your long rifle, then bathe foes in powerful beams."
+      "description": "Ready your long rifle, then bathe foes in powerful beams.",
+      "category": "Beam Shot"
     },
     "name": "GN Beam Rifle [GN-X / Long Barrel]",
     "type": "Beam"
@@ -7345,7 +7556,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Seventh Ray Shot",
-      "description": "Bathe foes in high-output beams from your rifle."
+      "description": "Bathe foes in high-output beams from your rifle.",
+      "category": "Beam Shot"
     },
     "name": "GN Beam Rifle [GN-X]",
     "type": "Beam"
@@ -7363,7 +7575,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Hack α",
-      "description": "Reduce target Shot Defense by 39%"
+      "description": "Reduce target Shot Defense by 39%",
+      "category": "Debuff"
     },
     "name": "GN Shield [GN-X]"
   }]
@@ -7386,7 +7599,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Gun Vulcan",
-      "description": "Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -7417,7 +7631,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Screw Fang",
-      "description": "Slice with claws on both hands, then unleash a kick. Raise your Melee Attack by 14%."
+      "description": "Slice with claws on both hands, then unleash a kick. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -7433,7 +7648,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -7464,7 +7680,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Valiant Heart",
-      "description": "Thrust a charged sword to cleave through enemies. Lowers hit enemy Gunpla's Physical Resist by 29%."
+      "description": "Thrust a charged sword to cleave through enemies. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+      "category": "Debuff"
     },
     "name": "GN Beam Saber [GN-XIII]",
     "type": "Beam"
@@ -7482,7 +7699,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Bright Stinger",
-      "description": "Unleash a series of light-speed strikes from your lance. Raise your Melee Defense by 14%."
+      "description": "Unleash a series of light-speed strikes from your lance. Raise your Melee Defense by 14%.",
+      "category": "Physical Melee"
     },
     "name": "GN Lance",
     "type": "Physical"
@@ -7517,7 +7735,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Myriad Snipe",
-      "description": "Ready your long rifle, then bathe foes in powerful beams."
+      "description": "Ready your long rifle, then bathe foes in powerful beams.",
+      "category": "Beam Shot"
     },
     "name": "GN Beam Rifle [GN-XII/Long Barrel]",
     "type": "Beam"
@@ -7569,7 +7788,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%"
+      "description": "Reduce target Melee and Shot Defense by 39%",
+      "category": "Debuff"
     },
     "name": "GN-Shield [GN-XIII]"
   }]
@@ -7592,7 +7812,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shock Bringer α",
-      "description": "Your attacks stun large foes more easily for a set period."
+      "description": "Your attacks stun large foes more easily for a set period.",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -7623,7 +7844,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "5-Barrel Finger Vulcan",
-      "description": "Launch Vulcan shots from your forearm. You can move while firing."
+      "description": "Launch Vulcan shots from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -7686,7 +7908,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Block Hack α",
-      "description": "Reduce target Melee Defense by 39%"
+      "description": "Reduce target Melee Defense by 39%",
+      "category": "Debuff"
     },
     "name": "Shield [Gouf]"
   }]
@@ -7739,7 +7962,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heat Rod",
-      "description": "Execute a combo with your whip."
+      "description": "Execute a combo with your whip.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -7903,7 +8127,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Brave Axe Combo",
-      "description": "Bring down a wild rush of blows with your equipped axe."
+      "description": "Bring down a wild rush of blows with your equipped axe.",
+      "category": "Physical Melee"
     },
     "name": "Battle Axe [Graze]",
     "type": "Physical"
@@ -7961,7 +8186,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -7977,7 +8203,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "240mm Cannons",
-      "description": "Fire explosive projectiles from the cannon on your shoulder."
+      "description": "Fire explosive projectiles from the cannon on your shoulder.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -8008,7 +8235,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -8039,7 +8267,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Myriad Snipe",
-      "description": "Ready your long rifle, then bathe foes in powerful beams."
+      "description": "Ready your long rifle, then bathe foes in powerful beams.",
+      "category": "Beam Shot"
     },
     "name": "Beam Rifle [Guncannon]",
     "type": "Beam"
@@ -8063,7 +8292,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -8124,7 +8354,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -8140,7 +8371,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Crimson Stinger",
-      "description": "Unleash a storm of blows from your lance. Raise your Melee Defense by 19%."
+      "description": "Unleash a storm of blows from your lance. Raise your Melee Defense by 19%.",
+      "category": "Beam Melee"
     },
     "name": "Beam Javelin",
     "type": "Beam"
@@ -8175,7 +8407,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Last Shooting",
-      "description": "Stand firm and shoot down foes with your arm rifle. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%."
+      "description": "Stand firm and shoot down foes with your arm rifle. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.",
+      "category": "Beam Shot"
     },
     "name": "Beam Rifle [Gundam]",
     "type": "Beam"
@@ -8232,7 +8465,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -8398,7 +8632,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%"
+      "description": "Raise your Melee Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -8444,7 +8679,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Dagger Bites",
-      "description": "Rush and grab a foe, then strike with a beam dagger combo. Lowers hit enemy Gunpla's Physical Resist by 29%"
+      "description": "Rush and grab a foe, then strike with a beam dagger combo. Lowers hit enemy Gunpla's Physical Resist by 29%",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -8514,7 +8750,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%"
+      "description": "Raise Ally Physical Resist by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -8545,7 +8782,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Lariat",
-      "description": "Deploy armor on arms and strike with a rigged beam weapon."
+      "description": "Deploy armor on arms and strike with a rigged beam weapon.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -8561,7 +8799,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Hack β",
-      "description": "Reduce Shot Attack of all enemies by 24%"
+      "description": "Reduce Shot Attack of all enemies by 24%",
+      "category": "Debuff"
     }
   }, {
     "part": "backpack",
@@ -8643,7 +8882,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Stream Slash",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -8713,7 +8953,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "CIWS",
-      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -8729,7 +8970,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Breast Beam Vulcan",
-      "description": "Fire forward with the Beam Vulcan in your chest."
+      "description": "Fire forward with the Beam Vulcan in your chest.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -8745,7 +8987,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Palma Fiocina Beam Cannon",
-      "description": "Turn both palms forward to bathe foes in high-output beams."
+      "description": "Turn both palms forward to bathe foes in high-output beams.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -8826,7 +9069,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Satellite Cannon",
-      "description": "Receive microwaves from the moon and fire the converged energy."
+      "description": "Receive microwaves from the moon and fire the converged energy.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -8878,7 +9122,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sub-Knuckle",
-      "description": "Catch enemies and crush them with the sub-knuckle on your arm. Lowers hit enemy Gunpla's Physical Resist by 29%."
+      "description": "Catch enemies and crush them with the sub-knuckle on your arm. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+      "category": "Physical Melee"
     },
     "combo": "shield"
   }, {
@@ -8895,7 +9140,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Knife Attack",
-      "description": "Unleash a flurry of attacks with the knife in your right hand."
+      "description": "Unleash a flurry of attacks with the knife in your right hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -8911,7 +9157,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Demolition Knife",
-      "description": "Attack the enemy with a large, folded close-quarters weapon longer than a mobile suit."
+      "description": "Attack the enemy with a large, folded close-quarters weapon longer than a mobile suit.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -8984,7 +9231,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Alaya-Vijnana System",
-      "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your attacks stun large foes more easily for a set period."
+      "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your attacks stun large foes more easily for a set period.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -9030,7 +9278,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Spirit of Agnika",
-      "description": "Attack using the two blades said to symbolize Agnika's strength."
+      "description": "Attack using the two blades said to symbolize Agnika's strength.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -9046,7 +9295,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Electromagnetic Cannon",
-      "description": "Attack enemies ahead with the electromagnetic cannons in your wing-shaped thrusters."
+      "description": "Attack enemies ahead with the electromagnetic cannons in your wing-shaped thrusters.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "melee",
@@ -9100,7 +9350,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fearless Hurl",
-      "description": "Charge mercilessly toward the enemy. Lowers hit enemy Gunpla's Beam Resist by 19%. Lowers hit enemy Gunpla's Physical Resist by 19%."
+      "description": "Charge mercilessly toward the enemy. Lowers hit enemy Gunpla's Beam Resist by 19%. Lowers hit enemy Gunpla's Physical Resist by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "arms",
@@ -9131,7 +9382,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Menace Shot",
-      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%"
+      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -9179,7 +9431,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Iron Impact",
-      "description": "Knock back a foe with a mighty blow from your mace. Raise Shot Defense of your Squad by 39%."
+      "description": "Knock back a foe with a mighty blow from your mace. Raise Shot Defense of your Squad by 39%.",
+      "category": "Physical Melee"
     },
     "name": "Mace",
     "type": "Physical"
@@ -9250,7 +9503,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "170mm Autocannon",
-      "description": "Attack enemies ahead with the autocannon on your arm."
+      "description": "Attack enemies ahead with the autocannon on your arm.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -9281,7 +9535,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Bloody Wrench",
-      "description": "Bulldoze attacking enemies with your Wrench Mace, then pulverize them into the ground. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%."
+      "description": "Bulldoze attacking enemies with your Wrench Mace, then pulverize them into the ground. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -9297,7 +9552,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mace Rush",
-      "description": "Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%."
+      "description": "Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",
+      "category": "Physical Melee"
     },
     "name": "Wrench Mace",
     "type": "Physical"
@@ -9321,7 +9577,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Alaya-Vijnana Limit Breaker",
-      "description": "Break the Alaya-Vijnana System's limits to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time."
+      "description": "Break the Alaya-Vijnana System's limits to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -9352,7 +9609,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "200mm Arm Rifle",
-      "description": "Attack enemies with 200mm rifles equipped to your arms."
+      "description": "Attack enemies with 200mm rifles equipped to your arms.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -9383,7 +9641,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Wolf's Howl",
-      "description": "Grind enemies to dust with your twin maces. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%."
+      "description": "Grind enemies to dust with your twin maces. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -9399,7 +9658,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mace Rush",
-      "description": "Blow away the enemy with your Sword Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%."
+      "description": "Blow away the enemy with your Sword Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",
+      "category": "Physical Melee"
     },
     "name": "Sword Mace",
     "type": "Physical"
@@ -9440,7 +9700,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -9456,7 +9717,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Machine Cannon",
-      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -9502,7 +9764,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Jammer",
-      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Shot Attack by 19%. You become harder to target for a set period of time."
+      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Shot Attack by 19%. You become harder to target for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "melee",
@@ -9518,7 +9781,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Deadly Circle",
-      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%"
+      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%",
+      "category": "Beam Melee"
     },
     "name": "Beam Scythe",
     "type": "Beam"
@@ -9536,7 +9800,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Buster Shield",
-      "description": "Fire your shield toward the enemy."
+      "description": "Fire your shield toward the enemy.",
+      "category": "Beam Melee"
     },
     "name": "Buster Shield"
   }]
@@ -9559,7 +9824,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -9575,7 +9841,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Self-Destruct",
-      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor."
+      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "arms",
@@ -9591,7 +9858,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Jammer",
-      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Shot Attack by 19%. You become harder to target for a set period of time."
+      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Shot Attack by 19%. You become harder to target for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "legs",
@@ -9637,7 +9905,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Deadly Circle",
-      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%"
+      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%",
+      "category": "Beam Melee"
     },
     "name": "Beam Scissors",
     "type": "Beam"
@@ -9676,7 +9945,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest Launcher",
-      "description": "Fire the Vulcan in your chest at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the Vulcan in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -9707,7 +9977,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twist Buster",
-      "description": "Lift foes with your saber, then knock them back to earth."
+      "description": "Lift foes with your saber, then knock them back to earth.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -9723,7 +9994,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twin Satellite Cannon",
-      "description": "Receive microwaves from the moon and converge the energy into dual beam blasts."
+      "description": "Receive microwaves from the moon and converge the energy into dual beam blasts.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -9829,7 +10101,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance γ",
-      "description": "Raise Shot Attack of your Squad by 39%"
+      "description": "Raise Shot Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -9875,7 +10148,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Missile",
-      "description": "Fire guided missiles propelled by GN Particles at multiple foes."
+      "description": "Fire guided missiles propelled by GN Particles at multiple foes.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -9891,7 +10165,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am",
-      "description": "Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%."
+      "description": "Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%.",
+      "category": "Awakening"
     }
   }, {
     "part": "range",
@@ -9930,7 +10205,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool α",
-      "description": "Recover 48% of your maximum Armor."
+      "description": "Recover 48% of your maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "torso",
@@ -9961,7 +10237,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Shear",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -9977,7 +10254,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Edge Fling",
-      "description": "Throw the twin blades on your legs."
+      "description": "Throw the twin blades on your legs.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -9993,7 +10271,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am Raid",
-      "description": "Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%."
+      "description": "Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -10095,7 +10374,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted GN Vulcan",
-      "description": "Launch rapid-fire GN Vulcan shots from your forearm. You can move while firing."
+      "description": "Launch rapid-fire GN Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -10126,7 +10406,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am",
-      "description": "Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%."
+      "description": "Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%.",
+      "category": "Awakening"
     }
   }]
 }, {
@@ -10148,7 +10429,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "MEPE Mode",
-      "description": "Release your limiters to unleash your Gunpla's full potential. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%."
+      "description": "Release your limiters to unleash your Gunpla's full potential. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -10195,7 +10477,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Spinning Saber",
-      "description": "Spin both hands to mow down nearby foes with your saber. Lowers hit enemy Gunpla's Melee Defense by 19%."
+      "description": "Spin both hands to mow down nearby foes with your saber. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -10211,7 +10494,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "V.S.B.R.",
-      "description": "Wedge the cannon on your back under your arm to fire projectiles. You can move while firing."
+      "description": "Wedge the cannon on your back under your arm to fire projectiles. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -10284,7 +10568,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -10300,7 +10585,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Hack β",
-      "description": "Reduce Melee Attack of all enemies by 24%"
+      "description": "Reduce Melee Attack of all enemies by 24%",
+      "category": "Debuff"
     }
   }, {
     "part": "arms",
@@ -10346,7 +10632,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Battlecry",
-      "description": "Charge into the fray solo, attacking with your saber. Squad recovers 48% of maximum Armor. Raise Melee Defense of your Squad by 29%."
+      "description": "Charge into the fray solo, attacking with your saber. Squad recovers 48% of maximum Armor. Raise Melee Defense of your Squad by 29%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "range",
@@ -10379,7 +10666,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up β",
-      "description": "Raise Ally Melee and Shot Attack by 29%"
+      "description": "Raise Ally Melee and Shot Attack by 29%",
+      "category": "Buff"
     },
     "name": "Shield [GP01]"
   }]
@@ -10402,7 +10690,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -10418,7 +10707,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance γ",
-      "description": "Raise Melee Attack of your Squad by 39%"
+      "description": "Raise Melee Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -10464,7 +10754,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Universal Boost Pod",
-      "description": "Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%."
+      "description": "Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%.",
+      "category": "Awakening"
     }
   }]
 }, {
@@ -10486,7 +10777,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -10502,7 +10794,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance γ",
-      "description": "Raise Melee Attack of your Squad by 39%"
+      "description": "Raise Melee Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -10548,7 +10841,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Universal Boost Pod",
-      "description": "Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%."
+      "description": "Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%.",
+      "category": "Awakening"
     }
   }]
 }, {
@@ -10570,7 +10864,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -10616,7 +10911,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twist Buster",
-      "description": "Lift foes with your saber, then knock them back to earth."
+      "description": "Lift foes with your saber, then knock them back to earth.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -10647,7 +10943,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Atomic Bazooka",
-      "description": "Fire a nuclear warhead from your bazooka."
+      "description": "Fire a nuclear warhead from your bazooka.",
+      "category": "Physical Shot"
     },
     "name": "Atomic Bazooka",
     "type": "Physical"
@@ -10702,7 +10999,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mega-Beam Cannon (Dendrobium)",
-      "description": "Summon the armed base Orchis, which fires a beam from its 90m-long turret."
+      "description": "Summon the armed base Orchis, which fires a beam from its 90m-long turret.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -10748,7 +11046,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "range",
@@ -10764,7 +11063,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Cascade",
-      "description": "Hold bazookas in both hands and fire high-power rounds."
+      "description": "Hold bazookas in both hands and fire high-power rounds.",
+      "category": "Physical Shot"
     },
     "name": "Folding Bazooka",
     "type": "Physical"
@@ -10804,7 +11104,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -10820,7 +11121,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Buster Anchor",
-      "description": "Demolish foes from point-blank range with a quad 400mm cannon."
+      "description": "Demolish foes from point-blank range with a quad 400mm cannon.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -10836,7 +11138,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Gemini Satellite",
-      "description": "Generate an energy bit to provide automatic support fire. You can move freely while this is active."
+      "description": "Generate an energy bit to provide automatic support fire. You can move freely while this is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -10852,7 +11155,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -10868,7 +11172,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Gusion Hammer",
-      "description": "Brandish the hammer on your back in a flurry attack."
+      "description": "Brandish the hammer on your back in a flurry attack.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -10884,7 +11189,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Spinning Rave",
-      "description": "Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%."
+      "description": "Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%.",
+      "category": "Physical Melee"
     },
     "name": "Gusion Hammer",
     "type": "Physical"
@@ -10970,7 +11276,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Halberd",
-      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%."
+      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -10986,7 +11293,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Four-Arm Combat",
-      "description": "Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%."
+      "description": "Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -11036,7 +11344,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Halberd Throw",
-      "description": "Throw the halberd suspended from your shield at an enemy directly ahead."
+      "description": "Throw the halberd suspended from your shield at an enemy directly ahead.",
+      "category": "Physical Melee"
     },
     "name": "Shield [Gusion Rebake]"
   }]
@@ -11074,7 +11383,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest-Mounted Gatling & Machine Cannons",
-      "description": "Fire the Gatling and machine cannons in your chest."
+      "description": "Fire the Gatling and machine cannons in your chest.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -11090,7 +11400,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Aerial Spin",
-      "description": "Launch an acrobatic blow with the knife on your forearm. Lowers hit enemy Gunpla's Melee Attack by 19%."
+      "description": "Launch an acrobatic blow with the knife on your forearm. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -11121,7 +11432,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Gatling Gun",
-      "description": "Fire the Gatling gun suspended on your back. You can move while firing."
+      "description": "Fire the Gatling gun suspended on your back. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -11206,7 +11518,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -11222,7 +11535,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am",
-      "description": "Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%."
+      "description": "Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%.",
+      "category": "Awakening"
     }
   }, {
     "part": "range",
@@ -11255,7 +11569,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Claw Mode",
-      "description": "Change the tip of your shield into a claw shape, and catch and crush enemies. Lowers hit enemy Gunpla's Physical Resist by 29%."
+      "description": "Change the tip of your shield into a claw shape, and catch and crush enemies. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+      "category": "Physical Melee"
     },
     "name": "GN Shield [Kyrios]"
   }]
@@ -11293,7 +11608,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Buster Beam",
-      "description": "Bathe foes in high-output beams from your chest Beam Cannon."
+      "description": "Bathe foes in high-output beams from your chest Beam Cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -11309,7 +11625,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Vulcan",
-      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing."
+      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -11340,7 +11657,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Legilis Cannon",
-      "description": "Launch beam weapon shots from your tail."
+      "description": "Launch beam weapon shots from your tail.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -11373,7 +11691,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Legilis Bits",
-      "description": "Launch Legilis Bits from your shield, hitting an enemy directly ahead with clusters of energy."
+      "description": "Launch Legilis Bits from your shield, hitting an enemy directly ahead with clusters of energy.",
+      "category": "Beam Shot"
     },
     "name": "Shield [Legilis]"
   }]
@@ -11411,7 +11730,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%."
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -11427,7 +11747,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Cyclone/Burning Machine Gun Punch",
-      "description": "Unleash a tornado with your left fist and do up to ten rapid-fire punches with your right."
+      "description": "Unleash a tornado with your left fist and do up to ten rapid-fire punches with your right.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -11443,7 +11764,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Gigantic Magnum",
-      "description": "Fire the twin pistols on your waist."
+      "description": "Fire the twin pistols on your waist.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -11480,7 +11802,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Hack α",
-      "description": "Reduce target Beam Resist by 69%"
+      "description": "Reduce target Beam Resist by 69%",
+      "category": "Debuff"
     }
   }, {
     "part": "torso",
@@ -11526,7 +11849,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hate Up",
-      "description": "You become easier to target for a set period of time."
+      "description": "You become easier to target for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -11542,7 +11866,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -11558,7 +11883,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Cross Wave",
-      "description": "Slash to create shockwaves that cleave through enemies."
+      "description": "Slash to create shockwaves that cleave through enemies.",
+      "category": "Beam Melee"
     },
     "name": "Beam Saber [Mk-II]",
     "type": "Beam"
@@ -11593,7 +11919,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Wave",
-      "description": "Hold bazookas in both hands and fire high-power rounds."
+      "description": "Hold bazookas in both hands and fire high-power rounds.",
+      "category": "Physical Shot"
     },
     "name": "Hyper Bazooka [Mk-II]",
     "type": "Physical"
@@ -11611,7 +11938,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Launcher",
-      "description": "Shoot firearms stored in your shield. You can move while firing."
+      "description": "Shoot firearms stored in your shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Mk-II / A.E.U.G. Design]"
   }]
@@ -11634,7 +11962,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce target Physical Resist by 69%"
+      "description": "Reduce target Physical Resist by 69%",
+      "category": "Debuff"
     }
   }, {
     "part": "torso",
@@ -11680,7 +12009,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hate Down",
-      "description": "You become harder to target for a set period of time."
+      "description": "You become harder to target for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -11696,7 +12026,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "shield",
@@ -11712,7 +12043,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Launcher",
-      "description": "Shoot firearms stored in your shield. You can move while firing."
+      "description": "Shoot firearms stored in your shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Mk-II / Titans Design]"
   }]
@@ -11750,7 +12082,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trial System",
-      "description": "Activate Trial System and stop all Gunpla movement within vicinity for a fixed period of time."
+      "description": "Activate Trial System and stop all Gunpla movement within vicinity for a fixed period of time.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -11867,7 +12200,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -11883,7 +12217,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Up β",
-      "description": "Raise Ally Melee and Shot Defense by 29%."
+      "description": "Raise Ally Melee and Shot Defense by 29%.",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -11899,7 +12234,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "90mm Gatling Cannon",
-      "description": "Rapidly fire rounds from your forearm Gatling Cannon. You can move while firing."
+      "description": "Rapidly fire rounds from your forearm Gatling Cannon. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -11930,7 +12266,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "range",
@@ -11946,7 +12283,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Seventh Tri-Shot",
-      "description": "Bathe foes in triple beams from your rifle."
+      "description": "Bathe foes in triple beams from your rifle.",
+      "category": "Beam Shot"
     },
     "name": "Beam Rifle [NT-1]",
     "type": "Beam"
@@ -11964,7 +12302,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Up α",
-      "description": "Raise your Melee and Shot Defense by 39%."
+      "description": "Raise your Melee and Shot Defense by 39%.",
+      "category": "Buff"
     },
     "name": "Shield [NT-1]"
   }]
@@ -11987,7 +12326,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -12003,7 +12343,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool β",
-      "description": "Ally recovers 38% of maximum Armor."
+      "description": "Ally recovers 38% of maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "arms",
@@ -12085,7 +12426,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%."
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -12101,7 +12443,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rose Bits",
-      "description": "Launch the Rose Bits to strike foes in all directions. You can move freely while this is active."
+      "description": "Launch the Rose Bits to strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -12118,7 +12461,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chevalier Saber",
-      "description": "Unleash a thrusting attack with the saber at your waist."
+      "description": "Unleash a thrusting attack with the saber at your waist.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -12172,7 +12516,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -12203,7 +12548,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rose Screamer",
-      "description": "Deploy the Rose Bits to enclose foes in an electrified space. Stuns enemies for a set period of time."
+      "description": "Deploy the Rose Bits to enclose foes in an electrified space. Stuns enemies for a set period of time.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -12220,7 +12566,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chevalier Saber",
-      "description": "Unleash a thrusting attack with the saber at your waist."
+      "description": "Unleash a thrusting attack with the saber at your waist.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -12289,7 +12636,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Homing Missile",
-      "description": "Launch homing missiles mounted on both your shoulders."
+      "description": "Launch homing missiles mounted on both your shoulders.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -12335,7 +12683,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Cross Crusher",
-      "description": "With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 20%."
+      "description": "With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 20%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "range",
@@ -12420,7 +12769,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Shield Pod",
-      "description": "Launch GN Missiles from your shield. You can move while firing."
+      "description": "Launch GN Missiles from your shield. You can move while firing.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -12452,7 +12802,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Stealth Field",
-      "description": "Release a massive wave of GN particles from your two back units. Support allies over a wide area. Raise Ally Melee and Shot Defense by 19%. Raise Ally Beam and Physical Resist by 29%."
+      "description": "Release a massive wave of GN particles from your two back units. Support allies over a wide area. Raise Ally Melee and Shot Defense by 19%. Raise Ally Beam and Physical Resist by 29%.",
+      "category": "Buff"
     }
   }, {
     "part": "melee",
@@ -12506,7 +12857,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shoulder Grenade Launcher",
-      "description": "Attack enemy with the double-barrel break-action grenade launcher stowed in your shoulder frame."
+      "description": "Attack enemy with the double-barrel break-action grenade launcher stowed in your shoulder frame.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -12537,7 +12889,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sub-Arm Unit",
-      "description": "Fire two Beam Rifles using the sub-arms attached to your waist."
+      "description": "Fire two Beam Rifles using the sub-arms attached to your waist.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -12553,7 +12906,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Booster",
-      "description": "Use Shield Booster to temporarily increase performance. Raises speed by 20%. Raises your Melee Attack by 19%. Raises your Physical Resist by 49%."
+      "description": "Use Shield Booster to temporarily increase performance. Raises speed by 20%. Raises your Melee Attack by 19%. Raises your Physical Resist by 49%.",
+      "category": "Awakening"
     }
   }, {
     "part": "range",
@@ -12586,7 +12940,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Scattering Beam Cannon",
-      "description": "Fire the Scattering Beam Cannon stowed in your shield."
+      "description": "Fire the Scattering Beam Cannon stowed in your shield.",
+      "category": "Beam Shot"
     },
     "name": "Enhanced Shield Booster"
   }, {
@@ -12625,7 +12980,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "High Mega Cannon",
-      "description": "Fire at enemies ahead with the Mega Particle Cannon in your head."
+      "description": "Fire at enemies ahead with the Mega Particle Cannon in your head.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -12641,7 +12997,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Minovsky Chohouken Tryzan",
-      "description": "Restrain enemies with pressure from the liger on your chest, then brandish the Hyper Minovsky Chohouken to deliver an almighty death blow. Raise Melee Attack of your squad by 39%."
+      "description": "Restrain enemies with pressure from the liger on your chest, then brandish the Hyper Minovsky Chohouken to deliver an almighty death blow. Raise Melee Attack of your squad by 39%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "arms",
@@ -12657,7 +13014,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Armed Booster",
-      "description": "Detach your forearm and unleash a rocket punch."
+      "description": "Detach your forearm and unleash a rocket punch.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -12673,7 +13031,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Raptor Breaker",
-      "description": "Unleash a pulverizing kick with your shin and crush your enemy when your claws latch on. Lowers hit enemy Gunpla's Melee Attack by 29%."
+      "description": "Unleash a pulverizing kick with your shin and crush your enemy when your claws latch on. Lowers hit enemy Gunpla's Melee Attack by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -12689,7 +13048,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Cannonade",
-      "description": "Fire powerful long-range beams from the cannon on your back."
+      "description": "Fire powerful long-range beams from the cannon on your back.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -12745,7 +13105,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Alaya-Vijnana System [Type E]",
-      "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your vernier capacity by 25%."
+      "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your vernier capacity by 25%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -12791,7 +13152,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Demon's Hunt",
-      "description": "Crush enemies with a combination attack using Hunter's Edge, Handgun, and Burst Saber. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%."
+      "description": "Crush enemies with a combination attack using Hunter's Edge, Handgun, and Burst Saber. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -12877,7 +13239,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mega Sonic Cannon",
-      "description": "Unleash high-caliber mega particle beams from your waist."
+      "description": "Unleash high-caliber mega particle beams from your waist.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -12893,7 +13256,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Strike Claw",
-      "description": "Extend arm to strike, then shoot your beam cannon."
+      "description": "Extend arm to strike, then shoot your beam cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -12909,7 +13273,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twist Buster",
-      "description": "Lift foes with your saber, then knock them back to earth."
+      "description": "Lift foes with your saber, then knock them back to earth.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -12995,7 +13360,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mega Sonic Cannon",
-      "description": "Unleash high-caliber mega particle beams from your waist."
+      "description": "Unleash high-caliber mega particle beams from your waist.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -13011,7 +13377,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Strike Claw",
-      "description": "Extend arm to strike, then shoot your beam cannon."
+      "description": "Extend arm to strike, then shoot your beam cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -13027,7 +13394,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twist Buster",
-      "description": "Lift foes with your saber, then knock them back to earth."
+      "description": "Lift foes with your saber, then knock them back to earth.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -13109,7 +13477,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -13125,7 +13494,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Cannon & GN Field",
-      "description": "Fire at enemies ahead with dual movable beam turrets on your back. Raise your Beam Resist by 59%."
+      "description": "Fire at enemies ahead with dual movable beam turrets on your back. Raise your Beam Resist by 59%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -13141,7 +13511,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Bazooka (w/ Particles Unlocked)",
-      "description": "Widen the barrel of your GN Bazooka and bombard enemies with compressed particles."
+      "description": "Widen the barrel of your GN Bazooka and bombard enemies with compressed particles.",
+      "category": "Beam Shot"
     },
     "name": "GN Bazooka [Virtue]",
     "type": "Beam"
@@ -13165,7 +13536,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -13181,7 +13553,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Machine Cannon",
-      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -13197,7 +13570,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Verde Fenice",
-      "description": "After readying a rapier and charging an enemy, send it flying with your cloaked fist."
+      "description": "After readying a rapier and charging an enemy, send it flying with your cloaked fist.",
+      "category": "Beam Melee"
     },
     "combo": "shield"
   }, {
@@ -13214,7 +13588,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Meteor Hopper",
-      "description": "Fire the Buster Rifle mounted on your Meteor Hopper, a one-wheeled motorcycle, as you ride it. Raise Shot Attack of your Squad by 39%."
+      "description": "Fire the Buster Rifle mounted on your Meteor Hopper, a one-wheeled motorcycle, as you ride it. Raise Shot Attack of your Squad by 39%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -13285,7 +13660,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Up γ",
-      "description": "Raise Melee and Shot Defense of your squad by 39%."
+      "description": "Raise Melee and Shot Defense of your squad by 39%.",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -13346,7 +13722,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Satellite Cannon",
-      "description": "Receive microwaves from the moon and fire the converged energy."
+      "description": "Receive microwaves from the moon and fire the converged energy.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -13402,7 +13779,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up γ",
-      "description": "Raise Melee and Shot Attack of your Squad by 39%"
+      "description": "Raise Melee and Shot Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -13463,7 +13841,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twist Buster",
-      "description": "Lift foes with your saber, then knock them back to earth."
+      "description": "Lift foes with your saber, then knock them back to earth.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "range",
@@ -13496,7 +13875,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Harmonica Cannon",
-      "description": "Bathe foes in beams from the shield's multi-barreled beam cannon."
+      "description": "Bathe foes in beams from the shield's multi-barreled beam cannon.",
+      "category": "Beam Shot"
     },
     "name": "Divider"
   }]
@@ -13519,7 +13899,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance α",
-      "description": "Raise your Shot Attack by 39%"
+      "description": "Raise your Shot Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -13535,7 +13916,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "120mm Low-Recoil Cannon",
-      "description": "Fire explosive projectiles from the cannon on your shoulder."
+      "description": "Fire explosive projectiles from the cannon on your shoulder.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -13551,7 +13933,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Quadruple Bop Missile Launcher",
-      "description": "Launch missiles stored in your forearm. You can move while firing."
+      "description": "Launch missiles stored in your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -13603,7 +13986,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%"
+      "description": "Raise your Melee Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -13649,7 +14033,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Volcanic Shot",
-      "description": "Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla's Melee Defense by 14%."
+      "description": "Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -13697,7 +14082,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Needle Missile",
-      "description": "Launch missiles stowed on your shield."
+      "description": "Launch missiles stowed on your shield.",
+      "category": "Physical Shot"
     },
     "name": "Missile Shield"
   }]
@@ -13720,7 +14106,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -13736,7 +14123,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest Missile Launcher",
-      "description": "Fire all eight rocket-propelled grenades from your chest's add-on armor at target."
+      "description": "Fire all eight rocket-propelled grenades from your chest's add-on armor at target.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -13767,7 +14155,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hidden Arms",
-      "description": "Unleash a combo with dual Beam Sabers hidden in your waist's add-on armor. Lower's hit enemy Gunpla's Melee Defense by 19%."
+      "description": "Unleash a combo with dual Beam Sabers hidden in your waist's add-on armor. Lower's hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -13783,7 +14172,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fin Funnels",
-      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active."
+      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -13816,7 +14206,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "High-Caliber Mega Particle Cannon",
-      "description": "Fire an ultra-wide beam from the two High-Caliber Mega Particle Cannons in your Hi-Mega Shield."
+      "description": "Fire an ultra-wide beam from the two High-Caliber Mega Particle Cannons in your Hi-Mega Shield.",
+      "category": "Beam Shot"
     },
     "name": "Hi-Mega Shield [Hi-nu HWS (Ver. Ka)]"
   }]
@@ -13884,7 +14275,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twin Blade Slash",
-      "description": "Unleash a barrage of attacks with your twin blades."
+      "description": "Unleash a barrage of attacks with your twin blades.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -13954,7 +14346,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Torpedo",
-      "description": "Fire guided torpedoes from the launcher inside the head."
+      "description": "Fire guided torpedoes from the launcher inside the head.",
+      "category": "Physical Shot"
     },
     "combo": "head"
   }, {
@@ -13971,7 +14364,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Cannon",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -14023,7 +14417,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "120mm Machine Cannon",
-      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     },
     "combo": "head"
   }, {
@@ -14040,7 +14435,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Cannon",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -14056,7 +14452,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Hack α",
-      "description": "Reduce target Shot Defense by 39%"
+      "description": "Reduce target Shot Defense by 39%",
+      "category": "Debuff"
     }
   }, {
     "part": "backpack",
@@ -14093,7 +14490,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -14124,7 +14522,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -14170,7 +14569,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Royal Heart",
-      "description": "Thrust your charged sword to cleave cleanly through foes. Lowers hit enemy Gunpla's Beam Resist by 29%"
+      "description": "Thrust your charged sword to cleave cleanly through foes. Lowers hit enemy Gunpla's Beam Resist by 29%",
+      "category": "Beam Melee"
     },
     "name": "Beam Saber [Hyaku Shiki]",
     "type": "Beam"
@@ -14205,7 +14605,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Wave",
-      "description": "Hold bazookas in both hands and fire high-power rounds."
+      "description": "Hold bazookas in both hands and fire high-power rounds.",
+      "category": "Physical Shot"
     },
     "name": "Clay Bazooka",
     "type": "Physical"
@@ -14259,7 +14660,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Funnels",
-      "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active."
+      "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -14275,7 +14677,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -14323,7 +14726,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Beam Shredder",
-      "description": "Execute suppressive fire with special rounds from your Gatling Gun."
+      "description": "Execute suppressive fire with special rounds from your Gatling Gun.",
+      "category": "Beam Shot"
     },
     "name": "Mega Gatling Gun",
     "type": "Beam"
@@ -14341,7 +14745,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Quadruple-Barrel Mega Particle Cannon",
-      "description": "Fire beams from the Quadruple-Barrel High-Caliber Mega Particle Cannon mounted on your shield."
+      "description": "Fire beams from the Quadruple-Barrel High-Caliber Mega Particle Cannon mounted on your shield.",
+      "category": "Beam Shot"
     },
     "name": "Shield [Jagd Doga (Quess Custom)]"
   }]
@@ -14364,7 +14769,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vulcan Pod",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -14410,7 +14816,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -14441,7 +14848,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Launcher",
-      "description": "Shoot firearms stored in your shield. You can move while firing."
+      "description": "Shoot firearms stored in your shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Jegan]"
   }]
@@ -14464,7 +14872,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vulcan Pod",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -14510,7 +14919,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -14526,7 +14936,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "2-Tube Missile Launcher",
-      "description": "Fire the missile launcher on your back. You can move while firing."
+      "description": "Fire the missile launcher on your back. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "range",
@@ -14610,7 +15021,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -14626,7 +15038,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "4-Tube Multi-Launcher",
-      "description": "Strafe ahead with the quadruple multi-launcher on your back."
+      "description": "Strafe ahead with the quadruple multi-launcher on your back.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "range",
@@ -14710,7 +15123,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -14726,7 +15140,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Cannon",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -14780,7 +15195,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest-Mounted Beam Cannon",
-      "description": "Bathe foes in converging beams from a generator-linked cannon."
+      "description": "Bathe foes in converging beams from a generator-linked cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -14796,7 +15212,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "3-Tube Rocket Launcher",
-      "description": "Fire the rocket launcher stored in your forearm. You can move while firing."
+      "description": "Fire the rocket launcher stored in your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -14812,7 +15229,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Leg-Mounted Beam Cannon",
-      "description": "Bathe foes in converging beams from a generator-linked cannon."
+      "description": "Bathe foes in converging beams from a generator-linked cannon.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -14849,7 +15267,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sagittus",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -14880,7 +15299,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Bassel Beam Boomerang",
-      "description": "Attack locked-on target with boomerang on your shoulder."
+      "description": "Attack locked-on target with boomerang on your shoulder.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -14896,7 +15316,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Shear",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -14912,7 +15333,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fatum-00",
-      "description": "Board lifter attached to back and execute a rush attack. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%."
+      "description": "Board lifter attached to back and execute a rush attack. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "shield",
@@ -14965,7 +15387,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Photon Laser Cannon",
-      "description": "Fire highly compressed photon energy from the photon laser cannon on your chest."
+      "description": "Fire highly compressed photon energy from the photon laser cannon on your chest.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -14981,7 +15404,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber",
-      "description": "Execute a combo with the saber on the back of your hand."
+      "description": "Execute a combo with the saber on the back of your hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -15012,7 +15436,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Ring",
-      "description": "Throw a disk formed from a beam saber forward."
+      "description": "Throw a disk formed from a beam saber forward.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -15045,7 +15470,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Shotgun",
-      "description": "Fire a scattering beam using specialized ammunition."
+      "description": "Fire a scattering beam using specialized ammunition.",
+      "category": "Beam Shot"
     },
     "name": "Beam Shotgun",
     "type": "Beam"
@@ -15069,7 +15495,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -15115,7 +15542,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Leg-Mounted Sturm Faust",
-      "description": "Fire the Sturm Faust on your leg."
+      "description": "Fire the Sturm Faust on your leg.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -15131,7 +15559,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Giant Bazooka",
-      "description": "Fire the giant bazooka on your back. You can move while firing."
+      "description": "Fire the giant bazooka on your back. You can move while firing.",
+      "category": "Physical Shot"
     }
   }]
 }, {
@@ -15198,7 +15627,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast furry with sabers in each hand."
+      "description": "Unleash a blindingly fast furry with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -15214,7 +15644,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%"
+      "description": "Raise your Melee Attack by 39%",
+      "category": "Buff"
     }
   }]
 }, {
@@ -15251,7 +15682,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "SD Tackle",
-      "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%."
+      "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "arms",
@@ -15297,7 +15729,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Super Electrospear",
-      "description": "Unleash a barrage of attacks with your Electrospear and follow with a lightning attack."
+      "description": "Unleash a barrage of attacks with your Electrospear and follow with a lightning attack.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -15313,7 +15746,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Comet Sword",
-      "description": "Unleashes a blinding flash of light with comet-speed swordsmanship that leaves no evil unscathed."
+      "description": "Unleashes a blinding flash of light with comet-speed swordsmanship that leaves no evil unscathed.",
+      "category": "Beam Melee"
     },
     "name": "Knight Sword",
     "type": "Physical"
@@ -15331,7 +15765,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "SD Attack",
-      "description": "After a rush attack, unleash a barrage of attacks with your equipped weapons. Lowers hit enemy Gunpla's Shot Attack by 19%."
+      "description": "After a rush attack, unleash a barrage of attacks with your equipped weapons. Lowers hit enemy Gunpla's Shot Attack by 19%.",
+      "category": "Physical Melee"
     },
     "name": "Electrospear",
     "type": "Physical"
@@ -15386,7 +15821,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Chest Mega Particle Cannon & I-Field",
-      "description": "Fire compressed Mirnovsky particles from Mega Particle Cannons on four of your turrets. Raises your Beam Resist by 59%."
+      "description": "Fire compressed Mirnovsky particles from Mega Particle Cannons on four of your turrets. Raises your Beam Resist by 59%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -15402,7 +15838,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Funnels",
-      "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active."
+      "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -15440,7 +15877,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Hack β",
-      "description": "Reduce Beam Resist of all enemies by 39%"
+      "description": "Reduce Beam Resist of all enemies by 39%",
+      "category": "Debuff"
     }
   }, {
     "part": "torso",
@@ -15471,7 +15909,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combo Weapon Pod",
-      "description": "Fire missiles and a Vulcan from the unit on your shoulder. You can move while firing."
+      "description": "Fire missiles and a Vulcan from the unit on your shoulder. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -15502,7 +15941,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Agni",
-      "description": "Wedge the Agni cannon on your back under your arm to fire."
+      "description": "Wedge the Agni cannon on your back under your arm to fire.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -15554,7 +15994,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     },
     "combo": "shield"
   }, {
@@ -15639,7 +16080,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Vulcan",
-      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing."
+      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -15655,7 +16097,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -15671,7 +16114,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Pod",
-      "description": "Fire micro missiles from your backpack into the air to bombard enemies."
+      "description": "Fire micro missiles from your backpack into the air to bombard enemies.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "range",
@@ -15687,7 +16131,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Lightning Snipe",
-      "description": "Snipe a target with a precise shot of converging beams."
+      "description": "Snipe a target with a precise shot of converging beams.",
+      "category": "Beam Shot"
     },
     "name": "Beam Rifle [Long Barrel]",
     "type": "Beam"
@@ -15774,7 +16219,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Plasma Claw",
-      "description": "Fire thermal plasma beams from your fingertips."
+      "description": "Fire thermal plasma beams from your fingertips.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -15790,7 +16236,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Photon Bomb",
-      "description": "Launch photon bombs stowed in the lower half of your body."
+      "description": "Launch photon bombs stowed in the lower half of your body.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -15827,7 +16274,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -15888,7 +16336,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "HEAT REV SWORD",
-      "description": "Unleash a two-bladed barrage of attacks."
+      "description": "Unleash a two-bladed barrage of attacks.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -15921,7 +16370,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Quick Slash",
-      "description": "Unleash a two-hit attack with your blade, knocking enemies away."
+      "description": "Unleash a two-hit attack with your blade, knocking enemies away.",
+      "category": "Physical Melee"
     },
     "name": "SLASH BLADE",
     "type": "Physical"
@@ -15945,7 +16395,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Choukyuu Haou Den'eidan",
-      "description": "Wrapped in a spiraling aura, launch yourself at the enemy in a straight line, like a cannonball."
+      "description": "Wrapped in a spiraling aura, launch yourself at the enemy in a straight line, like a cannonball.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "torso",
@@ -15961,7 +16412,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%."
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -15977,7 +16429,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sekiha Tenkyouken",
-      "description": "Use Master Asia's final art to fire a huge chi bullet made of power borrowed from nature. Raise Melee Defense of your Squad by 29%. Raise Beam Resist of your Squad by 69%."
+      "description": "Use Master Asia's final art to fire a huge chi bullet made of power borrowed from nature. Raise Melee Defense of your Squad by 29%. Raise Beam Resist of your Squad by 69%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -16008,7 +16461,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Juuni Ouhoupai Daishahei",
-      "description": "Use chi to create multiple small clones, and unleash them upon enemies."
+      "description": "Use chi to create multiple small clones, and unleash them upon enemies.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -16047,7 +16501,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Launcher",
-      "description": "Open your chest armor to unleash a missile barrage. You can move while firing."
+      "description": "Open your chest armor to unleash a missile barrage. You can move while firing.",
+      "category": "Physical Shot"
     },
     "combo": "head"
   }, {
@@ -16064,7 +16519,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Handgun",
-      "description": "Launch rapid-fire Vulcan shots from your forearm. You can move while firing."
+      "description": "Launch rapid-fire Vulcan shots from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -16080,7 +16536,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sonic Blast",
-      "description": "Bathe foes in beams from the beam cannon in your abdomen."
+      "description": "Bathe foes in beams from the beam cannon in your abdomen.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -16102,7 +16559,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%"
+      "description": "Raise your Melee Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -16133,7 +16591,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "IF Bunker",
-      "description": "Stab a foe frozen by your IF Booster with an I-Field saber."
+      "description": "Stab a foe frozen by your IF Booster with an I-Field saber.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -16149,7 +16608,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Flight Unit",
-      "description": "Accelerate with your flight unit, then detach and launch."
+      "description": "Accelerate with your flight unit, then detach and launch.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -16180,7 +16640,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Storm Edge",
-      "description": "Create a whirlwind with your axe to mow down surrounding foes. Raise your Shot Defense by 19%."
+      "description": "Create a whirlwind with your axe to mow down surrounding foes. Raise your Shot Defense by 19%.",
+      "category": "Beam Melee"
     },
     "name": "Heat Fan",
     "type": "Physical"
@@ -16236,7 +16697,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Light Up",
-      "description": "Activate the light equipped to your chest. You become easier to target for a set period of time."
+      "description": "Activate the light equipped to your chest. You become easier to target for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "arms",
@@ -16252,7 +16714,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Claw",
-      "description": "Grab a foe with a huge engineering claw and cut through them. Lowers hit enemy Gunpla's Physical Resist by 29%."
+      "description": "Grab a foe with a huge engineering claw and cut through them. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -16350,7 +16813,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Butterfly Edge",
-      "description": "Emit a beam saber from the melee weapon on your arm and throw it at enemies."
+      "description": "Emit a beam saber from the melee weapon on your arm and throw it at enemies.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -16381,7 +16845,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Psycho Plate",
-      "description": "Use psycommu to hit foes in all directions. You can move freely while this skill is active."
+      "description": "Use psycommu to hit foes in all directions. You can move freely while this skill is active.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -16437,7 +16902,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -16453,7 +16919,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Berserker System",
-      "description": "Activate the Berserker System, temporarily enhancing combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your Melee Defense by 19%."
+      "description": "Activate the Berserker System, temporarily enhancing combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your Melee Defense by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -16469,7 +16936,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Burning Finger",
-      "description": "Gather energy in the palm of your hand and obliterate enemies in your grasp. Lowers hit enemy Gunpla's Physical Resist by 29%."
+      "description": "Gather energy in the palm of your hand and obliterate enemies in your grasp. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -16485,7 +16953,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Hoop",
-      "description": "Throw a hoop made from beams like a boomerang."
+      "description": "Throw a hoop made from beams like a boomerang.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -16501,7 +16970,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Ribbon",
-      "description": "Deftly manipulate your beam ribbon to perform an elegant sequence of attacks."
+      "description": "Deftly manipulate your beam ribbon to perform an elegant sequence of attacks.",
+      "category": "Beam Melee"
     },
     "name": "Beam Ribbon",
     "type": "Beam"
@@ -16555,7 +17025,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -16586,7 +17057,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fin Funnels",
-      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active."
+      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -16636,7 +17108,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Cascade",
-      "description": "Hold bazookas in both hands and fire high-power rounds."
+      "description": "Hold bazookas in both hands and fire high-power rounds.",
+      "category": "Physical Shot"
     },
     "name": "New Hyper Bazooka [Nu Ver.Ka]",
     "type": "Physical"
@@ -16676,7 +17149,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Coat β",
-      "description": "Raise Ally Beam Resist by 49%"
+      "description": "Raise Ally Beam Resist by 49%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -16707,7 +17181,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Twin Beam Gun & Grenade Launcher",
-      "description": "Fire the beam rifle and grenade launcher in your arms. You can move while firing."
+      "description": "Fire the beam rifle and grenade launcher in your arms. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -16723,7 +17198,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Claw Kick",
-      "description": "Unleash a series of kicking combo attacks. Raise your Melee Attack by 14%."
+      "description": "Unleash a series of kicking combo attacks. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -16739,7 +17215,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Anti-Ship Large Missile",
-      "description": "Launch eight missiles mounted on your back."
+      "description": "Launch eight missiles mounted on your back.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "shield",
@@ -16755,7 +17232,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Small Missile",
-      "description": "Launch missiles stowed on your shield."
+      "description": "Launch missiles stowed on your shield.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Palace Athene]"
   }]
@@ -16778,7 +17256,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Coat β",
-      "description": "Raise Ally Beam Resist by 49%"
+      "description": "Raise Ally Beam Resist by 49%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -16809,7 +17288,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Scattering Beam Cannon",
-      "description": "Fire the beam cannons in your shoulder armor over a wide area. You can move while firing."
+      "description": "Fire the beam cannons in your shoulder armor over a wide area. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -16877,7 +17357,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "HADES System",
-      "description": "Activate HADES, a system developed from the EXAM system. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%."
+      "description": "Activate HADES, a system developed from the EXAM system. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -16923,7 +17404,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Leg-Mounted Rocket Launcher",
-      "description": "Fire the rocket launcher mounted on your leg."
+      "description": "Fire the rocket launcher mounted on your leg.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -16939,7 +17421,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "180mm Cannon",
-      "description": "Hold the cannon on your back under your arm and fire."
+      "description": "Hold the cannon on your back under your arm and fire.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "shield",
@@ -16955,7 +17438,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shock Bringer γ",
-      "description": "Squad attacks stun large foes more easily for a set period."
+      "description": "Squad attacks stun large foes more easily for a set period.",
+      "category": "Buff"
     },
     "name": "Shield [Pale Rider]"
   }]
@@ -16978,7 +17462,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "HADES System",
-      "description": "Activate HADES, a system developed from the EXAM system. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%."
+      "description": "Activate HADES, a system developed from the EXAM system. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -17024,7 +17509,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Leg-Mounted Rocket Launcher",
-      "description": "Fire the rocket launcher mounted on your leg."
+      "description": "Fire the rocket launcher mounted on your leg.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -17040,7 +17526,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "180mm Cannon",
-      "description": "Hold the cannon on your back under your arm and fire."
+      "description": "Hold the cannon on your back under your arm and fire.",
+      "category": "Physical Shot"
     }
   }]
 }, {
@@ -17092,7 +17579,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Flight Unit Combo",
-      "description": "Hammer enemies into the ground with the twin beam sabers, and launch shoulder Funnel Missiles. Raise Melee Attack of your Squad by 29%."
+      "description": "Hammer enemies into the ground with the twin beam sabers, and launch shoulder Funnel Missiles. Raise Melee Attack of your Squad by 29%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -17108,7 +17596,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Funnel Missiles",
-      "description": "Fire Funnel Missiles to hit foes in all directions. You can move freely while this is active."
+      "description": "Fire Funnel Missiles to hit foes in all directions. You can move freely while this is active.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -17145,7 +17634,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Picus",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -17176,7 +17666,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Composite Armed Shield System",
-      "description": "Attack enemies with the beam weaponry integrated into your left arm. You can move while firing."
+      "description": "Attack enemies with the beam weaponry integrated into your left arm. You can move while firing.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -17208,7 +17699,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "DRAGOON System",
-      "description": "Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active."
+      "description": "Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -17247,7 +17739,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool γ",
-      "description": "Squad recovers 48% of maximum Armor."
+      "description": "Squad recovers 48% of maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "torso",
@@ -17278,7 +17771,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Gun",
-      "description": "Launch rapid-fire beams from your forearm. You can move while firing."
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -17309,7 +17803,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Funnels",
-      "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active."
+      "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -17346,7 +17841,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Vulcan",
-      "description": "Fire the Beam Vulcans in your chest at foes straight ahead. You can move while shooting."
+      "description": "Fire the Beam Vulcans in your chest at foes straight ahead. You can move while shooting.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -17362,7 +17858,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Grenade Launcher",
-      "description": "Launch grenades from your forearm. You can move while firing."
+      "description": "Launch grenades from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -17378,7 +17875,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Flexible Beam Gun",
-      "description": "Fire the beam gun attached to your flexible thrusters."
+      "description": "Fire the beam gun attached to your flexible thrusters.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -17426,7 +17924,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Grenade Launcher",
-      "description": "Launch grenades from your shield."
+      "description": "Launch grenades from your shield.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Reabwoo]"
   }]
@@ -17449,7 +17948,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%"
+      "description": "Raise Ally Physical Resist by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -17510,7 +18010,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Pistol",
-      "description": "Fire the twin pistols mounted on your back."
+      "description": "Fire the twin pistols mounted on your back.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -17532,7 +18033,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%"
+      "description": "Raise Ally Physical Resist by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -17563,7 +18065,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Prominence Fist",
-      "description": "Charge powerfully through enemies with your fist. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%"
+      "description": "Charge powerfully through enemies with your fist. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -17594,7 +18097,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }]
 }, {
@@ -17616,7 +18120,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -17647,7 +18152,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rising Arrow",
-      "description": "Fire a high-speed beam arrow from the bow on your left arm."
+      "description": "Fire a high-speed beam arrow from the bow on your left arm.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -17678,7 +18184,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%"
+      "description": "Reduce target Melee and Shot Defense by 39%",
+      "category": "Debuff"
     }
   }]
 }, {
@@ -17730,7 +18237,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mega Particle Cannon (Incom)",
-      "description": "Detach and launch your forearm to shoot at a locked-on target."
+      "description": "Detach and launch your forearm to shoot at a locked-on target.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -17761,7 +18269,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Psycho Jammer",
-      "description": "Launch Psycho Jammer, erecting a force field around locked-on target and suppressing movement within."
+      "description": "Launch Psycho Jammer, erecting a force field around locked-on target and suppressing movement within.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "shield",
@@ -17777,7 +18286,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Triple-Barrel Mega Particle Cannon",
-      "description": "Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon in your shield."
+      "description": "Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon in your shield.",
+      "category": "Beam Shot"
     },
     "name": "Shield [Rozen Zulu]"
   }]
@@ -17800,7 +18310,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Alaya-Vijnana System",
-      "description": "Enter the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 29%."
+      "description": "Enter the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 29%.",
+      "category": "Awakening"
     }
   }, {
     "part": "torso",
@@ -17876,7 +18387,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Wind Edge",
-      "description": "Mow down nearby foes with your axe."
+      "description": "Mow down nearby foes with your axe.",
+      "category": "Physical Melee"
     },
     "name": "Battle Axe [Ryusei-Go]",
     "type": "Physical"
@@ -17933,7 +18445,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sana's Signature Rabbit Spike",
-      "description": "Hop around like a rabbit and strike using the force of a volleyball spike. Squad recovers 38% of maximum Armor. Raises Shot Defense of Squad by 39%."
+      "description": "Hop around like a rabbit and strike using the force of a volleyball spike. Squad recovers 38% of maximum Armor. Raises Shot Defense of Squad by 39%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -17949,7 +18462,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Belly Beam!",
-      "description": "Fire a sonic blast with a more straightforward name at target."
+      "description": "Fire a sonic blast with a more straightforward name at target.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -17986,7 +18500,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Mega Particle Scatter Cannon",
-      "description": "Fire the mega particle cannon in your abdomen."
+      "description": "Fire the mega particle cannon in your abdomen.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -18032,7 +18547,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Funnel Combination",
-      "description": "Launch six funnels to fire at the enemy, and throw a beam tomahawk."
+      "description": "Launch six funnels to fire at the enemy, and throw a beam tomahawk.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "melee",
@@ -18048,7 +18564,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Piercing Axe",
-      "description": "Unleash a flurry of thrusting attacks with the weapon in your right hand."
+      "description": "Unleash a flurry of thrusting attacks with the weapon in your right hand.",
+      "category": "Beam Melee"
     },
     "name": "Beam Tomahawk [Sazabi]",
     "type": "Beam"
@@ -18100,7 +18617,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Small Missiles",
-      "description": "Launch small missiles stowed in your shoulder. You can move while firing."
+      "description": "Launch small missiles stowed in your shoulder. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Shield [Sazabi]"
   }]
@@ -18153,7 +18671,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hidden Arm & Samurai Sword",
-      "description": "Mow down foes with dual blades hidden in your shoulders. Lowers hit enemy Gunpla's Melee Defense by 19%."
+      "description": "Mow down foes with dual blades hidden in your shoulders. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -18184,7 +18703,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Particle Fa Jin",
-      "description": "Inject particles into your foe, destroying them from within. Raise Shot Attack of your Squad by 39%."
+      "description": "Inject particles into your foe, destroying them from within. Raise Shot Attack of your Squad by 39%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "shield",
@@ -18237,7 +18757,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce target Physical Resist by 69%"
+      "description": "Reduce target Physical Resist by 69%",
+      "category": "Debuff"
     }
   }, {
     "part": "arms",
@@ -18253,7 +18774,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance α",
-      "description": "Raise your Shot Attack by 39%"
+      "description": "Raise your Shot Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "legs",
@@ -18284,7 +18806,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Bazooka",
-      "description": "Fire a bazooka suspended on your back. You can move while firing."
+      "description": "Fire a bazooka suspended on your back. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "range",
@@ -18355,7 +18878,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce target Physical Resist by 69%"
+      "description": "Reduce target Physical Resist by 69%",
+      "category": "Debuff"
     }
   }, {
     "part": "arms",
@@ -18371,7 +18895,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance α",
-      "description": "Raise your Shot Attack by 39%"
+      "description": "Raise your Shot Attack by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "legs",
@@ -18402,7 +18927,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Cannon",
-      "description": "Wedge the beam cannon on your back under your arm to fire beams."
+      "description": "Wedge the beam cannon on your back under your arm to fire beams.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -18488,7 +19014,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Gatling Guns",
-      "description": "Fire beam Gatling guns on both arms toward the enemy."
+      "description": "Fire beam Gatling guns on both arms toward the enemy.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -18540,7 +19067,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -18571,7 +19099,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dragon Fang",
-      "description": "Strike with extended arm, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 24%"
+      "description": "Strike with extended arm, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 24%",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -18602,7 +19131,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Armed Aura γ",
-      "description": "Your squad resists flinching for a set period of time."
+      "description": "Your squad resists flinching for a set period of time.",
+      "category": "Buff"
     }
   }, {
     "part": "melee",
@@ -18618,7 +19148,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hell Jumper",
-      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%"
+      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%",
+      "category": "Beam Melee"
     },
     "name": "Beam Glaive",
     "type": "Beam"
@@ -18636,7 +19167,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Throw",
-      "description": "Throw your shield to attack."
+      "description": "Throw your shield to attack.",
+      "category": "Physical Melee"
     },
     "name": "Shenlong Shield"
   }]
@@ -18674,7 +19206,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Super Mode",
-      "description": "Enter Super Mode for enhanced combat prowess. Raises speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%."
+      "description": "Enter Super Mode for enhanced combat prowess. Raises speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -18690,7 +19223,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shining Finger Sword",
-      "description": "Crush foes with your love, your anger, and all of your sorrow. Raise Melee Attack of your Squad by 19%. Raise Melee Defense of your Squad by 24%."
+      "description": "Crush foes with your love, your anger, and all of your sorrow. Raise Melee Attack of your Squad by 19%. Raise Melee Defense of your Squad by 24%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -18706,7 +19240,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with sabers in each hand."
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -18804,7 +19339,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Voiture Lumiere",
-      "description": "Catch solar wind using a ring-shaped quantum field, converting it into propulsive force. Raise speed by 20%. Raises your Shot Attack by 19%. Raises your Shot Defense by 29%."
+      "description": "Catch solar wind using a ring-shaped quantum field, converting it into propulsive force. Raise speed by 20%. Raises your Shot Attack by 19%. Raises your Shot Defense by 29%.",
+      "category": "Awakening"
     }
   }]
 }, {
@@ -18826,7 +19362,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vulcan Pod",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -18857,7 +19394,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Triple Missile Pod",
-      "description": "Fire missiles from pods on your shoulders at multiple foes."
+      "description": "Fire missiles from pods on your shoulders at multiple foes.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -18873,7 +19411,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance α",
-      "description": "Raise your Shot Defense by 39%"
+      "description": "Raise your Shot Defense by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -18944,7 +19483,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vulcan Pod",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -18975,7 +19515,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Grenade Launcher",
-      "description": "Launch grenades from your forearm. You can move while firing."
+      "description": "Launch grenades from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -18991,7 +19532,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance α",
-      "description": "Raise your Shot Defense by 39%"
+      "description": "Raise your Shot Defense by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -19062,7 +19604,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -19108,7 +19651,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Rifle Shorty",
-      "description": "Fire the twin pistols on your legs."
+      "description": "Fire the twin pistols on your legs.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "backpack",
@@ -19124,7 +19668,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Linear Guns",
-      "description": "Bombard enemies with dual railguns. You can move while firing."
+      "description": "Bombard enemies with dual railguns. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "melee",
@@ -19163,7 +19708,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Igelstellung",
-      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -19209,7 +19755,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rapid Thrust",
-      "description": "Unleash a blindingly fast flurry with knives in each hand."
+      "description": "Unleash a blindingly fast flurry with knives in each hand.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -19225,7 +19772,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Railgun & Single-Mounted Cannon",
-      "description": "Fire 115mm Railgun and 105mm Single-Mounted Cannon from your integrated Weapons Striker Pack (IWSP)"
+      "description": "Fire 115mm Railgun and 105mm Single-Mounted Cannon from your integrated Weapons Striker Pack (IWSP)",
+      "category": "Physical Shot"
     }
   }, {
     "part": "melee",
@@ -19258,7 +19806,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dual Shredder",
-      "description": "Execute suppressive fire with special rounds from your Gatling Gun."
+      "description": "Execute suppressive fire with special rounds from your Gatling Gun.",
+      "category": "Physical Shot"
     },
     "combo": "shield",
     "name": "Combine Shield",
@@ -19299,7 +19848,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Chakram",
-      "description": "Launch a ring-shaped beam from your clavicle antenna. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%."
+      "description": "Launch a ring-shaped beam from your clavicle antenna. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -19315,7 +19865,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "GN Vulcan",
-      "description": "Attack enemies ahead with small, rapid-fire particle beams from your torso."
+      "description": "Attack enemies ahead with small, rapid-fire particle beams from your torso.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -19346,7 +19897,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am Raid",
-      "description": "Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%."
+      "description": "Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -19400,7 +19952,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack β",
-      "description": "Reduce Physical Resist of all enemies by 39%."
+      "description": "Reduce Physical Resist of all enemies by 39%.",
+      "category": "Debuff"
     }
   }, {
     "part": "torso",
@@ -19431,7 +19984,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance γ",
-      "description": "Raise your Melee Defense of your squad by 39%"
+      "description": "Raise your Melee Defense of your squad by 39%",
+      "category": "Buff"
     },
     "combo": "shield"
   }, {
@@ -19463,7 +20017,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Schwert Gewehr",
-      "description": "Jump and bring a charged blade down on the foe's head. Raise your Melee Defense by 19%."
+      "description": "Jump and bring a charged blade down on the foe's head. Raise your Melee Defense by 19%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -19479,7 +20034,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Maelstrom",
-      "description": "Blow through foes, spinning to strike them with your blade."
+      "description": "Blow through foes, spinning to strike them with your blade.",
+      "category": "Beam Melee"
     },
     "name": "Schwert Gewehr",
     "type": "Beam"
@@ -19533,7 +20089,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dober Gun",
-      "description": "Bathe foes in beams from the Dober gun on your shoulder."
+      "description": "Bathe foes in beams from the Dober gun on your shoulder.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -19616,7 +20173,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dober Gun",
-      "description": "Bathe foes in beams from the Dober gun on your shoulder."
+      "description": "Bathe foes in beams from the Dober gun on your shoulder.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -19686,7 +20244,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up α",
-      "description": "Raise Melee and Shot Attack of your Squad by 39%"
+      "description": "Raise Melee and Shot Attack of your Squad by 39%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -19717,7 +20276,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Dober Gun",
-      "description": "Bathe foes in beams from the Dober gun on your shoulder."
+      "description": "Bathe foes in beams from the Dober gun on your shoulder.",
+      "category": "Beam Shot"
     },
     "combo": "shield"
   }, {
@@ -19815,7 +20375,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Heaven's Judgement",
-      "description": "Hack away at enemies with the beam sword held in the hidden arms equipped to your waist. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%."
+      "description": "Hack away at enemies with the beam sword held in the hidden arms equipped to your waist. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -19831,7 +20392,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard."
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "range",
@@ -19885,7 +20447,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "30mm Machine Gun",
-      "description": "Attack enemies ahead with the 30mm machine guns in your torso."
+      "description": "Attack enemies ahead with the 30mm machine guns in your torso.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -19901,7 +20464,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "200mm x 25 Smoothbore Gun",
-      "description": "Attack enemies with the gun on your arm. You can move while firing."
+      "description": "Attack enemies with the gun on your arm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -19984,7 +20548,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Moonbeam Butterfly",
-      "description": "Discharge nanomachines from your rear vanes to fly in and annihilate the enemy. Squad recovers 68% of maximum Armor. Raise Shot Attack of your Squad by 39%."
+      "description": "Discharge nanomachines from your rear vanes to fly in and annihilate the enemy. Squad recovers 68% of maximum Armor. Raise Shot Attack of your Squad by 39%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -20000,7 +20565,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Flip Jump Saber",
-      "description": "Brandish sabers in both hands and leap-attack the enemy."
+      "description": "Brandish sabers in both hands and leap-attack the enemy.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -20048,7 +20614,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Flexible Smash",
-      "description": "Pulverize the enemy with your hammer."
+      "description": "Pulverize the enemy with your hammer.",
+      "category": "Physical Melee"
     },
     "name": "Gundam Hammer",
     "type": "Physical"
@@ -20120,7 +20687,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Moonbeam Butterfly",
-      "description": "Fire a straight line of nanomachines upward with your back to the enemy."
+      "description": "Fire a straight line of nanomachines upward with your back to the enemy.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "arms",
@@ -20136,7 +20704,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fusion Destruction Manipulator",
-      "description": "Fire beams from your open palm and blast caught enemies with a Shining Finger. Raise Melee Attack of your Squad by 39%."
+      "description": "Fire beams from your open palm and blast caught enemies with a Shining Finger. Raise Melee Attack of your Squad by 39%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -20167,7 +20736,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Carapace",
-      "description": "Attack enemies with the rifle and bazooka equipped to your weapon platform."
+      "description": "Attack enemies with the rifle and bazooka equipped to your weapon platform.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -20189,7 +20759,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -20205,7 +20776,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "NT-D",
-      "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%."
+      "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -20221,7 +20793,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Tonfa",
-      "description": "Execute a combo using Beam Tonfa attached to forearm. Squad recovers 48% of maximum Armor. Raises Shot Attack of your Squad by 19%. Raises Beam Resist of your Squad by 49%."
+      "description": "Execute a combo using Beam Tonfa attached to forearm. Squad recovers 48% of maximum Armor. Raises Shot Attack of your Squad by 19%. Raises Beam Resist of your Squad by 49%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "legs",
@@ -20252,7 +20825,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Double Saber Rush",
-      "description": "Cleave through enemies with sabers in each hand."
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "melee",
@@ -20371,7 +20945,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Missile Pod",
-      "description": "Launch missiles stored in your forearm. You can move while firing."
+      "description": "Launch missiles stored in your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -20402,7 +20977,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Pod & Beam Cannon",
-      "description": "Attack enemies ahead with the missile and beam cannon on your back."
+      "description": "Attack enemies ahead with the missile and beam cannon on your back.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "range",
@@ -20418,7 +20994,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Big Beam Bazooka",
-      "description": "Fire a high-energy beam at enemies from your bazooka."
+      "description": "Fire a high-energy beam at enemies from your bazooka.",
+      "category": "Beam Shot"
     },
     "name": "BIG BEAM BAZOOKA",
     "type": "Beam"
@@ -20442,7 +21019,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -20473,7 +21051,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vertical Saber Spin",
-      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%."
+      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%.",
+      "category": "Beam Melee"
     },
     "combo": "shield"
   }, {
@@ -20560,7 +21139,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -20591,7 +21171,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Vertical Saber Spin",
-      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%."
+      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%.",
+      "category": "Beam Melee"
     },
     "combo": "shield"
   }, {
@@ -20644,7 +21225,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -20660,7 +21242,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Self-Destruct",
-      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor."
+      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "arms",
@@ -20738,7 +21321,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Max Output Buster Rifle",
-      "description": "Fire a rifle rivaling a warship's main battery at full output."
+      "description": "Fire a rifle rivaling a warship's main battery at full output.",
+      "category": "Beam Shot"
     },
     "name": "Buster Rifle",
     "type": "Beam"
@@ -20756,7 +21340,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shield Bash",
-      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%."
+      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+      "category": "Beam Melee"
     },
     "name": "Shield [Wing]"
   }]
@@ -20779,7 +21364,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -20795,7 +21381,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Machine Cannon",
-      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting."
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "arms",
@@ -20927,7 +21514,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Zero System",
-      "description": "Activate the Zero System to predict battle conditions. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%. You become easier to target for a set period of time."
+      "description": "Activate the Zero System to predict battle conditions. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%. You become easier to target for a set period of time.",
+      "category": "Awakening"
     }
   }, {
     "part": "arms",
@@ -20973,7 +21561,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Feather Dive",
-      "description": "Attack foes with the beam sabers on your wing binders. Raise Melee Attack of your Squad by 39%."
+      "description": "Attack foes with the beam sabers on your wing binders. Raise Melee Attack of your Squad by 39%.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "range",
@@ -20989,7 +21578,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Rolling Buster Rifle",
-      "description": "Hold a detached twin buster rifle in each hand and spin, firing in all directions."
+      "description": "Hold a detached twin buster rifle in each hand and spin, firing in all directions.",
+      "category": "Beam Shot"
     },
     "name": "Twin Buster Rifle [Coupled]",
     "type": "Beam"
@@ -21028,7 +21618,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "SD Tackle",
-      "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%."
+      "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "arms",
@@ -21074,7 +21665,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Darkness Sword",
-      "description": "Crystalize the wicked power of darkness into a sword and slice enemies to shreds. Recover 38% of your maximum Armor."
+      "description": "Crystalize the wicked power of darkness into a sword and slice enemies to shreds. Recover 38% of your maximum Armor.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "melee",
@@ -21130,7 +21722,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "240mm 6-Barrel Rocket Launcher",
-      "description": "Fire the tracking rocket cannon stowed on your head."
+      "description": "Fire the tracking rocket cannon stowed on your head.",
+      "category": "Physical Shot"
     },
     "combo": "legs"
   }, {
@@ -21147,7 +21740,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Planet Breaker",
-      "description": "Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%."
+      "description": "Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -21163,7 +21757,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Shock Bringer α",
-      "description": "Your attacks stun large foes more easily for a set period."
+      "description": "Your attacks stun large foes more easily for a set period.",
+      "category": "Buff"
     }
   }, {
     "part": "backpack",
@@ -21200,7 +21795,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection α",
-      "description": "Raise your Physical Resist by 69%"
+      "description": "Raise your Physical Resist by 69%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -21216,7 +21812,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Recovery Tool α",
-      "description": "Recover 48% of your maximum Armor."
+      "description": "Recover 48% of your maximum Armor.",
+      "category": "Recovery"
     }
   }, {
     "part": "arms",
@@ -21277,7 +21874,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Wind Edge",
-      "description": "Mow down foes nearby with your axe."
+      "description": "Mow down foes nearby with your axe.",
+      "category": "Physical Melee"
     },
     "name": "Heat Hawk",
     "type": "Physical"
@@ -21335,7 +21933,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Beam Coat β",
-      "description": "Raise Ally Beam Resist by 49%"
+      "description": "Raise Ally Beam Resist by 49%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -21366,7 +21965,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fearless Charge",
-      "description": "Charge ferociously toward the enemy."
+      "description": "Charge ferociously toward the enemy.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -21463,7 +22063,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hand Grenade",
-      "description": "Throw a hand grenade mounted on your side armor."
+      "description": "Throw a hand grenade mounted on your side armor.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "backpack",
@@ -21494,7 +22095,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Crater Maker",
-      "description": "Fire stunning rounds from your machine gun."
+      "description": "Fire stunning rounds from your machine gun.",
+      "category": "Physical Shot"
     },
     "name": "Zaku Machine Gun [Zaku II Kai]",
     "type": "Physical"
@@ -21518,7 +22120,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -21549,7 +22152,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Fearless Hurl",
-      "description": "Charge mercilessly toward the enemy. Lowers hit enemy Gunpla's Beam Resist by 19%. Lowers hit enemy Gunpla's Physical Resist by 19%."
+      "description": "Charge mercilessly toward the enemy. Lowers hit enemy Gunpla's Beam Resist by 19%. Lowers hit enemy Gunpla's Physical Resist by 19%.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "legs",
@@ -21595,7 +22199,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Charge Axe",
-      "description": "Jump and bring a charged axe down on the enemy's head. Raise your Melee Attack by 14%."
+      "description": "Jump and bring a charged axe down on the enemy's head. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     },
     "name": "Dead End G",
     "type": "Physical"
@@ -21613,7 +22218,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Charge Axe",
-      "description": "Jump and bring a charged axe down on the enemy's head. Raise your Melee Attack by 14%."
+      "description": "Jump and bring a charged axe down on the enemy's head. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     },
     "name": "Large Heat Hawk",
     "type": "Physical"
@@ -21654,7 +22260,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Protection α",
-      "description": "Raise your Physical Resist by 69%"
+      "description": "Raise your Physical Resist by 69%",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -21715,7 +22322,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%"
+      "description": "Reduce target Melee and Shot Defense by 39%",
+      "category": "Debuff"
     }
   }]
 }, {
@@ -21737,7 +22345,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Point-Blank Shot",
-      "description": "Detach your head unit, and unleash a decisive, destiny-changing attack on the enemy from above. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%."
+      "description": "Detach your head unit, and unleash a decisive, destiny-changing attack on the enemy from above. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "torso",
@@ -21768,7 +22377,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "5-Barrel Mega Particle Cannon",
-      "description": "Detach your forearm and fire mega particle cannon beams at the enemy."
+      "description": "Detach your forearm and fire mega particle cannon beams at the enemy.",
+      "category": "Beam Shot"
     }
   }, {
     "part": "legs",
@@ -21784,7 +22394,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Torso Mega Particle Cannon",
-      "description": "Fire at enemies ahead with the mega particle Cannon equipped to your waist."
+      "description": "Fire at enemies ahead with the mega particle Cannon equipped to your waist.",
+      "category": "Beam Shot"
     }
   }]
 }, {
@@ -21806,7 +22417,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%."
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "torso",
@@ -21822,7 +22434,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Beam Saber",
-      "description": "Slay your foes with a single strike powered by your Biosensor. Raise Melee Attack of your Squad by 24%"
+      "description": "Slay your foes with a single strike powered by your Biosensor. Raise Melee Attack of your Squad by 24%",
+      "category": "Beam Melee"
     }
   }, {
     "part": "arms",
@@ -21838,7 +22451,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Arm-Mounted Grenade Launcher",
-      "description": "Launch grenades from your forearm. You can move while firing."
+      "description": "Launch grenades from your forearm. You can move while firing.",
+      "category": "Physical Shot"
     }
   }, {
     "part": "legs",
@@ -21854,7 +22468,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saber Boomerang",
-      "description": "Slash with your saber, then hurl it point-first."
+      "description": "Slash with your saber, then hurl it point-first.",
+      "category": "Beam Melee"
     }
   }, {
     "part": "backpack",
@@ -21885,7 +22500,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Cross Wave",
-      "description": "Slash to create shockwaves that cleave through enemies."
+      "description": "Slash to create shockwaves that cleave through enemies.",
+      "category": "Beam Melee"
     },
     "name": "Beam Saber [Zeta]",
     "type": "Beam"
@@ -21954,7 +22570,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Missile Launcher",
-      "description": "Shoot firearms stored in your shield. You can move while firing."
+      "description": "Shoot firearms stored in your shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "name": "Zeta Shield"
   }]
@@ -22007,7 +22624,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Melee Pick",
-      "description": "Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%."
+      "description": "Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     },
     "combo": "shield"
   }, {
@@ -22024,7 +22642,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Brave Axe Combo",
-      "description": "Bring down a wild rush of blows with your equipped axe."
+      "description": "Bring down a wild rush of blows with your equipped axe.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -22040,7 +22659,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saturn Engine",
-      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
+      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%.",
+      "category": "Awakening"
     }
   }, {
     "part": "range",
@@ -22109,7 +22729,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Sturm Faust",
-      "description": "Launch the Sturm Faust stored in your forearm shield. You can move while firing."
+      "description": "Launch the Sturm Faust stored in your forearm shield. You can move while firing.",
+      "category": "Physical Shot"
     },
     "combo": "shield"
   }, {
@@ -22126,7 +22747,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Brave Axe Combo",
-      "description": "Bring down a wild rush of blows with your equipped axe."
+      "description": "Bring down a wild rush of blows with your equipped axe.",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -22142,7 +22764,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saturn Engine",
-      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
+      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%.",
+      "category": "Awakening"
     }
   }, {
     "part": "range",
@@ -22181,7 +22804,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Signal Flare",
-      "description": "Fire a signal flare into the air to send word to your allies. Raise Ally Melee Attack by 19%. Raise Ally Beam Resist by 29%. Raise Ally Physical Resist by 29%."
+      "description": "Fire a signal flare into the air to send word to your allies. Raise Ally Melee Attack by 19%. Raise Ally Beam Resist by 29%. Raise Ally Physical Resist by 29%.",
+      "category": "Buff"
     }
   }, {
     "part": "torso",
@@ -22212,7 +22836,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Melee Pick",
-      "description": "Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%."
+      "description": "Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%.",
+      "category": "Physical Melee"
     },
     "combo": "shield"
   }, {
@@ -22229,7 +22854,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Menace Shot",
-      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%"
+      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%",
+      "category": "Physical Melee"
     }
   }, {
     "part": "backpack",
@@ -22245,7 +22871,8 @@ const Collections = [{
     "ex": {
       "type": "EX Skill",
       "name": "Saturn Engine",
-      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%."
+      "description": "Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%.",
+      "category": "Awakening"
     }
   }]
 }];

@@ -79,8 +79,14 @@ h3 {
   width: 290px;
 }
 
-.part-trait-ex-skill__text {
-  font-size: 11px;
+.part-trait-ex-skill__text,
+.part-trait-ex-skill__text span.ex-cat-icon {
+  font-size: 0.9em;
+}
+
+.part-trait-ex-skill__text span.ex-cat-icon {
+  margin-right: 0.667em;
+  vertical-align: middle;
 }
 
 .parts {
