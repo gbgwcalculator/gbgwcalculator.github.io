@@ -13534,130 +13534,6 @@ const Collections = [{
     "type": "Beam"
   }]
 }, {
-  "name": "Gundam Wing Fenice",
-  "attribute": "Technique",
-  "rarity": 4,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "mark": 1,
-    "a": 799,
-    "ma": 384,
-    "sa": 2791,
-    "md": 799,
-    "sd": 384,
-    "br": 213,
-    "pr": 0,
-    "wt": ["Gundam Type", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
-      "category": "Physical Shot"
-    }
-  }, {
-    "part": "torso",
-    "mark": 1,
-    "a": 1184,
-    "ma": 384,
-    "sa": 384,
-    "md": 1608,
-    "sd": 799,
-    "br": 614,
-    "pr": 0,
-    "wt": ["Gundam Type", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Machine Cannon",
-      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
-      "category": "Physical Shot"
-    }
-  }, {
-    "part": "arms",
-    "mark": 1,
-    "a": 1608,
-    "ma": 1982,
-    "sa": 384,
-    "md": 3186,
-    "sd": 1608,
-    "br": 812,
-    "pr": 213,
-    "wt": ["Gundam Type", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Verde Fenice",
-      "description": "After readying a rapier and charging an enemy, send it flying with your cloaked fist.",
-      "category": "Beam Melee"
-    },
-    "combo": "shield"
-  }, {
-    "part": "legs",
-    "mark": 1,
-    "a": 799,
-    "ma": 384,
-    "sa": 799,
-    "md": 1184,
-    "sd": 384,
-    "br": 614,
-    "pr": 420,
-    "wt": ["Gundam Type", "High Mobility"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Meteor Hopper",
-      "description": "Fire the Buster Rifle mounted on your Meteor Hopper, a one-wheeled motorcycle, as you ride it. Raise Shot Attack of your Squad by 39%.",
-      "category": "Beam Shot"
-    }
-  }, {
-    "part": "backpack",
-    "mark": 1,
-    "a": 799,
-    "ma": 384,
-    "sa": 384,
-    "md": 1608,
-    "sd": 384,
-    "br": 614,
-    "pr": 420,
-    "wt": ["Gundam Type", "High Mobility"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When attacking with Beam, EX Skill piercing boosted 28%"
-    }
-  }, {
-    "part": "melee",
-    "mark": 1,
-    "a": 799,
-    "ma": 1982,
-    "sa": 0,
-    "md": 799,
-    "sd": 0,
-    "br": 614,
-    "pr": 213,
-    "wt": ["Gundam Type", "For Desert"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor is 70% or less, Strong Melee CRIT rate boosted 30%"
-    },
-    "name": "Beam Rapier",
-    "type": "Beam"
-  }, {
-    "part": "range",
-    "mark": 1,
-    "a": 384,
-    "ma": 0,
-    "sa": 3590,
-    "md": 799,
-    "sd": 0,
-    "br": 420,
-    "pr": 213,
-    "wt": ["Gundam Type", "High Firepower"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Technique attribute (self), Sp. Shot CRIT rate boosted 30%"
-    },
-    "name": "Buster Rifle Cannon",
-    "type": "Beam"
-  }]
-}, {
   "name": "Gundam X",
   "attribute": "Speed",
   "rarity": 4,
@@ -21598,6 +21474,130 @@ const Collections = [{
       "category": "Beam Shot"
     },
     "name": "Twin Buster Rifle [Coupled]",
+    "type": "Beam"
+  }]
+}, {
+  "name": "Wing Gundam Fenice",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 2791,
+    "md": 799,
+    "sd": 384,
+    "br": 213,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "torso",
+    "mark": 1,
+    "a": 1184,
+    "ma": 384,
+    "sa": 384,
+    "md": 1608,
+    "sd": 799,
+    "br": 614,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Machine Cannon",
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1608,
+    "ma": 1982,
+    "sa": 384,
+    "md": 3186,
+    "sd": 1608,
+    "br": 812,
+    "pr": 213,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Verde Fenice",
+      "description": "After readying a rapier and charging an enemy, send it flying with your cloaked fist.",
+      "category": "Beam Melee"
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 799,
+    "md": 1184,
+    "sd": 384,
+    "br": 614,
+    "pr": 420,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Meteor Hopper",
+      "description": "Fire the Buster Rifle mounted on your Meteor Hopper, a one-wheeled motorcycle, as you ride it. Raise Shot Attack of your Squad by 39%.",
+      "category": "Beam Shot"
+    }
+  }, {
+    "part": "backpack",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 1608,
+    "sd": 384,
+    "br": 614,
+    "pr": 420,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 799,
+    "ma": 1982,
+    "sa": 0,
+    "md": 799,
+    "sd": 0,
+    "br": 614,
+    "pr": 213,
+    "wt": ["Gundam Type", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 70% or less, Strong Melee CRIT rate boosted 30%"
+    },
+    "name": "Beam Rapier",
+    "type": "Beam"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 384,
+    "ma": 0,
+    "sa": 3590,
+    "md": 799,
+    "sd": 0,
+    "br": 420,
+    "pr": 213,
+    "wt": ["Gundam Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Sp. Shot CRIT rate boosted 30%"
+    },
+    "name": "Buster Rifle Cannon",
     "type": "Beam"
   }]
 }, {
