@@ -616,9 +616,11 @@ class GunplaBuild {
               'data-balloon-length' : 'fit'
             });
             partTrait.addEventListener('click', toggleTooltip);
+            partTrait.addEventListener('touchstart', toggleTooltip);
           } else {
             this._removeAttributes(partTrait, ['aria-label', 'data-balloon-pos', 'data-balloon-length']);
             partTrait.removeEventListener('click', toggleTooltip);
+            partTrait.removeEventListener('touchstart', toggleTooltip);
           }
         }
       } else {
