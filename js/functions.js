@@ -1107,4 +1107,5 @@ function toggleTooltip(event) {
       }
     }, 5000); // After 5 seconds, auto-hide.
   }
+  if (el.blur) el.blur(); // Force focus away from the element.
 }
