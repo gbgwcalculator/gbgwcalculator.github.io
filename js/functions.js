@@ -1097,8 +1097,7 @@ function toggleTheme() {
 
 function toggleTooltip(event) {
   let el = event.currentTarget;
-  let attr = el.getAttribute('data-balloon-visible');
-  if (attr != null && attr !== '') {
+  if (el.getAttribute('data-balloon-visible')) {
     el.removeAttribute('data-balloon-visible');
   } else {
     el.setAttribute('data-balloon-visible', true);
