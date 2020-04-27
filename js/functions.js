@@ -1101,5 +1101,10 @@ function toggleTooltip(event) {
     el.removeAttribute('data-balloon-visible');
   } else {
     el.setAttribute('data-balloon-visible', true);
+    setTimeout(() => {
+      if (el.getAttribute('data-balloon-visible')) {
+        el.removeAttribute('data-balloon-visible');
+      }
+    }, 5000); // After 5 seconds, auto-hide.
   }
 }
