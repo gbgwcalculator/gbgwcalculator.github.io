@@ -494,15 +494,15 @@ class GunplaBuild {
             return;
           }
           const partEntry = document.createElement("div");
-          let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + ']' : '';
+          let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + '] ' : '';
           if (partFilter.jl) {
-            displayText += ` ${partFilter.name} (${partFilter.jl})`;
-          } else if (partFilter.part.startsWith('gear-')) {
-            displayText += ` ${partFilter.name}`;
+            displayText += `${partFilter.name} (${partFilter.jl})`; // Pilot
+          } else if (partFilter.part.startsWith('gear-') || partFilter.ms.startsWith('Unassigned [')) {
+            displayText += `${partFilter.name}`; // Gear or no assigned unit
           } else if (partFilter.name) {
-            displayText += ` ${partFilter.name} (${partFilter.ms})`;
+            displayText += `${partFilter.name} (${partFilter.ms})`; // Armament
           } else {
-            displayText += ` ${partFilter.ms}`;
+            displayText += `${partFilter.ms}`; // Any other part
           }
           partEntry.textContent = partEntry.dataset.partname = displayText;
           partEntry.classList.add("part-list__item");
