@@ -829,8 +829,7 @@ class GunplaBuild {
       });
     }
     if (Array.isArray(WordTagData)) {
-      let generalWordTags = WordTagData.filter(wt => wt.type === 'general').map(wt => wt.name).sort();
-      generalWordTags.forEach(wt => {
+      WordTagData.map(wt => wt.name).sort().forEach(wt => {
         const opt = document.createElement('option');
         opt.value = wt;
         opt.text = wt;
