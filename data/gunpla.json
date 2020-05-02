@@ -1719,7 +1719,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "NT-D",
-      "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
+      "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.",
       "category": "Awakening"
     }
   }, {
