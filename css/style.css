@@ -1,6 +1,18 @@
 @font-face {
-  font-family: SFPDR;
+  font-family: SFPD;
   src: url("fonts/SFPDR.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SFPD;
+  src: url("fonts/SFPDRI.otf");
+  font-style: italic;
+}
+@font-face {
+  font-family: SFPD;
+  src: url("fonts/SFPDSB.otf");
+  font-weight: bold;
 }
 
 :root {
@@ -26,11 +38,12 @@
   --tooltip-bg-color: #EBF8FF;
   --scrollbar-bg-color: #f2f7f4;
   --scrollbar-thumb-color: #4379ba;
+  --activatedWT-font-color: #206cc9;
 }
 
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
   box-sizing: border-box;
-  font-family: SF Pro Display, Segoe UI, SFPDR, Arial, sans-serif;
+  font-family: SF Pro Display, Segoe UI, SFPD, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
 }
@@ -157,7 +170,7 @@ input:checked + .slider:before {
 }
 
 .activatedWT {
-  color: #206cc9;
+  color: var(--activatedWT-font-color);
 }
 
 .everything {
