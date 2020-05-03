@@ -342,7 +342,8 @@ class GunplaBuild {
       'wt1': '',
       'wt2': '',
       'ex-cat': '',
-      'pt': ''
+      'part-trait': '',
+      'weapon-type': ''
     };
     this.applyMapBonus = false;
     this.searchPart = '';
@@ -476,11 +477,23 @@ class GunplaBuild {
     if (this.filters['wt2'] && part.wt && part.wt.indexOf(this.filters['wt2']) < 0) {
       return false;
     }
-    if (this.filters['pt'] && part.ex && part.ex.name && !new RegExp(this.filters['pt'], 'i').test(part.ex.name)) {
-      return false;
+    if (this.filters['part-trait']) {
+      // The ex.name is can be the Part Trait or the EX Skill
+      if (part.ex && part.ex.name) {
+        return new RegExp(this.filters['part-trait'], 'i').test(part.ex.name);
+      }
     }
-    if (this.filters['ex-cat'] && part.ex && !(part.ex.category && part.ex.category === this.filters['ex-cat'])) {
-      return false;
+    if (this.filters['ex-cat']) {
+      if (part.ex && part.ex.category) {
+        return part.ex.category === this.filters['ex-cat'];
+      }
+    }
+    if (this.filters['weapon-type']) {
+      switch (part.part) {
+        case 'melee':
+        case 'range':
+          return part.type === this.filters['weapon-type'];
+      }
     }
     if (this.searchPart.trim().length > 0) {
       const value = (part.ms ? part.ms : '') + ' ' + (part.name ? part.name : '');
@@ -612,13 +625,11 @@ class GunplaBuild {
           const comboPart = this.comboParts[i];
           if (comboPart.part && comboPart.combo && partInput.dataset.part) {
             if (comboPart.part == partInput.dataset.part) {
-              document.querySelector('.js-input-' + comboPart.combo).disabled = false;
-              this.comboParts.splice(i, 1);
+              this._clearComboPart(comboPart.combo, i);
               break;
             } else if (partInput.dataset.combo && partInput.dataset.combo == comboPart.combo) {
               this._clearParts(comboPart.part);
-              document.querySelector('.js-input-' + comboPart.combo).disabled = false;
-              this.comboParts.splice(i, 1);
+              this._clearComboPart(comboPart.combo, i);
               break;
             }
           }
@@ -641,6 +652,12 @@ class GunplaBuild {
         attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${partInput.dataset.attribute.toLowerCase()}" data-rarity="${partInput.dataset.rarity}" title="${partInput.dataset.attribute}"></span>`;
       }
     }
+  }
+
+  _clearComboPart(part, index) {
+    this.inputs[part].disabled = false;
+    this.comboParts.splice(index, 1);
+    this._clearParts(part);
   }
 
   _applyAttributes(el, attrs) {
@@ -907,7 +924,8 @@ class GunplaBuild {
         wtFilter1 = document.querySelector('.js-filter-wt1'),
         wtFilter2 = document.querySelector('.js-filter-wt2'),
         exFilter = document.querySelector('.js-filter-ex-cat'),
-        ptFilter = document.querySelector('.js-filter-pt');
+        partTypeFilter = document.querySelector('.js-filter-part-trait'),
+        weaponTypeFilter = document.querySelector('.js-filter-weapon-type');
     if (Array.isArray(Attributes)) {
       Attributes.forEach(attr => {
         const opt = document.createElement('option');
@@ -934,11 +952,19 @@ class GunplaBuild {
       });
     }
     if (Array.isArray(TraitDescriptions)) {
-      TraitDescriptions.forEach(pt => {
+      TraitDescriptions.forEach(partType => {
         const opt = document.createElement('option');
-        opt.value = pt;
-        opt.text = pt;
-        ptFilter.appendChild(opt);
+        opt.value = partType;
+        opt.text = partType;
+        partTypeFilter.appendChild(opt);
+      });
+    }
+    if (Array.isArray(WeaponType)) {
+      WeaponType.forEach(weaponType => {
+        const opt = document.createElement('option');
+        opt.value = weaponType;
+        opt.text = weaponType;
+        weaponTypeFilter.appendChild(opt);
       });
     }
     for (let key in this.filters) {

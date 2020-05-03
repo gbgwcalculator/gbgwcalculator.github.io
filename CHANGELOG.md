@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.3
+
+- Added a weapon type filter
+- Fixed combo part reset
+
 ## 1.1.2
 
 - Added beam/physical icons to selected weapons
