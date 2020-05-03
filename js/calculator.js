@@ -1114,7 +1114,7 @@ class GunplaBuild {
     if (Array.isArray(wordTags) && partEl) {
       partEl.innerHTML = wordTags.reduce((result, wordTag) => {
         const currentTally = this.wordTagsTally[wordTag];
-        return result + ((result == '' ? '' : '<br />') + '<span class="' + (currentTally >= ActiveWordTagMin ? 'activatedWT' : '') + '">(' + currentTally + ') ' + wordTag + '</span>');
+        return result + ((result == '' ? '' : '<br />') + '<span class="' + (currentTally >= ActiveWordTagMin ? 'activated-wt' : '') + '">(' + currentTally + ') ' + wordTag + '</span>');
       }, '');
       if (part.dataset.combo) {
         document.querySelector('.js-wt-' + part.dataset.combo).innerHTML = partEl.innerHTML;

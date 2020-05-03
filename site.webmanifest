@@ -1,6 +1,6 @@
 {
     "name": "GBGW Calculator",
-    "short_name": "gwgwcalc",
+    "short_name": "GBGW Calc",
     "icons": [{
         "src": "./assets/icons/android-chrome-192x192.png",
         "sizes": "192x192",
