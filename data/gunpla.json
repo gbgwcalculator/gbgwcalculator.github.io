@@ -21,7 +21,7 @@
       "category": "Recovery"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1745,
     "ma": 555,
@@ -68,7 +68,7 @@
       "name": "In-Fighter Job, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 972,
     "ma": 972,
@@ -100,7 +100,8 @@
       "name": "In-Fighter Job, Enemy Shooting Power reduced 30%"
     },
     "name": "GN Gun Blade [Blade Mode]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }, {
     "part": "melee",
     "mark": 1,
@@ -117,7 +118,8 @@
       "name": "When Armor < 80%, EX Skill Power boosted 30%"
     },
     "name": "GN Sword IV [Katar Mode]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 1,
@@ -134,7 +136,8 @@
       "name": "When attacking with Physical, Strong Melee CRIT Rate boosted 30%"
     },
     "name": "GN Sword IV [Saber Mode]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 1,
@@ -151,7 +154,8 @@
       "name": "While \"Close Combat\", Initial EX Skill Charge boosted 20%"
     },
     "name": "GN Sword IV Full Saber",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -170,7 +174,8 @@
       "category": "Beam Shot"
     },
     "name": "GN Sword IV [Rifle Mode]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "00 Raiser",
@@ -193,7 +198,7 @@
       "name": "With Technique attribute (self), Enemy Shooting power reduced 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1745,
     "ma": 972,
@@ -240,7 +245,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1363,
     "ma": 471,
@@ -272,7 +277,8 @@
       "name": "In-Fighter Job, Job Gauge increase boosted 17%"
     },
     "name": "GN Sword II",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }, {
     "part": "melee",
     "mark": 1,
@@ -291,7 +297,8 @@
       "category": "Beam Melee"
     },
     "name": "GN Sword III",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -308,7 +315,8 @@
       "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
     },
     "name": "GN Sword III Rifle Mode",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Abyss Gundam",
@@ -331,7 +339,7 @@
       "name": "With Lance category equipped, Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 294,
@@ -380,7 +388,7 @@
       "name": "With Technique attribute (self), Projectile speed boosted 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 294,
@@ -412,7 +420,8 @@
       "name": "While \"Transformer\", Initial EX Skill charge boosted 12%"
     },
     "name": "Beam Lance [Abyss]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Lance"
   }]
 }, {
   "name": "Acguy",
@@ -437,7 +446,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 376,
     "ma": 287,
@@ -472,7 +481,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 138,
     "ma": 138,
@@ -510,7 +519,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1977,
     "ma": 384,
@@ -559,7 +568,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -589,7 +598,8 @@
       "name": "Out-Fighter Job, Enemy Shooting Power reduced 30%"
     },
     "name": "60mm High-Energy Beam Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -632,7 +642,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1184,
     "ma": 384,
@@ -679,7 +689,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -711,7 +721,8 @@
       "name": "Out-Fighter Job, Enemy Melee Power reduced 30%"
     },
     "name": "Beam Saber [Aile Strike]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 1,
@@ -730,7 +741,8 @@
       "category": "Physical Melee"
     },
     "name": "Grand Slam",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -747,7 +759,8 @@
       "name": "With Speed attribute (self), Initial EX Skill Charge boosted 20%"
     },
     "name": "57mm High-Energy Beam Rifle [Aile Strike]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -788,7 +801,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1977,
     "ma": 384,
@@ -837,7 +850,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -869,7 +882,8 @@
       "name": "Middle-Shooter Job, Job Gauge Increase boosted 17%"
     },
     "name": "Experimental Twin Beam Saber [Single]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -886,7 +900,8 @@
       "name": "Initial EX Skill Charge boosted 20%"
     },
     "name": "Hyakurai",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -925,7 +940,7 @@
       "name": "When Armor is < 50%, Recover 10 (flat) Armor gradually"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -972,7 +987,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -1002,7 +1017,8 @@
       "name": "12% chance of attacks penetrating super armor"
     },
     "name": "GN Buster Sword [Arche]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 2,
@@ -1019,7 +1035,8 @@
       "name": "With Power attribute (self), Job Gauge Increase boosted 13%"
     },
     "name": "GN Buster Sword Rifle Mode [Arche]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -1062,7 +1079,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 382,
@@ -1111,7 +1128,7 @@
       "name": "With Speed attribute (self), EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 382,
@@ -1165,7 +1182,7 @@
       "name": "When Armor is < 70%, Enemy Shooting Power reduced 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 382,
@@ -1214,7 +1231,7 @@
       "name": "With Technique attribute (self), EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 382,
@@ -1254,7 +1271,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -1301,7 +1318,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -1335,7 +1352,8 @@
       "category": "Beam Melee"
     },
     "name": "Twin Sword Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Lance"
   }, {
     "part": "range",
     "mark": 3,
@@ -1352,7 +1370,8 @@
       "name": "With Power attribute (self), Sp. Shot Power boosted 18%"
     },
     "name": "Twin Sword Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 3,
@@ -1393,7 +1412,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1977,
     "ma": 796,
@@ -1442,7 +1461,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -1476,7 +1495,8 @@
       "category": "Physical Melee"
     },
     "name": "Gerbera Straight",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "shield",
     "mark": 1,
@@ -1517,7 +1537,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1848,
     "ma": 651,
@@ -1564,7 +1584,7 @@
       "name": "With Saber Category equipped, Enemy EX Skill Pentration reduced 22%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1040,
     "ma": 389,
@@ -1602,7 +1622,7 @@
       "name": "With Technique attribute (self), Enemy Shooting power reduced 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -1649,7 +1669,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -1681,7 +1701,8 @@
       "name": "While \"Protag.\", Initial EX Skill charge boosted 20%"
     },
     "name": "Gerbera Straight/Tiger Pierce",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }]
 }, {
   "name": "Banshee",
@@ -1706,7 +1727,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1736,
     "ma": 789,
@@ -1756,7 +1777,7 @@
       "name": "With Power attribute (self), EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 966,
     "ma": 789,
@@ -1796,7 +1817,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 2593,
     "ma": 558,
@@ -1829,7 +1850,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -1869,7 +1890,7 @@
       "category": "Recovery"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 2593,
     "ma": 558,
@@ -1902,7 +1923,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -1942,7 +1963,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1182,
     "ma": 799,
@@ -1990,7 +2011,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -2022,7 +2043,8 @@
       "name": "15% chance of attacks penetrating super armor"
     },
     "name": "Beam Saber [Beginning 30]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -2039,7 +2061,8 @@
       "name": "Initial EX Skill Charge boosted 20%"
     },
     "name": "Beam Rifle [Beginning 30]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Beginning 30 Gundam [Beginner Campaign]",
@@ -2062,7 +2085,7 @@
       "name": "Out-Fighter Job, Shooting DMG taken reduced 35"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1038,
     "ma": 650,
@@ -2112,7 +2135,7 @@
       "name": "Out-Fighter Job, Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 650,
     "ma": 388,
@@ -2152,7 +2175,7 @@
       "category": "Recovery"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -2201,7 +2224,7 @@
       "name": "With Speed attribute (self), Shooting CRIT Rate boosted 17%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -2239,7 +2262,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -2325,7 +2348,7 @@
       "name": "With Speed attribute (self), Buff EX Skill Time up 22%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -2376,7 +2399,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -2416,7 +2439,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1433,
     "ma": 291,
@@ -2463,7 +2486,7 @@
       "name": "With Speed attribute (self), Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -2495,7 +2518,8 @@
       "name": "While \"For Computers\", Initial EX Skill charge boosted 12%"
     },
     "name": "Beam Saber [Build Gundam Mk-II]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -2512,7 +2536,8 @@
       "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
     },
     "name": "Beam Rifle [Build Gundam Mk-II]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 2,
@@ -2529,7 +2554,8 @@
       "name": "Physical ranged weapon, reload speed boosted 15%"
     },
     "name": "Hyper Bazooka [Build Gundam Mk-II]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "range",
     "mark": 2,
@@ -2546,7 +2572,8 @@
       "name": "When Armor is 60% or more, Sp. Shot power boosted 25%"
     },
     "name": "Beam Rifle Mk-II",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -2587,7 +2614,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 383,
@@ -2634,7 +2661,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 383,
@@ -2666,7 +2693,8 @@
       "name": "Out-Fighter Job, Initial EX Skill Charge boosted 20%"
     },
     "name": "Beam Rifle [Build Strike]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -2682,7 +2710,8 @@
       "type": "Part Traits",
       "name": "With Technique attribute (self), Job Gauge Increase boosted 17%"
     },
-    "name": "Enhanced Beam Rifle [Build Strike]"
+    "name": "Enhanced Beam Rifle [Build Strike]",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -2723,7 +2752,7 @@
       "name": "With Power attribute (self), Shooting Power boosted 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -2774,7 +2803,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -2806,7 +2835,8 @@
       "category": "Beam Shot"
     },
     "name": "Hyper Impulse Long-Range Sniper Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Byarlant Custom",
@@ -2831,7 +2861,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -2880,7 +2910,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -2918,7 +2948,7 @@
       "name": "Physical ranged weapon, reload speed boosted 15%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -2967,7 +2997,7 @@
       "name": "With Module Category equipped, Close Shot Attack raised 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -3007,7 +3037,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1185,
     "ma": 800,
@@ -3071,7 +3101,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Scythe [Code ϕ]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 1,
@@ -3088,7 +3119,8 @@
       "name": "Job Gauge Increase boosted 11%"
     },
     "name": "Beam Rifle [Code ϕ]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Command Gundam",
@@ -3111,7 +3143,7 @@
       "name": "While \"Long-Range\", Long Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 294,
@@ -3158,7 +3190,7 @@
       "name": "Long-Shooter Job, Enemy Melee Power reduced 25%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 294,
@@ -3192,7 +3224,8 @@
       "category": "Physical Melee"
     },
     "name": "Command Knife",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -3211,7 +3244,8 @@
       "category": "Physical Shot"
     },
     "name": "Grenade Launcher w/ Laser Machine Gun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }, {
     "part": "range",
     "mark": 2,
@@ -3228,7 +3262,8 @@
       "name": "Against a large enemy, Shooting DMG Output boosted 20"
     },
     "name": "Heavy Autocannon",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Gatling Gun"
   }]
 }, {
   "name": "Crossbone Gundam X1",
@@ -3253,7 +3288,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1433,
     "ma": 558,
@@ -3302,7 +3337,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -3332,7 +3367,8 @@
       "name": "With Technique attribute (self), EX Skill Power boosted 25%"
     },
     "name": "Beam Zanba",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -3349,7 +3385,8 @@
       "name": "Beam ranged weapon reload speed boosted 15%"
     },
     "name": "Zanbuster",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -3388,7 +3425,7 @@
       "name": "Long-Shooter Job, Long Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -3437,7 +3474,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -3469,7 +3506,8 @@
       "category": "Physical Melee"
     },
     "name": "Shot Lancer [X2]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Lance"
   }, {
     "part": "melee",
     "mark": 1,
@@ -3486,7 +3524,8 @@
       "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
     },
     "name": "Beam Zanba [X2]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -3503,7 +3542,8 @@
       "name": "With Power attribute (self), Sp. Shot CRIT rate boosted 30%"
     },
     "name": "Zanbuster [X2]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -3520,7 +3560,8 @@
       "name": "Long-Shooter Job, EX Skill DMG taken reduced by 35"
     },
     "name": "Buster Gun [X2]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -3561,7 +3602,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1434,
     "ma": 558,
@@ -3606,7 +3647,7 @@
       "name": "When Armor > 60%, Sp. Shot Power boosted 25%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -3636,7 +3677,8 @@
       "name": "When Armor > 60%, Strong Melee Power boosted 20%"
     },
     "name": "Beam Saber [Delta Plus]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -3653,7 +3695,8 @@
       "name": "When attacking with Beam, Sp. Shot Power boosted 25%"
     },
     "name": "Beam Rifle [Delta Plus]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -3694,7 +3737,7 @@
       "name": "When Armor < 30%, Shooting DMG Output boosted 15"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 942,
     "ma": 187,
@@ -3744,7 +3787,7 @@
       "name": "Middle-Shooter Job, Long Shot Attack Raised 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 570,
     "ma": 187,
@@ -3776,7 +3819,8 @@
       "name": "When Armor > 30%, Shooting DMG Output boosted 15"
     },
     "name": "Shot Lancer",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Lance"
   }, {
     "part": "range",
     "mark": 3,
@@ -3793,7 +3837,8 @@
       "name": "When Armor < 30%, Shooting DMG Output boosted 15"
     },
     "name": "Shot Lancer [Heavy Machine Gun]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Destiny Gundam",
@@ -3816,7 +3861,7 @@
       "name": "Out-Fighter Job, Close Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 965,
@@ -3863,7 +3908,7 @@
       "name": "With Power attribute (self), EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 965,
@@ -3895,7 +3940,8 @@
       "name": "When Armor < 80%, Melee DMG Output boosted 35"
     },
     "name": "Arondight [Destiny]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -3912,7 +3958,8 @@
       "name": "With Power attribute (self), Job Gauge Increase boosted 17%"
     },
     "name": "High-Energy Beam Rifle [Destiny]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -3951,7 +3998,7 @@
       "name": "When Armor < 50%, Shooting DMG taken reduced 10"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -4000,7 +4047,7 @@
       "name": "When Armor < 50%, Shot Spread reduced 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 373,
     "ma": 137,
@@ -4038,7 +4085,7 @@
       "name": "Beam ranged weapon magazine boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -4085,7 +4132,7 @@
       "name": "When Armor < 50%, Strong Melee DMG taken reduced 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 372,
     "ma": 137,
@@ -4117,7 +4164,8 @@
       "name": "With Bazooka Category equipped, Enemy Shooting Power reduced 10%"
     },
     "name": "Raketen Bazooka",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Dom Tropen [Sand Brown]",
@@ -4140,7 +4188,7 @@
       "name": "Physical ranged weapon, magazine boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -4185,7 +4233,7 @@
       "name": "When Armor < 50%, Melee DMG taken reduced 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 372,
     "ma": 137,
@@ -4225,7 +4273,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 186,
@@ -4272,7 +4320,7 @@
       "name": "When attacking with Beam, Mid Shot Attack raised 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 363,
     "ma": 186,
@@ -4306,7 +4354,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Rifle [Döven Wolf]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Döven Wolf [ALT]",
@@ -4329,7 +4378,7 @@
       "name": "Beam ranged weapon reload speed boosted 15%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 186,
@@ -4376,7 +4425,7 @@
       "name": "When attacking with Beam, Mid Shot Attack raised 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 363,
     "ma": 186,
@@ -4408,7 +4457,8 @@
       "name": "Middle-Shooter Job, Shooting DMG taken reduced 15"
     },
     "name": "Beam Rifle [ALT] [Doven Wolf]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Dragon Gundam",
@@ -4433,7 +4483,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 891,
     "ma": 559,
@@ -4482,7 +4532,7 @@
       "name": "Out-Fighter Job, Close Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 292,
@@ -4514,7 +4564,8 @@
       "category": "Beam Melee"
     },
     "name": "Feilong Flag",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }]
 }, {
   "name": "Dreissen [Unicorn Ver.]",
@@ -4537,7 +4588,7 @@
       "name": "Physical ranged weapon, reload speed boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -4584,7 +4635,7 @@
       "name": "Middle-Shooter Job, Sp. Shot DMG Output boosted 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -4618,7 +4669,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Tomahawk [Dreissen]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 4,
@@ -4635,7 +4687,8 @@
       "name": "With Bazooka Category equipped, Shooting DMG Output boosted 10%"
     },
     "name": "Giant Bazooka [Dreissen]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Duel Gundam",
@@ -4660,7 +4713,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1433,
     "ma": 291,
@@ -4707,7 +4760,7 @@
       "name": "When Armor < 40%, 13% chance to not recoil"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -4739,7 +4792,8 @@
       "name": "With Speed attribute (self), EX Skill Power boosted 25%"
     },
     "name": "57mm High-Energy Beam Rifle [Duel]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 2,
@@ -4756,7 +4810,8 @@
       "name": "When Armor < 40%, Enemy Shooting Power reduced 25%"
     },
     "name": "Gae Bulg",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 2,
@@ -4797,7 +4852,7 @@
       "name": "Beam ranged weapon reload speed boosted 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -4846,7 +4901,7 @@
       "name": "With Power attribute (self), EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -4882,7 +4937,7 @@
       "name": "When Armor > 60%, Shooting DMG Output boosted 20"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1459,
     "ma": 389,
@@ -4931,7 +4986,7 @@
       "name": "12% chance of attacks penetrating super armor"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 651,
     "ma": 389,
@@ -4969,7 +5024,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 382,
@@ -5014,7 +5069,7 @@
       "name": "When attacking with Beam, Long Shot Attack raised 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 382,
@@ -5046,7 +5101,8 @@
       "name": "When Armor > 40%, Melee DMG taken reduced 35"
     },
     "name": "Beam Saber [EARTHREE]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -5065,7 +5121,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Rifle [EARTHREE]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -5106,7 +5163,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 561,
@@ -5155,7 +5212,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 561,
     "ma": 294,
@@ -5187,7 +5244,8 @@
       "name": "While \"Zeon\", Strong Melee CRIT Rate boosted 17%"
     },
     "name": "Heat Saber [Efreet Custom]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }]
 }, {
   "name": "Enhanced ZZ Gundam [Ver Ka.]",
@@ -5212,7 +5270,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1732,
     "ma": 551,
@@ -5260,7 +5318,7 @@
       "name": "With Blade Category equipped, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 329,
@@ -5294,7 +5352,8 @@
       "category": "Beam Melee"
     },
     "name": "Hyper Beam Saber [Enhanced ZZ (Ver. Ka)] ",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }]
 }, {
   "name": "Force Impulse Gundam",
@@ -5317,7 +5376,7 @@
       "name": "When Armor > 40%, Shooting CRIT Rate boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 382,
@@ -5366,7 +5425,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 382,
@@ -5398,7 +5457,8 @@
       "name": "With Rifle Category equipped, Initial EX Skill Charge boosted 20%"
     },
     "name": "Vajra Beam Saber",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -5415,7 +5475,8 @@
       "name": "With Rifle Category equipped, Enemy Shooting Power reduced 30%"
     },
     "name": "MA-BAR72 High-Energy Beam Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -5456,7 +5517,7 @@
       "name": "With Rifle Category equipped, Enemy Shooting Power reduced 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1454,
     "ma": 388,
@@ -5505,7 +5566,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 648,
     "ma": 388,
@@ -5545,7 +5606,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2133,
     "ma": 553,
@@ -5592,7 +5653,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1356,
     "ma": 553,
@@ -5624,7 +5685,8 @@
       "name": "Strong Melee DMG Output boosted 35"
     },
     "name": "Lacerta Beam Saber",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -5641,7 +5703,8 @@
       "name": "With Power attribute (self), Job Gauge Increase boosted 17%"
     },
     "name": "Lupus Beam Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -5684,7 +5747,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 383,
@@ -5736,7 +5799,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 383,
@@ -5774,7 +5837,7 @@
       "name": "With Module Category equipped, Close Shot Attack raised 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 757,
     "ma": 187,
@@ -5823,7 +5886,7 @@
       "name": "With Module Category equipped, EX Skill Recovery boosted 18%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -5863,7 +5926,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 757,
     "ma": 187,
@@ -5910,7 +5973,7 @@
       "name": "With Module Category, EX Skill Recovery boosted 18%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -5950,7 +6013,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -5995,7 +6058,7 @@
       "name": "With Speed attribute (self), 13% chance to not recoil"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -6027,7 +6090,8 @@
       "name": "Out-Fighter Job, Job Gauge Increase boosted 13%"
     },
     "name": "Vajra Beam Saber [Gaia]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -6044,7 +6108,8 @@
       "name": "With Speed attribute (self), EX Skill Power boosted 25%"
     },
     "name": "High-Energy Beam Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -6087,7 +6152,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -6134,7 +6199,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -6166,7 +6231,8 @@
       "name": "Melee DMG Output boosted 15"
     },
     "name": "Beam Sword-Axe",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 3,
@@ -6185,7 +6251,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Machine Gun [Geara Doga]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }, {
     "part": "shield",
     "mark": 3,
@@ -6228,7 +6295,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 798,
     "ma": 137,
@@ -6273,7 +6340,7 @@
       "name": "When attacking with Physical, Melee DMG Output boosted 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 373,
     "ma": 137,
@@ -6303,7 +6370,8 @@
       "name": "With \"Mass P.\" enemy, Sp. Shot CRIT Rate boosted 10%"
     },
     "name": "Beam Rifle [Gelgoog]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Gelgoog Cannon",
@@ -6326,7 +6394,7 @@
       "name": "With Machine Gun Category equipped, Shot Spread reduced 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -6371,7 +6439,7 @@
       "name": "With Power attribute (self), EX Skill Recovery boosted 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -6411,7 +6479,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 571,
     "ma": 187,
@@ -6458,7 +6526,7 @@
       "name": "With Machine Gun Category equipped, Sp. Shot Power boosted 18%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 365,
     "ma": 187,
@@ -6488,7 +6556,8 @@
       "name": "With Machine Gun Category equipped, Sp. Shot Power boosted 18%"
     },
     "name": "Large Beam Machine Gun [Gelgoog Jäger]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Gerbera Tetra",
@@ -6511,7 +6580,7 @@
       "name": "With \"Gundam Type\" enemy, Shooting Power boosted 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1433,
     "ma": 291,
@@ -6560,7 +6629,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -6591,7 +6660,8 @@
       "description": "Fire special high-powered rounds from your machine gun.",
       "category": "Beam Shot"
     },
-    "name": "Beam Machine Gun [Gerbera Tetra]"
+    "name": "Beam Machine Gun [Gerbera Tetra]",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "GM",
@@ -6616,7 +6686,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 509,
     "ma": 137,
@@ -6663,7 +6733,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -6695,7 +6765,8 @@
       "name": "Shooting DMG taken reduced 10"
     },
     "name": "Beam Spray Gun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 4,
@@ -6736,7 +6807,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -6783,7 +6854,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -6813,7 +6884,8 @@
       "name": "All-Rounder Job, Shooting DMG taken reduced 10"
     },
     "name": "Beam Gun [GM Command]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 4,
@@ -6830,7 +6902,8 @@
       "name": "With Speed attribute (self), Initial EX Skill Charge boosted 10%"
     },
     "name": "Bullpup Machine Gun",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }, {
     "part": "shield",
     "mark": 4,
@@ -6873,7 +6946,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 376,
     "ma": 138,
@@ -6920,7 +6993,7 @@
       "name": "With Speed attribute (self), EX Skill Piercing boosted 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 138,
@@ -6976,7 +7049,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 509,
     "ma": 137,
@@ -7023,7 +7096,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -7063,7 +7136,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 287,
@@ -7112,7 +7185,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 372,
     "ma": 137,
@@ -7152,7 +7225,7 @@
       "category": "Recovery"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 591,
     "ma": 187,
@@ -7201,7 +7274,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 365,
     "ma": 187,
@@ -7241,7 +7314,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 186,
@@ -7290,7 +7363,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 363,
     "ma": 186,
@@ -7320,7 +7393,8 @@
       "name": "10% chance of attacks penetrating super armor"
     },
     "name": "GN Beam Saber [GN-X]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 3,
@@ -7339,7 +7413,8 @@
       "category": "Beam Shot"
     },
     "name": "GN Beam Rifle [GN-X / Long Barrel]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }, {
     "part": "range",
     "mark": 3,
@@ -7358,7 +7433,8 @@
       "category": "Beam Shot"
     },
     "name": "GN Beam Rifle [GN-X]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 3,
@@ -7401,7 +7477,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 942,
     "ma": 187,
@@ -7450,7 +7526,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 570,
     "ma": 187,
@@ -7482,7 +7558,8 @@
       "category": "Debuff"
     },
     "name": "GN Beam Saber [GN-XIII]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 3,
@@ -7501,7 +7578,8 @@
       "category": "Physical Melee"
     },
     "name": "GN Lance",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Lance"
   }, {
     "part": "range",
     "mark": 3,
@@ -7518,7 +7596,8 @@
       "name": "When attacking with Beam, Sp. Shot DMG Output boosted 15 "
     },
     "name": "GN Bazooka [GN-XIII]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Bazooka"
   }, {
     "part": "range",
     "mark": 3,
@@ -7537,7 +7616,8 @@
       "category": "Beam Shot"
     },
     "name": "GN Beam Rifle [GN-XII/Long Barrel]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }, {
     "part": "range",
     "mark": 3,
@@ -7554,7 +7634,8 @@
       "name": "In-Fighter Job, Shooting DMG taken reduced 15"
     },
     "name": "GN Beam Rifle [GN-XIII]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 3,
@@ -7571,7 +7652,8 @@
       "name": "With Speed attribute (self), Strong Melee DMG taken reduced 15"
     },
     "name": "GN Lance [Rifle Mode]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 3,
@@ -7614,7 +7696,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -7661,7 +7743,7 @@
       "name": "With \"GM Type\" enemy, Shooting DMG taken reduced 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -7691,7 +7773,8 @@
       "name": "With \"GM Type\" enemy, Strong Melee DMG Output boosted 10"
     },
     "name": "Heat Saber [Gouf]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "shield",
     "mark": 4,
@@ -7732,7 +7815,7 @@
       "name": "When Armor < 60%, Recover 10 Armor gradually"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -7779,7 +7862,7 @@
       "name": "In-Fighter Job, Close Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -7809,7 +7892,8 @@
       "name": "With Power attribute (self), Job Gauge Increase boosted 13%"
     },
     "name": "Heat Rod [Gouf Custom]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Whip"
   }, {
     "part": "melee",
     "mark": 2,
@@ -7826,7 +7910,8 @@
       "name": "When attacking with Physical, Strong Melee Power boosted 20%"
     },
     "name": "Heat Sword [Gouf Custom]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -7844,7 +7929,8 @@
     },
     "combo": "shield",
     "name": "Gatling Shield",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Gatling Gun"
   }]
 }, {
   "name": "Graze [Ground/Standard]",
@@ -7867,7 +7953,7 @@
       "name": "With Technique attribute (self), Shooting power boosted 18%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 509,
     "ma": 137,
@@ -7929,7 +8015,8 @@
       "category": "Physical Melee"
     },
     "name": "Battle Axe [Graze]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 4,
@@ -7946,7 +8033,8 @@
       "name": "When CPWR is under 200000, EX Skill power boosted 25%"
     },
     "name": "Rifle [Long Barrel/Graze]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }, {
     "part": "range",
     "mark": 4,
@@ -7963,7 +8051,8 @@
       "name": "When Phy. RES is under 4000, Enemy Shooting power reduced 25%"
     },
     "name": "Rifle [Short Barrel/Graze]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Guncannon",
@@ -7988,7 +8077,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -8037,7 +8126,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 373,
     "ma": 137,
@@ -8069,7 +8158,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Rifle [Guncannon]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Gundam",
@@ -8094,7 +8184,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 383,
@@ -8139,7 +8229,7 @@
       "name": "With Technique attribute (self), Mid Shot Attack raised 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 383,
@@ -8173,7 +8263,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Javelin",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Lance"
   }, {
     "part": "melee",
     "mark": 1,
@@ -8190,7 +8281,8 @@
       "name": "Melee CRIT rate boosted 30%"
     },
     "name": "Beam Saber [Gundam]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -8209,7 +8301,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Rifle [Gundam]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -8226,7 +8319,8 @@
       "name": "With Technique attribute (self), Shooting DMG output boosted 35"
     },
     "name": "Hyper Bazooka",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 1,
@@ -8267,7 +8361,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 757,
     "ma": 187,
@@ -8312,7 +8406,7 @@
       "name": "With Power attribute (self), Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -8342,7 +8436,8 @@
       "name": "Job Gauge Increase boosted 13%"
     },
     "name": "Beam Javelin [Pre-Registration Reward]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Lance"
   }, {
     "part": "melee",
     "mark": 3,
@@ -8359,7 +8454,8 @@
       "name": "Job Gauge Increase boosted 13%"
     },
     "name": "Beam Saber [Gundam / Pre-Registration Reward]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 3,
@@ -8376,7 +8472,8 @@
       "name": "Enemy Shooting Power reduced 25%"
     },
     "name": "Beam Rifle [Gundam / Pre-Registration Reward]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 3,
@@ -8393,7 +8490,8 @@
       "name": "With Power attribute (self), Job Gauge Increase boosted 13%"
     },
     "name": "Hyper Bazooka [Gundam / Pre-Registration Reward]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 3,
@@ -8434,7 +8532,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 559,
     "ma": 294,
@@ -8481,7 +8579,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 294,
     "ma": 294,
@@ -8511,7 +8609,8 @@
       "name": "With Power attribute (self), Initial EX Skill Charge boosted 12%"
     },
     "name": "DODS Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -8552,7 +8651,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1145,
     "ma": 292,
@@ -8601,7 +8700,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 292,
@@ -8637,7 +8736,7 @@
       "name": "With Technique attribute (self), Shooting DMG taken reduced 20"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 561,
@@ -8684,7 +8783,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 561,
     "ma": 294,
@@ -8714,7 +8813,8 @@
       "name": "While \"Transformer\", Initial EX Skill Charge boosted 12%"
     },
     "name": "Hyper DODS Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -8755,7 +8855,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 383,
@@ -8805,7 +8905,7 @@
       "name": "11% chance to not recoil"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 383,
@@ -8835,7 +8935,8 @@
       "name": "Melee DMG Output boosted 15"
     },
     "name": "Arondight [Artemis]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -8852,7 +8953,8 @@
       "name": "Shooting DMG Output boosted 15"
     },
     "name": "Beam Rifle [Artemis]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Gundam Artemis [Satellite Cannon]",
@@ -8860,7 +8962,7 @@
   "rarity": 2,
   "sokai": 0,
   "parts": [{
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -8898,7 +9000,7 @@
       "name": "Physical ranged weapon, reload speed boosted 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1185,
     "ma": 800,
@@ -8948,7 +9050,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 800,
     "ma": 385,
@@ -8980,7 +9082,8 @@
       "name": "With Power attribute (self), Strong Melee CRIT Rate boosted 30%"
     },
     "name": "Demolition Knife",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -8997,7 +9100,8 @@
       "name": "When Attacking with Physical, Sp. Shot CRIT Rate boosted 30%"
     },
     "name": "Anti-Material Rifle",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -9014,7 +9118,8 @@
       "name": "With Blade Category equipped, Shooting DMG taken reduced 35"
     },
     "name": "Rifle [Astaroth]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Rifle"
   }]
 }, {
   "name": "Gundam Bael",
@@ -9039,7 +9144,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -9086,7 +9191,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -9118,7 +9223,8 @@
       "name": "With Technique attribute (self), EX Skill power boosted 30%"
     },
     "name": "Bael Sword",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }]
 }, {
   "name": "Gundam Barbatos [4th Form]",
@@ -9141,7 +9247,7 @@
       "name": "With Power attribute (self), Close Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1182,
     "ma": 799,
@@ -9190,7 +9296,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 779,
     "ma": 384,
@@ -9220,7 +9326,8 @@
       "name": "In-Fighter Job, Melee CRIT Rate boosted 30%"
     },
     "name": "Long Sword [Barbatos]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 1,
@@ -9239,7 +9346,8 @@
       "category": "Physical Melee"
     },
     "name": "Mace",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Lance"
   }, {
     "part": "range",
     "mark": 1,
@@ -9256,7 +9364,8 @@
       "name": "With Power attribute (self), Close Shot Attack raised 20%"
     },
     "name": "Smoothbore Cannon",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Gundam Barbatos [6th Form]",
@@ -9279,7 +9388,7 @@
       "name": "With Blade Category equipped, EX Skill DMG Output boosted 35"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -9326,7 +9435,7 @@
       "name": "Defender Job, EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -9360,7 +9469,8 @@
       "category": "Physical Melee"
     },
     "name": "Wrench Mace",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Blade"
   }]
 }, {
   "name": "Gundam Barbatos Lupus",
@@ -9385,7 +9495,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 553,
@@ -9432,7 +9542,7 @@
       "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 966,
     "ma": 553,
@@ -9466,7 +9576,8 @@
       "category": "Physical Melee"
     },
     "name": "Sword Mace",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "melee",
     "mark": 1,
@@ -9483,7 +9594,8 @@
       "name": "15% chance of attacks penetrating super armor"
     },
     "name": "Twin Maces",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }]
 }, {
   "name": "Gundam Deathscythe",
@@ -9508,7 +9620,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 382,
@@ -9555,7 +9667,7 @@
       "name": "With Axe Category equipped, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 382,
@@ -9589,7 +9701,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Scythe",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }, {
     "part": "shield",
     "mark": 1,
@@ -9632,7 +9745,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1976,
     "ma": 796,
@@ -9681,7 +9794,7 @@
       "name": "With Axe Category equipped, Melee CRIT Rate boosted 30%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1180,
     "ma": 383,
@@ -9713,7 +9826,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Scissors",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }]
 }, {
   "name": "Gundam Double X",
@@ -9736,7 +9850,7 @@
       "name": "While \"High Firepower\", EX Skill power boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 789,
@@ -9785,7 +9899,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 789,
@@ -9817,7 +9931,8 @@
       "name": "With Speed attribute (self), Job Gauge increase boosted 17%"
     },
     "name": "Hyper Beam Sword",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "melee",
     "mark": 1,
@@ -9834,7 +9949,8 @@
       "name": "While \"Gundam Type\", Initial EX Skill charge boosted 20%"
     },
     "name": "Beam Javelin [DX]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Lance"
   }, {
     "part": "melee",
     "mark": 1,
@@ -9851,7 +9967,8 @@
       "name": "When Armor is 60% or more, Strong Melee CRIT rate boosted 30%"
     },
     "name": "G-Hammer [DX]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Whip"
   }, {
     "part": "range",
     "mark": 1,
@@ -9868,7 +9985,8 @@
       "name": "When attacking with Beam, Shooting DMG output boosted by 35"
     },
     "name": "DX Buster Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -9909,7 +10027,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -9956,7 +10074,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -9988,7 +10106,8 @@
       "name": "Beam ranged weapon reload speed boosted 20%"
     },
     "name": "GN Sniper Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Gundam Exia",
@@ -10013,7 +10132,7 @@
       "category": "Recovery"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -10062,7 +10181,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -10094,7 +10213,8 @@
       "name": "With Speed attribute (self), Initial EX Skill Charge boosted 20%"
     },
     "name": "GN Sword",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -10111,7 +10231,8 @@
       "name": "When Armor > 40%, Enemy Strong Melee Power Reduced 30%"
     },
     "name": "GN Sword Rifle Mode",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -10150,7 +10271,7 @@
       "name": "When Armor > 40%, EX Skill Piercing boosted 22%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1455,
     "ma": 388,
@@ -10197,7 +10318,7 @@
       "name": "When Armor > 40%, Melee CRIT Rate boosted 25%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 649,
     "ma": 388,
@@ -10237,7 +10358,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 383,
@@ -10285,7 +10406,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 383,
@@ -10317,7 +10438,8 @@
       "name": "With Rifle Category equipped, Melee DMG Output boosted 35"
     },
     "name": "Beam Saber [F91]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -10334,7 +10456,8 @@
       "name": "With Saber Category equipped, EX Skill Power boosted 30%"
     },
     "name": "Beam Launcher [F91]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Bazooka"
   }, {
     "part": "range",
     "mark": 1,
@@ -10351,7 +10474,8 @@
       "name": "With Saber Category equipped, Initial EX Skill Charge boosted 20%"
     },
     "name": "Beam Rifle [F91]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Gundam GP01 [Zephyranthes]",
@@ -10376,7 +10500,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2382,
     "ma": 384,
@@ -10423,7 +10547,7 @@
       "name": "Defender Job, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -10455,7 +10579,8 @@
       "name": "With Technique attribute (self), Enemy Shooting Power reduced 30%"
     },
     "name": "Beam Rifle [GP01]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -10498,7 +10623,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1454,
     "ma": 388,
@@ -10545,7 +10670,7 @@
       "name": "While \"High Firepower\", Sp. Shot Power boosted 25%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 648,
     "ma": 388,
@@ -10585,7 +10710,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 382,
@@ -10632,7 +10757,7 @@
       "name": "With Power attribute (self), EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 382,
@@ -10672,7 +10797,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2382,
     "ma": 384,
@@ -10719,7 +10844,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -10751,7 +10876,8 @@
       "category": "Physical Shot"
     },
     "name": "Atomic Bazooka",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 1,
@@ -10790,7 +10916,7 @@
       "name": "With Technique attribute (self), EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1976,
     "ma": 796,
@@ -10837,7 +10963,7 @@
       "name": "With Technique attribute (self), Shooting CRIT Rate boosted 30%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1180,
     "ma": 383,
@@ -10871,7 +10997,8 @@
       "category": "Physical Shot"
     },
     "name": "Folding Bazooka",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 1,
@@ -10912,7 +11039,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1702,
     "ma": 292,
@@ -10963,7 +11090,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -10997,7 +11124,8 @@
       "category": "Physical Melee"
     },
     "name": "Gusion Hammer",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 2,
@@ -11014,7 +11142,8 @@
       "name": "Defender Job, Enemy Shooting Power reduced 25%"
     },
     "name": "Submachine Gun",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Gundam Gusion Rebake",
@@ -11037,7 +11166,7 @@
       "name": "Physical ranged weapon, magazine boosted 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1601,
     "ma": 384,
@@ -11084,7 +11213,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 795,
     "ma": 384,
@@ -11116,7 +11245,8 @@
       "name": "Defender Job, Job Gauge Increase boosted 17%"
     },
     "name": "Halberd",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 1,
@@ -11133,7 +11263,8 @@
       "name": "When Armor > 40%, Shooting DMG taken reduced 35"
     },
     "name": "120mm Long-Range Rifle",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -11174,7 +11305,7 @@
       "name": "Beam ranged weapon magazine boosted 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1435,
     "ma": 292,
@@ -11223,7 +11354,7 @@
       "name": "With Technique attribute (self), Long Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -11256,7 +11387,8 @@
     },
     "combo": "shield",
     "name": "Beam Gatling Gun [with Shield]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Gatling Gun"
   }]
 }, {
   "name": "Gundam Kyrios",
@@ -11279,7 +11411,7 @@
       "name": "With Machine Gun Category equipped, Enemy Shooting Power reduced 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 561,
@@ -11326,7 +11458,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 561,
     "ma": 294,
@@ -11358,7 +11490,8 @@
       "name": "Beam ranged weapon reload speed boosted 15%"
     },
     "name": "GN Beam Submachine Gun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }, {
     "part": "shield",
     "mark": 2,
@@ -11399,7 +11532,7 @@
       "name": "With Rifle Category equipped, Projectile Speed boosted 15%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1977,
     "ma": 384,
@@ -11448,7 +11581,7 @@
       "name": "With Saber Category equipped, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -11480,7 +11613,8 @@
       "name": "With Technique attribute (self), Initial EX Skill Charge boosted 20%"
     },
     "name": "Legilis Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -11521,7 +11655,7 @@
       "name": "Out Fighter Job, EX Skill piercing boosted 22%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -11572,7 +11706,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -11610,7 +11744,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 573,
     "ma": 365,
@@ -11657,7 +11791,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 365,
     "ma": 188,
@@ -11691,7 +11825,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Saber [Mk-II]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 3,
@@ -11708,7 +11843,8 @@
       "name": "Long-Shooter Job, Sp. Shot CRIT Rate boosted 14%"
     },
     "name": "Beam Rifle [Mk-II]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 3,
@@ -11727,7 +11863,8 @@
       "category": "Physical Shot"
     },
     "name": "Hyper Bazooka [Mk-II]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 3,
@@ -11770,7 +11907,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 570,
     "ma": 365,
@@ -11817,7 +11954,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -11873,7 +12010,7 @@
       "name": "Middle-Shooter Job, Shooting CRIT Rate boosted 17%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -11920,7 +12057,7 @@
       "name": "When Armor > 40%, Shot Spread reduced 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -11950,7 +12087,8 @@
       "name": "With Speed attribute (self), Enemy Melee Power reduced 25%"
     },
     "name": "GN Beam Saber [Nadleeh]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -11967,7 +12105,8 @@
       "name": "Middle-Shooter Job, Shooting DMG Output boosted 20"
     },
     "name": "GN Beam Rifle [Nadleeh]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -12008,7 +12147,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1976,
     "ma": 796,
@@ -12057,7 +12196,7 @@
       "name": "When Armor > 40%, Melee DMG taken reduced 35"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1180,
     "ma": 383,
@@ -12091,7 +12230,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Rifle [NT-1]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -12134,7 +12274,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1435,
     "ma": 292,
@@ -12181,7 +12321,7 @@
       "name": "With Technique attribute (self), Enemy Melee Power reduced 25%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -12217,7 +12357,7 @@
       "name": "With Power attribute (self), Long Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 891,
     "ma": 559,
@@ -12269,7 +12409,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 292,
@@ -12299,7 +12439,8 @@
       "name": "Job Gauge Increase boosted 13%"
     },
     "name": "Chevalier Saber",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }]
 }, {
   "name": "Gundam Rose [ALT]",
@@ -12324,7 +12465,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 891,
     "ma": 559,
@@ -12374,7 +12515,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 292,
@@ -12404,7 +12545,8 @@
       "name": "Job Gauge Increase boosted 13%"
     },
     "name": "Chevalier Saber [ALT]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }]
 }, {
   "name": "Gundam Sandrock [Promotional Code]",
@@ -12427,7 +12569,7 @@
       "name": "While \"Defender\", EX Skill Piercing Boosted 6%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 942,
     "ma": 187,
@@ -12474,7 +12616,7 @@
       "name": "With Machine Gun Category equipped, Enemy Strong Melee Power Reduced 2%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 570,
     "ma": 187,
@@ -12506,7 +12648,8 @@
       "name": "With Speed attribute (self), Sp. Shot DMG taken reduced 3"
     },
     "name": "Beam Machine Gun [Promotional Code]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }, {
     "part": "shield",
     "mark": 2,
@@ -12545,7 +12688,7 @@
       "name": "With Speed attribute (self), Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1433,
     "ma": 291,
@@ -12593,7 +12736,7 @@
       "name": "Supporter Job, EX Skill CD reduced 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -12625,7 +12768,8 @@
       "name": "Supporter Job, Melee DMG Output boosted 20"
     },
     "name": "GN Beam Saber [Throne Drei]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }]
 }, {
   "name": "Gundam TR-1 [Advanced Hazel w/ Optical Sensor Unit]",
@@ -12648,7 +12792,7 @@
       "name": "With Technique attribute (self), Shot Spread reduced 15%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1702,
     "ma": 292,
@@ -12697,7 +12841,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -12729,7 +12873,8 @@
       "name": "Middle-Shooter Job, Sp. Shot DMG Output boosted 20"
     },
     "name": "Beam Rifle [Gundam TR-1 Advanced Hazel]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -12788,7 +12933,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1605,
     "ma": 797,
@@ -12839,7 +12984,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 797,
     "ma": 797,
@@ -12871,7 +13016,8 @@
       "name": "While \"Transformer\", Initial EX Skill charge boosted 20%"
     },
     "name": "Hyper Minovsky Chohouken",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "melee",
     "mark": 1,
@@ -12888,7 +13034,8 @@
       "name": "With Power attribute (self), Strong Melee CRIT rate boosted 30%"
     },
     "name": "Hyper Beam Saber [Tryon 3]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }]
 }, {
   "name": "Gundam Vidar",
@@ -12913,7 +13060,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 965,
@@ -12960,7 +13107,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 965,
@@ -12990,7 +13137,8 @@
       "name": "With Speed attribute (self), Job Gauge increase boosted 17%"
     },
     "name": "Burst Saber",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -13007,7 +13155,8 @@
       "name": "When Armor is 80% or less, Enemy Strong Melee power reduced 30%"
     },
     "name": "110mm Rifle",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Gundam Virsago",
@@ -13030,7 +13179,7 @@
       "name": "When Armor < 40%, Shooting CRIT Rate boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1977,
     "ma": 384,
@@ -13081,7 +13230,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -13111,7 +13260,8 @@
       "name": "Middle-Shooter Job, Melee DMG Output boosted 35"
     },
     "name": "Beam Saber [Virsago]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -13128,7 +13278,8 @@
       "name": "Middle-Shooter Job, Initial EX Skill Charge boosted 20%"
     },
     "name": "Strike Shooter",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Gundam Virsago [Beginner Campaign]",
@@ -13151,7 +13302,7 @@
       "name": "When Armor < 80%, EX Skill Power boosted 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1841,
     "ma": 388,
@@ -13202,7 +13353,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1036,
     "ma": 388,
@@ -13238,7 +13389,7 @@
       "name": "Long-Shooter Job, Shooting DMG taken reduced 20"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1144,
     "ma": 292,
@@ -13285,7 +13436,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 292,
@@ -13319,7 +13470,8 @@
       "category": "Beam Shot"
     },
     "name": "GN Bazooka [Virtue]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Gundam X",
@@ -13344,7 +13496,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -13389,7 +13541,7 @@
       "name": "20% chance to not recoil"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -13421,7 +13573,8 @@
       "name": "With Speed attribute (self), Melee DMG taken reduced 35"
     },
     "name": "Large Beam Sword",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -13438,7 +13591,8 @@
       "name": "With Speed attribute (self), Initial EX Skill Charge boosted 20%"
     },
     "name": "Shield Buster Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Gundam X Divider",
@@ -13463,7 +13617,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1978,
     "ma": 384,
@@ -13508,7 +13662,7 @@
       "name": "Out-Fighter Job, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -13540,7 +13694,8 @@
       "name": "Out-Fighter Job, Initial EX Skill Charge boosted 20%"
     },
     "name": "Beam Machine Gun [X Divider]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }, {
     "part": "shield",
     "mark": 1,
@@ -13583,7 +13738,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 509,
     "ma": 137,
@@ -13632,7 +13787,7 @@
       "name": "EX Skill Recovery boosted 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -13670,7 +13825,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 287,
@@ -13717,7 +13872,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 372,
     "ma": 137,
@@ -13747,7 +13902,8 @@
       "name": "In-Fighter Job, Melee DMG taken Reduced 10"
     },
     "name": "Beam Saber",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "shield",
     "mark": 4,
@@ -13790,7 +13946,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1732,
     "ma": 551,
@@ -13839,7 +13995,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 551,
@@ -13871,7 +14027,8 @@
       "name": "With Technique attribute (self), EX Skill Power boosted 30%"
     },
     "name": "Hyper Mega Rifle [Hi-nu HWS (Ver. Ka)]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -13912,7 +14069,7 @@
       "name": "With Bazooka Category equipped, EX Skill Power boosted 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -13959,7 +14116,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -13989,7 +14146,8 @@
       "name": "In-Fighter Job, Job Gauge Increase boosted 13%"
     },
     "name": "Rocket Launcher",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 2,
@@ -14013,7 +14171,7 @@
   "rarity": 2,
   "sokai": 0,
   "parts": [{
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 1088,
     "ma": 363,
@@ -14063,7 +14221,7 @@
       "name": "With \"Mass P.\" enemy, Close Shot Attack raised 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 363,
     "ma": 186,
@@ -14084,7 +14242,7 @@
   "rarity": 1,
   "sokai": 0,
   "parts": [{
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 1088,
     "ma": 363,
@@ -14136,7 +14294,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 363,
     "ma": 186,
@@ -14174,7 +14332,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 294,
@@ -14221,7 +14379,7 @@
       "name": "With Bazooka Category equipped, Shot Spread reduced 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 294,
@@ -14253,7 +14411,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Saber [Hyaku Shiki]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -14270,7 +14429,8 @@
       "name": "When attacking with Beam, EX Skill Power boosted 25%"
     },
     "name": "Beam Rifle [Hyaku Shiki]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 2,
@@ -14289,7 +14449,8 @@
       "category": "Physical Shot"
     },
     "name": "Clay Bazooka",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Jagd Doga [Quess Custom]",
@@ -14312,7 +14473,7 @@
       "name": "When Armor > 60%, Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 893,
     "ma": 294,
@@ -14361,7 +14522,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 559,
     "ma": 294,
@@ -14391,7 +14552,8 @@
       "name": "When Attacking with Beam, Melee DMG Output boosted 20"
     },
     "name": "Beam Saber with Heat Knife",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 2,
@@ -14410,7 +14572,8 @@
       "category": "Beam Shot"
     },
     "name": "Mega Gatling Gun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Gatling Gun"
   }, {
     "part": "shield",
     "mark": 2,
@@ -14453,7 +14616,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 1090,
     "ma": 187,
@@ -14500,7 +14663,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 570,
     "ma": 187,
@@ -14556,7 +14719,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 186,
@@ -14603,7 +14766,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 186,
@@ -14635,7 +14798,8 @@
       "name": "With Technique attribute (self), Sp. Shot CRIT Rate boosted 14%"
     },
     "name": "Beam Rifle [Jesta]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Jesta Cannon",
@@ -14658,7 +14822,7 @@
       "name": "When Armor > 70%, Close Shot Attacked raised 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -14705,7 +14869,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -14737,7 +14901,8 @@
       "name": "With Machine Gun Category equipped, Sp. Shot DMG Output boosted 15"
     },
     "name": "Beam Rifle [Jesta Cannon]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Jesta Cannon [ALT]",
@@ -14760,7 +14925,7 @@
       "name": "When Armor > 70%, Close Shot Attack raised 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -14807,7 +14972,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -14839,7 +15004,8 @@
       "name": "With Machine Gun Category equipped, Sp. Shot DMG Output boosted 15"
     },
     "name": "Beam Rifle [ALT] [Jesta Cannon]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Juaggu [Unicorn Ver.]",
@@ -14862,7 +15028,7 @@
       "name": "When Armor > 90%, Projectile Speed boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -14913,7 +15079,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 372,
     "ma": 137,
@@ -14951,7 +15117,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 553,
@@ -15000,7 +15166,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 996,
     "ma": 553,
@@ -15054,7 +15220,7 @@
       "name": "With Technique attribute (self), Enemy Shooting Power reduced 25%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -15103,7 +15269,7 @@
       "name": "With Whip Category equipped, Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -15135,7 +15301,8 @@
       "name": "Out-Fighter Job, Strong Melee CRIT Rate boosted 17%"
     },
     "name": "Beam Ring",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Whip"
   }, {
     "part": "range",
     "mark": 2,
@@ -15154,7 +15321,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Shotgun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Kämpfer",
@@ -15179,7 +15347,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -15226,7 +15394,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -15264,7 +15432,7 @@
       "name": "With Power attribute (self), Shooting CRIT Rate boosted 17%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -15311,7 +15479,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -15349,7 +15517,7 @@
       "name": "With Power attribute (self), EX Skill Power boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2128,
     "ma": 964,
@@ -15396,7 +15564,7 @@
       "name": "While \"Gundam Type\", EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1352,
     "ma": 964,
@@ -15430,7 +15598,8 @@
       "category": "Beam Melee"
     },
     "name": "Knight Sword",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 1,
@@ -15449,7 +15618,8 @@
       "category": "Physical Melee"
     },
     "name": "Electrospear",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Lance"
   }, {
     "part": "shield",
     "mark": 1,
@@ -15488,7 +15658,7 @@
       "name": "When attacking with Beam, Long Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1732,
     "ma": 965,
@@ -15561,7 +15731,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -15608,7 +15778,7 @@
       "name": "Against a large enemy, EX Skill CD reduced 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -15646,7 +15816,7 @@
       "name": "With Machine Gun Category equipped, Sp. Shot Power Boosted 10"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -15709,7 +15879,8 @@
       "name": "With Power attribute (self), Sp. Shot CRIT Rate boosted 10%"
     },
     "name": "105mm Rifle",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Rifle"
   }]
 }, {
   "name": "Lightning Gundam",
@@ -15732,7 +15903,7 @@
       "name": "Long-Shooter Job, Long Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -15781,7 +15952,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -15815,7 +15986,8 @@
       "category": "Beam Shot"
     },
     "name": "Beam Rifle [Long Barrel]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -15832,7 +16004,8 @@
       "name": "With \"Long-Range\" enemy, EX Skill power boosted 30%"
     },
     "name": "Beam Rifle [Lightning]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -15871,7 +16044,7 @@
       "name": "Middle-Shooter Job, Shot spread reduced 15%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1702,
     "ma": 292,
@@ -15920,7 +16093,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -15958,7 +16131,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -16003,7 +16176,7 @@
       "name": "When Armor > 40%, EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -16035,7 +16208,8 @@
       "name": "With Power attribute (self), Initial EX Skill Charge boosted 20%"
     },
     "name": "HEAT REV SWORD",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Dual Sabers"
   }, {
     "part": "melee",
     "mark": 1,
@@ -16054,7 +16228,8 @@
       "category": "Physical Melee"
     },
     "name": "SLASH BLADE",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Blade"
   }]
 }, {
   "name": "Master Gundam",
@@ -16079,7 +16254,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -16128,7 +16303,7 @@
       "name": "With Power attribute (self), EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -16160,7 +16335,8 @@
       "name": "In-Fighter Job, Strong Melee CRIT Rate boosted 30%"
     },
     "name": "Master Cloth",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Whip"
   }]
 }, {
   "name": "Mobile Kapool",
@@ -16168,7 +16344,7 @@
   "rarity": 1,
   "sokai": 0,
   "parts": [{
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 797,
     "ma": 287,
@@ -16243,7 +16419,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1144,
     "ma": 558,
@@ -16292,7 +16468,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 558,
@@ -16324,7 +16500,8 @@
       "category": "Beam Melee"
     },
     "name": "Heat Fan",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 2,
@@ -16341,7 +16518,8 @@
       "name": "When Armor > 60%, Shooting DMG Output boosted 20"
     },
     "name": "Hand Beam Gun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Mobile Worker",
@@ -16364,7 +16542,7 @@
       "name": "With Axe Category equipped, EX Skill DMG Output boosted 10"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 798,
     "ma": 138,
@@ -16413,7 +16591,7 @@
       "name": "In-Fighter Job, EX Skill Piercing boosted 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 374,
     "ma": 138,
@@ -16465,7 +16643,7 @@
       "name": "With Technique attribute (self), Enemy Shooting Power reduced 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1605,
     "ma": 797,
@@ -16512,7 +16690,7 @@
       "name": "When Armor < 70%, EX SKill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 797,
     "ma": 797,
@@ -16544,7 +16722,8 @@
       "name": "With Technique attribute (self), Enemy Melee Power reduced 30%"
     },
     "name": "Beam Tomahawk [Moon]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 1,
@@ -16561,7 +16740,8 @@
       "name": "When Armor < 70%, EX Skill Power boosted 30%"
     },
     "name": "Beam Rifle [Moon]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Noble Gundam",
@@ -16586,7 +16766,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -16654,7 +16834,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Ribbon",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Whip"
   }]
 }, {
   "name": "Nu Gundam [Ver. Ka]",
@@ -16677,7 +16858,7 @@
       "name": "When attacking with Beam, EX Skill Power boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 553,
@@ -16724,7 +16905,7 @@
       "name": "When Armor > 40%, EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 966,
     "ma": 553,
@@ -16756,7 +16937,8 @@
       "name": "With Speed attribute (self), Strong Melee Power boosted 30%"
     },
     "name": "Beam Saber [Nu Ver.Ka]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -16773,7 +16955,8 @@
       "name": "When Armor > 40%, Enemy Strong Melee Power Reduced 30%"
     },
     "name": "Beam Rifle [Nu Ver.Ka]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -16792,7 +16975,8 @@
       "category": "Physical Shot"
     },
     "name": "New Hyper Bazooka [Nu Ver.Ka]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 1,
@@ -16833,7 +17017,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 942,
     "ma": 187,
@@ -16882,7 +17066,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 570,
     "ma": 187,
@@ -16940,7 +17124,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 942,
     "ma": 187,
@@ -16987,7 +17171,7 @@
       "name": "When attacking with Beam, Shooting CRIT Rate boosted 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 570,
     "ma": 187,
@@ -17041,7 +17225,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1185,
     "ma": 800,
@@ -17088,7 +17272,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 800,
     "ma": 385,
@@ -17146,7 +17330,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1043,
     "ma": 653,
@@ -17193,7 +17377,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 741,
     "ma": 390,
@@ -17231,7 +17415,7 @@
       "name": "With Rifle Category equipped, Enemy Shooting Power reduced 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1732,
     "ma": 551,
@@ -17280,7 +17464,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 551,
@@ -17318,7 +17502,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1977,
     "ma": 384,
@@ -17366,7 +17550,7 @@
       "name": "With Technique attribute (self), Long Shot Attack raised 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -17398,7 +17582,8 @@
       "name": "With Technique attribute (self), Sp. Shot Power boosted 30%"
     },
     "name": "Judicium Beam Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Qubeley",
@@ -17423,7 +17608,7 @@
       "category": "Recovery"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1358,
     "ma": 553,
@@ -17470,7 +17655,7 @@
       "name": "Middle-Shooter Job, Mid Shot Attack raised 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 968,
     "ma": 553,
@@ -17508,7 +17693,7 @@
       "name": "With Technique attribute (self), Projectile Speed boosted 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -17559,7 +17744,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -17589,7 +17774,8 @@
       "name": "While \"Commander\", Initial EX Skill Charge boosted 12%"
     },
     "name": "Beam Rifle [Rebawoo]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 2,
@@ -17632,7 +17818,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 365,
     "ma": 187,
@@ -17677,7 +17863,7 @@
       "name": "When Armor > 70%, Melee CRIT Rate boosted 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 187,
     "ma": 187,
@@ -17717,7 +17903,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 365,
     "ma": 187,
@@ -17764,7 +17950,7 @@
       "name": "When Armor > 70%, Melee CRIT Rate boosted 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 187,
     "ma": 187,
@@ -17804,7 +17990,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -17851,7 +18037,7 @@
       "name": "Shooting CRIT Rate boosted 17%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -17889,7 +18075,7 @@
       "name": "Out-Fighter Job, Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1433,
     "ma": 558,
@@ -17936,7 +18122,7 @@
       "name": "When Armor < 40%, Shooting CRIT Rate boosted 17%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 889,
     "ma": 291,
@@ -17994,7 +18180,7 @@
       "category": "Awakening"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -18039,7 +18225,7 @@
       "name": "When Armor is 70% or less, EX Skill CD reduced 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -18071,7 +18257,8 @@
       "category": "Physical Melee"
     },
     "name": "Battle Axe [Ryusei-Go]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 2,
@@ -18088,7 +18275,8 @@
       "name": "Physical ranged weapon, reload speed boosted 15%"
     },
     "name": "120mm Rifle [Ryusei-Go]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Sanakapool",
@@ -18096,7 +18284,7 @@
   "rarity": 3,
   "sokai": 0,
   "parts": [{
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2778,
     "ma": 795,
@@ -18167,7 +18355,7 @@
       "name": "Out-Fighter Job, Enemy Shooting Power reduced 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 553,
@@ -18214,7 +18402,7 @@
       "name": "With Technique attribute (self), EX Skill CD reduced 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 966,
     "ma": 553,
@@ -18248,7 +18436,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Tomahawk [Sazabi]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Axe"
   }, {
     "part": "melee",
     "mark": 1,
@@ -18265,7 +18454,8 @@
       "name": "With Technique attribute (self), EX Skill Power boosted 30%"
     },
     "name": "Beam Saber [Sazabi]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -18282,7 +18472,8 @@
       "name": "With Technique attribute (self), Sp. Shot CRIT Rate boosted 30%"
     },
     "name": "Beam Shot Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -18323,7 +18514,7 @@
       "name": "In-Fighter Job, EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1976,
     "ma": 796,
@@ -18370,7 +18561,7 @@
       "name": "With Module Category equipped, EX Skill Piercing boosted 28%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1180,
     "ma": 383,
@@ -18424,7 +18615,7 @@
       "name": "When Armor > 90%, Projectile Speed boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -18473,7 +18664,7 @@
       "name": "Long-Shooter Job, Sp. Shot power boosted 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -18505,7 +18696,8 @@
       "name": "With \"Gundam Type\" enemy, Sp. Shot DMG taken reduced 10"
     },
     "name": "Bazooka [Serpent]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "range",
     "mark": 4,
@@ -18522,7 +18714,8 @@
       "name": "Long-Shooter Job, Shooting DMG Output boosted 10"
     },
     "name": "Beam Cannon [Serpent]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Serpent Custom [ALT]",
@@ -18545,7 +18738,7 @@
       "name": "Physical ranged weapon, magazine boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -18594,7 +18787,7 @@
       "name": "Long-Shooter Job, Sp. Shot power boosted 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -18626,7 +18819,8 @@
       "name": "With \"Gundam Type\" enemy, Sp. Shot DMG taken reduced 10"
     },
     "name": "Bazooka [ALT] [Serpent]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "range",
     "mark": 4,
@@ -18643,7 +18837,8 @@
       "name": "Long-Shooter Job, Shooting DMG Output boosted 10"
     },
     "name": "Beam Cannon [ALT] [Serpent]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Serpent Custom [Double Gatling Gun]",
@@ -18666,7 +18861,7 @@
       "name": "Beam ranged weapon magazine boosted 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -18713,7 +18908,7 @@
       "name": "With Power attribute (self), Sp. Shot Power boosted 10%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -18751,7 +18946,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2382,
     "ma": 384,
@@ -18798,7 +18993,7 @@
       "name": "With Technique attribute (self), 20% chance to not recoil"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1181,
     "ma": 384,
@@ -18832,7 +19027,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Glaive",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Lance"
   }, {
     "part": "shield",
     "mark": 1,
@@ -18873,7 +19069,7 @@
       "name": "In-Fighter Job, Projectile Speed boosted 15%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1976,
     "ma": 796,
@@ -18924,7 +19120,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1180,
     "ma": 383,
@@ -18960,7 +19156,7 @@
       "name": "With Speed attribute (self), Shot Guidance boosted 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -19006,7 +19202,7 @@
       "name": "With Speed attribute (self), EX Skill DMG taken reduced 25"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -19046,7 +19242,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 376,
     "ma": 138,
@@ -19095,7 +19291,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 138,
@@ -19125,7 +19321,8 @@
       "name": "Long-Shooter Job, Shooting DMG Output boosted 10"
     },
     "name": "Beam Rifle [Stark Jegan]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 4,
@@ -19142,7 +19339,8 @@
       "name": "Middle-Shooter Job, Shooting DMG Output boosted 10"
     },
     "name": "Hyper Bazooka [Stark Jegan]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Stark Jegan [ALT]",
@@ -19167,7 +19365,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 376,
     "ma": 138,
@@ -19216,7 +19414,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 138,
@@ -19246,7 +19444,8 @@
       "name": "Middle-Shooter Job, CRIT Rate boosted 10%"
     },
     "name": "Beam Rifle [ALT] [Stark Jegan]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 4,
@@ -19263,7 +19462,8 @@
       "name": "Middle-Shooter Job, Shooting DMG Output boosted 10"
     },
     "name": "Hyper Bazooka [ALT] [Stark Jegan]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Strike Noir",
@@ -19288,7 +19488,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -19335,7 +19535,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -19367,7 +19567,8 @@
       "name": "12% chance of attacks penetrating super armor"
     },
     "name": "Fragarach 3-Beam Blade",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Dual Sabers"
   }]
 }, {
   "name": "Strike Rouge [IWSP]",
@@ -19392,7 +19593,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -19439,7 +19640,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -19471,7 +19672,8 @@
       "name": "With Speed attribute (self), Melee DMG Output boosted 20"
     },
     "name": "9.1m Experimental Anti-Ship Sword",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }, {
     "part": "range",
     "mark": 2,
@@ -19491,7 +19693,8 @@
     },
     "combo": "shield",
     "name": "Combine Shield",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Gatling Gun"
   }, {
     "part": "shield",
     "mark": 2,
@@ -19532,7 +19735,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -19581,7 +19784,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -19611,7 +19814,8 @@
       "name": "In-Fighter Job, Initial EX Skill Charge boosted 12%"
     },
     "name": "Shiranui/Unryu",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Dual Sabers"
   }]
 }, {
   "name": "Sword Strike Gundam",
@@ -19636,7 +19840,7 @@
       "category": "Debuff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1144,
     "ma": 558,
@@ -19684,7 +19888,7 @@
       "name": "Against a large enemy, Melee CRIT Rate boosted 17%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 558,
@@ -19718,7 +19922,8 @@
       "category": "Beam Melee"
     },
     "name": "Schwert Gewehr",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }]
 }, {
   "name": "Tallgeese [Endless Waltz Ver. / Beginner Campaign]",
@@ -19741,7 +19946,7 @@
       "name": "With Power attribute (self), Shooting CRIT Rate boosted 17%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1457,
     "ma": 650,
@@ -19789,7 +19994,7 @@
       "name": "With Saber Category equipped, 13% chance to not recoil"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 650,
     "ma": 807,
@@ -19825,7 +20030,7 @@
       "name": "When Armor > 40%, EX Skill DMG Output boosted 35"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 799,
@@ -19873,7 +20078,7 @@
       "name": "In-Fighter Job, EX Skill DMG taken reduced 35"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 799,
@@ -19903,7 +20108,8 @@
       "name": "Beam ranged weapon magazine boosted 20%"
     },
     "name": "Dober Gun",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Tallgeese II",
@@ -19928,7 +20134,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1142,
     "ma": 291,
@@ -19976,7 +20182,7 @@
       "name": "With \"For Space\" enemy, Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -20012,7 +20218,7 @@
       "name": "With Technique attribute (self), Close Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 2128,
     "ma": 964,
@@ -20059,7 +20265,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 1352,
     "ma": 964,
@@ -20091,7 +20297,8 @@
       "name": "Beam ranged weapon reload speed boosted 20%"
     },
     "name": "Large Beam Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Tieren Taozi",
@@ -20114,7 +20321,7 @@
       "name": "While \"For Space\", Mid Shot Attack raised 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1702,
     "ma": 292,
@@ -20163,7 +20370,7 @@
       "name": "Middle-Shooter Job, Shot spread reduced 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 891,
     "ma": 292,
@@ -20215,7 +20422,7 @@
       "name": "With Technique attribute (self), Close Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1359,
     "ma": 969,
@@ -20279,7 +20486,8 @@
       "name": "Out-Fighter Job, Strong Melee CRIT Rate boosted 30%"
     },
     "name": "Beam Saber [Turn A]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Dual Sabers"
   }, {
     "part": "melee",
     "mark": 1,
@@ -20298,7 +20506,8 @@
       "category": "Physical Melee"
     },
     "name": "Gundam Hammer",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Whip"
   }, {
     "part": "range",
     "mark": 1,
@@ -20315,7 +20524,8 @@
       "name": "Out-Fighter Job, EX Skill Power boosted 30%"
     },
     "name": "Beam Rifle [Turn A]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -20354,7 +20564,7 @@
       "name": "With Power attribute (self), EX Skill Power boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 965,
@@ -20403,7 +20613,7 @@
       "name": "When Armor > 60%. Melee CRIT Rate boosted 30%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 965,
@@ -20455,7 +20665,8 @@
       "category": "Physical Melee"
     },
     "name": "Claw Module",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Module"
   }, {
     "part": "melee",
     "mark": 4,
@@ -20474,7 +20685,8 @@
       "category": "Physical Melee"
     },
     "name": "Fist Module",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Module"
   }, {
     "part": "melee",
     "mark": 4,
@@ -20491,7 +20703,8 @@
       "name": "While \"Mobile Fighter\", Melee power boosted 15%"
     },
     "name": "Martial Module",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Module"
   }]
 }, {
   "name": "Unicorn Gundam",
@@ -20516,7 +20729,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1734,
     "ma": 965,
@@ -20565,7 +20778,7 @@
       "name": "With Speed attribute (self), Sp. Shot Power boosted 30%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 965,
     "ma": 965,
@@ -20597,7 +20810,8 @@
       "name": "With Speed attribute (self), Initial EX Skill Charge boosted 20%"
     },
     "name": "Beam Saber [Unicorn]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -20614,7 +20828,8 @@
       "name": "When Armor > 40%, Sp. Shot Power boosted 30%"
     },
     "name": "Beam Magnum",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -20631,7 +20846,8 @@
       "name": "With Speed attribute (self), Enemy Shooting Power reduced 30%"
     },
     "name": "Hyper Bazooka [Unicorn]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "shield",
     "mark": 1,
@@ -20670,7 +20886,7 @@
       "name": "With Technique attribute (self), Shooting Power boosted 30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1184,
     "ma": 384,
@@ -20717,7 +20933,7 @@
       "name": "With Bazooka Category equipped, Projectile Speed boosted 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 779,
     "ma": 384,
@@ -20751,7 +20967,8 @@
       "category": "Beam Shot"
     },
     "name": "BIG BEAM BAZOOKA",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Victory Gundam",
@@ -20776,7 +20993,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1602,
     "ma": 384,
@@ -20824,7 +21041,7 @@
       "name": "With Rifle Category equipped, Close Shot Attack raised 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 796,
     "ma": 384,
@@ -20854,7 +21071,8 @@
       "name": "With Technique attribute (self), Strong Melee CRIT Rate boosted 30%"
     },
     "name": "Beam Saber [Victory]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -20871,7 +21089,8 @@
       "name": "Beam ranged weapon reload speed boosted 20%"
     },
     "name": "Beam Rifle [Victory]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Victory Gundam [Beginner Campaign]",
@@ -20896,7 +21115,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1452,
     "ma": 388,
@@ -20944,7 +21163,7 @@
       "name": "With Speed attribute (self), Melee CRIT Rate boosted 17%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 648,
     "ma": 388,
@@ -20982,7 +21201,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1605,
     "ma": 797,
@@ -21029,7 +21248,7 @@
       "name": "When Armor < 70%, Long Shot Attack raised 20%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 797,
     "ma": 797,
@@ -21059,7 +21278,8 @@
       "name": "Long-Shooter Job, Job Gauge Increase boosted 17%"
     },
     "name": "Beam Saber [Wing]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -21078,7 +21298,8 @@
       "category": "Beam Shot"
     },
     "name": "Buster Rifle",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -21121,7 +21342,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -21168,7 +21389,7 @@
       "name": "With Power attribute (self), Long Shot Attack raised 14%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -21198,7 +21419,8 @@
       "name": "Defender Job, Job Gauge Increase boosted 11%"
     },
     "name": "Beam Saber [Wing / Pre-Registration Reward]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 3,
@@ -21215,7 +21437,8 @@
       "name": "All-Rounder Job, EX Skill Power boosted 25%"
     },
     "name": "Buster Rifle [Pre-Registration Reward]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "shield",
     "mark": 3,
@@ -21254,7 +21477,7 @@
       "name": "When attacking with Beam, EX Skill Power Boosted E30%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1732,
     "ma": 719,
@@ -21301,7 +21524,7 @@
       "name": "When Armor < 70%, Melee CRIT Rate boosted 30%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 378,
     "ma": 551,
@@ -21335,7 +21558,8 @@
       "category": "Beam Shot"
     },
     "name": "Twin Buster Rifle [Coupled]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Wing Gundam Fenice",
@@ -21360,7 +21584,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1184,
     "ma": 384,
@@ -21412,7 +21636,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 799,
     "ma": 384,
@@ -21442,7 +21666,8 @@
       "name": "When Armor is 70% or less, Strong Melee CRIT rate boosted 30%"
     },
     "name": "Beam Rapier",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -21459,7 +21684,8 @@
       "name": "With Technique attribute (self), Sp. Shot CRIT rate boosted 30%"
     },
     "name": "Buster Rifle Cannon",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Yami Syougun",
@@ -21482,7 +21708,7 @@
       "name": "Out-Fighter Job, Close Shot Attack raised 20%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1747,
     "ma": 556,
@@ -21529,7 +21755,7 @@
       "name": "With Speed attribute (self), EX Skill DMG taken reduced 35"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 972,
     "ma": 556,
@@ -21561,7 +21787,8 @@
       "name": "With Speed attribute (self), Melee DMG Output boosted 35"
     },
     "name": "Darkness Sword",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Saber"
   }, {
     "part": "range",
     "mark": 1,
@@ -21578,7 +21805,8 @@
       "name": "With Speed attribute (self), Job Gauge Increase boosted 17%"
     },
     "name": "Darkness Cannon",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Z'Gok",
@@ -21586,7 +21814,7 @@
   "rarity": 1,
   "sokai": 0,
   "parts": [{
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 797,
     "ma": 287,
@@ -21638,7 +21866,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -21676,7 +21904,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -21723,7 +21951,7 @@
       "name": "With Axe Category equipped, Shooting DMG taken reduced 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 373,
     "ma": 137,
@@ -21755,7 +21983,8 @@
       "category": "Physical Melee"
     },
     "name": "Heat Hawk",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 4,
@@ -21772,7 +22001,8 @@
       "name": "Enemy Strong Melee Power Reduced 10%"
     },
     "name": "Zaku Bazooka",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Bazooka"
   }, {
     "part": "range",
     "mark": 4,
@@ -21789,7 +22019,8 @@
       "name": "Initial EX Skill Charge boosted 10%"
     },
     "name": "Zaku Machine Gun [Zaku II]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Zaku II [Char Aznable]",
@@ -21814,7 +22045,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 2,
     "a": 1140,
     "ma": 291,
@@ -21861,7 +22092,7 @@
       "name": "With Speed attribute (self), Sp. Shot Power boosted 25%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 2,
     "a": 558,
     "ma": 291,
@@ -21897,7 +22128,7 @@
       "name": "With Machine Gun Category equipped, Close Shot Attack raised 10%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 942,
     "ma": 187,
@@ -21944,7 +22175,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 570,
     "ma": 187,
@@ -21976,7 +22207,8 @@
       "category": "Physical Shot"
     },
     "name": "Zaku Machine Gun [Zaku II Kai]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Zaku II Type FS [Garma Zabi]",
@@ -22001,7 +22233,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 757,
     "ma": 187,
@@ -22048,7 +22280,7 @@
       "name": "When attacking with Physical, Melee Power boosted 15%"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,
@@ -22080,7 +22312,8 @@
       "category": "Physical Melee"
     },
     "name": "Dead End G",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "melee",
     "mark": 3,
@@ -22099,7 +22332,8 @@
       "category": "Physical Melee"
     },
     "name": "Large Heat Hawk",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Axe"
   }, {
     "part": "range",
     "mark": 3,
@@ -22116,7 +22350,8 @@
       "name": "When attacking with Physical, Shooting DMG Output boosted 15"
     },
     "name": "Magella-Top Cannon",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Zaku Minelayer",
@@ -22141,7 +22376,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 640,
     "ma": 137,
@@ -22186,7 +22421,7 @@
       "name": "With \"Close Combat\" enemy, Sp. Shot DMG Output boost 10"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 373,
     "ma": 137,
@@ -22226,7 +22461,7 @@
       "category": "Beam Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1606,
     "ma": 384,
@@ -22298,7 +22533,7 @@
       "category": "Physical Shot"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 1,
     "a": 1738,
     "ma": 379,
@@ -22349,7 +22584,7 @@
       "category": "Beam Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 1,
     "a": 969,
     "ma": 379,
@@ -22381,7 +22616,8 @@
       "category": "Beam Melee"
     },
     "name": "Beam Saber [Zeta]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Saber"
   }, {
     "part": "melee",
     "mark": 1,
@@ -22398,7 +22634,8 @@
       "name": "With Speed attribute (self), Melee DMG Output boosted 35"
     },
     "name": "Long Beam Saber",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Blade"
   }, {
     "part": "range",
     "mark": 1,
@@ -22415,7 +22652,8 @@
       "name": "Sp. Shot DMG Output boosted 35"
     },
     "name": "Beam Rifle [Zeta]",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Rifle"
   }, {
     "part": "range",
     "mark": 1,
@@ -22432,7 +22670,8 @@
       "name": "With Speed attribute (self), Enemy Shooting Power reduced 30%"
     },
     "name": "Hyper Mega Launcher",
-    "type": "Beam"
+    "type": "Beam",
+    "category": "Long Rifle"
   }, {
     "part": "shield",
     "mark": 1,
@@ -22473,7 +22712,7 @@
       "name": "Long Rifle"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 4,
     "a": 511,
     "ma": 137,
@@ -22523,7 +22762,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 4,
     "a": 287,
     "ma": 137,
@@ -22555,7 +22794,8 @@
       "name": "With Technique attribute (self), Enemy Shooting Power reduced 10%"
     },
     "name": "Anti-Ship Rifle",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Zudah [ALT]",
@@ -22578,7 +22818,7 @@
       "name": "When Armor < 50%, Shooting CRIT Rate boosted 14%"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 511,
     "ma": 137,
@@ -22628,7 +22868,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 287,
     "ma": 137,
@@ -22660,7 +22900,8 @@
       "name": "With Speed attribute (self), Enemy Shooting Power reduced 10%"
     },
     "name": "Anti-Ship Rifle [ALT]",
-    "type": "Physical"
+    "type": "Physical",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Zudah [Commander Type]",
@@ -22685,7 +22926,7 @@
       "category": "Buff"
     }
   }, {
-    "part": "torso",
+    "part": "body",
     "mark": 3,
     "a": 754,
     "ma": 187,
@@ -22735,7 +22976,7 @@
       "category": "Physical Melee"
     }
   }, {
-    "part": "backpack",
+    "part": "back",
     "mark": 3,
     "a": 364,
     "ma": 187,

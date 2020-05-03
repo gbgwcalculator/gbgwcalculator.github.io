@@ -4,6 +4,8 @@
   --tertiary-color: #444444;
   --font-color: #eeeeee;
   --disabled-font-color: #555555;
+  --disabled-field-background: #333333;
+  --disabled-field-border-color: #000000;
   --header-font-color: #eeeeee;
   --color-blue: #335c75;
   --color-blue-alt: #223440;
@@ -21,5 +23,5 @@
   --tooltip-bg-color: #223440;
   --scrollbar-bg-color: #1d1d1d;
   --scrollbar-thumb-color: #223440;
-  --activatedWT-font-color: #56b4f7;
+  --activated-wt-font-color: #56b4f7;
 }

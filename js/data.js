@@ -8,10 +8,10 @@ const Attributes = ["Power", "Speed", "Technique"];
 const GearSlotText = ["Torso", "R. Arm", "L. Arm", "R. Leg", "L. Leg"];
 const ExTraitType = ["EX Skill", "Part Traits"];
 const MeleeType = ["Beam ", "Physical"];
-const MainSlot = ["head", "torso", "arms", "legs", "backpack", "melee", "range", "shield", "pilot"];
-const GearSlot = ["gear-s1ot-1", "gear-s1ot-2", "gear-s1ot-3", "gear-s1ot-4", "gear-s1ot-5"];
+const MainSlot = ["head", "body", "arms", "legs", "back", "melee", "range", "shield", "pilot"];
+const GearSlot = ["gear-slot-1", "gear-slot-2", "gear-slot-3", "gear-slot-4", "gear-slot-5"];
 const AllSlots = [...MainSlot, ...GearSlot];
-const MarksAllowed = ["head", "torso", "arms", "legs", "backpack", "melee", "range", "shield"];
+const MarksAllowed = ["head", "body", "arms", "legs", "back", "melee", "range", "shield"];
 
 const ExCategories = [
   "Beam Shot",
@@ -183,24 +183,48 @@ const PilotType = [{
 }];
 
 const Sorters = [{
+  "key" : "armor",
   "name": "Armor",
   "slug": "a"
 }, {
+  "key" : "melee-attack",
   "name": "Melee ATK",
   "slug": "ma"
 }, {
+  "key" : "shot-attack",
   "name": "Shot ATK",
   "slug": "sa"
 }, {
+  "key" : "melee-defense",
   "name": "Melee DEF",
   "slug": "md"
 }, {
+  "key" : "shot-defense",
   "name": "Shot DEF",
   "slug": "sd"
 }, {
+  "key" : "beam-resistance",
   "name": "Beam RES",
   "slug": "br"
 }, {
+  "key" : "physical-resistance",
   "name": "Phys. RES",
   "slug": "pr"
 }];
+
+let SlotIconMap = {
+  "head": "slot-head",
+  "body": "slot-body",
+  "arms": "slot-arms",
+  "legs": "slot-legs",
+  "back": "slot-back",
+  "melee": "short-range-saber",
+  "range": "long-range-rifle",
+  "shield": "slot-shield",
+  "pilot": "slot-pilot",
+  "gear-slot-1": "gear-body",
+  "gear-slot-2": "gear-arm-right",
+  "gear-slot-3": "gear-arm-left",
+  "gear-slot-4": "gear-leg-right",
+  "gear-slot-5": 'gear-leg-left'
+};

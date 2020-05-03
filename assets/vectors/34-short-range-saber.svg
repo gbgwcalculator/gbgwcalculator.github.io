@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   sodipodi:docname="19-beam-saber.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview4"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.765625"
+     inkscape:cx="-54.653018"
+     inkscape:cy="65.389176"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.28608704;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 24.744526,71.645297 -13.182788,13.18279 -0.01739,1.535733 2.091833,2.09184 1.535735,-0.01746 13.18279,-13.18279 z"
+     id="rect819"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccc" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.38885331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 29.606048,65.580394 -0.66187,0.661865 -0.60169,-0.6017 -2.527132,2.527131 0.601697,0.601692 -0.661864,0.661865 4.813566,4.813568 0.66187,-0.661856 0.601694,0.601691 2.527124,-2.527122 -0.601701,-0.601701 0.661867,-0.661865 z"
+     id="rect824"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccc" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.3614831;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 88.400688,11.599302 C 87.704497,10.903102 79.93108,16.992476 76.241255,20.151377 64.82411,29.925779 50.923057,41.39506 43.450691,50.06039 l -0.42635,-2.494696 -2.598582,4.082133 -2.251187,-3.390649 -2.053755,6.094522 -3.222835,-5.1774 -1.16626,7.429537 -4.272982,-4.57947 2.897548,11.086244 6.533099,6.533107 11.086251,2.897551 -4.579474,-4.272977 7.42954,-1.166268 -5.177407,-3.222836 6.094526,-2.053761 -3.390655,-2.251184 4.082135,-2.598582 -2.49469,-0.426354 c 8.665326,-7.47236 20.134607,-21.373427 29.909001,-32.790571 3.1589,-3.689817 9.248274,-11.463234 8.552074,-12.159434 z"
+     id="rect829"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssccccccccccccccccccss" />
+</svg>

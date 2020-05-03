@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg5070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="18-skill-recovery.svg">
+  <defs
+     id="defs5064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="51.643877"
+     inkscape:cy="34.917039"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer9"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true" />
+  <metadata
+     id="metadata5067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Recovery"
+     style="display:inline"
+     transform="translate(0,-1.3290405e-6)">
+    <path
+       style="display:inline;opacity:1;fill:#000000;stroke-width:0.19843727"
+       d="M 22.807958,7.8481596 C 22.730265,7.7639536 22.628709,7.6873366 22.495169,7.6084524 22.097367,7.373463 21.735888,7.2846412 20.77008,7.2602188 h -1.852616 v -0.00512 l 3.65e-4,-3.1750262 H 7.5404997 l 3.654e-4,3.1750262 H 5.6882488 C 4.7224346,7.2795256 4.3609497,7.3683493 3.9631597,7.6033366 3.4289943,7.9188759 3.4050241,8.1953001 3.383989,9.0865258 3.380789,10.342642 3.273903,10.661216 2.8051832,10.811981 c -0.1906794,0.06133 -0.1204056,0.65987 -0.1008524,1.301581 0.01693,0.555251 -0.017502,1.10894 0.069427,1.242386 0.2265296,0.347741 0.7008158,0.199051 0.7436045,0.678562 0,0 0.5241949,4.387966 0.6818506,6.795118 0.1033777,1.578426 2.0060875,1.543482 2.0060875,1.543482 l 12.7125286,-0.0088 v 0.01316 l 1.335199,7.31e-4 c 0,0 1.902716,0.03493 2.006088,-1.543482 0.157667,-2.40715 0.68185,-6.795119 0.68185,-6.795119 0.04281,-0.479508 0.517096,-0.330817 0.743605,-0.678562 0.08697,-0.133437 0.0525,-0.687133 0.06943,-1.242385 0.01958,-0.64171 0.0898,-1.240249 -0.100852,-1.301582 -0.468729,-0.15075 -0.575631,-0.469337 -0.578806,-1.7254546 -0.01587,-0.668416 -0.0333,-0.9908633 -0.266382,-1.2434818 z M 18.124164,5.4028523 18.123798,7.2551031 H 8.3345304 L 8.3341648,5.4028523 Z m -1.395492,4.0037706 -1.709376,1.7093761 1.595735,1.595735 1.708646,-1.708645 a 3.0401908,3.0401908 0 0 1 -0.642752,3.346036 3.0401908,3.0401908 0 0 1 -2.982091,0.770645 l 0.108526,0.108526 -4.620944,4.620944 -0.0037,-0.0029 c -0.3046809,0.304999 -0.7181009,0.475887 -1.149207,0.476126 -0.8977103,-4.8e-5 -1.6252926,-0.727625 -1.6253328,-1.625333 6e-7,-0.430979 0.1715729,-0.844258 0.4764915,-1.148841 l -0.00402,-0.0048 4.7254513,-4.516437 0.0015,0.0015 a 3.0401908,3.0401908 0 0 1 0.77394,-2.978815 3.0401908,3.0401908 0 0 1 3.347133,-0.6431171 z"
+       id="path4651"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.38124728;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4694"
+       cx="9.033741"
+       cy="18.697115"
+       rx="0.79878819"
+       ry="0.80523002" />
+  </g>
+</svg>
