@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg5070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="12-beam-melee.svg">
+  <defs
+     id="defs5064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="16.60641"
+     inkscape:cy="32.826568"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="13.229167,13.229169"
+       orientation="1,0"
+       id="guide5617"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="13.229167,13.229169"
+       orientation="0,1"
+       id="guide5619"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Beam Melee"
+     style="display:inline"
+     transform="translate(0,-1.3290405e-6)">
+    <path
+       style="display:inline;opacity:1;fill:#000000;stroke-width:0.19843727"
+       d="M 2.9646694,2.9494987 3.1410143,4.9687533 12.67919,15.127039 11.025412,15.532436 c 0.564172,0.491446 1.128315,0.982879 1.692513,1.474331 -0.658098,0.254376 -1.31617,0.508753 -1.974268,0.763131 0.636508,0.386395 1.273043,0.77283 1.909577,1.159226 -0.415872,0.433429 -0.831744,0.866882 -1.24759,1.300308 l 3.104435,-0.18022 c 0.32147,0.0083 0.642833,0.01684 0.964302,0.02519 0.769936,-0.76847 1.53998,-1.536837 2.309918,-2.305285 0.768455,-0.769938 1.536805,-1.539997 2.305287,-2.309935 -0.0084,-0.321451 -0.01694,-0.642828 -0.02513,-0.964279 l 0.180239,-3.104461 c -0.43344,0.415864 -0.866882,0.831733 -1.300295,1.247597 -0.386398,-0.636528 -0.772849,-1.273042 -1.159245,-1.909572 -0.254371,0.658106 -0.508741,1.316192 -0.763112,1.974297 -0.491472,-0.564183 -0.982907,-1.128344 -1.474345,-1.692527 L 15.142276,12.664006 4.9839954,3.1258409 Z m 16.6390896,14.1760653 -2.463006,2.463017 0.738505,0.73852 0.85963,0.192236 3.444612,2.989498 1.310164,-1.310168 -2.959153,-3.474953 -0.192247,-0.859639 z"
+       id="path4529"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
+       inkscape:export-xdpi="5.1199999"
+       inkscape:export-ydpi="5.1199999" />
+  </g>
+</svg>

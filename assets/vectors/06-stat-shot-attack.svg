@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="377.95276"
+   height="377.95276"
+   viewBox="0 0 99.999998 100"
+   version="1.1"
+   id="svg2475"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="39-stat-shot-attack.svg">
+  <defs
+     id="defs2469" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="13.995086"
+     inkscape:cy="-8.3175003"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2472">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-245.77902,2.6659241)">
+    <path
+       style="opacity:1;fill:#000000;stroke-width:0.40760329"
+       d="M 288.84766 59.859375 L 270.84961 77.857422 L 51.541016 77.857422 C 38.835794 77.857422 35.335938 87.095773 35.335938 100.69141 L 14.148438 100.19922 L 14.148438 145.88477 L 35.335938 145.88477 C 35.335938 160.00649 38.835794 168.71875 51.541016 168.71875 L 79.939453 168.71875 L 93.029297 191.39062 L 173.79297 191.39648 L 221.67188 239.27539 L 279.56641 239.27539 C 294.75213 256.40296 286.76567 274.55249 288.08594 293.85352 C 288.81285 301.67344 296.32491 314.88551 300.03516 316.73438 C 320.59609 319.42024 345.48949 319.22756 359.67969 305.71094 C 360.9939 301.85733 360.2647 295.57503 357.28711 285.22266 C 353.29691 272.84177 339.30037 261.98298 335.67773 248.14453 C 333.53501 239.96301 337.85066 231.04645 336.07617 222.77734 C 334.28898 214.44174 325.22461 199.61719 325.22461 199.61719 L 325.22461 178.62305 C 325.22461 172.23992 337.09586 160.00586 344.73633 160.00586 C 357.33746 160.00586 364.03373 150.44063 363.79883 141.29688 L 363.79883 92.808594 C 363.79883 81.15103 358.12187 77.857422 344.73633 77.857422 L 326.74023 59.859375 L 288.84766 59.859375 z M 213.51562 164.76367 L 261.7832 164.76367 L 275.48242 187.75586 L 275.48242 199.61719 L 275.48242 210.64844 L 227.9043 210.64844 L 201.71875 184.46289 L 213.51562 164.76367 z "
+       transform="matrix(0.26458333,0,0,0.26458333,245.77902,-2.6659241)"
+       id="path3030" />
+  </g>
+</svg>

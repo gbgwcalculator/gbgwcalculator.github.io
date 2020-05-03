@@ -120,7 +120,7 @@ class GunplaCalculator {
             el: 'div',
             children: [{
               el: 'label',
-              text: sorter.name
+              html: `${this._generateStatIcon(sorter.key)} ${sorter.name}`
             }, {
               el: 'span',
               class: ['info__total', 'float-right', sortClassPrefix + sorter.slug],
@@ -204,7 +204,11 @@ class GunplaCalculator {
             el: 'div',
             children: [{
               el: 'label',
-              text: slot != 'backpack' ? slot : 'back'
+              class: ['part-slot-type'],
+              html: this._generateSlotIcon(slot)
+            }, {
+              el: 'span',
+              class: ['part-slot-attr']
             }, {
               el: 'input',
               type: 'text',
@@ -235,7 +239,8 @@ class GunplaCalculator {
             el: 'div',
             children: [{
               el: 'label',
-              text: GearSlotText[slotIndex]
+              class: ['part-slot-type'],
+              html: `${this._generateSlotIcon('gear-slot-' + (slotIndex + 1))}`
             }, {
               el: 'input',
               type: 'text',
@@ -256,7 +261,7 @@ class GunplaCalculator {
       children: Attributes.map(attr => {
         return {
           el: 'label',
-          text: '[' + attr.charAt(0) + '] ',
+          html: this._generateAttrIcon(attr.toLowerCase()),
           children: [{
             el: 'span',
             class: 'js-tally-' + attr.charAt(0).toLowerCase(),
@@ -289,6 +294,18 @@ class GunplaCalculator {
         class: ['part-list__list', 'js-part-list']
       }]
     };
+  }
+
+  _generateAttrIcon(attr) {
+    return `<span class='attr-icon gbgw-attribute-${attr}'></span>`;
+  }
+
+  _generateSlotIcon(slot) {
+    return `<span class='slot-icon gbgw-${SlotIconMap[slot]}'></span>`;
+  }
+
+  _generateStatIcon(statKey) {
+    return `<span class='ex-cat-icon gbgw-stat-${statKey}'></span>`;
   }
 }
 
@@ -342,6 +359,14 @@ class GunplaBuild {
     this._initRemove();
   }
 
+  _generateSkillIcon(exData) {
+    return `<span class='ex-cat-icon gbgw-skill-${exData.category.toLowerCase().replace(/\s/g, '-')}'></span>`;
+  }
+
+  _generateAttrIcon(attr) {
+    return `<span class='attr-icon gbgw-attribute-${attr.toLowerCase()}'></span>`;
+  }
+
   _parseParts() {
     if (AllSlots && Array.isArray(AllSlots)) {
       if (Collections && Array.isArray(Collections)) {
@@ -386,7 +411,7 @@ class GunplaBuild {
       }
       if (GearTypes && typeof GearTypes === 'object') {
         Object.values(GearTypes).forEach((gears, index) => {
-          let gearIndex = 'gear-s1ot-' + (index + 1);
+          let gearIndex = 'gear-slot-' + (index + 1);
           gears.forEach(currGear => {
             const gearClone = {
               part: gearIndex
@@ -472,47 +497,74 @@ class GunplaBuild {
             return;
           }
           const partEntry = document.createElement('div');
-          let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + '] ' : '';
-          if (partFilter.jl) {
-            displayText += `${partFilter.name} (${partFilter.jl})`; // Pilot
-          } else if (partFilter.part.startsWith('gear-') || partFilter.ms.startsWith('Unassigned [')) {
-            displayText += `${partFilter.name}`; // Gear or no assigned unit
-          } else if (partFilter.name) {
-            displayText += `${partFilter.name} (${partFilter.ms})`; // Armament
-          } else {
-            displayText += `${partFilter.ms}`; // Any other part
-          }
-          partEntry.textContent = partEntry.dataset.partname = displayText;
+          let displayText = this._getDisplayText(partFilter);
+          partEntry.dataset.partname = displayText;
+          partEntry.innerHTML = (partFilter.attribute ? this._generateAttrIcon(partFilter.attribute) : '') + displayText;
           partEntry.classList.add('part-list__item');
           for (let prop in partFilter) {
             partEntry.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
           }
-          partEntry.addEventListener('click', e => {
-            const currTarget = e.currentTarget;
-            let partInput, partData;
-            if (currTarget.dataset.part && this.inputs[currTarget.dataset.part]) {
-              partData = currTarget.dataset.part;
-              partInput = this.inputs[partData];
-              partInput.value = partInput.title = currTarget.dataset.partname;
-              removeAllAttributes(partInput);
-              Object.assign(partInput.dataset, currTarget.dataset);
-              this._deleteMarks(partData);
-              if (MarksAllowed.includes(partData)) {
-                this._addMarks();
-              }
-              this._displayPartInfo(currTarget);
-            }
-            this._calculate(partData);
-          });
-          if (screen.width >= 992) {
-            partEntry.addEventListener('mouseover', e => {
-              this._displayPartInfo(e.currentTarget);
-            });
-          }
+          partEntry.addEventListener('click', e => this._handlePartSelection(e.currentTarget));
+          partEntry.addEventListener('mouseover', e => this._displayPartInfo(e.currentTarget));
           this.partList.appendChild(partEntry);
         });
       }
     }
+  }
+
+  _getDisplayText(part) {
+    if (part.jl) {
+     return `${part.name} (${part.jl})`; // Pilot
+    } else if (part.part.startsWith('gear-') || part.ms.startsWith('Unassigned [')) {
+      return `${part.name}`; // Gear or no assigned unit
+    } else if (part.name) {
+      return `${part.name} (${part.ms})`; // Armament
+    } else {
+      return `${part.ms}`; // Any other part
+    }
+  }
+
+  _handlePartSelection(currTarget) {
+    let partInput, partData;
+    if (currTarget.dataset.part && this.inputs[currTarget.dataset.part]) {
+      partData = currTarget.dataset.part;
+      partInput = this.inputs[partData];
+      partInput.value = partInput.title = currTarget.dataset.partname;
+      removeAllAttributes(partInput);
+      Object.assign(partInput.dataset, currTarget.dataset);
+      this._deleteMarks(partData);
+      if (MarksAllowed.includes(partData)) {
+        this._addMarks();
+      }
+      this._displayPartInfo(currTarget);
+
+      // Update the icons.
+      let slotIconWrapper = partInput.closest('.row').querySelector('.part-slot-type');
+      slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(currTarget.dataset)}" data-rarity="${currTarget.dataset.rarity}"></span>`;
+      let attrIconWrapper = partInput.closest('.row').querySelector('.part-slot-attr');
+      attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${currTarget.dataset.attribute.toLowerCase()}" data-rarity="${currTarget.dataset.rarity}"></span>`;
+    }
+    this._calculate(partData);
+  }
+
+  _getPartSlotClass(dataset, forcePart) {
+    let partClass = 'gbgw-';
+    if (forcePart) {
+      partClass += SlotIconMap[forcePart];
+    } else {
+      if (dataset.category) {
+        switch (dataset.part) {
+          case 'melee': partClass += 'short-range-' ; break;
+          case 'range': partClass += 'long-range-'  ; break;
+        }
+        partClass += dataset.category.toLowerCase().replace(/\s/g, '-');
+      } else if (dataset.jl) {
+        partClass += 'job-' + dataset.jl.toLowerCase();
+      } else {
+        partClass += SlotIconMap[dataset.part];
+      }
+    }
+    return partClass;
   }
 
   _setSelectedPart(partId) {
@@ -558,7 +610,14 @@ class GunplaBuild {
           part: partInput.dataset.part,
           combo: partInput.dataset.combo
         });
-        document.querySelector('.js-input-' + partInput.dataset.combo).disabled = true;
+        let comboInput = this.inputs[partInput.dataset.combo];
+        comboInput.disabled = true;
+
+        // Update the icons.
+        let slotIconWrapper = comboInput.closest('.row').querySelector('.part-slot-type');
+        slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartClass(null, partInput.dataset.combo)}" data-rarity="${partInput.dataset.rarity}"></span>`;
+        let attrIconWrapper = comboInput.closest('.row').querySelector('.part-slot-attr');
+        attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${partInput.dataset.attribute.toLowerCase()}" data-rarity="${partInput.dataset.rarity}"></span>`;
       }
     }
   }
@@ -573,10 +632,6 @@ class GunplaBuild {
   _removeAttributes(el, attrs) {
     attrs.forEach(attr => el.removeAttribute(attr));
     return el;
-  }
-
-  _generateSkillIcon(exData) {
-    return `<span class='ex-cat-icon gbgw-${exData.category.toLowerCase().replace(/\s/g, '-')}'></span>`;
   }
 
   _displaySkillTraits(partData) {
@@ -812,6 +867,14 @@ class GunplaBuild {
       this._clearSkillTrait(inputName);
       this._clearWordTag(inputName);
       this._deleteMarks(inputName);
+
+      let parentRow = input.closest('.row');
+      let slotIconWrapper = parentRow.querySelector('.part-slot-type');
+      let slotIcon = slotIconWrapper.querySelector('.slot-icon');
+      slotIcon.className = `slot-icon gbgw-${SlotIconMap[inputName]}`;
+      slotIcon.removeAttribute('data-rarity');
+      let attrIconWrapper = parentRow.querySelector('.part-slot-attr');
+      if (attrIconWrapper) attrIconWrapper.innerHTML = '';
     }
   }
 
