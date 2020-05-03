@@ -20,3 +20,7 @@
 - Changed main slot text to icons
 - Icons and attributes update based on the type and rarity of the selected part
 - Changed "torso" and "backpack" to "body" and "back" for consistency in app and data
+
+## 1.1.1
+
+- Fixed a bug with combo part selection

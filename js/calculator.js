@@ -615,7 +615,7 @@ class GunplaBuild {
 
         // Update the icons.
         let slotIconWrapper = comboInput.closest('.row').querySelector('.part-slot-type');
-        slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartClass(null, partInput.dataset.combo)}" data-rarity="${partInput.dataset.rarity}"></span>`;
+        slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(null, partInput.dataset.combo)}" data-rarity="${partInput.dataset.rarity}"></span>`;
         let attrIconWrapper = comboInput.closest('.row').querySelector('.part-slot-attr');
         attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${partInput.dataset.attribute.toLowerCase()}" data-rarity="${partInput.dataset.rarity}"></span>`;
       }
