@@ -260,6 +260,11 @@ input:disabled {
   display: inline-block;
   width: 20%;
 }
+
+.gears {
+  width: 180px;
+}
+
 .gears label {
   display: inline-block;
   width: 30%;
