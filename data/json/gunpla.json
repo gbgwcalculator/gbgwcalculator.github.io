@@ -21868,7 +21868,8 @@
       "name": "Vertical Saber",
       "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
-    }
+    },
+    "combo": "shield"
   }, {
     "part": "legs",
     "mark": 1,
