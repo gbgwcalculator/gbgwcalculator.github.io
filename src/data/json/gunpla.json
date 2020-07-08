@@ -27888,12 +27888,12 @@
     "ex": {
       "type": "EX Skill",
       "name": "Shield Bash",
-      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+      "description": "Unleash attacks with the beam saber in your shield. Raise your Melee Attack by 19%.",
       "category": "Physical Melee",
       "stats": {
         "Prc": "D",
         "Pow": "B+",
-        "Cd": [21, 3]
+        "Cd": [21, 6]
       }
     },
     "name": "Shield [Wing]"
