@@ -32,11 +32,13 @@ const generateMarkdown = (data) => {
   
 ## Current Events
 
-${data.events.map(event => generateMarkdownSection(event)).join('\n\n')}
+${data.events.filter(event => event.hidden !== true)
+      .map(event => generateMarkdownSection(event)).join('\n\n')}
 
 ## Current Capsules
 
-${data.capsules.map(capsule => generateMarkdownSection(capsule)).join('\n\n')}
+${data.capsules.filter(capsule => capsule.hidden !== true)
+      .map(capsule => generateMarkdownSection(capsule)).join('\n\n')}
 
   `.trim();
 };
@@ -67,11 +69,13 @@ const generateStyle = (data) => {
 
 ${generateStyleBanner('Events')}
 
-${data.events.map(event => generateStyleSection(event)).join('\n\n')}
+${data.events.filter(event => event.hidden !== true)
+      .map(event => generateStyleSection(event)).join('\n\n')}
 
 ${generateStyleBanner('Capsules')}
 
-${data.capsules.map(capsule => generateStyleSection(capsule)).join('\n\n')}
+${data.capsules.filter(capsule => capsule.hidden !== true)
+      .map(capsule => generateStyleSection(capsule)).join('\n\n')}
 
   `.trim();
 };
@@ -91,14 +95,20 @@ const generateStyleSubSection = (section, image) => {
 /* Sidebar Image - ${image.text || section.type} */
 .side a[href="${image.url}"] {
   display: inline-block;
-  height: 120px; width: 100%;
-  background: url(%%${image.id}%%) no-repeat;
-  background-size: contain;
+  width: 100%;
+  height: ${calculateImageHeight(image, 300)}px;
+  background-image: url(%%${image.id}%%);
+  background-repeat: no-repeat;
+  background-size: contain !important;
   color: transparent;
 }
 a[href="${image.url}"] { background-position: 0 0px; }
 
   `.trim();
+};
+
+const calculateImageHeight = (image, width) => {
+  return Math.floor((width * image.dimensions.height) / image.dimensions.width);
 };
 
 const generateStyleBanner = (title) => `
@@ -126,9 +136,10 @@ const generateStyleSubBanner = (title) => `
 const generateVariables = (data) => {
   return [...data.events, ...data.capsules]
       .flatMap(content => content.images)
+      .filter(image => image.url)
       .map((image, index) => `
 
-${('' + index).padStart(2, '0')}. ${image.id}
+${('' + (index + 1)).padStart(2, '0')}. ${image.id}
 
 >>> ${image.url}
 
