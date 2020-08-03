@@ -8872,7 +8872,7 @@
       "type": "EX Skill",
       "name": "Brave Axe Combo",
       "description": "Bring down a wild rush of blows with your equipped axe.",
-      "category": "Physical Melee",
+      "category": "Beam Melee",
       "stats": {
         "Prc": "B",
         "Pow": "D",
