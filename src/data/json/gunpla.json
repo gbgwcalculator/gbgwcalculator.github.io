@@ -1062,6 +1062,196 @@
         "name": "Anti-Beam Shield [Aile Strike]"
     }]
 }, {
+    "name": "Aile Strike Gundam",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1040,
+        "ma": 930,
+        "sa": 3092,
+        "md": 505,
+        "sd": 1526,
+        "br": 277,
+        "pr": 547,
+        "wt": ["High Mobility", "For Base"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Mobility\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1526,
+        "ma": 1131,
+        "sa": 505,
+        "md": 1040,
+        "sd": 2070,
+        "br": 99,
+        "pr": 785,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Combat Stance γ",
+            "description": "Raise Melee Attack of your Squad by 39%.",
+            "category": "Buff",
+            "stats": {
+                "Dur": 51,
+                "Cd": [33, 7]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1040,
+        "ma": 3704,
+        "sa": 505,
+        "md": 1040,
+        "sd": 1526,
+        "br": 99,
+        "pr": 99,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1040,
+        "ma": 930,
+        "sa": 505,
+        "md": 505,
+        "sd": 1865,
+        "br": 547,
+        "pr": 816,
+        "wt": ["High Mobility", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Rifle category equipped, EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1040,
+        "ma": 1131,
+        "sa": 505,
+        "md": 505,
+        "sd": 1526,
+        "br": 558,
+        "pr": 785,
+        "wt": ["High Mobility", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Rapid Trust",
+            "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A-",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 505,
+        "ma": 4724,
+        "sa": 0,
+        "md": 0,
+        "sd": 505,
+        "br": 277,
+        "pr": 547,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Enemy Melee power reduced 30%"
+        },
+        "name": "Beam Saber [Aile Strike]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 505,
+        "ma": 4724,
+        "sa": 0,
+        "md": 0,
+        "sd": 505,
+        "br": 277,
+        "pr": 547,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Mobility\", Melee power boosted 30%"
+        },
+        "name": "Grand Slam",
+        "type": "Physical",
+        "category": "Blade"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 505,
+        "ma": 4724,
+        "sa": 0,
+        "md": 0,
+        "sd": 505,
+        "br": 277,
+        "pr": 547,
+        "wt": ["High Mobility", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Serpent Bite",
+            "description": "Attack with dual knives held in a backhand grip, striking enemies like a snake striking its prey.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Armor Schneider [Aile Strike]",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1330,
+        "ma": 0,
+        "sa": 4113,
+        "md": 0,
+        "sd": 1040,
+        "br": 212,
+        "pr": 785,
+        "wt": ["High Mobility", "For Base"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Shooting DMG output boosted by 35"
+        },
+        "name": "57mm High-Energy Beam Rifle [Aile Strike]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1040,
+        "ma": 0,
+        "sa": 0,
+        "md": 1040,
+        "sd": 2897,
+        "br": 307,
+        "pr": 1077,
+        "wt": ["High Mobility", "For Base"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy Shooting power reduced 30%"
+        },
+        "name": "Anti-Beam Shield [Aile Strike]"
+    }]
+}, {
     "name": "Akatsuki [Oowashi Pack]",
     "attribute": "Speed",
     "rarity": 4,
@@ -18172,6 +18362,120 @@
         }
     }]
 }, {
+    "name": "Gundam F90II [L Type]",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 616,
+        "ma": 414,
+        "sa": 4326,
+        "md": 505,
+        "sd": 1867,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Long-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee DMG raised 10%, Long Shot Attack raised 20%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2143,
+        "ma": 414,
+        "sa": 931,
+        "md": 505,
+        "sd": 2264,
+        "br": 787,
+        "pr": 0,
+        "wt": ["Long-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Shot ATK is over 10000, Enemy EX Skill power reduced 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1528,
+        "ma": 1332,
+        "sa": 825,
+        "md": 505,
+        "sd": 2478,
+        "br": 547,
+        "pr": 277,
+        "wt": ["Long-Range", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Missile Launcher",
+            "description": "Launch missiles stored in your forearm.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1131,
+        "ma": 414,
+        "sa": 931,
+        "md": 1040,
+        "sd": 2264,
+        "br": 547,
+        "pr": 787,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Long Rifle",
+            "description": "Equip the ultra-long-range rifle from your backpack and snipe targets.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1131,
+        "ma": 414,
+        "sa": 1040,
+        "md": 1040,
+        "sd": 2264,
+        "br": 787,
+        "pr": 547,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 616,
+        "ma": 0,
+        "sa": 5376,
+        "md": 0,
+        "sd": 0,
+        "br": 547,
+        "pr": 277,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Shot DEF is over 4000, Enemy Shooting power reduced 30%"
+        },
+        "name": "Long Rifle [F90II / L Type]",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }]
+}, {
     "name": "Gundam F91",
     "attribute": "Technique",
     "rarity": 4,
@@ -31353,6 +31657,145 @@
                 "Cd": [60, 6]
             }
         }
+    }]
+}, {
+    "name": "R-Gyagya",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1304,
+        "ma": 557,
+        "sa": 683,
+        "md": 1077,
+        "sd": 683,
+        "br": 259,
+        "pr": 259,
+        "wt": ["Heavy Armor", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When CPWR is over 150000, Shooting DMG taken reduced by 20"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1875,
+        "ma": 834,
+        "sa": 354,
+        "md": 683,
+        "sd": 683,
+        "br": 259,
+        "pr": 259,
+        "wt": ["Heavy Armor", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Twin Blade category equipped, EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1105,
+        "ma": 2546,
+        "sa": 0,
+        "md": 1077,
+        "sd": 1077,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shield Missiles",
+            "description": "Launch missiles stowed on your shield.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1173,
+        "ma": 557,
+        "sa": 354,
+        "md": 1077,
+        "sd": 683,
+        "br": 419,
+        "pr": 419,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Penetrate",
+            "description": "Unleash a thrusting attack with the saber at your waist.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [30, 8]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1173,
+        "ma": 557,
+        "sa": 354,
+        "md": 1077,
+        "sd": 683,
+        "br": 419,
+        "pr": 419,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Melee power boosted 25%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1105,
+        "ma": 3248,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 259,
+        "pr": 259,
+        "wt": ["Heavy Armor", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Royal Heart",
+            "description": "Thrust your charged sword to cleave cleanly through foes. Lowers hit enemy Gunpla's Beam Resist by 29%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [30, 8]
+            }
+        },
+        "name": "Twin Beam Sword [R-Gyagya]",
+        "type": "Beam",
+        "category": "Twin Blade"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1105,
+        "ma": 3248,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 259,
+        "pr": 259,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "21% chance of attacks penetrating super armor"
+        },
+        "name": "Beam Saber [R-Gyagya]",
+        "type": "Beam",
+        "category": "Saber"
     }]
 }, {
     "name": "Rebawoo",

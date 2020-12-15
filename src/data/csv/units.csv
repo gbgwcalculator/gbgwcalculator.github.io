@@ -306,7 +306,7 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 305,MSZ-008,ZII,,39,1,ZⅡ,5,2,2,Standard,,,,FALSE,2020-11-04,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins,99,Dengeki
 306,,Full Armor Knight Gundam,,42,9,フルアーマー騎士ガンダム,5,3,2,Standard,,,,FALSE,2020-11-04,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins,99,Dengeki
 307,,Nidaime Gundam Dai-Shogun,,42,8,二代目頑駄無大将軍,3,1,3,,Event,,,FALSE,2020-11-04,Raiou Coins (Weekly Event),99,Dengeki
-308,NRX-0013-CB,Gundam Virsago Chest Break,,19,,ガンダムヴァサーゴチェストブレイク,5,2,2,,,,Blueprint,FALSE,2020-11-04,VCB Materials (Event Blueprint),99,Dengeki
+308,NRX-0013-CB,Gundam Virsago Chest Break,,19,5,ガンダムヴァサーゴチェストブレイク,5,2,2,,,,Blueprint,FALSE,2020-11-04,VCB Materials (Event Blueprint),99,Dengeki
 309,GN-010,Gundam Zabanya,,52,1,ガンダムサバーニャ,5,2,2,Gundam Battle Festival,,,,TRUE,2020-11-11,Gundam Battle Festival,99,Dengeki
 310,GN-011,Gundam Harute,,52,2,ガンダムハルート,5,2,2,Gundam Battle Festival,,,,TRUE,2020-11-11,Gundam Battle Festival,99,Dengeki
 311,MSK-008,Dijeh,,8,12,ディジェ,3,3,3,,Event,,,FALSE,2020-11-11,Karaba Coins (Weekly Event),99,Dengeki
@@ -319,3 +319,6 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 318,VGMM-Gf10,Gundam G-Lucifer,,27,,ガンダム G-ルシファー,5,1,2,Standard,,,,FALSE,2020-12-02,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins,99,Dengeki
 319,GF13-021NG,Shadow Gundam,,16,11,ガンダムシュピーゲル,5,3,2,Standard,,,,FALSE,2020-12-02,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins,99,Dengeki
 320,EB-05s,Schwalbe Graze,McGillis,28,5,シュヴァルベグレイズ［マクギリス機］,3,3,3,,Event,,,FALSE,2020-12-02,Hien Coins (Weekly Event),99,Dengeki
+321,F90II,Gundam F90II,L Type,51,2,ガンダムF90Ⅱ［Lタイプ］,5,3,2,Standard,,,,FALSE,2020-12-09,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins,99,Dengeki
+322,GAT-X105,Aile Strike Gundam,,21,1,エールストライクガンダム（T）,5,2,2,Standard,,,,FALSE,2020-12-09,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins,99,Dengeki
+323,AMX-104GG,R-Gyagya,,34,10,R・ギャギャ,3,1,2,,Event,,,FALSE,2020-12-09,Shield Coins (Weekly Event),99,Dengeki

@@ -323,6 +323,24 @@
     "name": "With Technique attribute (self), Strong Melee DMG output boosted 15%"
   }
 }, {
+  "name": "Argi Mirage",
+  "jl": ["In-Fighter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 616,
+  "ma": 1775,
+  "sa": 1775,
+  "md": 1131,
+  "sd": 1131,
+  "br": 547,
+  "pr": 277,
+  "wt": ["Protag.", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "26% chance of attacks penetrating super armor"
+  }
+}, {
   "name": "Asagi Caldwell",
   "jl": ["Supporter"],
   "attribute": "Speed",
@@ -1455,6 +1473,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Long Shot Attack raised 14%"
+  }
+}, {
+  "name": "Howard Mason",
+  "jl": ["Defender"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 442,
+  "ma": 1105,
+  "sa": 1105,
+  "md": 834,
+  "sd": 834,
+  "br": 151,
+  "pr": 370,
+  "wt": ["High Mobility", "For Base"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), 28% chance to not recoil"
   }
 }, {
   "name": "Hugues Courand",

@@ -2065,3 +2065,26 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2064,Schwalbe Graze [McGillis],28-05-5-01,320,5,,3,3,5,9,752,752,469,835,835,420,420,,"When Melee ATK is over 10000, Melee power boosted 25%",,,Hien Coins (Weekly Event)
 2065,Battle Axe [Schwalbe Graze/McGillis],28-05-6b-01,320,6,,3,3,5,9,442,3134,0,0,0,370,370,,"When attacking with Physical, Melee DMG output boosted by 20",2,1,Hien Coins (Weekly Event)
 2066,Rifle [Schwalbe Graze/McGillis],28-05-7b-01,320,7,,3,3,5,20,442,0,3134,0,0,370,370,,"When attacking with Physical, EX Skill power boosted 25%",2,10,Hien Coins (Weekly Event)
+2067,Gundam F90II [L Type],51-02-1-01,321,1,,5,3,8,13,616,414,4326,505,1867,0,0,,"Melee DMG raised 10%, Long Shot Attack raised 20%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2068,Gundam F90II [L Type],51-02-2-01,321,2,,5,3,8,13,2143,414,931,505,2264,787,0,,"When Shot ATK is over 10000, Enemy EX Skill power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2069,Gundam F90II [L Type],51-02-3-01,321,3,,5,3,8,13,1528,1332,825,505,2478,547,277,676,,,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2070,Gundam F90II [L Type],51-02-4-01,321,4,,5,3,8,10,1131,414,931,1040,2264,547,787,677,,,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2071,Gundam F90II [L Type],51-02-5-01,321,5,,5,3,8,10,1131,414,1040,1040,2264,787,547,,"With Speed attribute (self), Shooting power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2072,Long Rifle [F90II / L Type],51-02-7b-01,321,7,,5,3,8,10,616,0,5376,0,0,547,277,,"When Shot DEF is over 4000, Enemy Shooting power reduced 30%",1,10,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2073,Aile Strike Gundam,21-01-1-01,322,1,,5,2,9,25,1040,930,3092,505,1526,277,547,,"While ""High Mobility"", Shooting power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2074,Aile Strike Gundam,21-01-2-01,322,2,,5,2,9,6,1526,1131,505,1040,2070,99,785,297,,,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2075,Aile Strike Gundam,21-01-3-01,322,3,,5,2,9,6,1040,3704,505,1040,1526,99,99,,"While ""Close Combat"", Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2076,Aile Strike Gundam,21-01-4-01,322,4,,5,2,9,10,1040,930,505,505,1865,547,816,,"With Rifle category equipped, EX Skill CD reduced 20%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2077,Aile Strike Gundam,21-01-5-01,322,5,,5,2,9,10,1040,1131,505,505,1526,558,785,646,,,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2078,Beam Saber [Aile Strike],21-01-6a-01,322,6,,5,2,9,6,505,4724,0,0,505,277,547,,"Middle-Shooter Job, Enemy Melee power reduced 30%",1,2,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2079,Grand Slam,21-01-6c-01,322,6,,5,2,9,6,505,4724,0,0,505,277,547,,"While ""High Mobility"", Melee power boosted 30%",2,5,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2080,Armor Schneider [Aile Strike],21-01-6-01,322,6,,5,2,9,10,505,4724,0,0,505,277,547,678,,2,4,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2081,57mm High-Energy Beam Rifle [Aile Strike],21-01-7a-01,322,7,,5,2,9,25,1330,0,4113,0,1040,212,785,,"Middle-Shooter Job, Shooting DMG output boosted by 35",1,8,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2082,Anti-Beam Shield [Aile Strike],21-01-8-01,322,8,,5,2,9,25,1040,0,0,1040,2897,307,1077,,"With Technique attribute (self), Enemy Shooting power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins
+2083,R-Gyagya,34-10-1-01,323,1,,3,1,11,6,1304,557,683,1077,683,259,259,,"When CPWR is over 150000, Shooting DMG taken reduced by 20",,,Shield Coins (Weekly Event)
+2084,R-Gyagya,34-10-2-01,323,2,,3,1,11,6,1875,834,354,683,683,259,259,,"With Twin Blade category equipped, EX Skill piercing boosted 22%",,,Shield Coins (Weekly Event)
+2085,R-Gyagya,34-10-3-01,323,3,,3,1,11,26,1105,2546,0,1077,1077,0,0,679,,,,Shield Coins (Weekly Event)
+2086,R-Gyagya,34-10-4-01,323,4,,3,1,11,26,1173,557,354,1077,683,419,419,680,,,,Shield Coins (Weekly Event)
+2087,R-Gyagya,34-10-5-01,323,5,,3,1,11,26,1173,557,354,1077,683,419,419,,"With Power attribute (self), Melee power boosted 25%",,,Shield Coins (Weekly Event)
+2088,Twin Beam Sword [R-Gyagya],34-10-6-01,323,6,,3,1,11,6,1105,3248,0,0,0,259,259,159,,1,13,Shield Coins (Weekly Event)
+2089,Beam Saber [R-Gyagya],34-10-6a-01,323,6,,3,1,11,26,1105,3248,0,0,0,259,259,,21% chance of attacks penetrating super armor,1,2,Shield Coins (Weekly Event)
