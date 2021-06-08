@@ -632,7 +632,7 @@
   "name": "Buran Blutarch",
   "jl": ["Long-Shooter"],
   "attribute": "Speed",
-  "rarity": 4,
+  "rarity": 3,
   "level": 99,
   "a": 442,
   "ma": 1105,
@@ -865,7 +865,7 @@
 }, {
   "name": "Char Aznable [Commander-in-Chief]",
   "jl": ["In-Fighter", "Out-Fighter"],
-  "attribute": "Technique",
+  "attribute": "Power",
   "rarity": 5,
   "level": 99,
   "a": 2204,

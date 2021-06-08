@@ -2387,7 +2387,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2386,Uraven Gundam,00-00-3-01,365,3,,5,1,8,1,1035,2060,1427,502,2060,274,542,,With Power attribute (self),Enemy Melee power reduced 30%,"With Power attribute (self), Enemy Melee power reduced 30%",,,Pick-Up Capsules [No.041] Bonus Coins
 2387,Uraven Gundam,00-00-4-01,365,4,,5,1,8,26,1516,502,1254,1035,1516,542,775,,When attacking with Beam,Long Shot Attack raised 20%,"When attacking with Beam, Long Shot Attack raised 20%",,,Pick-Up Capsules [No.041] Bonus Coins
 2388,Uraven Gundam,00-00-5-01,365,5,,5,1,8,26,1035,502,1323,1035,2080,542,775,773,,,,,,Pick-Up Capsules [No.041] Bonus Coins
-2389,Beam Saber [Uravan],00-00-7a-01,365,7,,5,1,8,26,1516,3787,0,0,0,542,775,,Melee Attack down 10%,EX Skill power boosted 30%,"Melee Attack down 10%, EX Skill power boosted 30%",1,8,Pick-Up Capsules [No.041] Bonus Coins
+2389,Beam Saber [Uravan],00-00-7a-01,365,7,,5,1,8,26,1516,3787,0,0,0,542,775,,Melee Attack down 10%,EX Skill power boosted 30%,"Melee Attack down 10%, EX Skill power boosted 30%",1,2,Pick-Up Capsules [No.041] Bonus Coins
 2390,Beam Shoot Rifle U7,00-00-7b-01,365,7,,5,1,8,1,502,0,5238,0,1035,274,542,620,,,,1,10,Pick-Up Capsules [No.041] Bonus Coins
 2391,Pale Rider,00-00-1-01,366,1,,5,2,16,7,1124,716,3577,1254,1124,551,0,774,,,,,,Pick-Up Capsules [No.041] Bonus Coins
 2392,Pale Rider,00-00-2-01,366,2,,5,2,16,7,2130,611,716,1607,1855,806,211,,When attacking with Beam,Shooting power boosted 30%,"When attacking with Beam, Shooting power boosted 30%",,,Pick-Up Capsules [No.041] Bonus Coins
