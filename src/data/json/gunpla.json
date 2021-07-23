@@ -33595,6 +33595,94 @@
         }
     }]
 }, {
+    "name": "Hildolfr",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "body",
+        "mark": 3,
+        "a": 2378,
+        "ma": 627,
+        "sa": 3835,
+        "md": 1063,
+        "sd": 3091,
+        "br": 0,
+        "pr": 835,
+        "wt": ["Zeon", "Transformer"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "30cm Cannon",
+            "description": "Fire HE projectiles from from your 30cm main battery cannon.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        },
+        "combo": {
+            "type": "head",
+            "name": "Hildolfr"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1159,
+        "ma": 1704,
+        "sa": 1092,
+        "md": 349,
+        "sd": 1519,
+        "br": 146,
+        "pr": 383,
+        "wt": ["Zeon", "For Desert"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shovel Arm",
+            "description": "Rush at the enemy with your shovel arm deployed. Raise your Melee Defense by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 1287,
+        "ma": 279,
+        "sa": 947,
+        "md": 674,
+        "sd": 1641,
+        "br": 361,
+        "pr": 507,
+        "wt": ["Zeon", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Projectile speed boosted 14%"
+        }
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 349,
+        "ma": 0,
+        "sa": 3835,
+        "md": 0,
+        "sd": 0,
+        "br": 146,
+        "pr": 361,
+        "wt": ["Zeon", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Physical ranged weapon, magazine boosted 20%"
+        },
+        "name": "105mm Zaku Machine Gun [Hildolfr]",
+        "type": "Physical",
+        "category": "Twin Rifle"
+    }]
+}, {
     "name": "Hy-Gogg",
     "attribute": "Speed",
     "rarity": 2,
@@ -36058,6 +36146,143 @@
         "name": "Knight Shield"
     }]
 }, {
+    "name": "Knight Superior Dragon",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 914,
+        "ma": 1252,
+        "sa": 4385,
+        "md": 507,
+        "sd": 714,
+        "br": 272,
+        "pr": 771,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2049,
+        "ma": 1511,
+        "sa": 1027,
+        "md": 1413,
+        "sd": 1419,
+        "br": 276,
+        "pr": 768,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Melee power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1035,
+        "ma": 4496,
+        "sa": 1851,
+        "md": 1029,
+        "sd": 1510,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Fire Dragon Cannon",
+            "description": "Launch a fireball from your dragon-head-shaped shoulder armor. Raise your Melee Attack by 24%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1026,
+        "ma": 1515,
+        "sa": 1032,
+        "md": 1512,
+        "sd": 1250,
+        "br": 859,
+        "pr": 637,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Prominence Slash Rave",
+            "description": "Slash, creating shockwaves of flame that cleave through enemies.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1030,
+        "ma": 1514,
+        "sa": 1517,
+        "md": 924,
+        "sd": 1247,
+        "br": 534,
+        "pr": 1005,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Bow of the Golden Fragon",
+            "description": "Combine your scabbard and shield to form the Bow of the Golden Dragon, and pierce your enemies.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 494,
+        "ma": 5205,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 533,
+        "pr": 770,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 10s pass, Reduce Cooldown by 50% once."
+        },
+        "name": "Double Sword [Knight Superior Dragon]",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1030,
+        "ma": 1310,
+        "sa": 814,
+        "md": 2043,
+        "sd": 1028,
+        "br": 271,
+        "pr": 1283,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Dual Saber category equipped, Melee CRIT rate boosted 30%"
+        },
+        "name": "Dragon Shield"
+    }]
+}, {
     "name": "Knight Unicorn Gundam [Beast Mode]",
     "attribute": "Technique",
     "rarity": 5,
@@ -37204,6 +37429,154 @@
             "type": "Part Traits",
             "name": "While \"Transformer\", Shooting DMG output boosted by 20"
         }
+    }]
+}, {
+    "name": "Maganac",
+    "attribute": "Technique",
+    "rarity": 1,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 5,
+        "a": 425,
+        "ma": 425,
+        "sa": 1550,
+        "md": 197,
+        "sd": 481,
+        "br": 156,
+        "pr": 156,
+        "wt": ["For Desert", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Shooting DMG output boosted by 10"
+        }
+    }, {
+        "part": "body",
+        "mark": 5,
+        "a": 962,
+        "ma": 549,
+        "sa": 549,
+        "md": 485,
+        "sd": 485,
+        "br": 152,
+        "pr": 152,
+        "wt": ["For Desert", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, Enemy EX Skill power reduced 10%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 5,
+        "a": 425,
+        "ma": 1491,
+        "sa": 698,
+        "md": 425,
+        "sd": 553,
+        "br": 0,
+        "pr": 0,
+        "wt": ["For Desert", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Mass P.\", Melee DMG output boosted 10"
+        }
+    }, {
+        "part": "legs",
+        "mark": 5,
+        "a": 425,
+        "ma": 485,
+        "sa": 428,
+        "md": 485,
+        "sd": 553,
+        "br": 276,
+        "pr": 276,
+        "wt": ["For Desert", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill piercing boosted 16%"
+        }
+    }, {
+        "part": "back",
+        "mark": 5,
+        "a": 553,
+        "ma": 549,
+        "sa": 425,
+        "md": 481,
+        "sd": 553,
+        "br": 210,
+        "pr": 210,
+        "wt": ["For Desert", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When operated on Auto, 11% chance to not recoil"
+        }
+    }, {
+        "part": "melee",
+        "mark": 5,
+        "a": 270,
+        "ma": 1931,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 200,
+        "pr": 200,
+        "wt": ["For Desert", "Mass P."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Storm Edge",
+            "description": "Create a whirlwind with your axe to mow down surrounding foes. Raise your Shot Defense by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "C-",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Heat Tomahawk [Maganac]",
+        "type": "Physical",
+        "category": "Axe"
+    }, {
+        "part": "range",
+        "mark": 5,
+        "a": 485,
+        "ma": 0,
+        "sa": 1931,
+        "md": 0,
+        "sd": 0,
+        "br": 200,
+        "pr": 200,
+        "wt": ["For Desert", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Rapid Rifle Fire",
+            "description": "Fire high-powered rounds from your rifle.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B-",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Beam Rifle [Maganac]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 5,
+        "a": 553,
+        "ma": 485,
+        "sa": 270,
+        "md": 632,
+        "sd": 632,
+        "br": 207,
+        "pr": 207,
+        "wt": ["For Desert", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"For Desert\", Strong Melee CRIT rate boosted 10%"
+        },
+        "name": "Shield [Maganac]"
     }]
 }, {
     "name": "MARSFOUR GUNDAM",

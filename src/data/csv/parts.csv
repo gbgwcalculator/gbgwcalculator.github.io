@@ -2800,3 +2800,22 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2799,100mm Machine Gun [Gundam Ground Type],00-00-7c-01,422,7,,3,1,16,23,890,0,3108,0,0,155,518,,"While ""Federation""",Shooting DMG output boosted by 20,"While ""Federation"", Shooting DMG output boosted by 20",2,9,Jungle Coins (Weekly Event)
 2800,Missile Launcher,00-00-7d-01,422,7,,3,1,16,23,890,0,3108,0,0,155,518,,When Beam RES is under 4000,Shooting DMG taken reduced by 20,"When Beam RES is under 4000, Shooting DMG taken reduced by 20",2,12,Jungle Coins (Weekly Event)
 2801,Shield [Gundam Ground Type],00-00-8-01,422,8,,3,1,16,23,897,0,684,1384,1382,141,536,893,,,,,,Jungle Coins (Weekly Event)
+2802,Knight Superior Dragon,00-00-1-01,423,1,,5,3,13,26,914,1252,4385,507,714,272,771,,With Speed attribute (self),EX Skill piercing boosted 28%,"With Speed attribute (self), EX Skill piercing boosted 28%",,,Step-Up Capsules [No.051] Bonus Coins
+2803,Knight Superior Dragon,00-00-2-01,423,2,,5,3,13,6,2049,1511,1027,1413,1419,276,768,,"While ""Gundam Type""",Melee power boosted 30%,"While ""Gundam Type"", Melee power boosted 30%",,,Step-Up Capsules [No.051] Bonus Coins
+2804,Knight Superior Dragon,00-00-3-01,423,3,,5,3,13,26,1035,4496,1851,1029,1510,0,0,894,,,,,,Step-Up Capsules [No.051] Bonus Coins
+2805,Knight Superior Dragon,00-00-4-01,423,4,,5,3,13,6,1026,1515,1032,1512,1250,859,637,895,,,,,,Step-Up Capsules [No.051] Bonus Coins
+2806,Knight Superior Dragon,00-00-5-01,423,5,,5,3,13,26,1030,1514,1517,924,1247,534,1005,896,,,,,,Step-Up Capsules [No.051] Bonus Coins
+2807,Double Sword [Knight Superior Dragon],00-00-6-01,423,6,,5,3,13,6,494,5205,0,0,0,533,770,,After 10s pass,Reduce Cooldown by 50% once.,"After 10s pass, Reduce Cooldown by 50% once.",2,4,Step-Up Capsules [No.051] Bonus Coins
+2808,Dragon Shield,00-00-8-01,423,8,,5,3,13,6,1030,1310,814,2043,1028,271,1283,,With Dual Saber category equipped,Melee CRIT rate boosted 30%,"With Dual Saber category equipped, Melee CRIT rate boosted 30%",,,Step-Up Capsules [No.051] Bonus Coins
+2809,Hildolfr,00-00-2-01,424,2,1,3,3,17,12,2378,627,3835,1063,3091,0,835,897,,,,,,Wolf Coins (Weekly Event)
+2810,Hildolfr,00-00-3-01,424,3,,3,3,17,21,1159,1704,1092,349,1519,146,383,898,,,,,,Wolf Coins (Weekly Event)
+2811,Hildolfr,00-00-4-01,424,4,,3,3,17,21,1287,279,947,674,1641,361,507,,With Speed attribute (self),Projectile speed boosted 14%,"With Speed attribute (self), Projectile speed boosted 14%",,,Wolf Coins (Weekly Event)
+2812,105mm Zaku Machine Gun [Hildolfr],00-00-7-01,424,7,,3,3,17,21,349,0,3835,0,0,146,361,,Physical ranged weapon,magazine boosted 20%,"Physical ranged weapon, magazine boosted 20%",2,14,Wolf Coins (Weekly Event)
+2813,Maganac,00-00-1-01,425,1,,1,2,21,2,425,425,1550,197,481,156,156,,With Technique attribute (self),Shooting DMG output boosted by 10,"With Technique attribute (self), Shooting DMG output boosted by 10",,,"Free Missions, Capital Shop, Blueprint"
+2814,Maganac,00-00-2-01,425,2,,1,2,21,2,962,549,549,485,485,152,152,,When Armor is 60% or more,Enemy EX Skill power reduced 10%,"When Armor is 60% or more, Enemy EX Skill power reduced 10%",,,"Free Missions, Capital Shop, Blueprint"
+2815,Maganac,00-00-3-01,425,3,,1,2,21,2,425,1491,698,425,553,0,0,,"While ""Mass P.""",Melee DMG output boosted 10,"While ""Mass P."", Melee DMG output boosted 10",,,"Free Missions, Capital Shop, Blueprint"
+2816,Maganac,00-00-4-01,425,4,,1,2,21,6,425,485,428,485,553,276,276,,With Technique attribute (self),EX Skill piercing boosted 16%,"With Technique attribute (self), EX Skill piercing boosted 16%",,,"Free Missions, Capital Shop, Blueprint"
+2817,Maganac,00-00-5-01,425,5,,1,2,21,6,553,549,425,481,553,210,210,,When operated on Auto,11% chance to not recoil,"When operated on Auto, 11% chance to not recoil",,,"Free Missions, Capital Shop, Blueprint"
+2818,Heat Tomahawk [Maganac],00-00-6b-01,425,6,,1,2,21,2,270,1931,0,0,0,200,200,899,,,,2,1,"Free Missions, Capital Shop, Blueprint"
+2819,Beam Rifle [Maganac],00-00-7a-01,425,7,,1,2,21,6,485,0,1931,0,0,200,200,900,,,,1,8,"Free Missions, Capital Shop, Blueprint"
+2820,Shield [Maganac],00-00-8-01,425,8,,1,2,21,2,553,485,270,632,632,207,207,,"While ""For Desert""",Strong Melee CRIT rate boosted 10%,"While ""For Desert"", Strong Melee CRIT rate boosted 10%",,,"Free Missions, Capital Shop, Blueprint"

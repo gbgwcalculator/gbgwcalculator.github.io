@@ -2663,6 +2663,24 @@
     "name": "With Technique attribute (self), Long Shot Attack raised 20%"
   }
 }, {
+  "name": "Lockon Stratos [2nd Season]",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1028,
+  "ma": 499,
+  "sa": 2447,
+  "md": 1418,
+  "sd": 1844,
+  "br": 535,
+  "pr": 488,
+  "wt": ["Mid-Range", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Shooting CRIT rate boosted 30%"
+  }
+}, {
   "name": "Loran Cehack",
   "jl": ["Out-Fighter"],
   "attribute": "Technique",
@@ -2985,6 +3003,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Debuff EX Skill effect up 22%"
+  }
+}, {
+  "name": "Merrybell Gadget",
+  "jl": ["Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 743,
+  "ma": 349,
+  "sa": 1519,
+  "md": 1063,
+  "sd": 1063,
+  "br": 383,
+  "pr": 383,
+  "wt": ["For Space", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "After 30s pass, Boost Job Gauge by 40% once."
   }
 }, {
   "name": "Michael Trinity",
@@ -3869,6 +3905,24 @@
     "name": "With Speed attribute (self), Buff EX Skill effect up 22%"
   }
 }, {
+  "name": "Ren Kotomori [Swimsuit/2021 Summer Ver.]",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Power",
+  "rarity": 5,
+  "level": 99,
+  "a": 1416,
+  "ma": 1946,
+  "sa": 2055,
+  "md": 1033,
+  "sd": 2241,
+  "br": 0,
+  "pr": 275,
+  "wt": ["Mid-Range", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Squad has all Atrbs, EX Skill power boosted 30%"
+  }
+}, {
   "name": "Rey Za Burrel",
   "jl": ["Middle-Shooter"],
   "attribute": "Speed",
@@ -3975,6 +4029,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Long Shot Attack raised 20%"
+  }
+}, {
+  "name": "Rindo Kuzunoha [Swimsuit/2021 Summer Ver.]",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 5,
+  "level": 99,
+  "a": 1315,
+  "ma": 499,
+  "sa": 2324,
+  "md": 1028,
+  "sd": 2047,
+  "br": 271,
+  "pr": 704,
+  "wt": ["Gundam Type", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When all 3 Gunpla in Squad are Technique, Shooting power boosted 30%"
   }
 }, {
   "name": "Roberto",
@@ -4137,6 +4209,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), EX Skill recovery boosted 28%"
+  }
+}, {
+  "name": "Sana Miyama [Swimsuit/2021 Summer Ver.]",
+  "jl": ["Supporter"],
+  "attribute": "Speed",
+  "rarity": 5,
+  "level": 99,
+  "a": 2535,
+  "ma": 499,
+  "sa": 2235,
+  "md": 499,
+  "sd": 1315,
+  "br": 271,
+  "pr": 768,
+  "wt": ["High Firepower", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When all 3 Gunpla in Squad are Speed, EX Skill power boosted 30%"
   }
 }, {
   "name": "Sarah Zabiarov",
@@ -4875,6 +4965,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
+  }
+}, {
+  "name": "Yuri Ichinose [Swimsuit/2021 Summer Ver.]",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 5,
+  "level": 99,
+  "a": 1319,
+  "ma": 2243,
+  "sa": 2053,
+  "md": 500,
+  "sd": 500,
+  "br": 772,
+  "pr": 538,
+  "wt": ["High Mobility", "Mobile Fighter"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When all 3 Gunpla in Squad are Speed, Melee power boosted 30%"
   }
 }, {
   "name": "Yurin Luciel",
